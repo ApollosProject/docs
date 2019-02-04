@@ -1,0 +1,133 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Setting Up Fastly CDN · Apollos Project</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;This will describe how to set up your own custom Fastly CDN Caching Layer.&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Setting Up Fastly CDN · Apollos Project"/><meta property="og:type" content="website"/><meta property="og:url" content="https://ApollosProject.github.io/docs/index.html"/><meta property="og:description" content="&lt;p&gt;This will describe how to set up your own custom Fastly CDN Caching Layer.&lt;/p&gt;
+"/><meta property="og:image" content="https://ApollosProject.github.io/docs/img/apollos.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://ApollosProject.github.io/docs/img/apollos.png"/><link rel="shortcut icon" href="/docs/img/favicon.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/docs/css/main.css"/><script src="/docs/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/docs/"><img class="logo" src="/docs/img/apollos.white.png" alt="Apollos Project"/><h2 class="headerTitleWithLogo">Apollos Project</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/docs/install" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/docs/docs/ui-kit" target="_self">API</a></li><li class=""><a href="/docs/docs/doc2" target="_self">Other</a></li><li class=""><a href="/docs/help" target="_self">Help</a></li><li class=""><a target="_self"></a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Guides</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Getting Started</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/docs/install">Installation</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/icons-and-splash">Icons and Splash Screens</a></li><li class="navListItem"><a class="navItem" href="/docs/docs/themes">Custom Theme</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Guides</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/docs/contributing">Contributing</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/docs/fastly">Setting Up Fastly CDN</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">API</h3><ul class=""><li class="navListItem"><a class="navItem" href="/docs/docs/ui-kit">UI-Kit</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Setting Up Fastly CDN</h1></header><article><div><span><p>This will describe how to set up your own custom Fastly CDN Caching Layer.</p>
+<h2><a class="anchor" aria-hidden="true" id="fastly"></a><a href="#fastly" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fastly</h2>
+<p>We've chosen to demonstrate and document Fastly because it's free up to $50 in traffic, but with a little work you could use any CDN you choose.</p>
+<p>Step one is to create a new account at <a href="https://www.fastly.com/signup">fastly.com/signup</a>.</p>
+<p><img src="/docs/assets/fastly/signup.png" alt="Sign Up"></p>
+<p>After you confirm your email address, click &quot;CREATE YOUR FIRST SERVICE&quot;.</p>
+<p><img src="/docs/assets/fastly/first-service.png" alt="Create your first service"></p>
+<p>Enter the domain name of your API (this is found in your <code>.env.production</code> file under the <code>APP_DATA_URL</code> key) and the hostname of the server your API is hosted on.</p>
+<p><img src="/docs/assets/fastly/details.png" alt="Service Details"></p>
+<p>Almost done with Fastly. Now just make sure you set &quot;Override host&quot; with your domain name from above and the Fallback TTL to 0. This will insure that unless specified, nothing will be cached.</p>
+<p><img src="/docs/assets/fastly/settings.png" alt="Settings"></p>
+<h2><a class="anchor" aria-hidden="true" id="graphql"></a><a href="#graphql" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GraphQL</h2>
+<p>Now that Fastly is set up, we need to configure the GraphQL layer to send <code>cache-control</code> headers with it's responses. Add the following key to your <code>server.js</code> file:</p>
+<pre><code class="hljs css language-js">cacheControl: {
+  <span class="hljs-attr">stripFormattedExtensions</span>: <span class="hljs-literal">false</span>,
+  <span class="hljs-attr">calculateHttpHeaders</span>: <span class="hljs-literal">true</span>,
+  <span class="hljs-attr">defaultMaxAge</span>: <span class="hljs-number">600</span>,
+},
+</code></pre>
+<p>You can use whatever default <code>maxAge</code> you see fit. It's in seconds. This will be the TTL (time to live) of your queries unless you specify otherwise.</p>
+<p>Now you can add headers to your queries:</p>
+<pre><code class="hljs"><span class="hljs-keyword">type</span> Person implements <span class="hljs-keyword">Node</span> <span class="hljs-title">@cacheControl</span>(maxAge: <span class="hljs-number">0</span>) {
+  id: ID!
+  firstName: <span class="hljs-keyword">String</span>!
+  lastName: <span class="hljs-keyword">String</span>!
+  ...
+</code></pre>
+<p>The last thing we need to do to configure GraphQL is change Apollo to use <code>GET</code> requests for queries. <code>POST</code> is still fine for mutations since those won't be cached anyway.</p>
+<p>Your <code>httpLink.js</code> file on your client package should add the following changes:</p>
+<pre><code class="hljs css language-js"><span class="hljs-keyword">import</span> { Platform } <span class="hljs-keyword">from</span> <span class="hljs-string">'react-native'</span>;
+<span class="hljs-keyword">import</span> { createUploadLink } <span class="hljs-keyword">from</span> <span class="hljs-string">'apollo-upload-client'</span>;
+<span class="hljs-keyword">import</span> Config <span class="hljs-keyword">from</span> <span class="hljs-string">'react-native-config'</span>;
+<span class="hljs-keyword">import</span> { split } <span class="hljs-keyword">from</span> <span class="hljs-string">'apollo-link'</span>;
+<span class="hljs-keyword">import</span> { createHttpLink } <span class="hljs-keyword">from</span> <span class="hljs-string">'apollo-link-http'</span>;
+<span class="hljs-keyword">import</span> { getMainDefinition } <span class="hljs-keyword">from</span> <span class="hljs-string">'apollo-utilities'</span>;
+
+<span class="hljs-keyword">let</span> uri = Config.APP_DATA_URL;
+<span class="hljs-keyword">const</span> androidUri = Config.ANDROID_URL || <span class="hljs-string">'10.0.2.2'</span>;
+
+<span class="hljs-comment">// Android's emulator requires localhost network traffic to go through 10.0.2.2</span>
+<span class="hljs-keyword">if</span> (Platform.OS === <span class="hljs-string">'android'</span>) uri = uri.replace(<span class="hljs-string">'localhost'</span>, androidUri);
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> split(
+  <span class="hljs-function">(<span class="hljs-params">{ query }</span>) =&gt;</span> {
+    <span class="hljs-keyword">const</span> { kind, operation } = getMainDefinition(query);
+    <span class="hljs-keyword">return</span> kind === <span class="hljs-string">'OperationDefinition'</span> &amp;&amp; operation === <span class="hljs-string">'mutation'</span>;
+  },
+  createUploadLink({ uri }),
+  createHttpLink({
+    uri,
+    <span class="hljs-attr">useGETForQueries</span>: <span class="hljs-literal">true</span>,
+  })
+);
+</code></pre>
+<p>Set your <code>.env.production</code> file to have your new data URL and you should be all set!</p>
+<pre><code class="hljs"><span class="hljs-built_in">..</span>.
+<span class="hljs-attribute">APP_DATA_URL</span>=&lt;YOUR_FASTLY_URL&gt;
+<span class="hljs-built_in">..</span>.
+</code></pre>
+<p>You can get this URL by clicking &quot;Test the domain&quot; on your Fastly configuration page.</p>
+<p><img src="/docs/assets/fastly/fastly_url.png" alt="Fastly URL"></p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/docs/contributing"><span class="arrow-prev">← </span><span>Contributing</span></a><a class="docs-next button" href="/docs/docs/ui-kit"><span>UI-Kit</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#fastly">Fastly</a></li><li><a href="#graphql">GraphQL</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/docs/" class="nav-home"><img src="/docs/img/apollos.png" alt="Apollos Project" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/docs/en/install.html">Getting Started</a><a href="/docs/docs/en/contributing.html">Guides</a><a href="/docs/docs/en/doc3.html">API Reference</a></div><div><h5>Community</h5><a href="/docs/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/docs/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/docs/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2019 Apollos Project</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: 'XXXX',
+                indexName: 'my-index-name',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>
