@@ -24,7 +24,7 @@ const siteConfig = {
   title: "Apollos Project", // Title for your website.
   tagline: "I planted, Apollos watered, but God gave the growth.",
   url: "https://ApollosProject.github.io", // Your website URL
-  baseUrl: "/", // Base URL for your project */
+  baseUrl: "/docs/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
