@@ -1,0 +1,10 @@
+{
+  "docs": {
+    "Getting Started": ["install", "icons-and-splash", "themes"],
+    "Guides": ["contributing", "fastly"],
+    "API": ["ui-kit"]
+  },
+  "docs-other": {
+    "Other": ["doc2"]
+  }
+}
