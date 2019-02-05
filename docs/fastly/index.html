@@ -57,7 +57,7 @@
 <p><img src="/docs/docs/assets/fastly/signup.png" alt="Sign Up"></p>
 <p>After you confirm your email address, click &quot;CREATE YOUR FIRST SERVICE&quot;.</p>
 <p><img src="/docs/docs/assets/fastly/first-service.png" alt="Create your first service"></p>
-<p>Enter the domain name of your API (this is found in your <code>.env.production</code> file under the <code>APP_DATA_URL</code> key) and the hostname of the server your API is hosted on.</p>
+<p>Add a any domain name you want in the format <code>&lt;name&gt;.global.ssl.fastly.net</code>. Just can't use anything dot seperated. Next, add the hostname of the server your API is hosted on. <a href="https://docs.fastly.com/guides/tls/setting-up-free-tls">See this doc</a> for more details.</p>
 <p><img src="/docs/docs/assets/fastly/details.png" alt="Service Details"></p>
 <p>Almost done with Fastly. Now just make sure you set &quot;Override host&quot; with your domain name from above and the Fallback TTL to 0. This will insure that unless specified, nothing will be cached.</p>
 <p><img src="/docs/docs/assets/fastly/settings.png" alt="Settings"></p>
@@ -77,34 +77,7 @@
   lastName: <span class="hljs-keyword">String</span>!
   ...
 </code></pre>
-<p>The last thing we need to do to configure GraphQL is change Apollo to use <code>GET</code> requests for queries. <code>POST</code> is still fine for mutations since those won't be cached anyway.</p>
-<p>Your <code>httpLink.js</code> file on your client package should add the following changes:</p>
-<pre><code class="hljs css language-js"><span class="hljs-keyword">import</span> { Platform } <span class="hljs-keyword">from</span> <span class="hljs-string">'react-native'</span>;
-<span class="hljs-keyword">import</span> { createUploadLink } <span class="hljs-keyword">from</span> <span class="hljs-string">'apollo-upload-client'</span>;
-<span class="hljs-keyword">import</span> Config <span class="hljs-keyword">from</span> <span class="hljs-string">'react-native-config'</span>;
-<span class="hljs-keyword">import</span> { split } <span class="hljs-keyword">from</span> <span class="hljs-string">'apollo-link'</span>;
-<span class="hljs-keyword">import</span> { createHttpLink } <span class="hljs-keyword">from</span> <span class="hljs-string">'apollo-link-http'</span>;
-<span class="hljs-keyword">import</span> { getMainDefinition } <span class="hljs-keyword">from</span> <span class="hljs-string">'apollo-utilities'</span>;
-
-<span class="hljs-keyword">let</span> uri = Config.APP_DATA_URL;
-<span class="hljs-keyword">const</span> androidUri = Config.ANDROID_URL || <span class="hljs-string">'10.0.2.2'</span>;
-
-<span class="hljs-comment">// Android's emulator requires localhost network traffic to go through 10.0.2.2</span>
-<span class="hljs-keyword">if</span> (Platform.OS === <span class="hljs-string">'android'</span>) uri = uri.replace(<span class="hljs-string">'localhost'</span>, androidUri);
-
-<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> split(
-  <span class="hljs-function">(<span class="hljs-params">{ query }</span>) =&gt;</span> {
-    <span class="hljs-keyword">const</span> { kind, operation } = getMainDefinition(query);
-    <span class="hljs-keyword">return</span> kind === <span class="hljs-string">'OperationDefinition'</span> &amp;&amp; operation === <span class="hljs-string">'mutation'</span>;
-  },
-  createUploadLink({ uri }),
-  createHttpLink({
-    uri,
-    <span class="hljs-attr">useGETForQueries</span>: <span class="hljs-literal">true</span>,
-  })
-);
-</code></pre>
-<p>Set your <code>.env.production</code> file to have your new data URL and you should be all set!</p>
+<p>Set your <code>.env.production</code> file to have your new data URL (the domain you set from above) and you should be all set!</p>
 <pre><code class="hljs"><span class="hljs-built_in">..</span>.
 <span class="hljs-attribute">APP_DATA_URL</span>=&lt;YOUR_FASTLY_URL&gt;
 <span class="hljs-built_in">..</span>.
