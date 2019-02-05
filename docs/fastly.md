@@ -49,38 +49,7 @@ type Person implements Node @cacheControl(maxAge: 0) {
   ...
 ```
 
-The last thing we need to do to configure GraphQL is change Apollo to use `GET` requests for queries. `POST` is still fine for mutations since those won't be cached anyway.
-
-Your `httpLink.js` file on your client package should add the following changes:
-
-```js
-import { Platform } from 'react-native';
-import { createUploadLink } from 'apollo-upload-client';
-import Config from 'react-native-config';
-import { split } from 'apollo-link';
-import { createHttpLink } from 'apollo-link-http';
-import { getMainDefinition } from 'apollo-utilities';
-
-let uri = Config.APP_DATA_URL;
-const androidUri = Config.ANDROID_URL || '10.0.2.2';
-
-// Android's emulator requires localhost network traffic to go through 10.0.2.2
-if (Platform.OS === 'android') uri = uri.replace('localhost', androidUri);
-
-export default split(
-  ({ query }) => {
-    const { kind, operation } = getMainDefinition(query);
-    return kind === 'OperationDefinition' && operation === 'mutation';
-  },
-  createUploadLink({ uri }),
-  createHttpLink({
-    uri,
-    useGETForQueries: true,
-  })
-);
-```
-
-Set your `.env.production` file to have your new data URL and you should be all set!
+Set your `.env.production` file to have your new data URL (the domain you set from above) and you should be all set!
 
 ```
 ...
