@@ -17,7 +17,7 @@ After you confirm your email address, click "CREATE YOUR FIRST SERVICE".
 
 ![Create your first service](/docs/docs/assets/fastly/first-service.png)
 
-Enter the domain name of your API (this is found in your `.env.production` file under the `APP_DATA_URL` key) and the hostname of the server your API is hosted on.
+Add a any domain name you want in the format `<name>.global.ssl.fastly.net`. Just can't use anything dot seperated. Next, add the hostname of the server your API is hosted on. [See this doc](https://docs.fastly.com/guides/tls/setting-up-free-tls) for more details.
 
 ![Service Details](/docs/docs/assets/fastly/details.png)
 
