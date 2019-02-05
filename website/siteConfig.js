@@ -14,7 +14,7 @@ const users = [
     caption: "NewSpring",
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: "/img/newspring.png",
+    image: "/docs/img/newspring.png",
     infoLink: "https://www.newspring.cc",
     pinned: true
   }

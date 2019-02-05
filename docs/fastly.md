@@ -11,19 +11,19 @@ We've chosen to demonstrate and document Fastly because it's free up to $50 in t
 
 Step one is to create a new account at [fastly.com/signup](https://www.fastly.com/signup).
 
-![Sign Up](/docs/assets/fastly/signup.png)
+![Sign Up](/docs/docs/assets/fastly/signup.png)
 
 After you confirm your email address, click "CREATE YOUR FIRST SERVICE".
 
-![Create your first service](/docs/assets/fastly/first-service.png)
+![Create your first service](/docs/docs/assets/fastly/first-service.png)
 
 Enter the domain name of your API (this is found in your `.env.production` file under the `APP_DATA_URL` key) and the hostname of the server your API is hosted on.
 
-![Service Details](/docs/assets/fastly/details.png)
+![Service Details](/docs/docs/assets/fastly/details.png)
 
 Almost done with Fastly. Now just make sure you set "Override host" with your domain name from above and the Fallback TTL to 0. This will insure that unless specified, nothing will be cached.
 
-![Settings](/docs/assets/fastly/settings.png)
+![Settings](/docs/docs/assets/fastly/settings.png)
 
 ## GraphQL
 
@@ -90,4 +90,4 @@ APP_DATA_URL=<YOUR_FASTLY_URL>
 
 You can get this URL by clicking "Test the domain" on your Fastly configuration page.
 
-![Fastly URL](/docs/assets/fastly/fastly_url.png)
+![Fastly URL](/docs/docs/assets/fastly/fastly_url.png)
