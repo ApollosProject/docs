@@ -1,7 +1,7 @@
 {
   "docs": {
     "Getting Started": ["install", "icons-and-splash", "themes"],
-    "Guides": ["contributing", "fastly"],
+    "Guides": ["contributing", "fastly", "passkit"],
     "API": ["ui-kit"]
   },
   "docs-other": {
