@@ -13,6 +13,7 @@
 <url> <loc>https://ApollosProject.github.io/docs/docs/fastly</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://ApollosProject.github.io/docs/docs/fastly" /> </url>
 <url> <loc>https://ApollosProject.github.io/docs/docs/icons-and-splash</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://ApollosProject.github.io/docs/docs/icons-and-splash" /> </url>
 <url> <loc>https://ApollosProject.github.io/docs/docs/install</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://ApollosProject.github.io/docs/docs/install" /> </url>
+<url> <loc>https://ApollosProject.github.io/docs/docs/passkit</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://ApollosProject.github.io/docs/docs/passkit" /> </url>
 <url> <loc>https://ApollosProject.github.io/docs/docs/themes</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://ApollosProject.github.io/docs/docs/themes" /> </url>
 <url> <loc>https://ApollosProject.github.io/docs/docs/ui-kit</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://ApollosProject.github.io/docs/docs/ui-kit" /> </url>
 </urlset>
