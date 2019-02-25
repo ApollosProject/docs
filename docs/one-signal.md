@@ -15,14 +15,14 @@ This will attempt to answer the question: How do I enable push notifications usi
 * You should see an option for One Signal. If not, you may need to restart your Rock server. Either way, Rock should detect that the new DLL is there and automatically add the transport to the list on that page. Click on that transport.
 * You will need to change the `Active` flag to `Yes` and add the One Signal `App Id` and `REST API Keys`. You can find these on the OneSignal website on the `Settings` page under `Keys & IDs`.
 
-![Rock Transport Settings](/docs/docs/assets/one-signal/rock-transport-settings.png)
+![Rock Transport Settings](/docs/assets/one-signal/rock-transport-settings.png)
 
-![OneSignal Transport Settings](/docs/docs/assets/one-signal/one-signal-settings.png)
+![OneSignal Transport Settings](/docs/assets/one-signal/one-signal-settings.png)
 
 * Go to `Admin > Communications > Communication Mediums`
 * Click on Push Notifications
 * Make sure the `Active` flag is set to `Yes` and set the `Transport Container` to `One Signal`.
 
-![Rock Medium Settings](/docs/docs/assets/one-signal/rock-medium-settings.png)
+![Rock Medium Settings](/docs/assets/one-signal/rock-medium-settings.png)
 
 Now you’re all set to send push notifications through Rock!
