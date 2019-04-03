@@ -1,6 +1,6 @@
 ---
 id: content-personalization
-title: Rock Content Personalization
+title: Content Personalization
 ---
 
 An attempt to answer the question: What I need to do (step by step) on my Rock instance to make it compatible with content personalization.

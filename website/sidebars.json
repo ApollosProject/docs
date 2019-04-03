@@ -1,7 +1,8 @@
 {
   "docs": {
     "Getting Started": ["install", "icons-and-splash", "themes"],
-    "Guides": ["contributing", "fastly", "passkit", "one-signal", "content-personalization"],
+    "Guides": ["contributing", "fastly", "passkit"],
+    "Rock Integration": ["one-signal", "content-personalization"],
     "API": ["ui-kit"]
   },
   "docs-other": {

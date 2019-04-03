@@ -1,6 +1,6 @@
 ---
 id: one-signal
-title: Setting Up Push Notifications with OneSignal
+title: OneSignal Push Notifications
 ---
 
 This will attempt to answer the question: How do I enable push notifications using OneSignal on my Rock instance?
