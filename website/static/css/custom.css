@@ -1,16 +1,43 @@
-/* your custom css */
-
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inter', 'San Francisco', -apple-system, BlinkMacSystemFont,
+    '.SFNSText-Regular', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-@media only screen and (min-width: 1024px) {
+.fixedHeaderContainer {
+  background-color: white;
+  padding: 16px 0;
 }
 
-@media only screen and (max-width: 1023px) {
+.fixedHeaderContainer header img {
+  height: 60%;
 }
 
-@media only screen and (min-width: 1400px) {
+.navigationSlider .slidingNav ul li a {
+  color: #303030;
+  font-weight: 500;
 }
 
-@media only screen and (min-width: 1500px) {
+.navigationSlider .slidingNav ul {
+  background-color: white;
+}
+
+.navigationSlider .slidingNav ul li.siteNavItemActive a,
+.navigationSlider .slidingNav ul li.siteNavGroupActive a {
+  background-color: inherit;
+  color: #17B582 !important;
+}
+
+.navigationSlider .slidingNav ul li a:hover {
+  background-color: inherit;
+  color: #00676D;
+}
+
+.navigationSlider .slidingNav ul li {
+  padding: 0 16px;
 }

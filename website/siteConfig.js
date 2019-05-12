@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: "Apollos Project", // Title for your website.
-  tagline: "I planted, Apollos watered, but God gave the growth.",
+  title: "The Apollos Project", // Title for your website.
+  tagline: "Bring your congregation closer to Jesus.",
   url: "https://apollosapp.io", // Your website URL
   baseUrl: "/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -40,24 +40,22 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: "install", label: "Docs" },
-    { doc: "ui-kit", label: "API" },
-    { doc: "doc2", label: "Other" },
     { page: "help", label: "Help" },
-    { blog: false }
+    { blog: true, label: "Blog" }
   ],
 
   // algolia search settings
-  algolia: {
-    apiKey: "XXXX",
-    indexName: "my-index-name",
-    algoliaOptions: {}
-  },
+  // algolia: {
+  //   apiKey: "XXXX",
+  //   indexName: "my-index-name",
+  //   algoliaOptions: {}
+  // },
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: "img/apollos.white.png",
+  headerIcon: "img/brand/wordmark.png",
   footerIcon: "img/apollos.png",
   favicon: "img/favicon.png",
 
@@ -65,12 +63,6 @@ const siteConfig = {
   colors: {
     primaryColor: "#00676D",
     secondaryColor: "#18B582"
-  },
-
-  /* Custom fonts for website */
-  fonts: {
-    myFont: ["Helvetica Neue", "Helvetica", "San-Serif"],
-    myOtherFont: ["-apple-system", "system-ui"]
   },
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
@@ -81,9 +73,6 @@ const siteConfig = {
     theme: "default"
   },
 
-  // Add custom scripts here that would be placed in <script> tags.
-  scripts: ["https://buttons.github.io/buttons.js"],
-
   // On page navigation for the current documentation page.
   onPageNav: "separate",
   // No .html extensions for paths.
@@ -91,7 +80,8 @@ const siteConfig = {
 
   // Open Graph and Twitter card images.
   ogImage: "img/apollos.png",
-  twitterImage: "img/apollos.png"
+  twitterImage: "img/apollos.png",
+  disableHeaderTitle: true,
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
