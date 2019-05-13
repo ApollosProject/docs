@@ -27,14 +27,23 @@ function pageUrl(page, language) {
   return siteConfig.baseUrl + (language ? `${language}/` : "") + page;
 }
 
-class HomeSplash extends React.Component {
-  render() {
-    const language = this.props.language || "";
-    return (
-      null
-    );
-  }
-}
+const Splash = () => (
+  <Container>
+    <div className="blockElement imageAlignSide imageAlignRight twoByGridBlock">
+      <div className="blockContent">
+        <h2>The Apollos Project</h2>
+        <div>
+          <p>
+            Join a community of churches working together to bring people closer to God and advance the Kingdom through technology.
+          </p>
+        </div>
+      </div>
+      <div className="blockImage">
+        <img class="homeArt" src={imgUrl("brand/art.png")} alt="The Apollos Project" />
+      </div>
+    </div>
+  </Container>
+);
 
 class Index extends React.Component {
   render() {
@@ -42,7 +51,7 @@ class Index extends React.Component {
 
     return (
       <div>
-        <HomeSplash language={language} />
+        <Splash />
       </div>
     );
   }
