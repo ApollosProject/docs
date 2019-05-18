@@ -7,6 +7,36 @@ h5,
 h6 {
   font-family: 'Inter', 'San Francisco', -apple-system, BlinkMacSystemFont,
     '.SFNSText-Regular', 'Helvetica Neue', Helvetica, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 40px;
+  color: #00676d;
+}
+
+h2 {
+  font-size: 40px;
+  color: #00676d;
+}
+
+h3 {
+  margin-top: 32px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 600;
+}
+
+h4 {
+  margin-top: 24px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 300;
+  color: #6cc6b9;
+}
+
+h4 strong {
+  color: #00676d;
 }
 
 .fixedHeaderContainer {
@@ -30,14 +60,66 @@ h6 {
 .navigationSlider .slidingNav ul li.siteNavItemActive a,
 .navigationSlider .slidingNav ul li.siteNavGroupActive a {
   background-color: inherit;
-  color: #17B582 !important;
+  color: #17b582 !important;
 }
 
 .navigationSlider .slidingNav ul li a:hover {
   background-color: inherit;
-  color: #00676D;
+  color: #00676d;
 }
 
 .navigationSlider .slidingNav ul li {
   padding: 0 16px;
+}
+
+.imageAlignSide {
+  align-items: center;
+}
+
+.imageAlignSide .blockContent > :first-child {
+  margin-top: 0;
+}
+
+.imageAlignSide .blockContent > :last-child {
+  margin-bottom: 0;
+}
+
+.imageAlignRight .blockImage {
+  text-align: right;
+}
+
+.homeArt {
+  padding: 15%;
+  padding-right: 0;
+  max-width: 70%;
+}
+
+.logoReplace {
+  text-indent: -99999999px;
+  background-image: url('../img/brand/wordmark.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center left;
+}
+
+.splash {
+  min-height: 60vh;
+}
+
+.waveOne {
+  background-image: url('../img/bg.wave.1.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  padding-bottom: 4%;
+}
+
+.waveTwo {
+  background: rgb(226, 244, 241);
+  background: linear-gradient(
+    180deg,
+    rgba(226, 244, 241, 1) 0%,
+    rgba(226, 244, 241, 1) 50%,
+    rgba(156, 215, 209, 0.4) 100%
+  );
 }

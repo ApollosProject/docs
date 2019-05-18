@@ -5,9 +5,9 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const React = require("react");
+const React = require('react');
 
-const CompLibrary = require("../../core/CompLibrary.js");
+const CompLibrary = require('../../core/CompLibrary.js');
 
 const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
@@ -20,38 +20,55 @@ function imgUrl(img) {
 }
 
 function docUrl(doc, language) {
-  return `${siteConfig.baseUrl}docs/${language ? `${language}/` : ""}${doc}`;
+  return `${siteConfig.baseUrl}docs/${language ? `${language}/` : ''}${doc}`;
 }
 
 function pageUrl(page, language) {
-  return siteConfig.baseUrl + (language ? `${language}/` : "") + page;
+  return siteConfig.baseUrl + (language ? `${language}/` : '') + page;
 }
 
 const Splash = () => (
-  <Container>
-    <div className="blockElement imageAlignSide imageAlignRight twoByGridBlock">
+  <Container className="waveOne">
+    <div className="splash blockElement imageAlignSide imageAlignRight twoByGridBlock">
       <div className="blockContent">
-        <h2>The Apollos Project</h2>
+        <h1 class="logoReplace">The Apollos Project</h1>
         <div>
-          <p>
-            Join a community of churches working together to bring people closer to God and advance the Kingdom through technology.
-          </p>
+          <h4>
+            Join a community of churches working together to bring people closer
+            to God and advance the Kingdom through technology.
+          </h4>
         </div>
       </div>
       <div className="blockImage">
-        <img class="homeArt" src={imgUrl("brand/art.png")} alt="The Apollos Project" />
+        <img
+          class="homeArt"
+          src={imgUrl('brand/art.png')}
+          alt="The Apollos Project"
+        />
       </div>
     </div>
   </Container>
 );
 
+// 🤠. There are better names, but I liked this one.
+const SubSplash = () => (
+  <Container className="waveTwo">
+    <h1>Build by the Church, for the Church</h1>
+    <h4>
+      The Apollos Project is an open-source platform that empowers your church
+      to launch your own mobile app and bring your congregation closer to Jesus.
+    </h4>
+  </Container>
+);
+
 class Index extends React.Component {
   render() {
-    const language = this.props.language || "";
+    const language = this.props.language || '';
 
     return (
       <div>
         <Splash />
+        <SubSplash />
       </div>
     );
   }
