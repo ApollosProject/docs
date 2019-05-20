@@ -8,10 +8,11 @@
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
+const Icons = require(`${process.cwd()}/core/Icons.js`);
 
 const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
-const GridBlock = CompLibrary.GridBlock;
+const GridBlock = require(`${process.cwd()}/core/GridBlock.js`);
 
 const siteConfig = require(`${process.cwd()}/siteConfig.js`);
 
@@ -50,7 +51,7 @@ const Splash = () => (
   </Container>
 );
 
-// 🤠. There are better names, but I liked this one.
+//    🤠
 const SubSplash = () => (
   <Container className="waveTwo">
     <h1>Build by the Church, for the Church</h1>

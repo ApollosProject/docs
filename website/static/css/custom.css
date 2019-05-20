@@ -76,11 +76,11 @@ h4 strong {
   align-items: center;
 }
 
-.imageAlignSide .blockContent > :first-child {
+.imageAlignSide .blockContent> :first-child {
   margin-top: 0;
 }
 
-.imageAlignSide .blockContent > :last-child {
+.imageAlignSide .blockContent> :last-child {
   margin-bottom: 0;
 }
 
@@ -111,15 +111,13 @@ h4 strong {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
-  padding-bottom: 4%;
+  padding-bottom: 9%;
 }
 
 .waveTwo {
   background: rgb(226, 244, 241);
-  background: linear-gradient(
-    180deg,
-    rgba(226, 244, 241, 1) 0%,
-    rgba(226, 244, 241, 1) 50%,
-    rgba(156, 215, 209, 0.4) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(226, 244, 241, 1) 0%,
+      rgba(226, 244, 241, 1) 50%,
+      rgba(156, 215, 209, 0.4) 100%);
 }
