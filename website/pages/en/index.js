@@ -30,24 +30,22 @@ function pageUrl(page, language) {
 
 const Splash = () => (
   <Container className="waveOne">
-    <div className="splash blockElement imageAlignSide imageAlignRight twoByGridBlock">
-      <div className="blockContent">
-        <h1 class="logoReplace">The Apollos Project</h1>
-        <div>
-          <h4>
-            Join a community of churches working together to bring people closer
-            to God and advance the Kingdom through technology.
-          </h4>
-        </div>
-      </div>
-      <div className="blockImage">
-        <img
-          class="homeArt"
-          src={imgUrl('brand/art.png')}
-          alt="The Apollos Project"
-        />
-      </div>
-    </div>
+    <GridBlock
+      className="splash"
+      contents={[
+        {
+          title: <h1 class="logoReplace">The Apollos Project</h1>,
+          content: (
+            <h4>
+              Join a community of churches working together to bring people
+              closer to God and advance the Kingdom through technology.
+            </h4>
+          ),
+          image: imgUrl('brand/art.png'),
+          imageAlign: 'right',
+        },
+      ]}
+    />
   </Container>
 );
 
