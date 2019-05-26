@@ -3,7 +3,7 @@
     "Getting Started": ["install", "icons-and-splash", "themes"],
     "Guides": ["contributing", "fastly", "passkit"],
     "Rock Integration": ["one-signal", "content-personalization"],
-    "API": ["doc2"],
+    "API": [],
     "UI-Kit": [
       "button",
       "buttonicon",
