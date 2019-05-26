@@ -1,6 +1,8 @@
-`Text` (component)
-==================
-
+---
+id: text
+title: `Text` (component)
+sidebar_label: Text
+---
 
 
 Props
@@ -41,6 +43,12 @@ defaultValue: `'done'`
 ### `suffix`
 
 type: `node`
+
+
+### `underline`
+
+type: `bool`
+defaultValue: `true`
 
 
 ### `underlineColorAndroid`

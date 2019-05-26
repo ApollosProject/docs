@@ -1,6 +1,8 @@
-`Radio` (component)
-===================
-
+---
+id: radio
+title: `Radio` (component)
+sidebar_label: Radio
+---
 
 
 Props
@@ -10,6 +12,11 @@ Props
 
 type: `node`
 defaultValue: `null`
+
+
+### `error`
+
+type: `any`
 
 
 ### `onChange`

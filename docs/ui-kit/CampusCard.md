@@ -1,7 +1,7 @@
 ---
-id: thumbnailcard
-title: `ThumbnailCard` (component)
-sidebar_label: ThumbnailCard
+id: campuscard
+title: `CampusCard` (component)
+sidebar_label: CampusCard
 ---
 
 
@@ -20,7 +20,7 @@ type: `union(string|node)`
 
 ### `images`
 
-type: `custom`
+type: `any`
 
 
 ### `isLoading`
