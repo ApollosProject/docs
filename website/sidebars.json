@@ -1,22 +1,9 @@
 {
   "docs": {
-    "Getting Started": [
-      "install",
-      "icons-and-splash",
-      "themes"
-    ],
-    "Guides": [
-      "contributing",
-      "fastly",
-      "passkit"
-    ],
-    "Rock Integration": [
-      "one-signal",
-      "content-personalization"
-    ],
-    "API": [
-      "ui-kit"
-    ],
+    "Getting Started": ["install", "icons-and-splash", "themes"],
+    "Guides": ["contributing", "fastly", "passkit"],
+    "Rock Integration": ["one-signal", "content-personalization"],
+    "API": ["doc2"],
     "UI-Kit": [
       "button",
       "buttonicon",
@@ -126,8 +113,6 @@
     ]
   },
   "docs-other": {
-    "Other": [
-      "doc2"
-    ]
+    "Other": ["doc2"]
   }
 }
