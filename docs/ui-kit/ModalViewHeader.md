@@ -8,6 +8,11 @@ sidebar_label: ModalViewHeader
 Props
 -----
 
+### `navigationHeader`
+
+type: `bool`
+
+
 ### `onBack`
 
 type: `func`
