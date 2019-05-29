@@ -19,9 +19,9 @@ type: `bool`
 defaultValue: `false`
 
 
-### `name` (required)
+### `name`
 
-type: `enumObject.keys(Icons).map(kebabCase)`
+type: `custom`
 
 
 ### `size`

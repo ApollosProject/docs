@@ -14,6 +14,12 @@ type: `node`
 defaultValue: `null`
 
 
+### `iconInput`
+
+type: `objectOf[object Object]`
+defaultValue: `{}`
+
+
 ### `themeInput`
 
 type: `shapeimport createTheme, { THEME_PROPS } from './createTheme';`
