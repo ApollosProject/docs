@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>Apollos Project Blog</title>
+        <title>The Apollos Project Blog</title>
         <link>https://apollosapp.io/blog</link>
-        <description>The best place to stay up-to-date with the latest Apollos Project news and events.</description>
+        <description>The best place to stay up-to-date with the latest The Apollos Project news and events.</description>
         <lastBuildDate>Tue, 24 Oct 2017 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
-            <title>Apollos Project Blog</title>
-            <url>https://apollosapp.io/img/apollos.white.png</url>
+            <title>The Apollos Project Blog</title>
+            <url>https://apollosapp.io/img/brand/wordmark.png</url>
             <link>https://apollosapp.io/blog</link>
         </image>
         <copyright>Copyright © 2019 Apollos Project</copyright>

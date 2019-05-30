@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://apollosapp.io/blog</id>
-    <title>Apollos Project Blog</title>
+    <title>The Apollos Project Blog</title>
     <updated>2017-10-24T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://apollosapp.io/blog"/>
-    <subtitle>The best place to stay up-to-date with the latest Apollos Project news and events.</subtitle>
-    <logo>https://apollosapp.io/img/apollos.white.png</logo>
+    <subtitle>The best place to stay up-to-date with the latest The Apollos Project news and events.</subtitle>
+    <logo>https://apollosapp.io/img/brand/wordmark.png</logo>
     <rights>Copyright © 2019 Apollos Project</rights>
     <entry>
         <title type="html"><![CDATA[New Version 1.0.0]]></title>
