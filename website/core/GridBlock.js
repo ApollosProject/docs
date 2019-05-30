@@ -49,6 +49,7 @@ class GridBlock extends CoreGridBlock {
   }
 
   renderBlockImage(image, imageLink, ...other) {
+    console.log(image);
     if (typeof image === 'string')
       return CoreGridBlock.prototype.renderBlockImage.call(
         this,
@@ -62,7 +63,7 @@ class GridBlock extends CoreGridBlock {
 
     return (
       <div className="blockImage">
-        {imageLink ? <a href={imageLink}>{image}</a> : { image }}
+        {imageLink ? <a href={imageLink}>{image}</a> : image}
       </div>
     );
   }

@@ -55,8 +55,36 @@ const SubSplash = () => (
     <h1>Built by the Church, for the Church</h1>
     <h4>
       The Apollos Project is an open-source platform that empowers your church
-      to launch your own mobile app and bring your congregation closer to Jesus.
+      to <strong>launch your own mobile app</strong> and{' '}
+      <strong>bring your congregation closer to Jesus.</strong>
     </h4>
+    <Container className="spacingL">
+      <GridBlock
+        align="left"
+        layout="threeColumn"
+        className="spacingS"
+        contents={[
+          {
+            title: <h3>Leverage your data</h3>,
+            content: <p>Personalize the experience</p>,
+            image: <Icons.Stack />,
+            imageAlign: 'top',
+          },
+          {
+            title: <h3>Platform integrations</h3>,
+            content: <p>Connect to your existing church tools</p>,
+            image: <Icons.Layout />,
+            imageAlign: 'top',
+          },
+          {
+            title: <h3>Customize your app</h3>,
+            content: <p>Use React Native to make it your own</p>,
+            image: <Icons.Stack />,
+            imageAlign: 'top',
+          },
+        ]}
+      />
+    </Container>
   </Container>
 );
 
