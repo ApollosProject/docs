@@ -15,5 +15,8 @@
     "eslint": "^5.9.0",
     "jsonlint": "^1.6.3",
     "prettier": "^1.15.2"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
   }
 }

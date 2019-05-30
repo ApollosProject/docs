@@ -1,6 +1,6 @@
 const React = require('react');
 const CoreGridBlock = require('docusaurus/lib/core/GridBlock');
-const classNames = require('classNames');
+const classNames = require('classnames');
 
 class GridBlock extends CoreGridBlock {
   renderBlock(origBlock) {
