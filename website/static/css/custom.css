@@ -74,6 +74,11 @@ h4 strong {
 
 .imageAlignSide {
   align-items: center;
+  flex-flow: row;
+}
+
+.imageAlignSide .blockImage {
+  align-items: center;
 }
 
 .imageAlignSide .blockContent > :first-child {
@@ -86,6 +91,10 @@ h4 strong {
 
 .imageAlignRight .blockImage {
   text-align: right;
+}
+
+.gridBlock {
+  justify-content: space-around;
 }
 
 .gridBlock .twoByGridBlock img {
@@ -126,17 +135,52 @@ h4 strong {
   );
 }
 
+.waveThree {
+  padding-top: 10%;
+  padding-bottom: 5%;
+  background: rgb(226, 244, 241);
+  background: url('../img/bg.wave.3.png') no-repeat center top,
+    linear-gradient(
+      180deg,
+      rgba(156, 215, 209, 0.4) 0%,
+      rgba(255, 255, 255) 100%
+    );
+  background-size: 100% 100%;
+}
+
 .spacingL {
-  padding-top: 8%;
-  padding-bottom: 8%;
+  padding-top: 8% !important;
+  padding-bottom: 8% !important;
 }
 
 .spacingM {
-  padding-top: 4%;
-  padding-bottom: 4%;
+  padding-top: 4% !important;
+  padding-bottom: 4% !important;
 }
 
 .spacingS {
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 2% !important;
+  padding-bottom: 2% !important;
+}
+
+.feature {
+  padding-top: 8% !important;
+  padding-bottom: 8% !important;
+}
+
+.feature img {
+  max-height: 50vh;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.22),
+    0 14px 28px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  padding: 64px;
+}
+
+.card > :last-child {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
