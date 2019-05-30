@@ -1,6 +1,8 @@
-`Icon` (component)
-==================
-
+---
+id: icon
+title: `Icon` (component)
+sidebar_label: Icon
+---
 
 
 Props
@@ -17,9 +19,9 @@ type: `bool`
 defaultValue: `false`
 
 
-### `name` (required)
+### `name`
 
-type: `enumObject.keys(Icons).map(kebabCase)`
+type: `custom`
 
 
 ### `size`

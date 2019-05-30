@@ -1,6 +1,8 @@
-`ThemeProvider` (component)
-===========================
-
+---
+id: themeprovider
+title: `ThemeProvider` (component)
+sidebar_label: ThemeProvider
+---
 
 
 Props
@@ -10,6 +12,12 @@ Props
 
 type: `node`
 defaultValue: `null`
+
+
+### `iconInput`
+
+type: `objectOf[object Object]`
+defaultValue: `{}`
 
 
 ### `themeInput`
