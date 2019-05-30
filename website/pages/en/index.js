@@ -34,7 +34,7 @@ const Splash = () => (
       className="splash"
       contents={[
         {
-          title: <h1 class="logoReplace">The Apollos Project</h1>,
+          title: <h1 className="logoReplace">The Apollos Project</h1>,
           content: (
             <h4>
               Join a community of churches working together to bring people
@@ -52,7 +52,7 @@ const Splash = () => (
 //    🤠
 const SubSplash = () => (
   <Container className="waveTwo">
-    <h1>Build by the Church, for the Church</h1>
+    <h1>Built by the Church, for the Church</h1>
     <h4>
       The Apollos Project is an open-source platform that empowers your church
       to launch your own mobile app and bring your congregation closer to Jesus.
