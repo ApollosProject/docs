@@ -5,13 +5,15 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const React = require("react");
+const React = require('react');
 
-const CompLibrary = require("../../core/CompLibrary.js");
+const CompLibrary = require('../../core/CompLibrary.js');
+const Icons = require(`${process.cwd()}/core/Icons.js`);
 
 const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
-const GridBlock = CompLibrary.GridBlock;
+const GridBlock = require(`${process.cwd()}/core/GridBlock.js`);
+const Card = require(`${process.cwd()}/core/Card.js`);
 
 const siteConfig = require(`${process.cwd()}/siteConfig.js`);
 
@@ -20,167 +22,130 @@ function imgUrl(img) {
 }
 
 function docUrl(doc, language) {
-  return `${siteConfig.baseUrl}docs/${language ? `${language}/` : ""}${doc}`;
+  return `${siteConfig.baseUrl}docs/${language ? `${language}/` : ''}${doc}`;
 }
 
 function pageUrl(page, language) {
-  return siteConfig.baseUrl + (language ? `${language}/` : "") + page;
+  return siteConfig.baseUrl + (language ? `${language}/` : '') + page;
 }
 
-class Button extends React.Component {
-  render() {
-    return (
-      <div className="pluginWrapper buttonWrapper">
-        <a className="button" href={this.props.href} target={this.props.target}>
-          {this.props.children}
-        </a>
-      </div>
-    );
-  }
-}
-
-Button.defaultProps = {
-  target: "_self"
-};
-
-const SplashContainer = props => (
-  <div className="homeContainer">
-    <div className="homeSplashFade">
-      <div className="wrapper homeWrapper">{props.children}</div>
-    </div>
-  </div>
+const Splash = () => (
+  <Container className="waveOne">
+    <GridBlock
+      className="splash"
+      contents={[
+        {
+          title: <h1 className="logoReplace">The Apollos Project</h1>,
+          content: (
+            <h4>
+              Join a community of churches working together to bring people
+              closer to God and advance the Kingdom through technology.
+            </h4>
+          ),
+          image: imgUrl('brand/art.png'),
+          imageAlign: 'right',
+        },
+      ]}
+    />
+  </Container>
 );
 
-const Logo = props => (
-  <div className="projectLogo">
-    <img src={props.img_src} alt="Project Logo" />
-  </div>
-);
-
-const ProjectTitle = () => (
-  <h2 className="projectTitle">
-    {siteConfig.title}
-    <small>{siteConfig.tagline}</small>
-  </h2>
-);
-
-const PromoSection = props => (
-  <div className="section promoSection">
-    <div className="promoRow">
-      <div className="pluginRowBlock">{props.children}</div>
-    </div>
-  </div>
-);
-
-class HomeSplash extends React.Component {
-  render() {
-    const language = this.props.language || "";
-    return (
-      <SplashContainer>
-        <Logo img_src={imgUrl("apollos.png")} />
-        <div className="inner">
-          <ProjectTitle />
-          <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl("install.html", language)}>Install</Button>
-            <Button href={docUrl("contributing.html", language)}>
-              Contribute
-            </Button>
-          </PromoSection>
-        </div>
-      </SplashContainer>
-    );
-  }
-}
-
-const Block = props => (
-  <Container
-    padding={["bottom", "top"]}
-    id={props.id}
-    background={props.background}
-  >
-    <GridBlock align="center" contents={props.children} layout={props.layout} />
+//    🤠
+const SubSplash = () => (
+  <Container className="waveTwo">
+    <h1>Built by the Church, for the Church</h1>
+    <h4>
+      The Apollos Project is an open-source initiative that empowers your church
+      to <strong>launch your own digital products</strong> and{' '}
+      <strong>bring your congregation closer to Jesus.</strong>
+    </h4>
+    <h4>
+      We're currently focused on building a mobile application platform with a
+      graph-based data layer that{' '}
+      <strong>integrates directly with your ChMS</strong> and other services you
+      already use.
+    </h4>
+    <Container className="spacingL">
+      <GridBlock
+        align="left"
+        layout="threeColumn"
+        className="spacingS gridBlockSkinny"
+        contents={[
+          {
+            title: <h3>Leverage your data</h3>,
+            content: <p>Personalize the experience</p>,
+            image: <Icons.Stack />,
+            imageAlign: 'top',
+          },
+          {
+            title: <h3>Platform integrations</h3>,
+            content: <p>Connect to your existing services</p>,
+            image: <Icons.Layout />,
+            imageAlign: 'top',
+          },
+          {
+            title: <h3>Customize your app</h3>,
+            content: <p>Use React Native to make it your own</p>,
+            image: <Icons.Stack />,
+            imageAlign: 'top',
+          },
+        ]}
+      />
+    </Container>
   </Container>
 );
 
 const Features = () => (
-  <Block layout="fourColumn">
-    {[
-      {
-        content:
-          "Apollos allows you to integrate with various content data sources to provide the user a feed to serve as the central hub for everything happening at your church.",
-        image: imgUrl("rss.png"),
-        imageAlign: "top",
-        title: "Custom Content Feed"
-      },
-      {
-        content:
-          "Beautiful, native media player to view sermons and videos or listen to music. Comes with AirPlay functionality.",
-        image: imgUrl("airplay.png"),
-        imageAlign: "top",
-        title: "Media Player"
-      },
-      {
-        content:
-          "If you would like to tinker with the code or contribute to the project, Apollos is built using React Native, which allows developers to build Android and iOS applications with the same Javascript code base.",
-        image: imgUrl("react.png"),
-        imageAlign: "top",
-        title: "React Native"
-      }
-    ]}
-  </Block>
-);
-
-const FeatureCallout = () => (
-  <div
-    className="productShowcaseSection paddingBottom"
-    style={{ textAlign: "center" }}
-  >
-    <h2>Feature Callout</h2>
-    <MarkdownBlock>These are features of this project</MarkdownBlock>
-  </div>
-);
-
-const LearnHow = () => (
-  <Block background="light">
-    {[
-      {
-        content:
-          "We have tried to make the documentation as straight forward as possible and our goal is that you would be able to go from nothing to a fully functioning church app with little software experience.",
-        image: imgUrl("code.png"),
-        imageAlign: "right",
-        title: "Learn How"
-      }
-    ]}
-  </Block>
-);
-
-const TryOut = () => (
-  <Block id="try">
-    {[
-      {
-        content:
-          "If you'd like to give the app a try, you can download it on the [App Store]() or [Google Play Store](). Simply create your own user account and you're off and running. We'd love to [hear from you]() if you have any other questions before getting started!",
-        image: imgUrl("demo_small.gif"),
-        imageAlign: "left",
-        title: "Try it Out"
-      }
-    ]}
-  </Block>
-);
-
-const Mission = () => (
-  <Block background="dark">
-    {[
-      {
-        content:
-          "The Apollos Project exists to develop a platform that creates a personalized experience that engages a user to develop a deeper realationship with Jesus and the Church.",
-        image: imgUrl("apollos_full.png"),
-        imageAlign: "right",
-        title: "Our Mission"
-      }
-    ]}
-  </Block>
+  <Container className="waveThree">
+    <GridBlock
+      align="left"
+      layout="oneColumn"
+      className="feature"
+      contents={[
+        {
+          content: (
+            <Card>
+              <h1>Enhance the weekend experience</h1>
+              <p className="spacingM">
+                Everything your congregation needs is at their fingertips
+                whether they are on campus or online. Now people can interact
+                with the sermon, check in kids, tithe, and view announcements
+                all from your church’s app.
+              </p>
+            </Card>
+          ),
+          image: imgUrl('mockup-weekend.png'),
+        },
+        {
+          content: (
+            <Card>
+              <h1>Engage your congregation all week</h1>
+              <p className="spacingM">
+                Your congregation can reflect on the message, read daily
+                devotionals, or stay up to date with what’s happening in your
+                community no matter where they are.
+              </p>
+            </Card>
+          ),
+          image: imgUrl('mockup-week.png'),
+          imageAlign: 'right',
+        },
+        {
+          content: (
+            <Card>
+              <h1>Help members take the next step</h1>
+              <p className="spacingM">
+                Deliver the right next step, for the right person, at the right
+                time. Users can even view personalized content to cultivate a
+                deeper relationship with Jesus.
+              </p>
+            </Card>
+          ),
+          image: imgUrl('mockup-feed.png'),
+        },
+      ]}
+    />
+  </Container>
 );
 
 const Showcase = props => {
@@ -198,12 +163,15 @@ const Showcase = props => {
 
   return (
     <div className="productShowcaseSection paddingBottom">
-      <h2>Who is Using This?</h2>
-      <p>This project is used by all these people</p>
+      <h2>Our Community</h2>
+      <p>
+        We believe churches everywhere should be able to create a personalized
+        experience for their community. Join our growing community!
+      </p>
       <div className="logos">{showcase}</div>
       <div className="more-users">
-        <a className="button" href={pageUrl("users.html", props.language)}>
-          More {siteConfig.title} Users
+        <a className="button" href={pageUrl('users.html', props.language)}>
+          More Apollos Organizations
         </a>
       </div>
     </div>
@@ -212,19 +180,14 @@ const Showcase = props => {
 
 class Index extends React.Component {
   render() {
-    const language = this.props.language || "";
+    const language = this.props.language || '';
 
     return (
       <div>
-        <HomeSplash language={language} />
-        <div className="mainContainer">
-          <Features />
-          {/* <FeatureCallout /> */}
-          <LearnHow />
-          <TryOut />
-          <Mission />
-          <Showcase language={language} />
-        </div>
+        <Splash />
+        <SubSplash />
+        <Features />
+        <Showcase />
       </div>
     );
   }

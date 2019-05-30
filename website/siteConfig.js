@@ -11,66 +11,58 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: "NewSpring",
+    caption: 'NewSpring',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: "/img/newspring.png",
-    infoLink: "https://www.newspring.cc",
-    pinned: true
-  }
+    image: '/img/newspring.png',
+    infoLink: 'https://www.newspring.cc',
+    pinned: true,
+  },
 ];
 
 const siteConfig = {
-  title: "Apollos Project", // Title for your website.
-  tagline: "I planted, Apollos watered, but God gave the growth.",
-  url: "https://apollosapp.io", // Your website URL
-  baseUrl: "/", // Base URL for your project */
+  title: 'The Apollos Project', // Title for your website.
+  tagline: 'Bring your congregation closer to Jesus.',
+  url: 'https://apollosapp.io', // Your website URL
+  baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: "docs",
-  organizationName: "ApollosProject",
+  projectName: 'docs',
+  organizationName: 'ApollosProject',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
-  cname: "apollosapp.io",
+  cname: 'apollosapp.io',
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: "install", label: "Docs" },
-    { doc: "ui-kit/button", label: "API" },
-    { doc: "doc2", label: "Other" },
-    { page: "help", label: "Help" },
-    { blog: false }
+    { doc: 'install', label: 'Docs' },
+    { page: 'help', label: 'Help' },
+    { blog: true, label: 'Blog' },
   ],
 
   // algolia search settings
-  algolia: {
-    apiKey: "XXXX",
-    indexName: "my-index-name",
-    algoliaOptions: {}
-  },
+  // algolia: {
+  //   apiKey: "XXXX",
+  //   indexName: "my-index-name",
+  //   algoliaOptions: {}
+  // },
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: "img/apollos.white.png",
-  footerIcon: "img/apollos.png",
-  favicon: "img/favicon.png",
+  headerIcon: 'img/brand/wordmark.png',
+  footerIcon: 'img/apollos.png',
+  favicon: 'img/favicon.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: "#00676D",
-    secondaryColor: "#18B582"
-  },
-
-  /* Custom fonts for website */
-  fonts: {
-    myFont: ["Helvetica Neue", "Helvetica", "San-Serif"],
-    myOtherFont: ["-apple-system", "system-ui"]
+    primaryColor: '#00676D',
+    secondaryColor: '#18B582',
   },
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
@@ -78,20 +70,18 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: "default"
+    theme: 'default',
   },
 
-  // Add custom scripts here that would be placed in <script> tags.
-  scripts: ["https://buttons.github.io/buttons.js"],
-
   // On page navigation for the current documentation page.
-  onPageNav: "separate",
+  onPageNav: 'separate',
   // No .html extensions for paths.
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: "img/apollos.png",
-  twitterImage: "img/apollos.png"
+  ogImage: 'img/apollos.png',
+  twitterImage: 'img/apollos.png',
+  disableHeaderTitle: true,
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
