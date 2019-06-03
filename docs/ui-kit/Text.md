@@ -8,61 +8,12 @@ sidebar_label: Text
 Props
 -----
 
-### `disabled`
-
-type: `bool`
-defaultValue: `false`
-
-
-### `error`
-
-type: `union(bool|string)`
-
-
-### `inputRef`
-
-type: `func`
-
-
-### `label`
+### `fill`
 
 type: `string`
 
 
-### `prefix`
+### `size`
 
-type: `node`
-
-
-### `returnKeyType`
-
-type: `string`
-defaultValue: `'done'`
-
-
-### `suffix`
-
-type: `node`
-
-
-### `underline`
-
-type: `bool`
-defaultValue: `true`
-
-
-### `underlineColorAndroid`
-
-type: `string`
-defaultValue: `'transparent'`
-
-
-### `value`
-
-type: `any`
-
-
-### `wrapperStyle`
-
-type: `any`
+type: `number`
 
