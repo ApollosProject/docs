@@ -18,14 +18,14 @@ type: `string`
 type: `union(string|node)`
 
 
+### `distance`
+
+type: `number`
+
+
 ### `images`
 
 type: `any`
-
-
-### `isLoading`
-
-type: `bool`
 
 
 ### `title` (required)
