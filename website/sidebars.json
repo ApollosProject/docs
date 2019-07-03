@@ -16,6 +16,7 @@
     ],
     "API": [],
     "UI-Kit": [
+      "ui-kit/actioncard",
       "ui-kit/button",
       "ui-kit/buttonicon",
       "ui-kit/campuscard",
