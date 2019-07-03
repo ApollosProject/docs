@@ -17,6 +17,7 @@
 <url> <loc>https://apollosapp.io/docs/one-signal</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/one-signal" /> </url>
 <url> <loc>https://apollosapp.io/docs/passkit</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/passkit" /> </url>
 <url> <loc>https://apollosapp.io/docs/themes</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/themes" /> </url>
+<url> <loc>https://apollosapp.io/docs/ui-kit/actioncard</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/actioncard" /> </url>
 <url> <loc>https://apollosapp.io/docs/ui-kit/arrowback</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/arrowback" /> </url>
 <url> <loc>https://apollosapp.io/docs/ui-kit/arrowdown</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/arrowdown" /> </url>
 <url> <loc>https://apollosapp.io/docs/ui-kit/arrownext</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/arrownext" /> </url>
