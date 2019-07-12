@@ -25,6 +25,16 @@ type: `bool`
 defaultValue: `false`
 
 
+### `maxAspectRatio`
+
+type: `custom`
+
+
+### `minAspectRatio`
+
+type: `custom`
+
+
 ### `onLoad`
 
 type: `func`
