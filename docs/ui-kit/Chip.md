@@ -8,6 +8,11 @@ sidebar_label: Chip
 Props
 -----
 
+### `chipList`
+
+defaultValue: `false`
+
+
 ### `icon`
 
 type: `string`
