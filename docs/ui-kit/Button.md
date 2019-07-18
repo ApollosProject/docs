@@ -54,6 +54,6 @@ type: `string`
 
 ### `type`
 
-type: `enum('default'|'primary'|'secondary'|'tertiary'|'ghost'|'alert')`
+type: `enum('default'|'primary'|'secondary'|'tertiary'|'ghost'|'overlay'|'alert')`
 defaultValue: `'primary'`
 
