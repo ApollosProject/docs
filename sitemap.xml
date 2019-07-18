@@ -57,6 +57,7 @@
 <url> <loc>https://apollosapp.io/docs/ui-kit/empty</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/empty" /> </url>
 <url> <loc>https://apollosapp.io/docs/ui-kit/errorcard</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/errorcard" /> </url>
 <url> <loc>https://apollosapp.io/docs/ui-kit/failed</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/failed" /> </url>
+<url> <loc>https://apollosapp.io/docs/ui-kit/featuredcard</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/featuredcard" /> </url>
 <url> <loc>https://apollosapp.io/docs/ui-kit/feedview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/feedview" /> </url>
 <url> <loc>https://apollosapp.io/docs/ui-kit/filter</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/filter" /> </url>
 <url> <loc>https://apollosapp.io/docs/ui-kit/floatinglabel</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/floatinglabel" /> </url>
@@ -74,6 +75,7 @@
 <url> <loc>https://apollosapp.io/docs/ui-kit/like</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/like" /> </url>
 <url> <loc>https://apollosapp.io/docs/ui-kit/likesolid</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/likesolid" /> </url>
 <url> <loc>https://apollosapp.io/docs/ui-kit/line</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/line" /> </url>
+<url> <loc>https://apollosapp.io/docs/ui-kit/livedot</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/livedot" /> </url>
 <url> <loc>https://apollosapp.io/docs/ui-kit/locate</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/locate" /> </url>
 <url> <loc>https://apollosapp.io/docs/ui-kit/lock</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/lock" /> </url>
 <url> <loc>https://apollosapp.io/docs/ui-kit/media</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/media" /> </url>
@@ -86,6 +88,7 @@
 <url> <loc>https://apollosapp.io/docs/ui-kit/pickerlist</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/pickerlist" /> </url>
 <url> <loc>https://apollosapp.io/docs/ui-kit/pin</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/pin" /> </url>
 <url> <loc>https://apollosapp.io/docs/ui-kit/play</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/play" /> </url>
+<url> <loc>https://apollosapp.io/docs/ui-kit/playsolid</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/playsolid" /> </url>
 <url> <loc>https://apollosapp.io/docs/ui-kit/pray</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/pray" /> </url>
 <url> <loc>https://apollosapp.io/docs/ui-kit/print</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/print" /> </url>
 <url> <loc>https://apollosapp.io/docs/ui-kit/profile</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://apollosapp.io/docs/ui-kit/profile" /> </url>
