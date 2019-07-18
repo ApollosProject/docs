@@ -24,6 +24,11 @@ defaultValue: `true`
 type: `string`
 
 
+### `overlayType`
+
+defaultValue: `'default'`
+
+
 ### `source`
 
 type: `custom`
