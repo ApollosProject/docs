@@ -8,7 +8,7 @@ sidebar_label: CardWrapper
 Props
 -----
 
-### `backgroundColor`
+### `cardColor`
 
 type: `string`
 
