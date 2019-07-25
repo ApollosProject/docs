@@ -45,6 +45,8 @@
       "ui-kit/line",
       "ui-kit/media",
       "ui-kit/progressiveimage",
+      "ui-kit/stretchy",
+      "ui-kit/stretchyview",
       "ui-kit/indicator",
       "ui-kit/label",
       "ui-kit/cell",
