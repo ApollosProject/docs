@@ -102,6 +102,7 @@
       "ui-kit/pause",
       "ui-kit/pin",
       "ui-kit/play",
+      "ui-kit/playopaque",
       "ui-kit/playsolid",
       "ui-kit/pray",
       "ui-kit/print",

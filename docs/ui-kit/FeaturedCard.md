@@ -19,19 +19,14 @@ type: `string`
 defaultValue: `'play-solid'`
 
 
-### `description`
+### `coverImage` (required)
 
-type: `string`
+type: `union(arrayOf|custom)`
 
 
 ### `hasAction`
 
 type: `bool`
-
-
-### `image` (required)
-
-type: `union(arrayOf|custom)`
 
 
 ### `isLiked`
@@ -45,6 +40,11 @@ type: `bool`
 
 
 ### `labelText`
+
+type: `string`
+
+
+### `summary`
 
 type: `string`
 
