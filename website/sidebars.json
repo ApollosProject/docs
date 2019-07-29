@@ -37,6 +37,7 @@
       "ui-kit/feedview",
       "ui-kit/gradientoverlayimage",
       "ui-kit/highlightcard",
+      "ui-kit/horizontalhighlightcard",
       "ui-kit/icon",
       "ui-kit/provider",
       "ui-kit/mediaquery",
