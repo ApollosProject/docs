@@ -43,6 +43,7 @@
       "ui-kit/mediaquery",
       "ui-kit/modalviewheader",
       "ui-kit/modalview",
+      "ui-kit/overlaybackgroundimage",
       "ui-kit/line",
       "ui-kit/media",
       "ui-kit/progressiveimage",
