@@ -33,6 +33,7 @@
       "ui-kit/metrics",
       "ui-kit/textheader",
       "ui-kit/contentcard",
+      "ui-kit/defaultcard",
       "ui-kit/featuredcard",
       "ui-kit/feedview",
       "ui-kit/gradientoverlayimage",
