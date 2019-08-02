@@ -4,8 +4,6 @@ title: Implementing the Weekend Experience
 sidebar_label: Implementing the Weekend Experience
 ---
 
-# Implementing The Weekend Experience
-
 The Weekend experience is comprised of a number of different components that come together to form what we call the Weekend Experience. This guide aims to equip you to
 - Understand the focus and scope of each of those components
 - Walk you through how to configure the new components with the “Apollos Defaults”
