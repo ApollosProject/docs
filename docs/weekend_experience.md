@@ -24,13 +24,11 @@ The Weekend experience is comprised of a number of different components that com
   - Right now only shows ContentItems.
   - Possible actions configured by “Action List Algorithms”
 
-![alt_text](/docs/assets/weekend-experience/image1.png)
-![alt_text](/docs/assets/weekend-experience/image9.png)
-![alt_text](/docs/assets/weekend-experience/image12.png)
+<img src="/docs/assets/weekend-experience/image1.png" width="240"/> <img src="/docs/assets/weekend-experience/image9.png" width="240"/> <img src="/docs/assets/weekend-experience/image12.png" width="240"/> 
 
 **Live Content Items.** Specific content items can now be displayed as “Live” when the live stream is playing. These content items will launch the livestream when the play button is tapped, rather than playing whatever media is attached to the Content Item.
 
-![alt_text](/docs/assets/weekend-experience/image3.png)
+<img src="/docs/assets/weekend-experience/image3.png" width="240"/> 
 
 ## Implementing New Components
 
