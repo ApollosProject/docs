@@ -44,6 +44,7 @@
       "ui-kit/icon",
       "ui-kit/provider",
       "ui-kit/mediaquery",
+      "ui-kit/mediathumbnail",
       "ui-kit/modalviewheader",
       "ui-kit/modalview",
       "ui-kit/overlaybackgroundimage",

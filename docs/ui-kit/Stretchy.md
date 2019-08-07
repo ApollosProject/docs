@@ -33,6 +33,11 @@ type: `shape[object Object]`
 type: `enum('top'|'bottom')`
 
 
+### `style`
+
+type: `any`
+
+
 ### `width`
 
 type: `number`
