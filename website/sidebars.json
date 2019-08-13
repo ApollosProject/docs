@@ -17,6 +17,8 @@
     ],
     "API": [],
     "UI-Kit": [
+      "ui-kit/actionbaritem",
+      "ui-kit/actionbar",
       "ui-kit/actioncard",
       "ui-kit/button",
       "ui-kit/buttonicon",
@@ -77,6 +79,7 @@
       "ui-kit/arrowup",
       "ui-kit/audio",
       "ui-kit/avatar",
+      "ui-kit/badge",
       "ui-kit/bank",
       "ui-kit/brandicon",
       "ui-kit/building",

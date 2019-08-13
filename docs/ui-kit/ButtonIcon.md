@@ -8,6 +8,11 @@ sidebar_label: ButtonIcon
 Props
 -----
 
+### `TouchableComponent`
+
+type: `func`
+
+
 ### `backgroundColor`
 
 type: `string`
