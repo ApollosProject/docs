@@ -20,6 +20,8 @@
       "ui-kit/actionbaritem",
       "ui-kit/actionbar",
       "ui-kit/actioncard",
+      "ui-kit/actionlistitem",
+      "ui-kit/actionlistcard",
       "ui-kit/button",
       "ui-kit/buttonicon",
       "ui-kit/campuscard",
