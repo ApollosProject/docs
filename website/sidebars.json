@@ -72,6 +72,8 @@
       "ui-kit/radio",
       "ui-kit/radiobutton",
       "ui-kit/radiobuttonindicator",
+      "ui-kit/searchactions",
+      "ui-kit/search",
       "ui-kit/switch",
       "ui-kit/text",
       "ui-kit/themeprovider",
