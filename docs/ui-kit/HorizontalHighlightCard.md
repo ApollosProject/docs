@@ -16,7 +16,7 @@ type: `element`
 ### `actionIcon`
 
 type: `string`
-defaultValue: `'play-solid'`
+defaultValue: `'play-opaque'`
 
 
 ### `coverImage` (required)
