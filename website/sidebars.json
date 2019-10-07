@@ -46,7 +46,6 @@
       "ui-kit/horizontaldefaultcard",
       "ui-kit/horizontalhighlightcard",
       "ui-kit/icon",
-      "ui-kit/provider",
       "ui-kit/mediaquery",
       "ui-kit/mediathumbnail",
       "ui-kit/modalviewheader",
