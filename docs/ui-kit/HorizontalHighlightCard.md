@@ -24,6 +24,11 @@ defaultValue: `'play-opaque'`
 type: `union(arrayOf|custom)`
 
 
+### `disabled`
+
+type: `bool`
+
+
 ### `hasAction`
 
 type: `bool`
