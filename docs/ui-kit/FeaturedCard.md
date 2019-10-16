@@ -19,9 +19,9 @@ type: `string`
 defaultValue: `'play-solid'`
 
 
-### `coverImage` (required)
+### `coverImage`
 
-type: `union(arrayOf|custom)`
+type: `custom`
 
 
 ### `hasAction`
@@ -54,7 +54,7 @@ type: `string`
 type: `shape[object Object]`
 
 
-### `title` (required)
+### `title`
 
-type: `string`
+type: `custom`
 

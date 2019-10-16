@@ -13,7 +13,7 @@ Props
 type: `element`
 
 
-### `coverImage` (required)
+### `coverImage`
 
 type: `union(arrayOf|custom)`
 
