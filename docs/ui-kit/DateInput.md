@@ -23,6 +23,11 @@ type: `any`
 type: `string`
 
 
+### `maximumDate`
+
+type: `string`
+
+
 ### `onBlur`
 
 type: `func`
