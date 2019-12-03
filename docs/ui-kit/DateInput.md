@@ -25,7 +25,7 @@ type: `string`
 
 ### `maximumDate`
 
-type: `string`
+type: `any`
 
 
 ### `onBlur`
