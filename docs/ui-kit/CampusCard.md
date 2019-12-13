@@ -8,11 +8,6 @@ sidebar_label: CampusCard
 Props
 -----
 
-### `category`
-
-type: `string`
-
-
 ### `description`
 
 type: `union(string|node)`
@@ -25,7 +20,7 @@ type: `number`
 
 ### `images`
 
-type: `any`
+type: `union(arrayOf|custom)`
 
 
 ### `title` (required)
