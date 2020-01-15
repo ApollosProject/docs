@@ -19,6 +19,11 @@ defaultValue: `new Animated.Value(0)`
 type: `node`
 
 
+### `color`
+
+type: `string`
+
+
 ### `floatingOpacity`
 
 type: `number`
