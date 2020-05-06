@@ -18,6 +18,11 @@ type: `string`
 type: `custom`
 
 
+### `isLoading`
+
+type: `func`
+
+
 ### `label`
 
 type: `string`
