@@ -24,6 +24,11 @@ type: `number`
 defaultValue: `0.95`
 
 
+### `onPress`
+
+type: `func`
+
+
 ### `springConfig`
 
 type: `shape[object Object]`
