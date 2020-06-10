@@ -25,6 +25,7 @@
       "ui-kit/actionlistimage",
       "ui-kit/actionlistitem",
       "ui-kit/actionlistcard",
+      "ui-kit/avatarcloud",
       "ui-kit/avatarlist",
       "ui-kit/button",
       "ui-kit/buttonicon",
