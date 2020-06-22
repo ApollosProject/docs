@@ -8,6 +8,11 @@ sidebar_label: ActionList
 Props
 -----
 
+### `actionListButtonTitle`
+
+type: `string`
+
+
 ### `actions`
 
 type: `arrayOf[object Object]`
