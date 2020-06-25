@@ -18,6 +18,7 @@
       "ui-kit/actionbaritem",
       "ui-kit/actionbar",
       "ui-kit/actioncard",
+      "ui-kit/actionlistimage",
       "ui-kit/actionlistitem",
       "ui-kit/actionlist",
       "ui-kit/actionlistimage",
