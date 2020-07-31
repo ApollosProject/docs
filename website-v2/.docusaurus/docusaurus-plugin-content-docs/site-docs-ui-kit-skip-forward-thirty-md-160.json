@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/skipforwardthirty",
+  "id": "ui-kit/skipforwardthirty",
+  "isDocsHomePage": false,
+  "title": "`SkipForwardThirty` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/SkipForwardThirty.md",
+  "permalink": "/docs/ui-kit/skipforwardthirty",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "SkipForwardThirty",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`SkipBackThirty` (component)",
+    "permalink": "/docs/ui-kit/skipbackthirty"
+  },
+  "next": {
+    "title": "`SkipNext` (component)",
+    "permalink": "/docs/ui-kit/skipnext"
+  }
+}

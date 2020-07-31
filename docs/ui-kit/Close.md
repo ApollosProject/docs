@@ -1,6 +1,6 @@
 ---
 id: close
-title: `Close` (component)
+title: "`Close` (component)"
 sidebar_label: Close
 ---
 

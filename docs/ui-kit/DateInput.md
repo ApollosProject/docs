@@ -1,6 +1,6 @@
 ---
 id: dateinput
-title: `DateInput` (component)
+title: "`DateInput` (component)"
 sidebar_label: DateInput
 ---
 

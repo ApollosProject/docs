@@ -1,6 +1,6 @@
 ---
 id: feedview
-title: `FeedView` (component)
+title: "`FeedView` (component)"
 sidebar_label: FeedView
 ---
 

@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/tileimage",
+  "id": "ui-kit/tileimage",
+  "isDocsHomePage": false,
+  "title": "`TileImage` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/TileImage.md",
+  "permalink": "/docs/ui-kit/tileimage",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "TileImage",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`ThumbnailCard` (component)",
+    "permalink": "/docs/ui-kit/thumbnailcard"
+  },
+  "next": {
+    "title": "`Touchable` (component)",
+    "permalink": "/docs/ui-kit/touchable"
+  }
+}

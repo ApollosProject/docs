@@ -1,6 +1,6 @@
 ---
 id: audio
-title: `Audio` (component)
+title: "`Audio` (component)"
 sidebar_label: Audio
 ---
 

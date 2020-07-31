@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/livedot",
+  "id": "ui-kit/livedot",
+  "isDocsHomePage": false,
+  "title": "`LiveDot` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/LiveDot.md",
+  "permalink": "/docs/ui-kit/livedot",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "LiveDot",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`LikeSolid` (component)",
+    "permalink": "/docs/ui-kit/likesolid"
+  },
+  "next": {
+    "title": "`Locate` (component)",
+    "permalink": "/docs/ui-kit/locate"
+  }
+}

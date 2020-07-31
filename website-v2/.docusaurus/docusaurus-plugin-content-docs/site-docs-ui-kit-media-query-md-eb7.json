@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/mediaquery",
+  "id": "ui-kit/mediaquery",
+  "isDocsHomePage": false,
+  "title": "`MediaQuery` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/MediaQuery.md",
+  "permalink": "/docs/ui-kit/mediaquery",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "MediaQuery",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Icon` (component)",
+    "permalink": "/docs/ui-kit/icon"
+  },
+  "next": {
+    "title": "`MediaThumbnail` (component)",
+    "permalink": "/docs/ui-kit/mediathumbnail"
+  }
+}

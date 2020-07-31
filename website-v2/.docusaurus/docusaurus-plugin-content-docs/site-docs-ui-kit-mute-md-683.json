@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/mute",
+  "id": "ui-kit/mute",
+  "isDocsHomePage": false,
+  "title": "`Mute` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Mute.md",
+  "permalink": "/docs/ui-kit/mute",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Mute",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Lock` (component)",
+    "permalink": "/docs/ui-kit/lock"
+  },
+  "next": {
+    "title": "`Pause` (component)",
+    "permalink": "/docs/ui-kit/pause"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/radio",
+  "id": "ui-kit/radio",
+  "isDocsHomePage": false,
+  "title": "`Radio` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Radio.md",
+  "permalink": "/docs/ui-kit/radio",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Radio",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`index` (component)",
+    "permalink": "/docs/ui-kit/index"
+  },
+  "next": {
+    "title": "`RadioButton` (component)",
+    "permalink": "/docs/ui-kit/radiobutton"
+  }
+}

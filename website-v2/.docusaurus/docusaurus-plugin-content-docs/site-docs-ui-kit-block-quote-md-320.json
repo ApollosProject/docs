@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/blockquote",
+  "id": "ui-kit/blockquote",
+  "isDocsHomePage": false,
+  "title": "`BlockQuote` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/BlockQuote.md",
+  "permalink": "/docs/ui-kit/blockquote",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "BlockQuote",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Warning` (component)",
+    "permalink": "/docs/ui-kit/warning"
+  },
+  "next": {
+    "title": "`BulletListItem` (component)",
+    "permalink": "/docs/ui-kit/bulletlistitem"
+  }
+}

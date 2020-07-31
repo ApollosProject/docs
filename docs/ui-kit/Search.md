@@ -1,6 +1,6 @@
 ---
 id: search
-title: `Search` (component)
+title: "`Search` (component)"
 sidebar_label: Search
 ---
 

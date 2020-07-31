@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/plus",
+  "id": "ui-kit/plus",
+  "isDocsHomePage": false,
+  "title": "`Plus` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Plus.md",
+  "permalink": "/docs/ui-kit/plus",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Plus",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`PlaySolid` (component)",
+    "permalink": "/docs/ui-kit/playsolid"
+  },
+  "next": {
+    "title": "`Pray` (component)",
+    "permalink": "/docs/ui-kit/pray"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "unversionedId": "ui-kit/line",
+  "id": "ui-kit/line",
+  "isDocsHomePage": false,
+  "title": "`Line` (component)",
+  "source": "@site/../docs/ui-kit/Line.md",
+  "permalink": "/docs/ui-kit/line",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Line",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`OverlayBackgroundImage` (component)",
+    "permalink": "/docs/ui-kit/overlaybackgroundimage"
+  },
+  "next": {
+    "title": "`Media` (component)",
+    "permalink": "/docs/ui-kit/media"
+  }
+}

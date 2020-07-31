@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/defaultcard",
+  "id": "ui-kit/defaultcard",
+  "isDocsHomePage": false,
+  "title": "`DefaultCard` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/DefaultCard.md",
+  "permalink": "/docs/ui-kit/defaultcard",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "DefaultCard",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`ContentCard` (component)",
+    "permalink": "/docs/ui-kit/contentcard"
+  },
+  "next": {
+    "title": "`FeaturedCard` (component)",
+    "permalink": "/docs/ui-kit/featuredcard"
+  }
+}

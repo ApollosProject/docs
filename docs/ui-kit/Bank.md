@@ -1,6 +1,6 @@
 ---
 id: bank
-title: `Bank` (component)
+title: "`Bank` (component)"
 sidebar_label: Bank
 ---
 

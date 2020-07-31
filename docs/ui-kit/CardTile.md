@@ -1,6 +1,6 @@
 ---
 id: cardtile
-title: `CardTile` (component)
+title: "`CardTile` (component)"
 sidebar_label: CardTile
 ---
 

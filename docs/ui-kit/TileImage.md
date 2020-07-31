@@ -1,6 +1,6 @@
 ---
 id: tileimage
-title: `TileImage` (component)
+title: "`TileImage` (component)"
 sidebar_label: TileImage
 ---
 

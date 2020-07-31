@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/skipnext",
+  "id": "ui-kit/skipnext",
+  "isDocsHomePage": false,
+  "title": "`SkipNext` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/SkipNext.md",
+  "permalink": "/docs/ui-kit/skipnext",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "SkipNext",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`SkipForwardThirty` (component)",
+    "permalink": "/docs/ui-kit/skipforwardthirty"
+  },
+  "next": {
+    "title": "`SkipPrevious` (component)",
+    "permalink": "/docs/ui-kit/skipprevious"
+  }
+}

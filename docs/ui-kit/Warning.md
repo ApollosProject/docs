@@ -1,6 +1,6 @@
 ---
 id: warning
-title: `Warning` (component)
+title: "`Warning` (component)"
 sidebar_label: Warning
 ---
 

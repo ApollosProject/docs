@@ -1,6 +1,6 @@
 ---
 id: camera
-title: `Camera` (component)
+title: "`Camera` (component)"
 sidebar_label: Camera
 ---
 

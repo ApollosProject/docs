@@ -1,6 +1,6 @@
 ---
 id: index
-title: `index` (component)
+title: "`index` (component)"
 sidebar_label: Index
 ---
 

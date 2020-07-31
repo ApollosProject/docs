@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/featuredcard",
+  "id": "ui-kit/featuredcard",
+  "isDocsHomePage": false,
+  "title": "`FeaturedCard` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/FeaturedCard.md",
+  "permalink": "/docs/ui-kit/featuredcard",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "FeaturedCard",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`DefaultCard` (component)",
+    "permalink": "/docs/ui-kit/defaultcard"
+  },
+  "next": {
+    "title": "`FeedView` (component)",
+    "permalink": "/docs/ui-kit/feedview"
+  }
+}

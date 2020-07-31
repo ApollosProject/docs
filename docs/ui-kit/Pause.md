@@ -1,6 +1,6 @@
 ---
 id: pause
-title: `Pause` (component)
+title: "`Pause` (component)"
 sidebar_label: Pause
 ---
 

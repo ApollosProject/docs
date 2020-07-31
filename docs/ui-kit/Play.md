@@ -1,6 +1,6 @@
 ---
 id: play
-title: `Play` (component)
+title: "`Play` (component)"
 sidebar_label: Play
 ---
 

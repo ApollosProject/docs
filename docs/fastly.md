@@ -11,19 +11,19 @@ We've chosen to demonstrate and document Fastly because it's free up to $50 in t
 
 Step one is to create a new account at [fastly.com/signup](https://www.fastly.com/signup).
 
-![Sign Up](/docs/assets/fastly/signup.png)
+![Sign Up](/img/fastly/signup.png)
 
 After you confirm your email address, click "CREATE YOUR FIRST SERVICE".
 
-![Create your first service](/docs/assets/fastly/first-service.png)
+![Create your first service](/img/fastly/first-service.png)
 
 Add a any domain name you want in the format `<name>.global.ssl.fastly.net`. Just can't use anything dot seperated. Next, add the hostname of the server your API is hosted on. [See this doc](https://docs.fastly.com/guides/tls/setting-up-free-tls) for more details.
 
-![Service Details](/docs/assets/fastly/details.png)
+![Service Details](/img/fastly/details.png)
 
 Almost done with Fastly. Now just make sure you set "Override host" with your domain name from above and the Fallback TTL to 0. This will insure that unless specified, nothing will be cached.
 
-![Settings](/docs/assets/fastly/settings.png)
+![Settings](/img/fastly/settings.png)
 
 ## GraphQL
 
@@ -59,4 +59,4 @@ APP_DATA_URL=<YOUR_FASTLY_URL>
 
 You can get this URL by clicking "Test the domain" on your Fastly configuration page.
 
-![Fastly URL](/docs/assets/fastly/fastly_url.png)
+![Fastly URL](/img/fastly/fastly_url.png)

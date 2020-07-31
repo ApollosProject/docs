@@ -1,6 +1,6 @@
 ---
 id: touchablescale
-title: `TouchableScale` (component)
+title: "`TouchableScale` (component)"
 sidebar_label: TouchableScale
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: cardwrapper
-title: `CardWrapper` (component)
+title: "`CardWrapper` (component)"
 sidebar_label: CardWrapper
 ---
 

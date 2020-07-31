@@ -1,6 +1,6 @@
 ---
 id: featuredcard
-title: `FeaturedCard` (component)
+title: "`FeaturedCard` (component)"
 sidebar_label: FeaturedCard
 ---
 

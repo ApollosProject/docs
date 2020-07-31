@@ -1,6 +1,6 @@
 ---
 id: sections
-title: `Sections` (component)
+title: "`Sections` (component)"
 sidebar_label: Sections
 ---
 

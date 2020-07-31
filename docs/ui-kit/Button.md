@@ -1,6 +1,6 @@
 ---
 id: button
-title: `Button` (component)
+title: "`Button` (component)"
 sidebar_label: Button
 ---
 

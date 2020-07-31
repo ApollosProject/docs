@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/umbrella",
+  "id": "ui-kit/umbrella",
+  "isDocsHomePage": false,
+  "title": "`Umbrella` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Umbrella.md",
+  "permalink": "/docs/ui-kit/umbrella",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Umbrella",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Time` (component)",
+    "permalink": "/docs/ui-kit/time"
+  },
+  "next": {
+    "title": "`Video` (component)",
+    "permalink": "/docs/ui-kit/video"
+  }
+}

@@ -1,6 +1,6 @@
 ---
 id: home
-title: `Home` (component)
+title: "`Home` (component)"
 sidebar_label: Home
 ---
 

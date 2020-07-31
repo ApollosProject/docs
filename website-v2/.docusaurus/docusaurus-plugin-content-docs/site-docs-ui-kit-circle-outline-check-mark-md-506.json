@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/circleoutlinecheckmark",
+  "id": "ui-kit/circleoutlinecheckmark",
+  "isDocsHomePage": false,
+  "title": "`CircleOutlineCheckMark` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/CircleOutlineCheckMark.md",
+  "permalink": "/docs/ui-kit/circleoutlinecheckmark",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "CircleOutlineCheckMark",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Chromecast` (component)",
+    "permalink": "/docs/ui-kit/chromecast"
+  },
+  "next": {
+    "title": "`CircleOutlinePlus` (component)",
+    "permalink": "/docs/ui-kit/circleoutlineplus"
+  }
+}

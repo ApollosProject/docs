@@ -1,6 +1,6 @@
 ---
 id: checkboxchecked
-title: `CheckboxChecked` (component)
+title: "`CheckboxChecked` (component)"
 sidebar_label: CheckboxChecked
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: imageheader
-title: `ImageHeader` (component)
+title: "`ImageHeader` (component)"
 sidebar_label: ImageHeader
 ---
 

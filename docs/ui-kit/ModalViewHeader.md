@@ -1,6 +1,6 @@
 ---
 id: modalviewheader
-title: `ModalViewHeader` (component)
+title: "`ModalViewHeader` (component)"
 sidebar_label: ModalViewHeader
 ---
 

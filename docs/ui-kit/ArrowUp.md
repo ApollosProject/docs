@@ -1,6 +1,6 @@
 ---
 id: arrowup
-title: `ArrowUp` (component)
+title: "`ArrowUp` (component)"
 sidebar_label: ArrowUp
 ---
 

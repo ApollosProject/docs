@@ -1,0 +1,20 @@
+{
+  "unversionedId": "prayer",
+  "id": "prayer",
+  "isDocsHomePage": false,
+  "title": "Prayer",
+  "description": "🙏 Prayer on Apollos",
+  "source": "@site/../docs/prayer.md",
+  "permalink": "/docs/prayer",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar": "docs",
+  "previous": {
+    "title": "Implementing the Weekend Experience",
+    "permalink": "/docs/weekend-experience"
+  },
+  "next": {
+    "title": "OneSignal Push Notifications",
+    "permalink": "/docs/one-signal"
+  }
+}

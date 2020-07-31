@@ -1,6 +1,6 @@
 ---
 id: highlightcard
-title: `HighlightCard` (component)
+title: "`HighlightCard` (component)"
 sidebar_label: HighlightCard
 ---
 

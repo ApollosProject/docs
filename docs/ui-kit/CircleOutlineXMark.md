@@ -1,6 +1,6 @@
 ---
 id: circleoutlinexmark
-title: `CircleOutlineXMark` (component)
+title: "`CircleOutlineXMark` (component)"
 sidebar_label: CircleOutlineXMark
 ---
 

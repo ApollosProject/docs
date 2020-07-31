@@ -1,6 +1,6 @@
 ---
 id: contenttext
-title: `ContentText` (component)
+title: "`ContentText` (component)"
 sidebar_label: ContentText
 ---
 

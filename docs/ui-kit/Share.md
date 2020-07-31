@@ -1,6 +1,6 @@
 ---
 id: share
-title: `Share` (component)
+title: "`Share` (component)"
 sidebar_label: Share
 ---
 

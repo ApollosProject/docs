@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/avatar",
+  "id": "ui-kit/avatar",
+  "isDocsHomePage": false,
+  "title": "`Avatar` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Avatar.md",
+  "permalink": "/docs/ui-kit/avatar",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Avatar",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Audio` (component)",
+    "permalink": "/docs/ui-kit/audio"
+  },
+  "next": {
+    "title": "`Badge` (component)",
+    "permalink": "/docs/ui-kit/badge"
+  }
+}

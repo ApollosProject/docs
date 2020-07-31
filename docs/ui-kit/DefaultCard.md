@@ -1,6 +1,6 @@
 ---
 id: defaultcard
-title: `DefaultCard` (component)
+title: "`DefaultCard` (component)"
 sidebar_label: DefaultCard
 ---
 

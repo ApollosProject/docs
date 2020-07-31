@@ -1,6 +1,6 @@
 ---
 id: overlaybackgroundimage
-title: `OverlayBackgroundImage` (component)
+title: "`OverlayBackgroundImage` (component)"
 sidebar_label: OverlayBackgroundImage
 ---
 

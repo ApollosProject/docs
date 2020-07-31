@@ -1,6 +1,6 @@
 ---
 id: check
-title: `Check` (component)
+title: "`Check` (component)"
 sidebar_label: Check
 ---
 

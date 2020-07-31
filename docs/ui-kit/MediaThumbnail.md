@@ -1,6 +1,6 @@
 ---
 id: mediathumbnail
-title: `MediaThumbnail` (component)
+title: "`MediaThumbnail` (component)"
 sidebar_label: MediaThumbnail
 ---
 

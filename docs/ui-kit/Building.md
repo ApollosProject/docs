@@ -1,6 +1,6 @@
 ---
 id: building
-title: `Building` (component)
+title: "`Building` (component)"
 sidebar_label: Building
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: lock
-title: `Lock` (component)
+title: "`Lock` (component)"
 sidebar_label: Lock
 ---
 

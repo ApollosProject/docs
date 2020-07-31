@@ -1,6 +1,6 @@
 ---
 id: arrownext
-title: `ArrowNext` (component)
+title: "`ArrowNext` (component)"
 sidebar_label: ArrowNext
 ---
 

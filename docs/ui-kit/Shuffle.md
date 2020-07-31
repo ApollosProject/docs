@@ -1,6 +1,6 @@
 ---
 id: shuffle
-title: `Shuffle` (component)
+title: "`Shuffle` (component)"
 sidebar_label: Shuffle
 ---
 

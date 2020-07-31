@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/actioncard",
+  "id": "ui-kit/actioncard",
+  "isDocsHomePage": false,
+  "title": "`ActionCard` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/ActionCard.md",
+  "permalink": "/docs/ui-kit/actioncard",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "ActionCard",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`ActionBar` (component)",
+    "permalink": "/docs/ui-kit/actionbar"
+  },
+  "next": {
+    "title": "`ActionListImage` (component)",
+    "permalink": "/docs/ui-kit/actionlistimage"
+  }
+}

@@ -22,11 +22,11 @@ The Weekend experience is comprised of a number of different components that com
   - Right now only shows ContentItems.
   - Possible actions configured by “Action List Algorithms”
 
-<img src="/docs/assets/weekend-experience/image1.png" width="240"/> <img src="/docs/assets/weekend-experience/image9.png" width="240"/> <img src="/docs/assets/weekend-experience/image12.png" width="240"/> 
+<img src="/img/weekend-experience/image1.png" width="240"/> <img src="/img/weekend-experience/image9.png" width="240"/> <img src="/img/weekend-experience/image12.png" width="240"/>
 
 **Live Content Items.** Specific content items can now be displayed as “Live” when the live stream is playing. These content items will launch the livestream when the play button is tapped, rather than playing whatever media is attached to the Content Item.
 
-<img src="/docs/assets/weekend-experience/image3.png" width="240"/> 
+<img src="/img/weekend-experience/image3.png" width="240"/>
 
 ## Implementing New Components
 
@@ -34,27 +34,27 @@ The Weekend experience is comprised of a number of different components that com
 
 The text feature in core is controlled entirely by a `TextFeatures` field in Core. In order to get a text feature to show up on a content item, you must add a new Custom Attribute to the Content Item Channel that houses your “weekend” content items. To add the Attribute, start by visiting the CMS Configuration panel in Rock
 
-![alt_text](/docs/assets/weekend-experience/image6.png)
+![alt_text](/img/weekend-experience/image6.png)
 
 Visit the Content Channel Types
 
-![alt_text](/docs/assets/weekend-experience/image2.png)
+![alt_text](/img/weekend-experience/image2.png)
 
 Select the Content Channel you want to add Features support for. In our case, “Sermon”
 
-![alt_text](/docs/assets/weekend-experience/image7.png)
+![alt_text](/img/weekend-experience/image7.png)
 
 Open the “Item Attributes” panel, and select the Plus bottom at the lower right.
 
-![alt_text](/docs/assets/weekend-experience/image10.png)
+![alt_text](/img/weekend-experience/image10.png)
 
 Now define the properties for your custom item attribute. The name can be whatever you want, the Key should be “TextFeatures”. The type should be “Key Value List”.  Once you are done, hit save in this modal, and hit save on the Content Type detail screen.
 
-![alt_text](/docs/assets/weekend-experience/image8.png)
+![alt_text](/img/weekend-experience/image8.png)
 
 Now, it’s time to use your new custom attribute. On any sermon item (or whatever you added the Text Feature to) and add a new Key Value pair, and add your content to the “Value” field. The key field will be used in the future to support either custom ordering or as a header.
 
-![alt_text](/docs/assets/weekend-experience/image11.png)
+![alt_text](/img/weekend-experience/image11.png)
 
 ### Scripture Feature
 
@@ -63,7 +63,7 @@ The scripture feature can be added to a content item in entirely the same way as
 1. You have to give the attribute the key of ScriptureFeatures instead of TextFeatures
 2. You can enter multiple scripture references (John 3:16, Luke Matthew 5:3-6) instead of entering the text you want to see.
 
-![alt_text](/docs/assets/weekend-experience/image4.png)
+![alt_text](/img/weekend-experience/image4.png)
 
 ## ActionListFeature
 
@@ -83,5 +83,4 @@ Three algorithms are used by default in the home feed for core.
 
 The “live” status of Content Items are driven by two pieces of data. The logic is as follows, by default: If a sermon is live, and the content item is the **most recently active **content item, the item will show a live badge and open the livestream when tapped. The livestream `isLive` attribute is driven the same way as before. To configure what a “sermon” is, create a ContentChannel that all your sermons will be posted in, and then add the ID of that channel to your config.yml in the `ROCK_MAPPINGS.SERMON_CHANNEL_ID` field.
 
-![alt_text](/docs/assets/weekend-experience/image5.png)
-
+![alt_text](/img/weekend-experience/image5.png)

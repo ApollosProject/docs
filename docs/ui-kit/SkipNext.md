@@ -1,6 +1,6 @@
 ---
 id: skipnext
-title: `SkipNext` (component)
+title: "`SkipNext` (component)"
 sidebar_label: SkipNext
 ---
 

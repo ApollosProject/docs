@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/badge",
+  "id": "ui-kit/badge",
+  "isDocsHomePage": false,
+  "title": "`Badge` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Badge.md",
+  "permalink": "/docs/ui-kit/badge",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Badge",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Avatar` (component)",
+    "permalink": "/docs/ui-kit/avatar"
+  },
+  "next": {
+    "title": "`Bank` (component)",
+    "permalink": "/docs/ui-kit/bank"
+  }
+}

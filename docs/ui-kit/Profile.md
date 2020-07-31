@@ -1,6 +1,6 @@
 ---
 id: profile
-title: `Profile` (component)
+title: "`Profile` (component)"
 sidebar_label: Profile
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: channellabel
-title: `ChannelLabel` (component)
+title: "`ChannelLabel` (component)"
 sidebar_label: ChannelLabel
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: thumbnailcard
-title: `ThumbnailCard` (component)
+title: "`ThumbnailCard` (component)"
 sidebar_label: ThumbnailCard
 ---
 

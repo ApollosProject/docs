@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/horizontalhighlightcard",
+  "id": "ui-kit/horizontalhighlightcard",
+  "isDocsHomePage": false,
+  "title": "`HorizontalHighlightCard` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/HorizontalHighlightCard.md",
+  "permalink": "/docs/ui-kit/horizontalhighlightcard",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "HorizontalHighlightCard",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`HorizontalDefaultCard` (component)",
+    "permalink": "/docs/ui-kit/horizontaldefaultcard"
+  },
+  "next": {
+    "title": "`Icon` (component)",
+    "permalink": "/docs/ui-kit/icon"
+  }
+}

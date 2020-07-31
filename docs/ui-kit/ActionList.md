@@ -1,6 +1,6 @@
 ---
 id: actionlist
-title: `ActionList` (component)
+title: "`ActionList` (component)"
 sidebar_label: ActionList
 ---
 

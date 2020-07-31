@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/cardtile",
+  "id": "ui-kit/cardtile",
+  "isDocsHomePage": false,
+  "title": "`CardTile` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/CardTile.md",
+  "permalink": "/docs/ui-kit/cardtile",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "CardTile",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Label` (component)",
+    "permalink": "/docs/ui-kit/label"
+  },
+  "next": {
+    "title": "`ChannelLabel` (component)",
+    "permalink": "/docs/ui-kit/channellabel"
+  }
+}

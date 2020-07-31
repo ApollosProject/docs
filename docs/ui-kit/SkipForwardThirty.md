@@ -1,6 +1,6 @@
 ---
 id: skipforwardthirty
-title: `SkipForwardThirty` (component)
+title: "`SkipForwardThirty` (component)"
 sidebar_label: SkipForwardThirty
 ---
 

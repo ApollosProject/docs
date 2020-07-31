@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/fullscreen",
+  "id": "ui-kit/fullscreen",
+  "isDocsHomePage": false,
+  "title": "`Fullscreen` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Fullscreen.md",
+  "permalink": "/docs/ui-kit/fullscreen",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Fullscreen",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Filter` (component)",
+    "permalink": "/docs/ui-kit/filter"
+  },
+  "next": {
+    "title": "`Groups` (component)",
+    "permalink": "/docs/ui-kit/groups"
+  }
+}

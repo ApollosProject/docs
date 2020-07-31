@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/actionbar",
+  "id": "ui-kit/actionbar",
+  "isDocsHomePage": false,
+  "title": "`ActionBar` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/ActionBar.md",
+  "permalink": "/docs/ui-kit/actionbar",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "ActionBar",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`ActionBarItem` (component)",
+    "permalink": "/docs/ui-kit/actionbaritem"
+  },
+  "next": {
+    "title": "`ActionCard` (component)",
+    "permalink": "/docs/ui-kit/actioncard"
+  }
+}

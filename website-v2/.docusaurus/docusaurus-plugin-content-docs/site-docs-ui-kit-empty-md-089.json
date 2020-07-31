@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/empty",
+  "id": "ui-kit/empty",
+  "isDocsHomePage": false,
+  "title": "`Empty` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Empty.md",
+  "permalink": "/docs/ui-kit/empty",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Empty",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Dropdown` (component)",
+    "permalink": "/docs/ui-kit/dropdown"
+  },
+  "next": {
+    "title": "`Failed` (component)",
+    "permalink": "/docs/ui-kit/failed"
+  }
+}

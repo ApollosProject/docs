@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/feedview",
+  "id": "ui-kit/feedview",
+  "isDocsHomePage": false,
+  "title": "`FeedView` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/FeedView.md",
+  "permalink": "/docs/ui-kit/feedview",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "FeedView",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`FeaturedCard` (component)",
+    "permalink": "/docs/ui-kit/featuredcard"
+  },
+  "next": {
+    "title": "`GradientOverlayImage` (component)",
+    "permalink": "/docs/ui-kit/gradientoverlayimage"
+  }
+}

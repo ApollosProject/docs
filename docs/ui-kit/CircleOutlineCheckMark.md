@@ -1,6 +1,6 @@
 ---
 id: circleoutlinecheckmark
-title: `CircleOutlineCheckMark` (component)
+title: "`CircleOutlineCheckMark` (component)"
 sidebar_label: CircleOutlineCheckMark
 ---
 

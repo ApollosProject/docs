@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/buttonicon",
+  "id": "ui-kit/buttonicon",
+  "isDocsHomePage": false,
+  "title": "`ButtonIcon` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/ButtonIcon.md",
+  "permalink": "/docs/ui-kit/buttonicon",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "ButtonIcon",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Button` (component)",
+    "permalink": "/docs/ui-kit/button"
+  },
+  "next": {
+    "title": "`CampusCard` (component)",
+    "permalink": "/docs/ui-kit/campuscard"
+  }
+}

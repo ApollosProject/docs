@@ -1,6 +1,6 @@
 ---
 id: floatinglabel
-title: `FloatingLabel` (component)
+title: "`FloatingLabel` (component)"
 sidebar_label: FloatingLabel
 ---
 

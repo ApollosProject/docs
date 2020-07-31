@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/progressiveimage",
+  "id": "ui-kit/progressiveimage",
+  "isDocsHomePage": false,
+  "title": "`ProgressiveImage` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/ProgressiveImage.md",
+  "permalink": "/docs/ui-kit/progressiveimage",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "ProgressiveImage",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Media` (component)",
+    "permalink": "/docs/ui-kit/media"
+  },
+  "next": {
+    "title": "`Stretchy` (component)",
+    "permalink": "/docs/ui-kit/stretchy"
+  }
+}

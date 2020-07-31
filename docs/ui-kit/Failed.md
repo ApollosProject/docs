@@ -1,6 +1,6 @@
 ---
 id: failed
-title: `Failed` (component)
+title: "`Failed` (component)"
 sidebar_label: Failed
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: contentcard
-title: `ContentCard` (component)
+title: "`ContentCard` (component)"
 sidebar_label: ContentCard
 ---
 

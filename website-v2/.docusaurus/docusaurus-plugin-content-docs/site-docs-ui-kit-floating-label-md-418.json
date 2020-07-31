@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/floatinglabel",
+  "id": "ui-kit/floatinglabel",
+  "isDocsHomePage": false,
+  "title": "`FloatingLabel` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/FloatingLabel.md",
+  "permalink": "/docs/ui-kit/floatinglabel",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "FloatingLabel",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`DateInput` (component)",
+    "permalink": "/docs/ui-kit/dateinput"
+  },
+  "next": {
+    "title": "`InputUnderline` (component)",
+    "permalink": "/docs/ui-kit/inputunderline"
+  }
+}

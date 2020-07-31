@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/highlightcard",
+  "id": "ui-kit/highlightcard",
+  "isDocsHomePage": false,
+  "title": "`HighlightCard` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/HighlightCard.md",
+  "permalink": "/docs/ui-kit/highlightcard",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "HighlightCard",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`GradientOverlayImage` (component)",
+    "permalink": "/docs/ui-kit/gradientoverlayimage"
+  },
+  "next": {
+    "title": "`HorizontalDefaultCard` (component)",
+    "permalink": "/docs/ui-kit/horizontaldefaultcard"
+  }
+}

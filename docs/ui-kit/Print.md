@@ -1,6 +1,6 @@
 ---
 id: print
-title: `Print` (component)
+title: "`Print` (component)"
 sidebar_label: Print
 ---
 

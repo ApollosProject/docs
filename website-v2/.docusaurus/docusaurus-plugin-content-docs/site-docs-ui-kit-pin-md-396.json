@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/pin",
+  "id": "ui-kit/pin",
+  "isDocsHomePage": false,
+  "title": "`Pin` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Pin.md",
+  "permalink": "/docs/ui-kit/pin",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Pin",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Pause` (component)",
+    "permalink": "/docs/ui-kit/pause"
+  },
+  "next": {
+    "title": "`Play` (component)",
+    "permalink": "/docs/ui-kit/play"
+  }
+}

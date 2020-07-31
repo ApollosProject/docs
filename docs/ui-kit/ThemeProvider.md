@@ -1,6 +1,6 @@
 ---
 id: themeprovider
-title: `ThemeProvider` (component)
+title: "`ThemeProvider` (component)"
 sidebar_label: ThemeProvider
 ---
 

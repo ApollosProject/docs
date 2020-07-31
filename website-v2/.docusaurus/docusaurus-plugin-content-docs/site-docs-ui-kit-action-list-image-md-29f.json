@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/actionlistimage",
+  "id": "ui-kit/actionlistimage",
+  "isDocsHomePage": false,
+  "title": "`ActionListImage` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/ActionListImage.md",
+  "permalink": "/docs/ui-kit/actionlistimage",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "ActionListImage",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`ActionList` (component)",
+    "permalink": "/docs/ui-kit/actionlist"
+  },
+  "next": {
+    "title": "`ActionListItem` (component)",
+    "permalink": "/docs/ui-kit/actionlistitem"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/actionbaritem",
+  "id": "ui-kit/actionbaritem",
+  "isDocsHomePage": false,
+  "title": "`ActionBarItem` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/ActionBarItem.md",
+  "permalink": "/docs/ui-kit/actionbaritem",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "ActionBarItem",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Content Personalization",
+    "permalink": "/docs/content-personalization"
+  },
+  "next": {
+    "title": "`ActionBar` (component)",
+    "permalink": "/docs/ui-kit/actionbar"
+  }
+}

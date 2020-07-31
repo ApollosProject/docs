@@ -1,6 +1,6 @@
 ---
 id: mediaquery
-title: `MediaQuery` (component)
+title: "`MediaQuery` (component)"
 sidebar_label: MediaQuery
 ---
 

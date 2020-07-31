@@ -1,6 +1,6 @@
 ---
 id: errorcard
-title: `ErrorCard` (component)
+title: "`ErrorCard` (component)"
 sidebar_label: ErrorCard
 ---
 

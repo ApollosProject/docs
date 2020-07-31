@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/inputunderline",
+  "id": "ui-kit/inputunderline",
+  "isDocsHomePage": false,
+  "title": "`InputUnderline` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/InputUnderline.md",
+  "permalink": "/docs/ui-kit/inputunderline",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "InputUnderline",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`FloatingLabel` (component)",
+    "permalink": "/docs/ui-kit/floatinglabel"
+  },
+  "next": {
+    "title": "`PickerList` (component)",
+    "permalink": "/docs/ui-kit/pickerlist"
+  }
+}

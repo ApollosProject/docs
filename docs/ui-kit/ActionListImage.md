@@ -1,6 +1,6 @@
 ---
 id: actionlistimage
-title: `ActionListImage` (component)
+title: "`ActionListImage` (component)"
 sidebar_label: ActionListImage
 ---
 

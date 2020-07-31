@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/settings",
+  "id": "ui-kit/settings",
+  "isDocsHomePage": false,
+  "title": "`Settings` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Settings.md",
+  "permalink": "/docs/ui-kit/settings",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Settings",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Sections` (component)",
+    "permalink": "/docs/ui-kit/sections"
+  },
+  "next": {
+    "title": "`Share` (component)",
+    "permalink": "/docs/ui-kit/share"
+  }
+}

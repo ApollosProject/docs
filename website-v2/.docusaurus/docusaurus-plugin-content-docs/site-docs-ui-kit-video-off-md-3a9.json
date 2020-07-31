@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/videooff",
+  "id": "ui-kit/videooff",
+  "isDocsHomePage": false,
+  "title": "`VideoOff` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/VideoOff.md",
+  "permalink": "/docs/ui-kit/videooff",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "VideoOff",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Video` (component)",
+    "permalink": "/docs/ui-kit/video"
+  },
+  "next": {
+    "title": "`Volume` (component)",
+    "permalink": "/docs/ui-kit/volume"
+  }
+}

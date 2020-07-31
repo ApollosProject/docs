@@ -1,6 +1,6 @@
 ---
 id: horizontalhighlightcard
-title: `HorizontalHighlightCard` (component)
+title: "`HorizontalHighlightCard` (component)"
 sidebar_label: HorizontalHighlightCard
 ---
 

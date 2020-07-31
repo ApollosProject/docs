@@ -1,6 +1,6 @@
 ---
 id: cardfooter
-title: `CardFooter` (component)
+title: "`CardFooter` (component)"
 sidebar_label: CardFooter
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: playopaque
-title: `PlayOpaque` (component)
+title: "`PlayOpaque` (component)"
 sidebar_label: PlayOpaque
 ---
 

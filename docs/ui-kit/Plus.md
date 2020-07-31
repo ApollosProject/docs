@@ -1,6 +1,6 @@
 ---
 id: plus
-title: `Plus` (component)
+title: "`Plus` (component)"
 sidebar_label: Plus
 ---
 

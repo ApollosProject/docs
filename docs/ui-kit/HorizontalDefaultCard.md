@@ -1,6 +1,6 @@
 ---
 id: horizontaldefaultcard
-title: `HorizontalDefaultCard` (component)
+title: "`HorizontalDefaultCard` (component)"
 sidebar_label: HorizontalDefaultCard
 ---
 

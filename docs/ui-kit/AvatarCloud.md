@@ -1,6 +1,6 @@
 ---
 id: avatarcloud
-title: `AvatarCloud` (component)
+title: "`AvatarCloud` (component)"
 sidebar_label: AvatarCloud
 ---
 

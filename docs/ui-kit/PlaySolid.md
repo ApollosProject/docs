@@ -1,6 +1,6 @@
 ---
 id: playsolid
-title: `PlaySolid` (component)
+title: "`PlaySolid` (component)"
 sidebar_label: PlaySolid
 ---
 

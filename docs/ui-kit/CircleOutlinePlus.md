@@ -1,6 +1,6 @@
 ---
 id: circleoutlineplus
-title: `CircleOutlinePlus` (component)
+title: "`CircleOutlinePlus` (component)"
 sidebar_label: CircleOutlinePlus
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: stretchy
-title: `Stretchy` (component)
+title: "`Stretchy` (component)"
 sidebar_label: Stretchy
 ---
 

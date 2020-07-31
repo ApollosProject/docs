@@ -1,0 +1,20 @@
+{
+  "unversionedId": "ui-kit/modalview",
+  "id": "ui-kit/modalview",
+  "isDocsHomePage": false,
+  "title": "`ModalView` (component)",
+  "source": "@site/../docs/ui-kit/ModalView.md",
+  "permalink": "/docs/ui-kit/modalview",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "ModalView",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`ModalViewHeader` (component)",
+    "permalink": "/docs/ui-kit/modalviewheader"
+  },
+  "next": {
+    "title": "`OverlayBackgroundImage` (component)",
+    "permalink": "/docs/ui-kit/overlaybackgroundimage"
+  }
+}

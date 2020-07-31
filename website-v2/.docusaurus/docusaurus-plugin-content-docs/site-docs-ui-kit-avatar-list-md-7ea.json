@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/avatarlist",
+  "id": "ui-kit/avatarlist",
+  "isDocsHomePage": false,
+  "title": "`AvatarList` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/AvatarList.md",
+  "permalink": "/docs/ui-kit/avatarlist",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "AvatarList",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`TouchableAvatar` (component)",
+    "permalink": "/docs/ui-kit/touchableavatar"
+  },
+  "next": {
+    "title": "`BackgroundImageBlur` (component)",
+    "permalink": "/docs/ui-kit/backgroundimageblur"
+  }
+}

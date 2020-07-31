@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/repeatall",
+  "id": "ui-kit/repeatall",
+  "isDocsHomePage": false,
+  "title": "`RepeatAll` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/RepeatAll.md",
+  "permalink": "/docs/ui-kit/repeatall",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "RepeatAll",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Repeat` (component)",
+    "permalink": "/docs/ui-kit/repeat"
+  },
+  "next": {
+    "title": "`RepeatOne` (component)",
+    "permalink": "/docs/ui-kit/repeatone"
+  }
+}

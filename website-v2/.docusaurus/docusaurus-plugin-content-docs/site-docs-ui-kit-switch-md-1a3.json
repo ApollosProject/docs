@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/switch",
+  "id": "ui-kit/switch",
+  "isDocsHomePage": false,
+  "title": "`Switch` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Switch.md",
+  "permalink": "/docs/ui-kit/switch",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Switch",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Search` (component)",
+    "permalink": "/docs/ui-kit/search"
+  },
+  "next": {
+    "title": "`Text` (component)",
+    "permalink": "/docs/ui-kit/text"
+  }
+}

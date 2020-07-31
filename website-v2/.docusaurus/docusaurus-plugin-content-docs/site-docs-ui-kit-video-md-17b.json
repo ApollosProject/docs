@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/video",
+  "id": "ui-kit/video",
+  "isDocsHomePage": false,
+  "title": "`Video` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Video.md",
+  "permalink": "/docs/ui-kit/video",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Video",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Umbrella` (component)",
+    "permalink": "/docs/ui-kit/umbrella"
+  },
+  "next": {
+    "title": "`VideoOff` (component)",
+    "permalink": "/docs/ui-kit/videooff"
+  }
+}

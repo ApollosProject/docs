@@ -1,0 +1,11 @@
+{
+  "unversionedId": "doc2",
+  "id": "doc2",
+  "isDocsHomePage": false,
+  "title": "document number 2",
+  "description": "This is a link to another document.",
+  "source": "@site/../docs/doc2.md",
+  "permalink": "/docs/doc2",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055
+}

@@ -1,6 +1,6 @@
 ---
 id: indicator
-title: `Indicator` (component)
+title: "`Indicator` (component)"
 sidebar_label: Indicator
 ---
 

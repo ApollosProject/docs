@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/sections",
+  "id": "ui-kit/sections",
+  "isDocsHomePage": false,
+  "title": "`Sections` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Sections.md",
+  "permalink": "/docs/ui-kit/sections",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Sections",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Search` (component)",
+    "permalink": "/docs/ui-kit/search"
+  },
+  "next": {
+    "title": "`Settings` (component)",
+    "permalink": "/docs/ui-kit/settings"
+  }
+}

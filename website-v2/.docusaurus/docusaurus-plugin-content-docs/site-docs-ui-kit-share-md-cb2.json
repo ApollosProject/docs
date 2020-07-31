@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/share",
+  "id": "ui-kit/share",
+  "isDocsHomePage": false,
+  "title": "`Share` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Share.md",
+  "permalink": "/docs/ui-kit/share",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Share",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Settings` (component)",
+    "permalink": "/docs/ui-kit/settings"
+  },
+  "next": {
+    "title": "`Shuffle` (component)",
+    "permalink": "/docs/ui-kit/shuffle"
+  }
+}

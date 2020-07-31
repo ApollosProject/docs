@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/pickerlist",
+  "id": "ui-kit/pickerlist",
+  "isDocsHomePage": false,
+  "title": "`PickerList` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/PickerList.md",
+  "permalink": "/docs/ui-kit/pickerlist",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "PickerList",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`InputUnderline` (component)",
+    "permalink": "/docs/ui-kit/inputunderline"
+  },
+  "next": {
+    "title": "`index` (component)",
+    "permalink": "/docs/ui-kit/index"
+  }
+}

@@ -1,6 +1,6 @@
 ---
 id: campuscard
-title: `CampusCard` (component)
+title: "`CampusCard` (component)"
 sidebar_label: CampusCard
 ---
 

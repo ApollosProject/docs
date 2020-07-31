@@ -1,0 +1,16 @@
+{
+  "unversionedId": "install",
+  "id": "install",
+  "isDocsHomePage": true,
+  "title": "Installation",
+  "description": "We're glad you've decided to check out this project. Our intention is that it's a blessing to you and your church.",
+  "source": "@site/../docs/install.md",
+  "permalink": "/docs/",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar": "docs",
+  "next": {
+    "title": "Contributing to the Apollos Project",
+    "permalink": "/docs/contributing"
+  }
+}

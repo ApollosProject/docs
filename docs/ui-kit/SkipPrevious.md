@@ -1,6 +1,6 @@
 ---
 id: skipprevious
-title: `SkipPrevious` (component)
+title: "`SkipPrevious` (component)"
 sidebar_label: SkipPrevious
 ---
 

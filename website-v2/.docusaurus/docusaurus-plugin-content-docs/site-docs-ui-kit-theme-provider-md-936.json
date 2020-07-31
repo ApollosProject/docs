@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/themeprovider",
+  "id": "ui-kit/themeprovider",
+  "isDocsHomePage": false,
+  "title": "`ThemeProvider` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/ThemeProvider.md",
+  "permalink": "/docs/ui-kit/themeprovider",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "ThemeProvider",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Text` (component)",
+    "permalink": "/docs/ui-kit/text"
+  },
+  "next": {
+    "title": "`ArrowBack` (component)",
+    "permalink": "/docs/ui-kit/arrowback"
+  }
+}

@@ -1,6 +1,6 @@
 ---
 id: filter
-title: `Filter` (component)
+title: "`Filter` (component)"
 sidebar_label: Filter
 ---
 

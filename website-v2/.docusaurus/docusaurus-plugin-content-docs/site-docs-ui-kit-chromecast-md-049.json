@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/chromecast",
+  "id": "ui-kit/chromecast",
+  "isDocsHomePage": false,
+  "title": "`Chromecast` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Chromecast.md",
+  "permalink": "/docs/ui-kit/chromecast",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Chromecast",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`CheckboxUnchecked` (component)",
+    "permalink": "/docs/ui-kit/checkboxunchecked"
+  },
+  "next": {
+    "title": "`CircleOutlineCheckMark` (component)",
+    "permalink": "/docs/ui-kit/circleoutlinecheckmark"
+  }
+}

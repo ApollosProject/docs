@@ -1,6 +1,6 @@
 ---
 id: connectedimage
-title: `ConnectedImage` (component)
+title: "`ConnectedImage` (component)"
 sidebar_label: ConnectedImage
 ---
 

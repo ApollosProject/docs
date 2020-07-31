@@ -1,6 +1,6 @@
 ---
 id: backgroundimageblur
-title: `BackgroundImageBlur` (component)
+title: "`BackgroundImageBlur` (component)"
 sidebar_label: BackgroundImageBlur
 ---
 

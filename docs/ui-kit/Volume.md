@@ -1,6 +1,6 @@
 ---
 id: volume
-title: `Volume` (component)
+title: "`Volume` (component)"
 sidebar_label: Volume
 ---
 

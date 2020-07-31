@@ -1,6 +1,6 @@
 ---
 id: cell
-title: `Cell` (component)
+title: "`Cell` (component)"
 sidebar_label: Cell
 ---
 

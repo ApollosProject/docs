@@ -1,0 +1,11 @@
+{
+  "unversionedId": "icons-and-splash",
+  "id": "icons-and-splash",
+  "isDocsHomePage": false,
+  "title": "Icons and Splash Screens",
+  "description": "This will describe how to load your custom icons and splash screens.",
+  "source": "@site/../docs/icons-and-splash.md",
+  "permalink": "/docs/icons-and-splash",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055
+}

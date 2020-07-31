@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/avatarcloud",
+  "id": "ui-kit/avatarcloud",
+  "isDocsHomePage": false,
+  "title": "`AvatarCloud` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/AvatarCloud.md",
+  "permalink": "/docs/ui-kit/avatarcloud",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "AvatarCloud",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Avatar` (component)",
+    "permalink": "/docs/ui-kit/avatar"
+  },
+  "next": {
+    "title": "`TouchableAvatar` (component)",
+    "permalink": "/docs/ui-kit/touchableavatar"
+  }
+}

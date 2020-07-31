@@ -1,0 +1,20 @@
+{
+  "unversionedId": "ui-kit/cardfooter",
+  "id": "ui-kit/cardfooter",
+  "isDocsHomePage": false,
+  "title": "`CardFooter` (component)",
+  "source": "@site/../docs/ui-kit/CardFooter.md",
+  "permalink": "/docs/ui-kit/cardfooter",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "CardFooter",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`ConnectedImage` (component)",
+    "permalink": "/docs/ui-kit/connectedimage"
+  },
+  "next": {
+    "title": "`ContentText` (component)",
+    "permalink": "/docs/ui-kit/contenttext"
+  }
+}

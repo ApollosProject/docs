@@ -1,6 +1,6 @@
 ---
 id: chromecast
-title: `Chromecast` (component)
+title: "`Chromecast` (component)"
 sidebar_label: Chromecast
 ---
 

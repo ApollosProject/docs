@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/index",
+  "id": "ui-kit/index",
+  "isDocsHomePage": false,
+  "title": "`index` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/index.md",
+  "permalink": "/docs/ui-kit/index",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Index",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`PickerList` (component)",
+    "permalink": "/docs/ui-kit/pickerlist"
+  },
+  "next": {
+    "title": "`Radio` (component)",
+    "permalink": "/docs/ui-kit/radio"
+  }
+}

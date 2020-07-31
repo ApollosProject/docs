@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/touchablescale",
+  "id": "ui-kit/touchablescale",
+  "isDocsHomePage": false,
+  "title": "`TouchableScale` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/TouchableScale.md",
+  "permalink": "/docs/ui-kit/touchablescale",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "TouchableScale",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Touchable` (component)",
+    "permalink": "/docs/ui-kit/touchable"
+  },
+  "next": {
+    "title": "`DateInput` (component)",
+    "permalink": "/docs/ui-kit/dateinput"
+  }
+}

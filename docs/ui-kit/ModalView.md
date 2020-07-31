@@ -1,6 +1,6 @@
 ---
 id: modalview
-title: `ModalView` (component)
+title: "`ModalView` (component)"
 sidebar_label: ModalView
 ---
 

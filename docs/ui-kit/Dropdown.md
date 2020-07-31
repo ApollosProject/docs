@@ -1,6 +1,6 @@
 ---
 id: dropdown
-title: `Dropdown` (component)
+title: "`Dropdown` (component)"
 sidebar_label: Dropdown
 ---
 

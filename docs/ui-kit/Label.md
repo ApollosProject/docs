@@ -1,6 +1,6 @@
 ---
 id: label
-title: `Label` (component)
+title: "`Label` (component)"
 sidebar_label: Label
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: blockquote
-title: `BlockQuote` (component)
+title: "`BlockQuote` (component)"
 sidebar_label: BlockQuote
 ---
 

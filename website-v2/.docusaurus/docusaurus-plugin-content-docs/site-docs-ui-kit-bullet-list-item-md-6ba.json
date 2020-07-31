@@ -1,0 +1,17 @@
+{
+  "unversionedId": "ui-kit/bulletlistitem",
+  "id": "ui-kit/bulletlistitem",
+  "isDocsHomePage": false,
+  "title": "`BulletListItem` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/BulletListItem.md",
+  "permalink": "/docs/ui-kit/bulletlistitem",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "BulletListItem",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`BlockQuote` (component)",
+    "permalink": "/docs/ui-kit/blockquote"
+  }
+}

@@ -1,6 +1,6 @@
 ---
 id: like
-title: `Like` (component)
+title: "`Like` (component)"
 sidebar_label: Like
 ---
 

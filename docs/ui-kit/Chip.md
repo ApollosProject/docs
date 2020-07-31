@@ -1,6 +1,6 @@
 ---
 id: chip
-title: `Chip` (component)
+title: "`Chip` (component)"
 sidebar_label: Chip
 ---
 

@@ -1,0 +1,904 @@
+{
+  "docsSidebars": {
+    "docs": [
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Getting Started",
+        "items": [
+          {
+            "type": "link",
+            "label": "Installation",
+            "href": "/docs/"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Guides",
+        "items": [
+          {
+            "type": "link",
+            "label": "Contributing",
+            "href": "/docs/contributing"
+          },
+          {
+            "type": "link",
+            "label": "Setting Up Fastly CDN",
+            "href": "/docs/fastly"
+          },
+          {
+            "type": "link",
+            "label": "Apple PassKit",
+            "href": "/docs/passkit"
+          },
+          {
+            "type": "link",
+            "label": "Implementing the Weekend Experience",
+            "href": "/docs/weekend-experience"
+          },
+          {
+            "type": "link",
+            "label": "Prayer",
+            "href": "/docs/prayer"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Rock Integration",
+        "items": [
+          {
+            "type": "link",
+            "label": "OneSignal Push Notifications",
+            "href": "/docs/one-signal"
+          },
+          {
+            "type": "link",
+            "label": "Content Personalization",
+            "href": "/docs/content-personalization"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "UI-Kit",
+        "items": [
+          {
+            "type": "link",
+            "label": "ActionBarItem",
+            "href": "/docs/ui-kit/actionbaritem"
+          },
+          {
+            "type": "link",
+            "label": "ActionBar",
+            "href": "/docs/ui-kit/actionbar"
+          },
+          {
+            "type": "link",
+            "label": "ActionCard",
+            "href": "/docs/ui-kit/actioncard"
+          },
+          {
+            "type": "link",
+            "label": "ActionListImage",
+            "href": "/docs/ui-kit/actionlistimage"
+          },
+          {
+            "type": "link",
+            "label": "ActionListItem",
+            "href": "/docs/ui-kit/actionlistitem"
+          },
+          {
+            "type": "link",
+            "label": "ActionList",
+            "href": "/docs/ui-kit/actionlist"
+          },
+          {
+            "type": "link",
+            "label": "ActionListImage",
+            "href": "/docs/ui-kit/actionlistimage"
+          },
+          {
+            "type": "link",
+            "label": "ActionListItem",
+            "href": "/docs/ui-kit/actionlistitem"
+          },
+          {
+            "type": "link",
+            "label": "ActionListCard",
+            "href": "/docs/ui-kit/actionlistcard"
+          },
+          {
+            "type": "link",
+            "label": "Avatar",
+            "href": "/docs/ui-kit/avatar"
+          },
+          {
+            "type": "link",
+            "label": "AvatarCloud",
+            "href": "/docs/ui-kit/avatarcloud"
+          },
+          {
+            "type": "link",
+            "label": "TouchableAvatar",
+            "href": "/docs/ui-kit/touchableavatar"
+          },
+          {
+            "type": "link",
+            "label": "TouchableAvatar",
+            "href": "/docs/ui-kit/touchableavatar"
+          },
+          {
+            "type": "link",
+            "label": "AvatarList",
+            "href": "/docs/ui-kit/avatarlist"
+          },
+          {
+            "type": "link",
+            "label": "BackgroundImageBlur",
+            "href": "/docs/ui-kit/backgroundimageblur"
+          },
+          {
+            "type": "link",
+            "label": "Button",
+            "href": "/docs/ui-kit/button"
+          },
+          {
+            "type": "link",
+            "label": "ButtonIcon",
+            "href": "/docs/ui-kit/buttonicon"
+          },
+          {
+            "type": "link",
+            "label": "CampusCard",
+            "href": "/docs/ui-kit/campuscard"
+          },
+          {
+            "type": "link",
+            "label": "CardWrapper",
+            "href": "/docs/ui-kit/cardwrapper"
+          },
+          {
+            "type": "link",
+            "label": "ErrorCard",
+            "href": "/docs/ui-kit/errorcard"
+          },
+          {
+            "type": "link",
+            "label": "Label",
+            "href": "/docs/ui-kit/label"
+          },
+          {
+            "type": "link",
+            "label": "CardTile",
+            "href": "/docs/ui-kit/cardtile"
+          },
+          {
+            "type": "link",
+            "label": "ChannelLabel",
+            "href": "/docs/ui-kit/channellabel"
+          },
+          {
+            "type": "link",
+            "label": "Chip",
+            "href": "/docs/ui-kit/chip"
+          },
+          {
+            "type": "link",
+            "label": "ConnectedImage",
+            "href": "/docs/ui-kit/connectedimage"
+          },
+          {
+            "type": "link",
+            "label": "CardFooter",
+            "href": "/docs/ui-kit/cardfooter"
+          },
+          {
+            "type": "link",
+            "label": "ContentText",
+            "href": "/docs/ui-kit/contenttext"
+          },
+          {
+            "type": "link",
+            "label": "ImageHeader",
+            "href": "/docs/ui-kit/imageheader"
+          },
+          {
+            "type": "link",
+            "label": "Metrics",
+            "href": "/docs/ui-kit/metrics"
+          },
+          {
+            "type": "link",
+            "label": "TextHeader",
+            "href": "/docs/ui-kit/textheader"
+          },
+          {
+            "type": "link",
+            "label": "ContentCard",
+            "href": "/docs/ui-kit/contentcard"
+          },
+          {
+            "type": "link",
+            "label": "DefaultCard",
+            "href": "/docs/ui-kit/defaultcard"
+          },
+          {
+            "type": "link",
+            "label": "FeaturedCard",
+            "href": "/docs/ui-kit/featuredcard"
+          },
+          {
+            "type": "link",
+            "label": "FeedView",
+            "href": "/docs/ui-kit/feedview"
+          },
+          {
+            "type": "link",
+            "label": "GradientOverlayImage",
+            "href": "/docs/ui-kit/gradientoverlayimage"
+          },
+          {
+            "type": "link",
+            "label": "HighlightCard",
+            "href": "/docs/ui-kit/highlightcard"
+          },
+          {
+            "type": "link",
+            "label": "HorizontalDefaultCard",
+            "href": "/docs/ui-kit/horizontaldefaultcard"
+          },
+          {
+            "type": "link",
+            "label": "HorizontalHighlightCard",
+            "href": "/docs/ui-kit/horizontalhighlightcard"
+          },
+          {
+            "type": "link",
+            "label": "Icon",
+            "href": "/docs/ui-kit/icon"
+          },
+          {
+            "type": "link",
+            "label": "MediaQuery",
+            "href": "/docs/ui-kit/mediaquery"
+          },
+          {
+            "type": "link",
+            "label": "MediaThumbnail",
+            "href": "/docs/ui-kit/mediathumbnail"
+          },
+          {
+            "type": "link",
+            "label": "ModalViewHeader",
+            "href": "/docs/ui-kit/modalviewheader"
+          },
+          {
+            "type": "link",
+            "label": "ModalView",
+            "href": "/docs/ui-kit/modalview"
+          },
+          {
+            "type": "link",
+            "label": "OverlayBackgroundImage",
+            "href": "/docs/ui-kit/overlaybackgroundimage"
+          },
+          {
+            "type": "link",
+            "label": "Line",
+            "href": "/docs/ui-kit/line"
+          },
+          {
+            "type": "link",
+            "label": "Media",
+            "href": "/docs/ui-kit/media"
+          },
+          {
+            "type": "link",
+            "label": "ProgressiveImage",
+            "href": "/docs/ui-kit/progressiveimage"
+          },
+          {
+            "type": "link",
+            "label": "Stretchy",
+            "href": "/docs/ui-kit/stretchy"
+          },
+          {
+            "type": "link",
+            "label": "Index",
+            "href": "/docs/ui-kit/index"
+          },
+          {
+            "type": "link",
+            "label": "Index",
+            "href": "/docs/ui-kit/index"
+          },
+          {
+            "type": "link",
+            "label": "Indicator",
+            "href": "/docs/ui-kit/indicator"
+          },
+          {
+            "type": "link",
+            "label": "Label",
+            "href": "/docs/ui-kit/label"
+          },
+          {
+            "type": "link",
+            "label": "Cell",
+            "href": "/docs/ui-kit/cell"
+          },
+          {
+            "type": "link",
+            "label": "ThumbnailCard",
+            "href": "/docs/ui-kit/thumbnailcard"
+          },
+          {
+            "type": "link",
+            "label": "TileImage",
+            "href": "/docs/ui-kit/tileimage"
+          },
+          {
+            "type": "link",
+            "label": "Touchable",
+            "href": "/docs/ui-kit/touchable"
+          },
+          {
+            "type": "link",
+            "label": "TouchableScale",
+            "href": "/docs/ui-kit/touchablescale"
+          },
+          {
+            "type": "link",
+            "label": "DateInput",
+            "href": "/docs/ui-kit/dateinput"
+          },
+          {
+            "type": "link",
+            "label": "FloatingLabel",
+            "href": "/docs/ui-kit/floatinglabel"
+          },
+          {
+            "type": "link",
+            "label": "InputUnderline",
+            "href": "/docs/ui-kit/inputunderline"
+          },
+          {
+            "type": "link",
+            "label": "PickerList",
+            "href": "/docs/ui-kit/pickerlist"
+          },
+          {
+            "type": "link",
+            "label": "Index",
+            "href": "/docs/ui-kit/index"
+          },
+          {
+            "type": "link",
+            "label": "Radio",
+            "href": "/docs/ui-kit/radio"
+          },
+          {
+            "type": "link",
+            "label": "RadioButton",
+            "href": "/docs/ui-kit/radiobutton"
+          },
+          {
+            "type": "link",
+            "label": "RadioButtonIndicator",
+            "href": "/docs/ui-kit/radiobuttonindicator"
+          },
+          {
+            "type": "link",
+            "label": "SearchActions",
+            "href": "/docs/ui-kit/searchactions"
+          },
+          {
+            "type": "link",
+            "label": "Search",
+            "href": "/docs/ui-kit/search"
+          },
+          {
+            "type": "link",
+            "label": "Switch",
+            "href": "/docs/ui-kit/switch"
+          },
+          {
+            "type": "link",
+            "label": "Text",
+            "href": "/docs/ui-kit/text"
+          },
+          {
+            "type": "link",
+            "label": "ThemeProvider",
+            "href": "/docs/ui-kit/themeprovider"
+          },
+          {
+            "type": "link",
+            "label": "ArrowBack",
+            "href": "/docs/ui-kit/arrowback"
+          },
+          {
+            "type": "link",
+            "label": "ArrowDown",
+            "href": "/docs/ui-kit/arrowdown"
+          },
+          {
+            "type": "link",
+            "label": "ArrowNext",
+            "href": "/docs/ui-kit/arrownext"
+          },
+          {
+            "type": "link",
+            "label": "ArrowUp",
+            "href": "/docs/ui-kit/arrowup"
+          },
+          {
+            "type": "link",
+            "label": "Audio",
+            "href": "/docs/ui-kit/audio"
+          },
+          {
+            "type": "link",
+            "label": "Avatar",
+            "href": "/docs/ui-kit/avatar"
+          },
+          {
+            "type": "link",
+            "label": "Badge",
+            "href": "/docs/ui-kit/badge"
+          },
+          {
+            "type": "link",
+            "label": "Bank",
+            "href": "/docs/ui-kit/bank"
+          },
+          {
+            "type": "link",
+            "label": "BrandIcon",
+            "href": "/docs/ui-kit/brandicon"
+          },
+          {
+            "type": "link",
+            "label": "Building",
+            "href": "/docs/ui-kit/building"
+          },
+          {
+            "type": "link",
+            "label": "Calendar",
+            "href": "/docs/ui-kit/calendar"
+          },
+          {
+            "type": "link",
+            "label": "Camera",
+            "href": "/docs/ui-kit/camera"
+          },
+          {
+            "type": "link",
+            "label": "Check",
+            "href": "/docs/ui-kit/check"
+          },
+          {
+            "type": "link",
+            "label": "CheckboxChecked",
+            "href": "/docs/ui-kit/checkboxchecked"
+          },
+          {
+            "type": "link",
+            "label": "CheckboxUnchecked",
+            "href": "/docs/ui-kit/checkboxunchecked"
+          },
+          {
+            "type": "link",
+            "label": "Chromecast",
+            "href": "/docs/ui-kit/chromecast"
+          },
+          {
+            "type": "link",
+            "label": "CircleOutlineCheckMark",
+            "href": "/docs/ui-kit/circleoutlinecheckmark"
+          },
+          {
+            "type": "link",
+            "label": "CircleOutlinePlus",
+            "href": "/docs/ui-kit/circleoutlineplus"
+          },
+          {
+            "type": "link",
+            "label": "CircleOutlineXMark",
+            "href": "/docs/ui-kit/circleoutlinexmark"
+          },
+          {
+            "type": "link",
+            "label": "Close",
+            "href": "/docs/ui-kit/close"
+          },
+          {
+            "type": "link",
+            "label": "Credit",
+            "href": "/docs/ui-kit/credit"
+          },
+          {
+            "type": "link",
+            "label": "Download",
+            "href": "/docs/ui-kit/download"
+          },
+          {
+            "type": "link",
+            "label": "Dropdown",
+            "href": "/docs/ui-kit/dropdown"
+          },
+          {
+            "type": "link",
+            "label": "Empty",
+            "href": "/docs/ui-kit/empty"
+          },
+          {
+            "type": "link",
+            "label": "Failed",
+            "href": "/docs/ui-kit/failed"
+          },
+          {
+            "type": "link",
+            "label": "Filter",
+            "href": "/docs/ui-kit/filter"
+          },
+          {
+            "type": "link",
+            "label": "Fullscreen",
+            "href": "/docs/ui-kit/fullscreen"
+          },
+          {
+            "type": "link",
+            "label": "Groups",
+            "href": "/docs/ui-kit/groups"
+          },
+          {
+            "type": "link",
+            "label": "Home",
+            "href": "/docs/ui-kit/home"
+          },
+          {
+            "type": "link",
+            "label": "Information",
+            "href": "/docs/ui-kit/information"
+          },
+          {
+            "type": "link",
+            "label": "Like",
+            "href": "/docs/ui-kit/like"
+          },
+          {
+            "type": "link",
+            "label": "LikeSolid",
+            "href": "/docs/ui-kit/likesolid"
+          },
+          {
+            "type": "link",
+            "label": "LiveDot",
+            "href": "/docs/ui-kit/livedot"
+          },
+          {
+            "type": "link",
+            "label": "Locate",
+            "href": "/docs/ui-kit/locate"
+          },
+          {
+            "type": "link",
+            "label": "Lock",
+            "href": "/docs/ui-kit/lock"
+          },
+          {
+            "type": "link",
+            "label": "Mute",
+            "href": "/docs/ui-kit/mute"
+          },
+          {
+            "type": "link",
+            "label": "Pause",
+            "href": "/docs/ui-kit/pause"
+          },
+          {
+            "type": "link",
+            "label": "Pin",
+            "href": "/docs/ui-kit/pin"
+          },
+          {
+            "type": "link",
+            "label": "Play",
+            "href": "/docs/ui-kit/play"
+          },
+          {
+            "type": "link",
+            "label": "PlayOpaque",
+            "href": "/docs/ui-kit/playopaque"
+          },
+          {
+            "type": "link",
+            "label": "PlaySolid",
+            "href": "/docs/ui-kit/playsolid"
+          },
+          {
+            "type": "link",
+            "label": "Plus",
+            "href": "/docs/ui-kit/plus"
+          },
+          {
+            "type": "link",
+            "label": "Pray",
+            "href": "/docs/ui-kit/pray"
+          },
+          {
+            "type": "link",
+            "label": "Print",
+            "href": "/docs/ui-kit/print"
+          },
+          {
+            "type": "link",
+            "label": "Profile",
+            "href": "/docs/ui-kit/profile"
+          },
+          {
+            "type": "link",
+            "label": "RadioChecked",
+            "href": "/docs/ui-kit/radiochecked"
+          },
+          {
+            "type": "link",
+            "label": "RadioUnchecked",
+            "href": "/docs/ui-kit/radiounchecked"
+          },
+          {
+            "type": "link",
+            "label": "Repeat",
+            "href": "/docs/ui-kit/repeat"
+          },
+          {
+            "type": "link",
+            "label": "RepeatAll",
+            "href": "/docs/ui-kit/repeatall"
+          },
+          {
+            "type": "link",
+            "label": "RepeatOne",
+            "href": "/docs/ui-kit/repeatone"
+          },
+          {
+            "type": "link",
+            "label": "Search",
+            "href": "/docs/ui-kit/search"
+          },
+          {
+            "type": "link",
+            "label": "Sections",
+            "href": "/docs/ui-kit/sections"
+          },
+          {
+            "type": "link",
+            "label": "Settings",
+            "href": "/docs/ui-kit/settings"
+          },
+          {
+            "type": "link",
+            "label": "Share",
+            "href": "/docs/ui-kit/share"
+          },
+          {
+            "type": "link",
+            "label": "Shuffle",
+            "href": "/docs/ui-kit/shuffle"
+          },
+          {
+            "type": "link",
+            "label": "SkipBackThirty",
+            "href": "/docs/ui-kit/skipbackthirty"
+          },
+          {
+            "type": "link",
+            "label": "SkipForwardThirty",
+            "href": "/docs/ui-kit/skipforwardthirty"
+          },
+          {
+            "type": "link",
+            "label": "SkipNext",
+            "href": "/docs/ui-kit/skipnext"
+          },
+          {
+            "type": "link",
+            "label": "SkipPrevious",
+            "href": "/docs/ui-kit/skipprevious"
+          },
+          {
+            "type": "link",
+            "label": "Text",
+            "href": "/docs/ui-kit/text"
+          },
+          {
+            "type": "link",
+            "label": "Time",
+            "href": "/docs/ui-kit/time"
+          },
+          {
+            "type": "link",
+            "label": "Umbrella",
+            "href": "/docs/ui-kit/umbrella"
+          },
+          {
+            "type": "link",
+            "label": "Video",
+            "href": "/docs/ui-kit/video"
+          },
+          {
+            "type": "link",
+            "label": "VideoOff",
+            "href": "/docs/ui-kit/videooff"
+          },
+          {
+            "type": "link",
+            "label": "Volume",
+            "href": "/docs/ui-kit/volume"
+          },
+          {
+            "type": "link",
+            "label": "Warning",
+            "href": "/docs/ui-kit/warning"
+          },
+          {
+            "type": "link",
+            "label": "BlockQuote",
+            "href": "/docs/ui-kit/blockquote"
+          },
+          {
+            "type": "link",
+            "label": "BulletListItem",
+            "href": "/docs/ui-kit/bulletlistitem"
+          }
+        ]
+      }
+    ]
+  },
+  "permalinkToSidebar": {
+    "/docs/": "docs",
+    "/docs/content-personalization": "docs",
+    "/docs/contributing": "docs",
+    "/docs/fastly": "docs",
+    "/docs/one-signal": "docs",
+    "/docs/passkit": "docs",
+    "/docs/prayer": "docs",
+    "/docs/ui-kit/actionbar": "docs",
+    "/docs/ui-kit/actionbaritem": "docs",
+    "/docs/ui-kit/actioncard": "docs",
+    "/docs/ui-kit/actionlist": "docs",
+    "/docs/ui-kit/actionlistcard": "docs",
+    "/docs/ui-kit/actionlistimage": "docs",
+    "/docs/ui-kit/actionlistitem": "docs",
+    "/docs/ui-kit/arrowback": "docs",
+    "/docs/ui-kit/arrowdown": "docs",
+    "/docs/ui-kit/arrownext": "docs",
+    "/docs/ui-kit/arrowup": "docs",
+    "/docs/ui-kit/audio": "docs",
+    "/docs/ui-kit/avatar": "docs",
+    "/docs/ui-kit/avatarcloud": "docs",
+    "/docs/ui-kit/avatarlist": "docs",
+    "/docs/ui-kit/backgroundimageblur": "docs",
+    "/docs/ui-kit/badge": "docs",
+    "/docs/ui-kit/bank": "docs",
+    "/docs/ui-kit/blockquote": "docs",
+    "/docs/ui-kit/brandicon": "docs",
+    "/docs/ui-kit/building": "docs",
+    "/docs/ui-kit/bulletlistitem": "docs",
+    "/docs/ui-kit/button": "docs",
+    "/docs/ui-kit/buttonicon": "docs",
+    "/docs/ui-kit/calendar": "docs",
+    "/docs/ui-kit/camera": "docs",
+    "/docs/ui-kit/campuscard": "docs",
+    "/docs/ui-kit/cardfooter": "docs",
+    "/docs/ui-kit/cardtile": "docs",
+    "/docs/ui-kit/cardwrapper": "docs",
+    "/docs/ui-kit/cell": "docs",
+    "/docs/ui-kit/channellabel": "docs",
+    "/docs/ui-kit/check": "docs",
+    "/docs/ui-kit/checkboxchecked": "docs",
+    "/docs/ui-kit/checkboxunchecked": "docs",
+    "/docs/ui-kit/chip": "docs",
+    "/docs/ui-kit/chromecast": "docs",
+    "/docs/ui-kit/circleoutlinecheckmark": "docs",
+    "/docs/ui-kit/circleoutlineplus": "docs",
+    "/docs/ui-kit/circleoutlinexmark": "docs",
+    "/docs/ui-kit/close": "docs",
+    "/docs/ui-kit/connectedimage": "docs",
+    "/docs/ui-kit/contentcard": "docs",
+    "/docs/ui-kit/contenttext": "docs",
+    "/docs/ui-kit/credit": "docs",
+    "/docs/ui-kit/dateinput": "docs",
+    "/docs/ui-kit/defaultcard": "docs",
+    "/docs/ui-kit/download": "docs",
+    "/docs/ui-kit/dropdown": "docs",
+    "/docs/ui-kit/empty": "docs",
+    "/docs/ui-kit/errorcard": "docs",
+    "/docs/ui-kit/failed": "docs",
+    "/docs/ui-kit/featuredcard": "docs",
+    "/docs/ui-kit/feedview": "docs",
+    "/docs/ui-kit/filter": "docs",
+    "/docs/ui-kit/floatinglabel": "docs",
+    "/docs/ui-kit/fullscreen": "docs",
+    "/docs/ui-kit/gradientoverlayimage": "docs",
+    "/docs/ui-kit/groups": "docs",
+    "/docs/ui-kit/highlightcard": "docs",
+    "/docs/ui-kit/home": "docs",
+    "/docs/ui-kit/horizontaldefaultcard": "docs",
+    "/docs/ui-kit/horizontalhighlightcard": "docs",
+    "/docs/ui-kit/icon": "docs",
+    "/docs/ui-kit/imageheader": "docs",
+    "/docs/ui-kit/index": "docs",
+    "/docs/ui-kit/indicator": "docs",
+    "/docs/ui-kit/information": "docs",
+    "/docs/ui-kit/inputunderline": "docs",
+    "/docs/ui-kit/label": "docs",
+    "/docs/ui-kit/like": "docs",
+    "/docs/ui-kit/likesolid": "docs",
+    "/docs/ui-kit/line": "docs",
+    "/docs/ui-kit/livedot": "docs",
+    "/docs/ui-kit/locate": "docs",
+    "/docs/ui-kit/lock": "docs",
+    "/docs/ui-kit/media": "docs",
+    "/docs/ui-kit/mediaquery": "docs",
+    "/docs/ui-kit/mediathumbnail": "docs",
+    "/docs/ui-kit/metrics": "docs",
+    "/docs/ui-kit/modalview": "docs",
+    "/docs/ui-kit/modalviewheader": "docs",
+    "/docs/ui-kit/mute": "docs",
+    "/docs/ui-kit/overlaybackgroundimage": "docs",
+    "/docs/ui-kit/pause": "docs",
+    "/docs/ui-kit/pickerlist": "docs",
+    "/docs/ui-kit/pin": "docs",
+    "/docs/ui-kit/play": "docs",
+    "/docs/ui-kit/playopaque": "docs",
+    "/docs/ui-kit/playsolid": "docs",
+    "/docs/ui-kit/plus": "docs",
+    "/docs/ui-kit/pray": "docs",
+    "/docs/ui-kit/print": "docs",
+    "/docs/ui-kit/profile": "docs",
+    "/docs/ui-kit/progressiveimage": "docs",
+    "/docs/ui-kit/radio": "docs",
+    "/docs/ui-kit/radiobutton": "docs",
+    "/docs/ui-kit/radiobuttonindicator": "docs",
+    "/docs/ui-kit/radiochecked": "docs",
+    "/docs/ui-kit/radiounchecked": "docs",
+    "/docs/ui-kit/repeat": "docs",
+    "/docs/ui-kit/repeatall": "docs",
+    "/docs/ui-kit/repeatone": "docs",
+    "/docs/ui-kit/search": "docs",
+    "/docs/ui-kit/searchactions": "docs",
+    "/docs/ui-kit/sections": "docs",
+    "/docs/ui-kit/settings": "docs",
+    "/docs/ui-kit/share": "docs",
+    "/docs/ui-kit/shuffle": "docs",
+    "/docs/ui-kit/skipbackthirty": "docs",
+    "/docs/ui-kit/skipforwardthirty": "docs",
+    "/docs/ui-kit/skipnext": "docs",
+    "/docs/ui-kit/skipprevious": "docs",
+    "/docs/ui-kit/stretchy": "docs",
+    "/docs/ui-kit/switch": "docs",
+    "/docs/ui-kit/text": "docs",
+    "/docs/ui-kit/textheader": "docs",
+    "/docs/ui-kit/themeprovider": "docs",
+    "/docs/ui-kit/thumbnailcard": "docs",
+    "/docs/ui-kit/tileimage": "docs",
+    "/docs/ui-kit/time": "docs",
+    "/docs/ui-kit/touchable": "docs",
+    "/docs/ui-kit/touchableavatar": "docs",
+    "/docs/ui-kit/touchablescale": "docs",
+    "/docs/ui-kit/umbrella": "docs",
+    "/docs/ui-kit/video": "docs",
+    "/docs/ui-kit/videooff": "docs",
+    "/docs/ui-kit/volume": "docs",
+    "/docs/ui-kit/warning": "docs",
+    "/docs/weekend-experience": "docs"
+  },
+  "version": null
+}

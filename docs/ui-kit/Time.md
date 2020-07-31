@@ -1,6 +1,6 @@
 ---
 id: time
-title: `Time` (component)
+title: "`Time` (component)"
 sidebar_label: Time
 ---
 

@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/filter",
+  "id": "ui-kit/filter",
+  "isDocsHomePage": false,
+  "title": "`Filter` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Filter.md",
+  "permalink": "/docs/ui-kit/filter",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Filter",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Failed` (component)",
+    "permalink": "/docs/ui-kit/failed"
+  },
+  "next": {
+    "title": "`Fullscreen` (component)",
+    "permalink": "/docs/ui-kit/fullscreen"
+  }
+}

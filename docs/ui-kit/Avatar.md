@@ -1,6 +1,6 @@
 ---
 id: avatar
-title: `Avatar` (component)
+title: "`Avatar` (component)"
 sidebar_label: Avatar
 ---
 

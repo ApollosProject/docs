@@ -1,6 +1,6 @@
 ---
 id: calendar
-title: `Calendar` (component)
+title: "`Calendar` (component)"
 sidebar_label: Calendar
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: gradientoverlayimage
-title: `GradientOverlayImage` (component)
+title: "`GradientOverlayImage` (component)"
 sidebar_label: GradientOverlayImage
 ---
 

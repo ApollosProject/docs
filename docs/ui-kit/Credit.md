@@ -1,6 +1,6 @@
 ---
 id: credit
-title: `Credit` (component)
+title: "`Credit` (component)"
 sidebar_label: Credit
 ---
 

@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/dropdown",
+  "id": "ui-kit/dropdown",
+  "isDocsHomePage": false,
+  "title": "`Dropdown` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Dropdown.md",
+  "permalink": "/docs/ui-kit/dropdown",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Dropdown",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Download` (component)",
+    "permalink": "/docs/ui-kit/download"
+  },
+  "next": {
+    "title": "`Empty` (component)",
+    "permalink": "/docs/ui-kit/empty"
+  }
+}

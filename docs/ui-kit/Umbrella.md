@@ -1,6 +1,6 @@
 ---
 id: umbrella
-title: `Umbrella` (component)
+title: "`Umbrella` (component)"
 sidebar_label: Umbrella
 ---
 

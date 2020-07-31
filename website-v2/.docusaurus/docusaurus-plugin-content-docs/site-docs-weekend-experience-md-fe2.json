@@ -1,0 +1,21 @@
+{
+  "unversionedId": "weekend-experience",
+  "id": "weekend-experience",
+  "isDocsHomePage": false,
+  "title": "Implementing the Weekend Experience",
+  "description": "The Weekend experience is comprised of a number of different components that come together to form what we call the Weekend Experience. This guide aims to equip you to",
+  "source": "@site/../docs/weekend_experience.md",
+  "permalink": "/docs/weekend-experience",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Implementing the Weekend Experience",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Apple PassKit",
+    "permalink": "/docs/passkit"
+  },
+  "next": {
+    "title": "Prayer",
+    "permalink": "/docs/prayer"
+  }
+}

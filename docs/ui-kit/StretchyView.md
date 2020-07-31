@@ -1,6 +1,6 @@
 ---
 id: stretchyview
-title: `StretchyView` (component)
+title: "`StretchyView` (component)"
 sidebar_label: StretchyView
 ---
 

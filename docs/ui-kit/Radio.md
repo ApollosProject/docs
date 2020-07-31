@@ -1,6 +1,6 @@
 ---
 id: radio
-title: `Radio` (component)
+title: "`Radio` (component)"
 sidebar_label: Radio
 ---
 

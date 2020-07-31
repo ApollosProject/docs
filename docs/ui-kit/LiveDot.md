@@ -1,6 +1,6 @@
 ---
 id: livedot
-title: `LiveDot` (component)
+title: "`LiveDot` (component)"
 sidebar_label: LiveDot
 ---
 

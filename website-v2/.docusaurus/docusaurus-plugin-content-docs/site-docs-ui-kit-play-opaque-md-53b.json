@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/playopaque",
+  "id": "ui-kit/playopaque",
+  "isDocsHomePage": false,
+  "title": "`PlayOpaque` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/PlayOpaque.md",
+  "permalink": "/docs/ui-kit/playopaque",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "PlayOpaque",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Play` (component)",
+    "permalink": "/docs/ui-kit/play"
+  },
+  "next": {
+    "title": "`PlaySolid` (component)",
+    "permalink": "/docs/ui-kit/playsolid"
+  }
+}

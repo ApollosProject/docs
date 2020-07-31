@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/pause",
+  "id": "ui-kit/pause",
+  "isDocsHomePage": false,
+  "title": "`Pause` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Pause.md",
+  "permalink": "/docs/ui-kit/pause",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Pause",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Mute` (component)",
+    "permalink": "/docs/ui-kit/mute"
+  },
+  "next": {
+    "title": "`Pin` (component)",
+    "permalink": "/docs/ui-kit/pin"
+  }
+}

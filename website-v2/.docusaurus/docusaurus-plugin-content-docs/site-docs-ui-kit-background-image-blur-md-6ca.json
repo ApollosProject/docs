@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/backgroundimageblur",
+  "id": "ui-kit/backgroundimageblur",
+  "isDocsHomePage": false,
+  "title": "`BackgroundImageBlur` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/BackgroundImageBlur.md",
+  "permalink": "/docs/ui-kit/backgroundimageblur",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "BackgroundImageBlur",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`AvatarList` (component)",
+    "permalink": "/docs/ui-kit/avatarlist"
+  },
+  "next": {
+    "title": "`Button` (component)",
+    "permalink": "/docs/ui-kit/button"
+  }
+}

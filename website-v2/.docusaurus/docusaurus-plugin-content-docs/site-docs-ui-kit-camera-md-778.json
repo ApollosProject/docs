@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/camera",
+  "id": "ui-kit/camera",
+  "isDocsHomePage": false,
+  "title": "`Camera` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Camera.md",
+  "permalink": "/docs/ui-kit/camera",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Camera",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Calendar` (component)",
+    "permalink": "/docs/ui-kit/calendar"
+  },
+  "next": {
+    "title": "`Check` (component)",
+    "permalink": "/docs/ui-kit/check"
+  }
+}

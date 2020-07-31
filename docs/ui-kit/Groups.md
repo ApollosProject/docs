@@ -1,6 +1,6 @@
 ---
 id: groups
-title: `Groups` (component)
+title: "`Groups` (component)"
 sidebar_label: Groups
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: repeat
-title: `Repeat` (component)
+title: "`Repeat` (component)"
 sidebar_label: Repeat
 ---
 

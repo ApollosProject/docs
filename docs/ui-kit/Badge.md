@@ -1,6 +1,6 @@
 ---
 id: badge
-title: `Badge` (component)
+title: "`Badge` (component)"
 sidebar_label: Badge
 ---
 

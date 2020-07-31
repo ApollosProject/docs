@@ -1,6 +1,6 @@
 ---
 id: bulletlistitem
-title: `BulletListItem` (component)
+title: "`BulletListItem` (component)"
 sidebar_label: BulletListItem
 ---
 

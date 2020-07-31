@@ -1,6 +1,6 @@
 ---
 id: metrics
-title: `Metrics` (component)
+title: "`Metrics` (component)"
 sidebar_label: Metrics
 ---
 

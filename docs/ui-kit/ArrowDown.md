@@ -1,6 +1,6 @@
 ---
 id: arrowdown
-title: `ArrowDown` (component)
+title: "`ArrowDown` (component)"
 sidebar_label: ArrowDown
 ---
 

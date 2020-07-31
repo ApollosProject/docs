@@ -1,6 +1,6 @@
 ---
 id: arrowback
-title: `ArrowBack` (component)
+title: "`ArrowBack` (component)"
 sidebar_label: ArrowBack
 ---
 

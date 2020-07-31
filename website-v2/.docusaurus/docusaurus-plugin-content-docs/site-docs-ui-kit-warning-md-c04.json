@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/warning",
+  "id": "ui-kit/warning",
+  "isDocsHomePage": false,
+  "title": "`Warning` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Warning.md",
+  "permalink": "/docs/ui-kit/warning",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Warning",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Volume` (component)",
+    "permalink": "/docs/ui-kit/volume"
+  },
+  "next": {
+    "title": "`BlockQuote` (component)",
+    "permalink": "/docs/ui-kit/blockquote"
+  }
+}

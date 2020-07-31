@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/repeatone",
+  "id": "ui-kit/repeatone",
+  "isDocsHomePage": false,
+  "title": "`RepeatOne` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/RepeatOne.md",
+  "permalink": "/docs/ui-kit/repeatone",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "RepeatOne",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`RepeatAll` (component)",
+    "permalink": "/docs/ui-kit/repeatall"
+  },
+  "next": {
+    "title": "`Search` (component)",
+    "permalink": "/docs/ui-kit/search"
+  }
+}

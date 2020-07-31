@@ -1,6 +1,6 @@
 ---
 id: pin
-title: `Pin` (component)
+title: "`Pin` (component)"
 sidebar_label: Pin
 ---
 

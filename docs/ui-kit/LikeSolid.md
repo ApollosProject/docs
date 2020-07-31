@@ -1,6 +1,6 @@
 ---
 id: likesolid
-title: `LikeSolid` (component)
+title: "`LikeSolid` (component)"
 sidebar_label: LikeSolid
 ---
 

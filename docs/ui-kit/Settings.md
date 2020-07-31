@@ -1,6 +1,6 @@
 ---
 id: settings
-title: `Settings` (component)
+title: "`Settings` (component)"
 sidebar_label: Settings
 ---
 

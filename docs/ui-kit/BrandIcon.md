@@ -1,6 +1,6 @@
 ---
 id: brandicon
-title: `BrandIcon` (component)
+title: "`BrandIcon` (component)"
 sidebar_label: BrandIcon
 ---
 

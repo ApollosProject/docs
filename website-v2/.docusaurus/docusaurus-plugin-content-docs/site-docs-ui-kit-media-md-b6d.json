@@ -1,0 +1,20 @@
+{
+  "unversionedId": "ui-kit/media",
+  "id": "ui-kit/media",
+  "isDocsHomePage": false,
+  "title": "`Media` (component)",
+  "source": "@site/../docs/ui-kit/Media.md",
+  "permalink": "/docs/ui-kit/media",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Media",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Line` (component)",
+    "permalink": "/docs/ui-kit/line"
+  },
+  "next": {
+    "title": "`ProgressiveImage` (component)",
+    "permalink": "/docs/ui-kit/progressiveimage"
+  }
+}

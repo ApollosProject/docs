@@ -1,6 +1,6 @@
 ---
 id: video
-title: `Video` (component)
+title: "`Video` (component)"
 sidebar_label: Video
 ---
 

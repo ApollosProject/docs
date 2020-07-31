@@ -1,6 +1,6 @@
 ---
 id: mute
-title: `Mute` (component)
+title: "`Mute` (component)"
 sidebar_label: Mute
 ---
 

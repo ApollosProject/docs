@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/arrownext",
+  "id": "ui-kit/arrownext",
+  "isDocsHomePage": false,
+  "title": "`ArrowNext` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/ArrowNext.md",
+  "permalink": "/docs/ui-kit/arrownext",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "ArrowNext",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`ArrowDown` (component)",
+    "permalink": "/docs/ui-kit/arrowdown"
+  },
+  "next": {
+    "title": "`ArrowUp` (component)",
+    "permalink": "/docs/ui-kit/arrowup"
+  }
+}

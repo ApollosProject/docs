@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/arrowback",
+  "id": "ui-kit/arrowback",
+  "isDocsHomePage": false,
+  "title": "`ArrowBack` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/ArrowBack.md",
+  "permalink": "/docs/ui-kit/arrowback",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "ArrowBack",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`ThemeProvider` (component)",
+    "permalink": "/docs/ui-kit/themeprovider"
+  },
+  "next": {
+    "title": "`ArrowDown` (component)",
+    "permalink": "/docs/ui-kit/arrowdown"
+  }
+}

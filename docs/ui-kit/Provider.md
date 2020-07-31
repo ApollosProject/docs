@@ -1,6 +1,6 @@
 ---
 id: provider
-title: `Provider` (component)
+title: "`Provider` (component)"
 sidebar_label: Provider
 ---
 

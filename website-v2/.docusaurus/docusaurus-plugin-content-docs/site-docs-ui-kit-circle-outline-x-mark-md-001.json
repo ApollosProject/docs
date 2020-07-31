@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/circleoutlinexmark",
+  "id": "ui-kit/circleoutlinexmark",
+  "isDocsHomePage": false,
+  "title": "`CircleOutlineXMark` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/CircleOutlineXMark.md",
+  "permalink": "/docs/ui-kit/circleoutlinexmark",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "CircleOutlineXMark",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`CircleOutlinePlus` (component)",
+    "permalink": "/docs/ui-kit/circleoutlineplus"
+  },
+  "next": {
+    "title": "`Close` (component)",
+    "permalink": "/docs/ui-kit/close"
+  }
+}

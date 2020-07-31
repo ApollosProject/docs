@@ -1,6 +1,6 @@
 ---
 id: progressiveimage
-title: `ProgressiveImage` (component)
+title: "`ProgressiveImage` (component)"
 sidebar_label: ProgressiveImage
 ---
 

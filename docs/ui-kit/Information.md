@@ -1,6 +1,6 @@
 ---
 id: information
-title: `Information` (component)
+title: "`Information` (component)"
 sidebar_label: Information
 ---
 

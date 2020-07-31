@@ -1,6 +1,6 @@
 ---
 id: touchableavatar
-title: `TouchableAvatar` (component)
+title: "`TouchableAvatar` (component)"
 sidebar_label: TouchableAvatar
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: text
-title: `Text` (component)
+title: "`Text` (component)"
 sidebar_label: Text
 ---
 

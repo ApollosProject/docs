@@ -1,6 +1,6 @@
 ---
 id: pray
-title: `Pray` (component)
+title: "`Pray` (component)"
 sidebar_label: Pray
 ---
 

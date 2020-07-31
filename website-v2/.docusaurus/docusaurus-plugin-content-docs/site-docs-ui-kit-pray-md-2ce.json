@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/pray",
+  "id": "ui-kit/pray",
+  "isDocsHomePage": false,
+  "title": "`Pray` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Pray.md",
+  "permalink": "/docs/ui-kit/pray",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Pray",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Plus` (component)",
+    "permalink": "/docs/ui-kit/plus"
+  },
+  "next": {
+    "title": "`Print` (component)",
+    "permalink": "/docs/ui-kit/print"
+  }
+}

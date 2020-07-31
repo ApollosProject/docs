@@ -1,6 +1,6 @@
 ---
 id: repeatone
-title: `RepeatOne` (component)
+title: "`RepeatOne` (component)"
 sidebar_label: RepeatOne
 ---
 

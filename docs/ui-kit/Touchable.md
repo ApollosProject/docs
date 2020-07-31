@@ -1,6 +1,6 @@
 ---
 id: touchable
-title: `Touchable` (component)
+title: "`Touchable` (component)"
 sidebar_label: Touchable
 ---
 

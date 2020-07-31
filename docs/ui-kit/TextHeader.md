@@ -1,6 +1,6 @@
 ---
 id: textheader
-title: `TextHeader` (component)
+title: "`TextHeader` (component)"
 sidebar_label: TextHeader
 ---
 

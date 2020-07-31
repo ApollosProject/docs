@@ -1,6 +1,6 @@
 ---
 id: radiochecked
-title: `RadioChecked` (component)
+title: "`RadioChecked` (component)"
 sidebar_label: RadioChecked
 ---
 

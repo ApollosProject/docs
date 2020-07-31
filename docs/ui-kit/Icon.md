@@ -1,6 +1,6 @@
 ---
 id: icon
-title: `Icon` (component)
+title: "`Icon` (component)"
 sidebar_label: Icon
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: searchactions
-title: `SearchActions` (component)
+title: "`SearchActions` (component)"
 sidebar_label: SearchActions
 ---
 

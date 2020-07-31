@@ -1,6 +1,6 @@
 ---
 id: pickerlist
-title: `PickerList` (component)
+title: "`PickerList` (component)"
 sidebar_label: PickerList
 ---
 

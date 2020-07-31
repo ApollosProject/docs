@@ -1,6 +1,6 @@
 ---
 id: switch
-title: `Switch` (component)
+title: "`Switch` (component)"
 sidebar_label: Switch
 ---
 

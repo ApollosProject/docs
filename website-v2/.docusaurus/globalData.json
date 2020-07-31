@@ -1,0 +1,589 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "latestVersionName": null,
+      "versions": [
+        {
+          "name": null,
+          "path": "/docs",
+          "mainDocId": "install",
+          "docs": [
+            {
+              "id": "content-personalization",
+              "path": "/docs/content-personalization"
+            },
+            {
+              "id": "contributing",
+              "path": "/docs/contributing"
+            },
+            {
+              "id": "doc2",
+              "path": "/docs/doc2"
+            },
+            {
+              "id": "fastly",
+              "path": "/docs/fastly"
+            },
+            {
+              "id": "icons-and-splash",
+              "path": "/docs/icons-and-splash"
+            },
+            {
+              "id": "install",
+              "path": "/docs/"
+            },
+            {
+              "id": "one-signal",
+              "path": "/docs/one-signal"
+            },
+            {
+              "id": "passkit",
+              "path": "/docs/passkit"
+            },
+            {
+              "id": "prayer",
+              "path": "/docs/prayer"
+            },
+            {
+              "id": "themes",
+              "path": "/docs/themes"
+            },
+            {
+              "id": "ui-kit/actionbar",
+              "path": "/docs/ui-kit/actionbar"
+            },
+            {
+              "id": "ui-kit/actionbaritem",
+              "path": "/docs/ui-kit/actionbaritem"
+            },
+            {
+              "id": "ui-kit/actioncard",
+              "path": "/docs/ui-kit/actioncard"
+            },
+            {
+              "id": "ui-kit/actionlist",
+              "path": "/docs/ui-kit/actionlist"
+            },
+            {
+              "id": "ui-kit/actionlistcard",
+              "path": "/docs/ui-kit/actionlistcard"
+            },
+            {
+              "id": "ui-kit/actionlistimage",
+              "path": "/docs/ui-kit/actionlistimage"
+            },
+            {
+              "id": "ui-kit/actionlistitem",
+              "path": "/docs/ui-kit/actionlistitem"
+            },
+            {
+              "id": "ui-kit/arrowback",
+              "path": "/docs/ui-kit/arrowback"
+            },
+            {
+              "id": "ui-kit/arrowdown",
+              "path": "/docs/ui-kit/arrowdown"
+            },
+            {
+              "id": "ui-kit/arrownext",
+              "path": "/docs/ui-kit/arrownext"
+            },
+            {
+              "id": "ui-kit/arrowup",
+              "path": "/docs/ui-kit/arrowup"
+            },
+            {
+              "id": "ui-kit/audio",
+              "path": "/docs/ui-kit/audio"
+            },
+            {
+              "id": "ui-kit/avatar",
+              "path": "/docs/ui-kit/avatar"
+            },
+            {
+              "id": "ui-kit/avatarcloud",
+              "path": "/docs/ui-kit/avatarcloud"
+            },
+            {
+              "id": "ui-kit/avatarlist",
+              "path": "/docs/ui-kit/avatarlist"
+            },
+            {
+              "id": "ui-kit/backgroundimageblur",
+              "path": "/docs/ui-kit/backgroundimageblur"
+            },
+            {
+              "id": "ui-kit/badge",
+              "path": "/docs/ui-kit/badge"
+            },
+            {
+              "id": "ui-kit/bank",
+              "path": "/docs/ui-kit/bank"
+            },
+            {
+              "id": "ui-kit/blockquote",
+              "path": "/docs/ui-kit/blockquote"
+            },
+            {
+              "id": "ui-kit/brandicon",
+              "path": "/docs/ui-kit/brandicon"
+            },
+            {
+              "id": "ui-kit/building",
+              "path": "/docs/ui-kit/building"
+            },
+            {
+              "id": "ui-kit/bulletlistitem",
+              "path": "/docs/ui-kit/bulletlistitem"
+            },
+            {
+              "id": "ui-kit/button",
+              "path": "/docs/ui-kit/button"
+            },
+            {
+              "id": "ui-kit/buttonicon",
+              "path": "/docs/ui-kit/buttonicon"
+            },
+            {
+              "id": "ui-kit/calendar",
+              "path": "/docs/ui-kit/calendar"
+            },
+            {
+              "id": "ui-kit/camera",
+              "path": "/docs/ui-kit/camera"
+            },
+            {
+              "id": "ui-kit/campuscard",
+              "path": "/docs/ui-kit/campuscard"
+            },
+            {
+              "id": "ui-kit/cardfooter",
+              "path": "/docs/ui-kit/cardfooter"
+            },
+            {
+              "id": "ui-kit/cardtile",
+              "path": "/docs/ui-kit/cardtile"
+            },
+            {
+              "id": "ui-kit/cardwrapper",
+              "path": "/docs/ui-kit/cardwrapper"
+            },
+            {
+              "id": "ui-kit/cell",
+              "path": "/docs/ui-kit/cell"
+            },
+            {
+              "id": "ui-kit/channellabel",
+              "path": "/docs/ui-kit/channellabel"
+            },
+            {
+              "id": "ui-kit/check",
+              "path": "/docs/ui-kit/check"
+            },
+            {
+              "id": "ui-kit/checkboxchecked",
+              "path": "/docs/ui-kit/checkboxchecked"
+            },
+            {
+              "id": "ui-kit/checkboxunchecked",
+              "path": "/docs/ui-kit/checkboxunchecked"
+            },
+            {
+              "id": "ui-kit/chip",
+              "path": "/docs/ui-kit/chip"
+            },
+            {
+              "id": "ui-kit/chromecast",
+              "path": "/docs/ui-kit/chromecast"
+            },
+            {
+              "id": "ui-kit/circleoutlinecheckmark",
+              "path": "/docs/ui-kit/circleoutlinecheckmark"
+            },
+            {
+              "id": "ui-kit/circleoutlineplus",
+              "path": "/docs/ui-kit/circleoutlineplus"
+            },
+            {
+              "id": "ui-kit/circleoutlinexmark",
+              "path": "/docs/ui-kit/circleoutlinexmark"
+            },
+            {
+              "id": "ui-kit/close",
+              "path": "/docs/ui-kit/close"
+            },
+            {
+              "id": "ui-kit/connectedimage",
+              "path": "/docs/ui-kit/connectedimage"
+            },
+            {
+              "id": "ui-kit/contentcard",
+              "path": "/docs/ui-kit/contentcard"
+            },
+            {
+              "id": "ui-kit/contenttext",
+              "path": "/docs/ui-kit/contenttext"
+            },
+            {
+              "id": "ui-kit/credit",
+              "path": "/docs/ui-kit/credit"
+            },
+            {
+              "id": "ui-kit/dateinput",
+              "path": "/docs/ui-kit/dateinput"
+            },
+            {
+              "id": "ui-kit/defaultcard",
+              "path": "/docs/ui-kit/defaultcard"
+            },
+            {
+              "id": "ui-kit/download",
+              "path": "/docs/ui-kit/download"
+            },
+            {
+              "id": "ui-kit/dropdown",
+              "path": "/docs/ui-kit/dropdown"
+            },
+            {
+              "id": "ui-kit/empty",
+              "path": "/docs/ui-kit/empty"
+            },
+            {
+              "id": "ui-kit/errorcard",
+              "path": "/docs/ui-kit/errorcard"
+            },
+            {
+              "id": "ui-kit/failed",
+              "path": "/docs/ui-kit/failed"
+            },
+            {
+              "id": "ui-kit/featuredcard",
+              "path": "/docs/ui-kit/featuredcard"
+            },
+            {
+              "id": "ui-kit/feedview",
+              "path": "/docs/ui-kit/feedview"
+            },
+            {
+              "id": "ui-kit/filter",
+              "path": "/docs/ui-kit/filter"
+            },
+            {
+              "id": "ui-kit/floatinglabel",
+              "path": "/docs/ui-kit/floatinglabel"
+            },
+            {
+              "id": "ui-kit/fullscreen",
+              "path": "/docs/ui-kit/fullscreen"
+            },
+            {
+              "id": "ui-kit/gradientoverlayimage",
+              "path": "/docs/ui-kit/gradientoverlayimage"
+            },
+            {
+              "id": "ui-kit/groups",
+              "path": "/docs/ui-kit/groups"
+            },
+            {
+              "id": "ui-kit/highlightcard",
+              "path": "/docs/ui-kit/highlightcard"
+            },
+            {
+              "id": "ui-kit/home",
+              "path": "/docs/ui-kit/home"
+            },
+            {
+              "id": "ui-kit/horizontaldefaultcard",
+              "path": "/docs/ui-kit/horizontaldefaultcard"
+            },
+            {
+              "id": "ui-kit/horizontalhighlightcard",
+              "path": "/docs/ui-kit/horizontalhighlightcard"
+            },
+            {
+              "id": "ui-kit/icon",
+              "path": "/docs/ui-kit/icon"
+            },
+            {
+              "id": "ui-kit/imageheader",
+              "path": "/docs/ui-kit/imageheader"
+            },
+            {
+              "id": "ui-kit/index",
+              "path": "/docs/ui-kit/index"
+            },
+            {
+              "id": "ui-kit/indicator",
+              "path": "/docs/ui-kit/indicator"
+            },
+            {
+              "id": "ui-kit/information",
+              "path": "/docs/ui-kit/information"
+            },
+            {
+              "id": "ui-kit/inputunderline",
+              "path": "/docs/ui-kit/inputunderline"
+            },
+            {
+              "id": "ui-kit/label",
+              "path": "/docs/ui-kit/label"
+            },
+            {
+              "id": "ui-kit/like",
+              "path": "/docs/ui-kit/like"
+            },
+            {
+              "id": "ui-kit/likesolid",
+              "path": "/docs/ui-kit/likesolid"
+            },
+            {
+              "id": "ui-kit/line",
+              "path": "/docs/ui-kit/line"
+            },
+            {
+              "id": "ui-kit/livedot",
+              "path": "/docs/ui-kit/livedot"
+            },
+            {
+              "id": "ui-kit/locate",
+              "path": "/docs/ui-kit/locate"
+            },
+            {
+              "id": "ui-kit/lock",
+              "path": "/docs/ui-kit/lock"
+            },
+            {
+              "id": "ui-kit/media",
+              "path": "/docs/ui-kit/media"
+            },
+            {
+              "id": "ui-kit/mediaquery",
+              "path": "/docs/ui-kit/mediaquery"
+            },
+            {
+              "id": "ui-kit/mediathumbnail",
+              "path": "/docs/ui-kit/mediathumbnail"
+            },
+            {
+              "id": "ui-kit/metrics",
+              "path": "/docs/ui-kit/metrics"
+            },
+            {
+              "id": "ui-kit/modalview",
+              "path": "/docs/ui-kit/modalview"
+            },
+            {
+              "id": "ui-kit/modalviewheader",
+              "path": "/docs/ui-kit/modalviewheader"
+            },
+            {
+              "id": "ui-kit/mute",
+              "path": "/docs/ui-kit/mute"
+            },
+            {
+              "id": "ui-kit/overlaybackgroundimage",
+              "path": "/docs/ui-kit/overlaybackgroundimage"
+            },
+            {
+              "id": "ui-kit/pause",
+              "path": "/docs/ui-kit/pause"
+            },
+            {
+              "id": "ui-kit/pickerlist",
+              "path": "/docs/ui-kit/pickerlist"
+            },
+            {
+              "id": "ui-kit/pin",
+              "path": "/docs/ui-kit/pin"
+            },
+            {
+              "id": "ui-kit/play",
+              "path": "/docs/ui-kit/play"
+            },
+            {
+              "id": "ui-kit/playopaque",
+              "path": "/docs/ui-kit/playopaque"
+            },
+            {
+              "id": "ui-kit/playsolid",
+              "path": "/docs/ui-kit/playsolid"
+            },
+            {
+              "id": "ui-kit/plus",
+              "path": "/docs/ui-kit/plus"
+            },
+            {
+              "id": "ui-kit/pray",
+              "path": "/docs/ui-kit/pray"
+            },
+            {
+              "id": "ui-kit/print",
+              "path": "/docs/ui-kit/print"
+            },
+            {
+              "id": "ui-kit/profile",
+              "path": "/docs/ui-kit/profile"
+            },
+            {
+              "id": "ui-kit/progressiveimage",
+              "path": "/docs/ui-kit/progressiveimage"
+            },
+            {
+              "id": "ui-kit/provider",
+              "path": "/docs/ui-kit/provider"
+            },
+            {
+              "id": "ui-kit/radio",
+              "path": "/docs/ui-kit/radio"
+            },
+            {
+              "id": "ui-kit/radiobutton",
+              "path": "/docs/ui-kit/radiobutton"
+            },
+            {
+              "id": "ui-kit/radiobuttonindicator",
+              "path": "/docs/ui-kit/radiobuttonindicator"
+            },
+            {
+              "id": "ui-kit/radiochecked",
+              "path": "/docs/ui-kit/radiochecked"
+            },
+            {
+              "id": "ui-kit/radiounchecked",
+              "path": "/docs/ui-kit/radiounchecked"
+            },
+            {
+              "id": "ui-kit/repeat",
+              "path": "/docs/ui-kit/repeat"
+            },
+            {
+              "id": "ui-kit/repeatall",
+              "path": "/docs/ui-kit/repeatall"
+            },
+            {
+              "id": "ui-kit/repeatone",
+              "path": "/docs/ui-kit/repeatone"
+            },
+            {
+              "id": "ui-kit/search",
+              "path": "/docs/ui-kit/search"
+            },
+            {
+              "id": "ui-kit/searchactions",
+              "path": "/docs/ui-kit/searchactions"
+            },
+            {
+              "id": "ui-kit/sections",
+              "path": "/docs/ui-kit/sections"
+            },
+            {
+              "id": "ui-kit/settings",
+              "path": "/docs/ui-kit/settings"
+            },
+            {
+              "id": "ui-kit/share",
+              "path": "/docs/ui-kit/share"
+            },
+            {
+              "id": "ui-kit/shuffle",
+              "path": "/docs/ui-kit/shuffle"
+            },
+            {
+              "id": "ui-kit/skipbackthirty",
+              "path": "/docs/ui-kit/skipbackthirty"
+            },
+            {
+              "id": "ui-kit/skipforwardthirty",
+              "path": "/docs/ui-kit/skipforwardthirty"
+            },
+            {
+              "id": "ui-kit/skipnext",
+              "path": "/docs/ui-kit/skipnext"
+            },
+            {
+              "id": "ui-kit/skipprevious",
+              "path": "/docs/ui-kit/skipprevious"
+            },
+            {
+              "id": "ui-kit/stretchy",
+              "path": "/docs/ui-kit/stretchy"
+            },
+            {
+              "id": "ui-kit/stretchyview",
+              "path": "/docs/ui-kit/stretchyview"
+            },
+            {
+              "id": "ui-kit/switch",
+              "path": "/docs/ui-kit/switch"
+            },
+            {
+              "id": "ui-kit/text",
+              "path": "/docs/ui-kit/text"
+            },
+            {
+              "id": "ui-kit/textheader",
+              "path": "/docs/ui-kit/textheader"
+            },
+            {
+              "id": "ui-kit/themeprovider",
+              "path": "/docs/ui-kit/themeprovider"
+            },
+            {
+              "id": "ui-kit/thumbnailcard",
+              "path": "/docs/ui-kit/thumbnailcard"
+            },
+            {
+              "id": "ui-kit/tileimage",
+              "path": "/docs/ui-kit/tileimage"
+            },
+            {
+              "id": "ui-kit/time",
+              "path": "/docs/ui-kit/time"
+            },
+            {
+              "id": "ui-kit/touchable",
+              "path": "/docs/ui-kit/touchable"
+            },
+            {
+              "id": "ui-kit/touchableavatar",
+              "path": "/docs/ui-kit/touchableavatar"
+            },
+            {
+              "id": "ui-kit/touchablescale",
+              "path": "/docs/ui-kit/touchablescale"
+            },
+            {
+              "id": "ui-kit/ui-kit",
+              "path": "/docs/ui-kit/ui-kit"
+            },
+            {
+              "id": "ui-kit/umbrella",
+              "path": "/docs/ui-kit/umbrella"
+            },
+            {
+              "id": "ui-kit/video",
+              "path": "/docs/ui-kit/video"
+            },
+            {
+              "id": "ui-kit/videooff",
+              "path": "/docs/ui-kit/videooff"
+            },
+            {
+              "id": "ui-kit/volume",
+              "path": "/docs/ui-kit/volume"
+            },
+            {
+              "id": "ui-kit/warning",
+              "path": "/docs/ui-kit/warning"
+            },
+            {
+              "id": "weekend-experience",
+              "path": "/docs/weekend-experience"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

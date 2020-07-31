@@ -1,0 +1,21 @@
+{
+  "unversionedId": "ui-kit/home",
+  "id": "ui-kit/home",
+  "isDocsHomePage": false,
+  "title": "`Home` (component)",
+  "description": "Props",
+  "source": "@site/../docs/ui-kit/Home.md",
+  "permalink": "/docs/ui-kit/home",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "sidebar_label": "Home",
+  "sidebar": "docs",
+  "previous": {
+    "title": "`Groups` (component)",
+    "permalink": "/docs/ui-kit/groups"
+  },
+  "next": {
+    "title": "`Information` (component)",
+    "permalink": "/docs/ui-kit/information"
+  }
+}

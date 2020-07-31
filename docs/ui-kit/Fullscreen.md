@@ -1,6 +1,6 @@
 ---
 id: fullscreen
-title: `Fullscreen` (component)
+title: "`Fullscreen` (component)"
 sidebar_label: Fullscreen
 ---
 

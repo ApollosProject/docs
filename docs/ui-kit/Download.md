@@ -1,6 +1,6 @@
 ---
 id: download
-title: `Download` (component)
+title: "`Download` (component)"
 sidebar_label: Download
 ---
 

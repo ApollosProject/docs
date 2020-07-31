@@ -1,6 +1,6 @@
 ---
 id: radiobuttonindicator
-title: `RadioButtonIndicator` (component)
+title: "`RadioButtonIndicator` (component)"
 sidebar_label: RadioButtonIndicator
 ---
 

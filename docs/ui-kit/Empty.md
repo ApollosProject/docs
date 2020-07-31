@@ -1,6 +1,6 @@
 ---
 id: empty
-title: `Empty` (component)
+title: "`Empty` (component)"
 sidebar_label: Empty
 ---
 

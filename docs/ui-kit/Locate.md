@@ -1,6 +1,6 @@
 ---
 id: locate
-title: `Locate` (component)
+title: "`Locate` (component)"
 sidebar_label: Locate
 ---
 

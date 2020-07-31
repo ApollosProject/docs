@@ -1,6 +1,6 @@
 ---
 id: media
-title: `Media` (component)
+title: "`Media` (component)"
 sidebar_label: Media
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: line
-title: `Line` (component)
+title: "`Line` (component)"
 sidebar_label: Line
 ---
 
