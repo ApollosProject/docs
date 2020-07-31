@@ -14,9 +14,9 @@ type: `union(func|object)`
 defaultValue: `Animated.Image`
 
 
-### `isLoading`
+### `fadeDuration`
 
-type: `bool`
+defaultValue: `250`
 
 
 ### `maintainAspectRatio`
