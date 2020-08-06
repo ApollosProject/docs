@@ -43,6 +43,16 @@ export default [
   exact: true,
 },
 {
+  path: '/features',
+  component: ComponentCreator('/features','92e'),
+  exact: true,
+},
+{
+  path: '/get-started',
+  component: ComponentCreator('/get-started','478'),
+  exact: true,
+},
+{
   path: '/docs',
   component: ComponentCreator('/docs','333'),
   

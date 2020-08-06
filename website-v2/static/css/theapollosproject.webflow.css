@@ -1,15 +1,6 @@
-:root {
-  --ifm-color-primary-lightest: #00868e;
-  --ifm-color-primary-lighter: #00767d;
-  --ifm-color-primary-light: #007178;
-  --ifm-color-primary: #00676d;
-  --ifm-color-primary-dark: #005d62;
-  --ifm-color-primary-darker: #00585d;
-  --ifm-color-primary-darkest: #00484c;
-}
-
 body {
   font-family: Inter, sans-serif;
+  color: #303030;
   font-size: 14px;
   line-height: 21px;
 }
@@ -18,7 +9,7 @@ h1 {
   margin-top: 24px;
   margin-bottom: 8px;
   font-family: Tryvesterbro, sans-serif;
-  color: var(--ifm-color-primary);
+  color: #303030;
   font-size: 64px;
   line-height: 80px;
   font-weight: 700;
@@ -28,6 +19,7 @@ h2 {
   margin-top: 24px;
   margin-bottom: 16px;
   font-family: Tryvesterbro, sans-serif;
+  color: #303030;
   font-size: 40px;
   line-height: 52px;
   font-weight: 700;
@@ -46,6 +38,7 @@ h4 {
   margin-top: 16px;
   margin-bottom: 8px;
   font-family: Inter, sans-serif;
+  color: #303030;
   font-size: 20px;
   line-height: 28px;
   font-weight: 500;
@@ -55,6 +48,7 @@ p {
   margin-top: 8px;
   margin-bottom: 24px;
   font-family: Inter, sans-serif;
+  color: #303030;
   font-size: 24px;
   line-height: 36px;
 }
@@ -87,22 +81,21 @@ p {
   line-height: 24px;
 }
 
-.hero-text {
+.hero {
+  margin-top: 24px;
+  margin-bottom: 8px;
   font-family: Tryvesterbro, sans-serif;
+  color: #303030;
   font-size: 80px;
   line-height: 100px;
   font-weight: 700;
 }
 
-._80 {
-  width: 80%;
-}
-
-.hero-text.primary {
+.hero.primary {
   color: #00676d;
 }
 
-.hero-text.primary.centered {
+.hero.primary.centered {
   text-align: center;
 }
 
@@ -151,6 +144,10 @@ p {
 
 .body1.centered {
   text-align: center;
+}
+
+.body1.centered._80 {
+  width: 80%;
 }
 
 .body1.transparent.centered.shrunk.ugh {
@@ -233,7 +230,7 @@ p {
   line-height: 14px;
 }
 
-/* .navbar {
+.navbar {
   position: fixed;
   top: 0px;
   z-index: 99;
@@ -253,9 +250,9 @@ p {
   align-items: center;
   border-bottom: 1px solid #f8f7f4;
   background-color: #fff;
-} */
+}
 
-/* .container {
+.container {
   position: fixed;
   top: 0px;
   display: -webkit-box;
@@ -277,7 +274,7 @@ p {
   align-items: center;
   border: 1px none #000;
   box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.04);
-} */
+}
 
 .logocontainer__navbar {
   position: absolute;
@@ -342,7 +339,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 12vh;
+  margin-top: 20vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -448,7 +445,7 @@ p {
   background-color: #00676d;
 }
 
-.hero-text__home {
+.hero__home {
   overflow: visible;
   width: 100%;
   height: auto;
@@ -491,7 +488,7 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  /* opacity: 0; */
+  opacity: 0;
 }
 
 .white {
@@ -786,7 +783,7 @@ p {
 }
 
 .bubble2__casestudy.cf {
-  /* opacity: 0; */
+  opacity: 0;
 }
 
 .bubble2__casestudy.willowcreek {
@@ -1142,6 +1139,7 @@ p {
 }
 
 .centered {
+  color: #505050;
   text-align: center;
 }
 
@@ -1267,7 +1265,6 @@ p {
 }
 
 .dark {
-  overflow: hidden;
   background-color: #00676d;
 }
 
@@ -1276,7 +1273,7 @@ p {
   max-width: 640px;
 }
 
-.hero-text__features {
+.hero__features {
   position: relative;
   display: block;
   min-height: 640px;
@@ -1459,7 +1456,7 @@ p {
 }
 
 .bubble2__producthighlight.cf {
-  /* opacity: 0; */
+  opacity: 0;
 }
 
 .bubble2__producthighlight.willowcreek {
@@ -1663,7 +1660,7 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('/images/BackContainer.svg');
+  background-image: url('../images/BackContainer.svg');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1704,7 +1701,7 @@ p {
   align-items: center;
 }
 
-.hero-text__get-started {
+.hero__get-started {
   padding-right: 8%;
   padding-bottom: 0px;
   padding-left: 8%;
@@ -2290,7 +2287,7 @@ p {
     border-width: 1px;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.3);
   }
-  .hero-text__features {
+  .hero__features {
     padding-top: 15vh;
     padding-right: 12%;
     padding-left: 12%;
@@ -2392,7 +2389,7 @@ p {
   .cta__features {
     padding-bottom: 10vh;
   }
-  .hero-text__get-started {
+  .hero__get-started {
     padding-right: 12%;
     padding-left: 12%;
   }
@@ -2434,7 +2431,7 @@ p {
     font-size: 16px;
     line-height: 24px;
   }
-  .hero-text {
+  .hero {
     font-size: 72px;
     line-height: 92px;
   }
@@ -2633,7 +2630,7 @@ p {
   .image {
     width: 32px;
   }
-  .hero-text__features {
+  .hero__features {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -2746,7 +2743,7 @@ p {
     left: 20px;
     top: 16px;
   }
-  .hero-text__get-started {
+  .hero__get-started {
     padding-right: 6%;
     padding-bottom: 0px;
     padding-left: 6%;
@@ -2879,7 +2876,7 @@ p {
     width: 100%;
     height: 100vh;
     min-height: 100%;
-    /* opacity: 0; */
+    opacity: 0;
   }
   .plant {
     margin-top: -80px;
@@ -2908,7 +2905,7 @@ p {
 }
 
 @media screen and (max-width: 479px) {
-  .hero-text {
+  .hero {
     font-size: 52px;
     line-height: 66px;
   }
@@ -2972,7 +2969,7 @@ p {
   .imagecontainer__circle-home {
     width: 100%;
   }
-  .hero-text__home {
+  .hero__home {
     overflow: hidden;
     height: 100%;
     padding-right: 4%;
@@ -3203,7 +3200,7 @@ p {
   .textcontainer__hero-features {
     width: 100%;
   }
-  .hero-text__features {
+  .hero__features {
     padding-right: 5%;
     padding-left: 5%;
   }
@@ -3272,7 +3269,7 @@ p {
   .backcontainer {
     z-index: 90;
   }
-  .hero-text__get-started {
+  .hero__get-started {
     padding-right: 4%;
     padding-bottom: 0px;
     padding-left: 4%;
@@ -3384,7 +3381,7 @@ p {
     border-top-right-radius: 24px;
     background-color: #fff;
     box-shadow: 0 -4px 16px 0 rgba(0, 0, 0, 0.15);
-    /* opacity: 0; */
+    opacity: 0;
     -webkit-transform: translate(0px, 360px);
     -ms-transform: translate(0px, 360px);
     transform: translate(0px, 360px);
@@ -3413,7 +3410,7 @@ p {
     padding-right: 0px;
     padding-bottom: 0px;
     background-color: rgba(0, 0, 0, 0.7);
-    /* opacity: 0; */
+    opacity: 0;
   }
   .plant {
     position: relative;
@@ -3468,20 +3465,20 @@ p {
 
 @font-face {
   font-family: 'Tryvesterbro';
-  src: url('/font/TRYVesterbro-Extrabold.otf') format('opentype'),
-    url('/font/TRYVesterbro-Bold.otf') format('opentype');
+  src: url('../font/TRYVesterbro-Extrabold.otf') format('opentype'),
+    url('../font/TRYVesterbro-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'Tryvesterbro';
-  src: url('/font/TRYVesterbro-Regular.otf') format('opentype');
+  src: url('../font/TRYVesterbro-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'Tryvesterbro';
-  src: url('/font/TRYVesterbro-Medium.otf') format('opentype');
+  src: url('../font/TRYVesterbro-Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
 }

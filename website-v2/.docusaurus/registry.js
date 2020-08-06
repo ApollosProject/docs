@@ -1,4 +1,6 @@
 export default {
+  'component---site-src-pages-features-jsa-54-5db': [() => import(/* webpackChunkName: 'component---site-src-pages-features-jsa-54-5db' */ "@site/src/pages/features.js"), "@site/src/pages/features.js", require.resolveWeak("@site/src/pages/features.js")],
+  'component---site-src-pages-get-started-js-46-d-8d2': [() => import(/* webpackChunkName: 'component---site-src-pages-get-started-js-46-d-8d2' */ "@site/src/pages/get-started.js"), "@site/src/pages/get-started.js", require.resolveWeak("@site/src/pages/get-started.js")],
   'component---site-src-pages-index-jsc-4-f-f99': [() => import(/* webpackChunkName: 'component---site-src-pages-index-jsc-4-f-f99' */ "@site/src/pages/index.js"), "@site/src/pages/index.js", require.resolveWeak("@site/src/pages/index.js")],
   'component---theme-blog-list-pagea-6-a-7ba': [() => import(/* webpackChunkName: 'component---theme-blog-list-pagea-6-a-7ba' */ "@theme/BlogListPage"), "@theme/BlogListPage", require.resolveWeak("@theme/BlogListPage")],
   'component---theme-blog-post-pageccc-cab': [() => import(/* webpackChunkName: 'component---theme-blog-post-pageccc-cab' */ "@theme/BlogPostPage"), "@theme/BlogPostPage", require.resolveWeak("@theme/BlogPostPage")],
