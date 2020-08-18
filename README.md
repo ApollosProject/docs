@@ -9,9 +9,11 @@ yarn start
 
 Site is at `localhost:3000`
 
-## Build
+## Deploy
 
 ```
-cd website
-yarn build
+GIT_USER=<GIT_USER> \
+  CURRENT_BRANCH=master \
+  USE_SSH=true \
+  yarn run publish-gh-pages
 ```
