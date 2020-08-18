@@ -12,6 +12,7 @@ Site is at `localhost:3000`
 ## Deploy
 
 ```
+cd website
 GIT_USER=<GIT_USER> \
   CURRENT_BRANCH=master \
   USE_SSH=true \
