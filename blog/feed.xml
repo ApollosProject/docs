@@ -4,7 +4,7 @@
         <title>The Apollos Project Blog</title>
         <link>https://apollosapp.io/blog</link>
         <description>The best place to stay up-to-date with the latest The Apollos Project news and events.</description>
-        <lastBuildDate>Tue, 18 Aug 2020 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Sep 2020 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>https://apollosapp.io/blog</link>
         </image>
         <copyright>Copyright © 2020 Apollos Project</copyright>
+        <item>
+            <title><![CDATA[Updating from 1.4.3 to 1.5.0]]></title>
+            <link>https://apollosapp.io/blog/2020/09/10/updating-to-1.5.html</link>
+            <guid>https://apollosapp.io/blog/2020/09/10/updating-to-1.5.html</guid>
+            <pubDate>Thu, 10 Sep 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Override names have been added (or changed) to all instances of <code>styled</code> and <code>withTheme</code>. This will require updating.</p> <p>How are they named?</p> <ul> <li>The namming convention is <code>package-name.File/ComponentName.StyledComponentName</code>.</li> <li>For example, <code>H1</code> has been changed to ...</li></ul>]]></description>
+        </item>
         <item>
             <title><![CDATA[Release Notes: v1.5]]></title>
             <link>https://apollosapp.io/blog/2020/08/18/release-1.5.html</link>
