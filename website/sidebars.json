@@ -7,9 +7,14 @@
       "passkit",
       "weekend-experience",
       "prayer",
+      "performance",
+      "load-testing",
+      "send-push",
+      "search",
+      "terraform",
       "caching"
     ],
-    "Rock Integration": ["one-signal", "content-personalization"],
+    "Rock Integration": ["rock-setup", "one-signal", "content-personalization"],
     "UI-Kit": [
       "ui-kit/actionbaritem",
       "ui-kit/actionbar",
