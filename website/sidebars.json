@@ -1,6 +1,8 @@
 {
   "docs": {
-    "Getting Started": ["install"],
+    "Getting Started": [
+      "install"
+    ],
     "Guides": [
       "contributing",
       "fastly",
@@ -14,7 +16,11 @@
       "terraform",
       "caching"
     ],
-    "Rock Integration": ["rock-setup", "one-signal", "content-personalization"],
+    "Rock Integration": [
+      "rock-setup",
+      "one-signal",
+      "content-personalization"
+    ],
     "UI-Kit": [
       "ui-kit/actionbaritem",
       "ui-kit/actionbar",
