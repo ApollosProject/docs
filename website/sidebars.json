@@ -1,19 +1,15 @@
 {
   "docs": {
-    "Getting Started": [
-      "install"
-    ],
+    "Getting Started": ["install"],
     "Guides": [
       "contributing",
       "fastly",
       "passkit",
       "weekend-experience",
-      "prayer"
+      "prayer",
+      "caching"
     ],
-    "Rock Integration": [
-      "one-signal",
-      "content-personalization"
-    ],
+    "Rock Integration": ["one-signal", "content-personalization"],
     "UI-Kit": [
       "ui-kit/actionbaritem",
       "ui-kit/actionbar",
