@@ -1,0 +1,152 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Release Notes: v1.5 · The Apollos Project</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Today, we’re announcing our next general release, Apollos 1.5. Apollos 1.5 is part 1 in a 2-part release journey focused on reliability and our investment in developer flexibility."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Release Notes: v1.5 · The Apollos Project"/><meta property="og:type" content="website"/><meta property="og:url" content="https://apollosapp.io/blog/2020/08/18/release-1.5"/><meta property="og:description" content="Today, we’re announcing our next general release, Apollos 1.5. Apollos 1.5 is part 1 in a 2-part release journey focused on reliability and our investment in developer flexibility."/><meta property="og:image" content="https://apollosapp.io/img/apollos.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://apollosapp.io/img/apollos.png"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://apollosapp.io/blog/atom.xml" title="The Apollos Project Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://apollosapp.io/blog/feed.xml" title="The Apollos Project Blog RSS Feed"/><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/brand/wordmark.png" alt="The Apollos Project"/></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/install" target="_self">Docs</a></li><li class=""><a href="/help" target="_self">Help</a></li><li class="siteNavGroupActive"><a href="/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Recent Posts</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Recent Posts</h3><ul class=""><li class="navListItem"><a class="navItem" href="/blog/2020/09/10/updating-to-1.5">Updating from 1.4.3 to 1.5.0</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/blog/2020/08/18/release-1.5">Release Notes: v1.5</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer postContainer blogContainer"><div class="wrapper"><div class="lonePost"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2020/08/18/release-1.5">Release Notes: v1.5</a></h1><p class="post-meta">August 18, 2020</p><div class="authorBlock"><p class="post-authorName"><a target="_blank" rel="noreferrer noopener">Conrad VanLandingham</a></p></div></header><div><span><p>Today, we’re announcing our next general release, Apollos 1.5. Apollos 1.5 is part 1 in a 2-part release journey focused on reliability and our investment in developer flexibility.</p>
+<!--truncate-->
+<h2><a class="anchor" aria-hidden="true" id="upgrading-your-app"></a><a href="#upgrading-your-app" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Upgrading your app</h2>
+<p>To start the upgrade process, run the following command within each of your Apollos app directors. For example, you’ll run this command both within your <code>ApollosChurchApp</code> react-native app, as well as within your <code>apollos-church-api</code> GraphQL service:</p>
+<p><code>npx @apollosproject/upgrade-tools upgrade</code></p>
+<p>Most likely, this command will generate merge conflicts or other notices that will require manual steps. To help with this process, read through the release notes below.</p>
+<h2><a class="anchor" aria-hidden="true" id="new-override-names-across-all-ui--packages"></a><a href="#new-override-names-across-all-ui--packages" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>New override names across all ui- packages</h2>
+<p>Override names have been added (or changed) in core’s ui-packages. Now you can override the styles of any component styled using the <code>styled</code> HOC or the props of any component using the <code>withTheme</code> HOC. An example:</p>
+<pre><code class="hljs">const MyButtonOnCore = styled({
+   backgroundColor: 'green',
+}, 'MyButtonOnCore')(<span class="hljs-name">Button</span>)<span class="hljs-comment">;</span>
+</code></pre>
+<p>And then in an app's overrides, you could override that button's styles:</p>
+<pre><code class="hljs"><span class="hljs-keyword">const</span> overrides = {
+  <span class="hljs-string">'MyButtonOnCore'</span>: {
+    backgroundColor: <span class="hljs-string">'red'</span>,
+  }
+}
+</code></pre>
+<p>The naming convention is: <code>package-name.File/ComponentName.StyledComponentName</code>
+and while this may seem cumbersome at times, consistency in the naming pattern is of utmost importance.</p>
+<p>When upgrading your app, make special note of any override name changes. For example, if you were previously overriding <code>UIText</code>, your override would no longer work. You will need to rename your override to <code>ui-kit.UIText</code>. For more information regarding upgrade instructions and suggested steps to take please refer to the <a href="https://github.com/ApollosProject/apollos-apps/blob/master/UPDATING.md">UPDATING.md</a> file.s</p>
+<h2><a class="anchor" aria-hidden="true" id="automatic-auth-refreshes-to-help-circumvent-logout-issues"></a><a href="#automatic-auth-refreshes-to-help-circumvent-logout-issues" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Automatic auth refreshes to help circumvent logout issues</h2>
+<p>From our ongoing analysis of the persistent logout issues in the app, we have identified that the majority of the users are logged out while still sending over what we consider a valid auth token. Rathering than allowing Rock to log out those users (for either an expired token, or reasons we don’t yet understand), we have opted to track user’s cookies when they login and allow users who are no longer authenticated via rock to stay logged in by validating their cookie against the details we now keep in Redis.</p>
+<p>If you haven’t overridden any of your Auth datasource methods, this change is a drop in replacement, and you will notice no differences in app functionality (besides storing additional details in Redis)</p>
+<p>If you have overridden either the <code>authenticate</code> or <code>getCurrentPerson</code> methods, you will need to update your overrides to include the new code. Use <a href="https://github.com/ApollosProject/apollos-apps/pull/1517/files">the PR</a> as a reference for making changes, or copy and paste the methods from core and then reapply your custom code.</p>
+<h2><a class="anchor" aria-hidden="true" id="only-onboard-once-when-using-the-same-device"></a><a href="#only-onboard-once-when-using-the-same-device" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Only onboard once when using the same device</h2>
+<p>This feature uses local storage and user id to</p>
+<ol>
+<li>Check a user’s onboarding status before opening onboarding <code>checkOnboardingStatusAndNavigate</code></li>
+<li>Set a value showing that a user has finished onboarding by calling <code>onboardingComplete({ userId: id })</code></li>
+</ol>
+<p>If a user has onboarded, they skip directly into the app. Functions to do this can be found in <code>onboardingStatus.js</code>.</p>
+<p>This is a new added feature.</p>
+<h2><a class="anchor" aria-hidden="true" id="analytics--tracking-updates"></a><a href="#analytics--tracking-updates" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Analytics &amp; tracking updates</h2>
+<p>Two important changes have been added in regards to analytics and bug tracking.</p>
+<p>For analytics, we introduced a new core analytics library. This core analytics library collects limited metrics to be analyzed by the core product team. This library is opt-in if you are upgrading to the newest versions, and opt-out if you are creating a new app.</p>
+<p>Opting in to core navigation analytics is as simple as rendering the <code>&lt;CoreNavigationAnalytics&gt;</code> component, as visible in <a href="https://github.com/ApollosProject/apollos-templates/blob/master/apolloschurchapp/src/index.js#L74">the template</a> and passing props into your AppContainer, which is responsible for injecting the analytics tracking.</p>
+<p>You can audit the code of our core analytics <a href="https://github.com/ApollosProject/apollos-apps/blob/master/packages/apollos-ui-analytics/src/CoreNavigationAnalytics.js">here</a></p>
+<p>Currently, we are only tracking navigation and app lifecycle events only. We are not tracking any user data whatsoever.</p>
+<p>Additionally, we are releasing official Bugsnag support to core. Support is automatically added to the 1.5 template, and is enabled by providing Bugsnag env vars on api and client.</p>
+<h2><a class="anchor" aria-hidden="true" id="rock-device-support"></a><a href="#rock-device-support" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rock device support</h2>
+<p>Users now can request a list of devices from the Rock DB that contain the notifications service push ID (One-Signal by default) and whether push notifications are enabled. This will be useful for enabling/disabling notifications client side and will be reflected in the DB. More metadata about devices can be easily added in future additions.</p>
+<p>Support for this feature should be easy to pick up, nothing was changed, only added. If you want to overwrite any field resolver, you’ll need to import deviceSchema from the schema NPM package.</p>
+<p>You can toggle the <code>enabled</code> field by passing the argument to the <code>updateNotificationsEnabled</code> mutation.</p>
+<h2><a class="anchor" aria-hidden="true" id="improved-image-loading"></a><a href="#improved-image-loading" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Improved image loading</h2>
+<p>We are releasing a significant refactor to the ConnectedImage component. This refactor introduces zero new API changes, but aims to significantly improve image load and re-mount times. You will lose out on animated image fade-ins when the image loads.</p>
+<p>Furthermore, we investigated misc image loading gotchas in relation to image loading. Most notably, it is recommended that you check the response headers that are returned from your image assets. ReactNative appears to be very strict on how caching is treated. We had one such app that no-cache headers were being sent with all image assets, and ReactNative refused to serve that image from cache ever - even if the same image was shown multiple times on a given render. Every re-render involved a server round trip. Drastically increasing network usage, load times, and creating a poor user experience.</p>
+<h2><a class="anchor" aria-hidden="true" id="buttons-in-action-and-hero-lists"></a><a href="#buttons-in-action-and-hero-lists" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Buttons in Action and Hero Lists</h2>
+<p>ActionListFeatures and HeroListFeatures are now capable of rendering a “Primary Action”, a button which can be wired up to perform any arbitrary action.</p>
+<p>This feature can be enabled on supported features by adding additional configuration to your config.yml. As of right now, the configuration is brittle and explicit, but easy to maintain and understand.</p>
+<p>The button seen in the Willow Events ActionList was added with the <code>following configuration block</code>:</p>
+<p><img src="/docs/assets/blog/release-1.5/events.png" alt="events"></p>
+<pre><code class="hljs"><span class="hljs-bullet">-</span> <span class="hljs-attr">title:</span> <span class="hljs-string">Upcoming</span>
+    <span class="hljs-string">...</span>
+  <span class="hljs-attr">primaryAction:</span>
+  <span class="hljs-attr">action:</span> <span class="hljs-string">OPEN_URL</span>
+  <span class="hljs-attr">title:</span> <span class="hljs-string">'See more'</span>
+  <span class="hljs-attr">relatedNode:</span>
+    <span class="hljs-attr">__typename:</span> <span class="hljs-string">Url</span>
+    <span class="hljs-attr">url:</span> <span class="hljs-string">'WillowCreekApp://WillowCreekApp/app-link/EventFeed'</span>
+</code></pre>
+<p>action can be any one of the <code>ACTION_FEATURE_ACTION</code>’s
+Title is the title of the button.
+<code>relatedNode</code> has different behavior depending on the action.</p>
+<p>On the client, the same logic that is used to handle an onPress for a <code>ActionListItem</code> or a CardListCard is used to handle the onPress for the primary action button.</p>
+<h2><a class="anchor" aria-hidden="true" id="remote--digital-campus-support"></a><a href="#remote--digital-campus-support" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Remote / digital campus support</h2>
+<p>The app will now more gracefully handle campuses with a type of “Online”. These campuses will show up in the app as either the last option in a list of locations, or the first option if the user is more than 100 miles from any other location.</p>
+<p>This option is enabled by default, with no code changes needed. If you wish to customize the message that appears alongside the campus, you can add the following block to your config.yml</p>
+<p><img src="/docs/assets/blog/release-1.5/campus.png" alt="campuses"></p>
+<pre><code class="hljs">REMOTE_CAMPUS:
+  FIELDS:
+    street1: 'Test street'
+    city: 'Test city'
+    <span class="hljs-keyword">state</span>: 'A <span class="hljs-keyword">state</span> of being'
+</code></pre>
+<p>Find more details <a href="https://github.com/ApollosProject/apollos-apps/pull/1520/files">in the PR</a></p>
+<h2><a class="anchor" aria-hidden="true" id="miscellaneous-bug-fixes-and-stability-improvements"></a><a href="#miscellaneous-bug-fixes-and-stability-improvements" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Miscellaneous bug fixes and stability improvements</h2>
+<p><a href="https://github.com/ApollosProject/apollos-apps/blob/master/CHANGELOG.md">Complete changelog</a></p>
+<ul>
+<li>Bumps codecov from 3.6.5 to 3.7.1 (#1514) (c6afec0e)</li>
+<li>Bumps apollo-server-express from 2.11.0 to 2.15.1 (#1505) (b1b4aaad)</li>
+<li>Bumps lodash from 4.17.13 to 4.17.19 (#1513) (1fdc1346)</li>
+<li>Fixes an error from being thrown if a campus doesn't have an image (#1382) (7a6b0715)</li>
+<li>Fixes Type safes followings return type (#1516) (fad044aa)</li>
+<li>Fixes Chromecast for Android (#1496) (0a1d9a89)</li>
+<li>Fixes two prayer issues (#1502) (dc1077c9)</li>
+<li>Fixes issue when changing &quot;onPress&quot; prop on TouchableScale (#1498) (bded69a3)</li>
+<li>Fixes issue where re-renders aren't picked up in StretchyView (#1499) (fb4b6cf1)</li>
+<li>Enables isLive on Highlight and Default cards (#1519) (8ede83a2)</li>
+<li>Removes ESLint Prop spreading rule (#1507) (786c0c2c)</li>
+<li>Makes <code>react-native-safe-area-context</code> a peer dep (#1503) (e9f3085f)</li>
+<li>Passes schema info to resolving methods (#1494) (c742b40d)</li>
+<li>Adds eslint web config and bump deps (#1504) (ba3637a3)</li>
+</ul>
+</span></div></div><div class="blogSocialSection"></div></div><div class="blog-recent"><a class="button" href="/blog/">Recent Posts</a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#upgrading-your-app">Upgrading your app</a></li><li><a href="#new-override-names-across-all-ui--packages">New override names across all ui- packages</a></li><li><a href="#automatic-auth-refreshes-to-help-circumvent-logout-issues">Automatic auth refreshes to help circumvent logout issues</a></li><li><a href="#only-onboard-once-when-using-the-same-device">Only onboard once when using the same device</a></li><li><a href="#analytics--tracking-updates">Analytics &amp; tracking updates</a></li><li><a href="#rock-device-support">Rock device support</a></li><li><a href="#improved-image-loading">Improved image loading</a></li><li><a href="#buttons-in-action-and-hero-lists">Buttons in Action and Hero Lists</a></li><li><a href="#remote--digital-campus-support">Remote / digital campus support</a></li><li><a href="#miscellaneous-bug-fixes-and-stability-improvements">Miscellaneous bug fixes and stability improvements</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/apollos.png" alt="The Apollos Project" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/install.html">Getting Started</a><a href="/docs/en/contributing.html">Guides</a><a href="/docs/en/doc3.html">API Reference</a></div><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2020 Apollos Project</section></footer></div></body></html>
