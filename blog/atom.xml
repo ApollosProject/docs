@@ -2,12 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://apollosapp.io/blog</id>
     <title>The Apollos Project Blog</title>
-    <updated>2020-09-10T06:00:00.000Z</updated>
+    <updated>1970-01-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://apollosapp.io/blog"/>
     <subtitle>The best place to stay up-to-date with the latest The Apollos Project news and events.</subtitle>
     <logo>https://apollosapp.io/img/brand/wordmark.png</logo>
     <rights>Copyright © 2020 Apollos Project</rights>
+    <entry>
+        <title type="html"><![CDATA[Release Notes: v1.6]]></title>
+        <id>https://apollosapp.io/blog/2020/10/9/release-1.6.html</id>
+        <link href="https://apollosapp.io/blog/2020/10/9/release-1.6.html"/>
+        <updated>1970-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Today, we’re announcing our next general release, Apollos 1.6. Featured in this release is a new and improved schema for many of our foundational data types, as well as lots of bug fixes and some cool new features.</p>
+]]></summary>
+        <author>
+            <name>Michael Neeley</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Updating from 1.4.3 to 1.5.0]]></title>
         <id>https://apollosapp.io/blog/2020/09/10/updating-to-1.5.html</id>

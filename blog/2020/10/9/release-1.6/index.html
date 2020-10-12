@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Release Notes: v1.6 · The Apollos Project</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Today, we’re announcing our next general release, Apollos 1.6. Featured in this release is a new and improved schema for many of our foundational data types, as well as lots of bug fixes and some cool new features."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Release Notes: v1.6 · The Apollos Project"/><meta property="og:type" content="website"/><meta property="og:url" content="https://apollosapp.io/blog/2020/10/9/release-1.6"/><meta property="og:description" content="Today, we’re announcing our next general release, Apollos 1.6. Featured in this release is a new and improved schema for many of our foundational data types, as well as lots of bug fixes and some cool new features."/><meta property="og:image" content="https://apollosapp.io/img/apollos.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://apollosapp.io/img/apollos.png"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://apollosapp.io/blog/atom.xml" title="The Apollos Project Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://apollosapp.io/blog/feed.xml" title="The Apollos Project Blog RSS Feed"/><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/brand/wordmark.png" alt="The Apollos Project"/></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/install" target="_self">Docs</a></li><li class=""><a href="/help" target="_self">Help</a></li><li class="siteNavGroupActive"><a href="/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Recent Posts</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Recent Posts</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/blog/2020/10/9/release-1.6">Release Notes: v1.6</a></li><li class="navListItem"><a class="navItem" href="/blog/2020/09/10/updating-to-1.5">Updating from 1.4.3 to 1.5.0</a></li><li class="navListItem"><a class="navItem" href="/blog/2020/08/18/release-1.5">Release Notes: v1.5</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer postContainer blogContainer"><div class="wrapper"><div class="lonePost"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2020/10/9/release-1.6">Release Notes: v1.6</a></h1><p class="post-meta">October 9, 2020</p><div class="authorBlock"><p class="post-authorName"><a target="_blank" rel="noreferrer noopener">Michael Neeley</a></p></div></header><div><span><p>Today, we’re announcing our next general release, Apollos 1.6. Featured in this release is a new and improved schema for many of our foundational data types, as well as lots of bug fixes and some cool new features.</p>
+<!--truncate-->
+<h2><a class="anchor" aria-hidden="true" id="upgrading-your-app"></a><a href="#upgrading-your-app" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Upgrading your app</h2>
+<p>To start the upgrade process, run the following command within each of your Apollos app directors. For example, you’ll run this command both within your <code>ApollosChurchApp</code> react-native app, as well as within your <code>apollos-church-api</code> GraphQL service:</p>
+<p><code>npx @apollosproject/upgrade-tools upgrade</code></p>
+<p>Most likely, this command will generate merge conflicts or other notices that will require manual steps. To help with this process, read through the release notes below.</p>
+<h2><a class="anchor" aria-hidden="true" id="breaking-custom-features-api"></a><a href="#breaking-custom-features-api" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>BREAKING: Custom Features API</h2>
+<p>This is for anyone who has overridden core feature datasource functions. We no longer call <code>createGlobalId</code> inside the <code>Feature.dataSource</code>. ID's are now generated from <code>Feature.resolver</code>. If you have added custom Features, you will need to do the same. If you have custom algorithms, remove all references to <code>createGlobalId</code> in the algorithm. See <a href="https://github.com/lcbc-digital/ephesus/commit/7a34b030100b08f36351959614d678437c7def74#diff-96edc6a32324af4139123deb4bd4c735">LCBC’s update</a> for examples.</p>
+<h2><a class="anchor" aria-hidden="true" id="schema-changes"></a><a href="#schema-changes" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Schema Changes</h2>
+<p>There’s a lot to unpack in this enhancement. There are a few areas of the app that were explicitly enhanced and upgraded, some bugfixes that were granted on the side, and a some areas of future development that were unlocked.</p>
+<p>The primary feature granted by this change was a back end schema update that breaks most of the ContentItem attributes into individual Interfaces and a front end Connected component update that queries those new interfaces.</p>
+<p>For example, there is a new Interface called the <code>ContentNode</code> that contains the <code>title</code>, <code>coverImage</code>, and <code>htmlContent</code> node. On the client, the <code>ContentSingle</code> (or as it’s called now, <code>ContentNode</code>) route doesn’t look for data on a <code>ContentItem</code> specifically, but on a <code>ContentNode</code> generally.</p>
+<p>Now, when adding additional data sets into your app that don’t match the core <code>ContentItem</code> types, you no longer have to extend ContentItem and it’s numerous fields, and then significantly update your front end. You should be able to get away with implementing the <code>ContentNode</code> or whatever other interfaces are relevant and be done.</p>
+<p>No work is needed on your end to support this functionality, but if you have created new <code>ContentItem</code> implementations in the past, this would be a good time to also have those implementations extend the relevant Node interfaces.</p>
+<h2><a class="anchor" aria-hidden="true" id="fastlane"></a><a href="#fastlane" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fastlane</h2>
+<p>With this release comes the incredible mobile app deployment suite, <a href="https://fastlane.tools">Fastlane</a>. This will give you the ability to deploy your app to the test tracks of Android and iOS without having to pay for AppCenter. It also manages your iOS Certificates and Provisioning Profiles for you (🙌) so you don't have to worry about generating new stuff for every member of the team. For existing apps, this will require a little work to get exactly right due to existing CD infrastructure. We would love for everyone to give it a try, so ask your question on Slack if are having trouble setting it up on your own! I'll post another guide soon on how you can migrate from your existing setup.</p>
+<h2><a class="anchor" aria-hidden="true" id="shared-secrets"></a><a href="#shared-secrets" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Shared Secrets</h2>
+<p>This goes along with Fastlane but also comes with some other cool features. We needed a way to share Android keystore files among the group (Fastlane can't do that for you) so we are encrypting a couple of files to make them available to your CI. We also use this to share the most up to date environment variables for the API and app environments so you don't have to keep track of them in some text file or 1Password to share among the team. Create these four files:</p>
+<pre><code class="hljs">- app/<span class="hljs-selector-class">.env</span><span class="hljs-selector-class">.shared</span>                   <span class="hljs-comment">// shared app environment variables</span>
+- api/<span class="hljs-selector-class">.env</span><span class="hljs-selector-class">.shared</span>                   <span class="hljs-comment">// shared API environment variables</span>
+- app/android/app/apollos<span class="hljs-selector-class">.keystore</span>  <span class="hljs-comment">// only needed for fastlane deploys</span>
+- app/android/key<span class="hljs-selector-class">.json</span>              <span class="hljs-comment">// only needed for fastlane deploys</span>
+</code></pre>
+<p>And then encrypt them with this new command:</p>
+<pre><code class="hljs">yarn secrets -e &lt;<span class="hljs-keyword">SOME</span> SECURE <span class="hljs-keyword">PASSWORD</span>&gt;
+</code></pre>
+<p>Now commit the new <code>&lt;file&gt;.enc</code> files to the repo and voila! Your secrets are on the internet 😬.</p>
+<h2><a class="anchor" aria-hidden="true" id="miscellaneous-bug-fixes-and-stability-improvements"></a><a href="#miscellaneous-bug-fixes-and-stability-improvements" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Miscellaneous bug fixes and stability improvements</h2>
+<p><a href="https://github.com/ApollosProject/apollos-apps/blob/master/CHANGELOG.md">Complete changelog</a></p>
+<ul>
+<li>Caching improvements for Feed Features</li>
+<li>Improve reliability on pull to refetch on feeds</li>
+<li>Improvements to the GraphQL Apollo in-memory cache</li>
+<li>Modularizing of the Content experience into -apps library code. This means that for new Apollos Template generated apps, you won't have to maintain all of the ContentSingle code yourself</li>
+<li>Support for the ChurchOnline GraphQL API</li>
+<li>Improvements to the Like Button, as well as a new Share Button</li>
+<li>Add ability to make theme overrides within Auth screens and to Horizontal Cards</li>
+<li>Fixes in preparation for React-Native 63</li>
+</ul>
+</span></div></div><div class="blogSocialSection"></div></div><div class="blog-recent"><a class="button" href="/blog/">Recent Posts</a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#upgrading-your-app">Upgrading your app</a></li><li><a href="#breaking-custom-features-api">BREAKING: Custom Features API</a></li><li><a href="#schema-changes">Schema Changes</a></li><li><a href="#fastlane">Fastlane</a></li><li><a href="#shared-secrets">Shared Secrets</a></li><li><a href="#miscellaneous-bug-fixes-and-stability-improvements">Miscellaneous bug fixes and stability improvements</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/apollos.png" alt="The Apollos Project" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/install.html">Getting Started</a><a href="/docs/en/contributing.html">Guides</a><a href="/docs/en/doc3.html">API Reference</a></div><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="http://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://code.facebook.com/projects/" target="_blank" rel="noreferrer noopener" class="fbOpenSource"><img src="/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/></a><section class="copyright">Copyright © 2020 Apollos Project</section></footer></div></body></html>

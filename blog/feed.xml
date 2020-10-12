@@ -4,7 +4,7 @@
         <title>The Apollos Project Blog</title>
         <link>https://apollosapp.io/blog</link>
         <description>The best place to stay up-to-date with the latest The Apollos Project news and events.</description>
-        <lastBuildDate>Thu, 10 Sep 2020 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Jan 1970 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -13,6 +13,14 @@
             <link>https://apollosapp.io/blog</link>
         </image>
         <copyright>Copyright © 2020 Apollos Project</copyright>
+        <item>
+            <title><![CDATA[Release Notes: v1.6]]></title>
+            <link>https://apollosapp.io/blog/2020/10/9/release-1.6.html</link>
+            <guid>https://apollosapp.io/blog/2020/10/9/release-1.6.html</guid>
+            <pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Today, we’re announcing our next general release, Apollos 1.6. Featured in this release is a new and improved schema for many of our foundational data types, as well as lots of bug fixes and some cool new features.</p>
+]]></description>
+        </item>
         <item>
             <title><![CDATA[Updating from 1.4.3 to 1.5.0]]></title>
             <link>https://apollosapp.io/blog/2020/09/10/updating-to-1.5.html</link>
