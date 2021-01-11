@@ -11,7 +11,7 @@ This guide describes how to setup your Rock Environment
 
 ## Unlocking Rock Endpoints
 
-In order for user authentication to work, we need to open up a single Rock REST endpoint. The `People/GetCurrentPerson` endpoint is used extesivly by Apollos to perform user authentication, and needs to be opened up so any user can call that endpoint (not just our API user.)
+In order for user authentication to work, we need to open up a single Rock REST endpoint. The `People/GetCurrentPerson` endpoint is used extensively by Apollos to perform user authentication, and needs to be opened up so any user can call that endpoint (not just our API user.)
 
 ### Steps to Unlock
 
