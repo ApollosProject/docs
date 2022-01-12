@@ -1,0 +1,19 @@
+body {
+  background: radial-gradient(
+      82.68% 82.68% at 50% 17.32%,
+      rgba(0, 182, 192, 0.3) 0%,
+      rgba(0, 103, 109, 0) 77.11%
+    ),
+    linear-gradient(180deg, #303036 0%, #000000 100%);
+}
+
+.appIcon {
+  background: rgba(255, 0, 0, 1),
+    linear-gradient(135deg, #ffffff 0%, rgba(255, 255, 255, 0) 71.14%);
+  height: 100px;
+  width: 100px;
+}
+
+.appIcon__background {
+  background: rgba(255, 0, 0, 0.3);
+}
