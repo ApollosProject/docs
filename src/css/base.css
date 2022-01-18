@@ -18,8 +18,30 @@
   background: rgba(255, 0, 0, 0.3);
 } */
 
-h1 {
-  font-weight: bold;
+.pipeline-wrapper {
+  background: url('../images/Frame.png'), #ffffff;
+  background-size: 32px;
+}
+
+.pipeline {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0.95) 100%
+  );
+}
+
+.blueprint-icon-bg {
+  background: linear-gradient(
+      0deg,
+      rgba(224, 238, 236, 0.9),
+      rgba(224, 238, 236, 0.9)
+    ),
+    linear-gradient(135deg, #6ec5b8 0%, #17b582 100%);
+}
+
+.brand-text {
+  color: #17b582;
 }
 
 .footer {
