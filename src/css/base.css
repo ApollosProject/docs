@@ -19,16 +19,13 @@
 } */
 
 .pipeline-wrapper {
-  background: url('../images/Frame.png'), #ffffff;
-  background-size: 32px;
-}
-
-.pipeline {
   background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0.95) 100%
-  );
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    url('../images/Frame.png'), #ffffff;
+  background-size: 32px;
 }
 
 .pipeline-green-background {
