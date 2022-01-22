@@ -854,6 +854,88 @@ J.displayName = "StaticImage", J.propTypes = $;
 
 /***/ }),
 
+/***/ "./src/components/Card.js":
+/*!********************************!*\
+  !*** ./src/components/Card.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+const Card = ({
+  data
+}) => {
+  const back = `bg-[${data.backgroundColor}]`;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: back
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "flex items-center justify-center h-12 w-12 rounded-full blueprint-icon-bg text-base-secondary mb-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(data.icon, {
+    className: "h-6 w-6",
+    "aria-hidden": "true"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text-base text-base-secondary uppercase"
+  }, data.subHeading), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "text-3xl lg:text-4xl font-extrabold pb-5 pt-2"
+  }, data.heading), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-gray-500"
+  }, data.text));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Card);
+
+/***/ }),
+
+/***/ "./src/components/Divider.js":
+/*!***********************************!*\
+  !*** ./src/components/Divider.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+const Divider = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "relative"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "absolute inset-0 flex items-center",
+    "aria-hidden": "true"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "w-full border-t border-gray-300"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "relative flex justify-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "bg-white px-2 text-gray-500"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    width: "24",
+    height: "24",
+    viewBox: "0 0 24 24",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M0 24L9.39372 0H14.6063L24 24H0ZM11.8571 5.8363L6.92808 19.4399H17.0847L12.1556 5.8363H11.8571Z",
+    fill: "#00676D"
+  })))));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Divider);
+
+/***/ }),
+
 /***/ "./src/pages/index.js":
 /*!****************************!*\
   !*** ./src/pages/index.js ***!
@@ -867,11 +949,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-helmet */ "./node_modules/react-helmet/es/Helmet.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/GitBranch.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Code.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/ChalkboardTeacher.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/RocketLaunch.esm.js");
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/GitBranch.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Code.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/ChalkboardTeacher.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/GlobeHemisphereWest.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Users.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Heart.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/UserSquare.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/TrendUp.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/YoutubeLogo.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/RocketLaunch.esm.js");
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var _components_Divider__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Divider */ "./src/components/Divider.js");
+/* harmony import */ var _components_Card__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Card */ "./src/components/Card.js");
+
+
 
 
 
@@ -881,25 +973,71 @@ const IndexPage = () => {
   const features = [{
     name: 'Open source & open license',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_2__["default"]
+    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_4__["default"]
   }, {
     name: 'Developer-supported community',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_3__["default"]
+    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_5__["default"]
   }, {
     name: 'Lead with collaboration and strategy',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_4__["default"]
+    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_6__["default"]
+  }];
+  const cards = [{
+    backgroundColor: '#FF0000',
+    heading: 'Connect on every device',
+    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_7__["default"],
+    subHeading: 'Mobile, TV & Web',
+    text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.'
+  }, {
+    backgroundColor: '#EDECF3',
+    heading: 'Host healthy groups',
+    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_8__["default"],
+    subHeading: 'Sub-head',
+    text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.'
+  }, {
+    backgroundColor: '#E0EEE0',
+    heading: 'Increase generosity',
+    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_9__["default"],
+    subHeading: 'Sub-head',
+    text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.'
+  }, {
+    backgroundColor: '#EEEBE0',
+    heading: 'Disciple personally',
+    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_10__["default"],
+    subHeading: 'Sub-head',
+    text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.'
+  }, {
+    backgroundColor: '#E0ECEE',
+    heading: 'Build daily habits',
+    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_11__["default"],
+    subHeading: 'Sub-head',
+    text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.'
+  }, {
+    backgroundColor: '#EEE3E0',
+    heading: 'Watch & grow',
+    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_12__["default"],
+    subHeading: 'Sub-head',
+    text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.'
   }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__.Helmet, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("link", {
     rel: "stylesheet",
     href: "https://rsms.me/inter/inter.css"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "py-8 lg:py-24 pb-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center"
+  }, "Heading", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "lg:columns-2"
+  }, cards.map(card => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "py-4",
+    key: card.heading
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    data: card
+  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "max-w-2xl mx-auto px-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Divider__WEBPACK_IMPORTED_MODULE_2__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pipeline-wrapper"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "pipeline"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8"
+    className: "py-8 lg:py-24 pb-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pipeline-green-background rounded-lg shadow-xl overflow-hidden"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -907,35 +1045,35 @@ const IndexPage = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "lg:self-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "mt-6 max-w-3xl text-base text-base-secondary uppercase"
-  }, "a Church-centric data pipeline"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
-    className: "text-3xl font-extrabold text-white py-4"
+    className: "max-w-3xl text-sm text-base-secondary uppercase"
+  }, "a Church-centric data pipeline"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "text-3xl lg:text-5xl font-extrabold text-white py-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "block"
   }, "Syncs with your existing services and data.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "mt-4 text-lg leading-6 text-dark-secondary"
-  }, "Apollos syncs data with the other services you already depend on. Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "#",
-    className: "mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex gap-2 items-center text-base font-medium text-base-secondary hover:text-base-secondary-hover"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_5__["default"], null), "Explore integrations"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
-    className: "transform translate-x-6 translate-y-6 rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20",
+  }, "Apollos syncs data with the other services you already depend on. Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "flex flex-col items-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "mt-14 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_13__.StaticImage, {
+    className: "transform rounded-md object-cover object-left-top",
     src: "../images/pipeline.png",
     alt: "Pipeline Screenshot",
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1114902875.json */ "./.cache/caches/gatsby-plugin-image/1114902875.json")
-  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "#",
+    className: "mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex gap-2 items-center text-base font-medium text-base-secondary hover:text-base-secondary-hover"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_14__["default"], null), "Explore integrations"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "pt-8 lg:pt-24"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "mt-6 max-w-3xl text-base text-base-secondary uppercase"
+    className: "max-w-3xl text-base text-base-secondary uppercase"
   }, "Our Blueprint"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "text-5xl font-extrabold tracking-tight text-black"
   }, "For ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", null, "the")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "text-5xl font-extrabold tracking-tight text-black"
-  }, "Kingdom.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "py-12"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "max-w-xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8"
+  }, "Kingdom."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "pt-12"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     className: "sr-only"
   }, "For the Kingdom"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("dl", {
@@ -1649,6 +1787,320 @@ GitBranch.displayName = "GitBranch";
 
 /***/ }),
 
+/***/ "./node_modules/phosphor-react/dist/icons/GlobeHemisphereWest.esm.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/phosphor-react/dist/icons/GlobeHemisphereWest.esm.js ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _lib_index_esm_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../lib/index.esm.js */ "./node_modules/phosphor-react/dist/lib/index.esm.js");
+/* harmony import */ var _lib_IconBase_esm_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/IconBase.esm.js */ "./node_modules/phosphor-react/dist/lib/IconBase.esm.js");
+
+
+
+
+/* GENERATED FILE */
+var pathsByWeight = /*#__PURE__*/new Map();
+pathsByWeight.set("bold", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("circle", {
+    cx: "128",
+    cy: "128",
+    r: "96",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "24"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M214.2,170.4,159.9,137a7.2,7.2,0,0,0-3.1-1.1l-22.9-3.1a7.8,7.8,0,0,0-8.3,4.7l-13.7,30.7a8,8,0,0,0,1.4,8.7l18.8,20.3a8.2,8.2,0,0,1,2,7L130.2,224",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "24"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M65,55.6,56,76.8a8,8,0,0,0-.1,5.9l11.5,30.6a7.9,7.9,0,0,0,5.8,5.1L94.6,123a7.8,7.8,0,0,1,5.5,4.3l3.8,7.9a8.2,8.2,0,0,0,7.2,4.5h13.5",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "24"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M152.5,35.1l9.3,16.8a8.1,8.1,0,0,1-1.6,9.8L133.3,86a7.2,7.2,0,0,1-1.5,1.1l-12.3,6.8a8.6,8.6,0,0,1-3.8,1H94.3a8.1,8.1,0,0,0-7.4,4.9l-8.3,19.7",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "24"
+  }));
+});
+pathsByWeight.set("duotone", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M130.2,224a96.3,96.3,0,0,0,84-53.6h0L159.9,137a7.2,7.2,0,0,0-3.1-1.1l-22.9-3.1a7.8,7.8,0,0,0-8.3,4.7l-13.7,30.7a8,8,0,0,0,1.4,8.7l18.8,20.3a8.2,8.2,0,0,1,2,7L130.2,224Z",
+    opacity: "0.2"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M65,55.6,56,76.8a8,8,0,0,0-.1,5.9l11.5,30.6a7.9,7.9,0,0,0,5.8,5.1l5.4,1.1,8.3-19.7a8.1,8.1,0,0,1,7.4-4.9h21.4a8.6,8.6,0,0,0,3.8-1l12.3-6.8a7.2,7.2,0,0,0,1.5-1.1l26.9-24.3a8.1,8.1,0,0,0,1.6-9.8l-9.3-16.8h0A98.5,98.5,0,0,0,128,32,95.4,95.4,0,0,0,65,55.6Z",
+    opacity: "0.2"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("circle", {
+    cx: "128",
+    cy: "128",
+    r: "96",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M214.2,170.4,159.9,137a7.2,7.2,0,0,0-3.1-1.1l-22.9-3.1a7.8,7.8,0,0,0-8.3,4.7l-13.7,30.7a8,8,0,0,0,1.4,8.7l18.8,20.3a8.2,8.2,0,0,1,2,7L130.2,224",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M65,55.6,56,76.8a8,8,0,0,0-.1,5.9l11.5,30.6a7.9,7.9,0,0,0,5.8,5.1L94.6,123a7.8,7.8,0,0,1,5.5,4.3l3.8,7.9a8.2,8.2,0,0,0,7.2,4.5h13.5",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M152.5,35.1l9.3,16.8a8.1,8.1,0,0,1-1.6,9.8L133.3,86a7.2,7.2,0,0,1-1.5,1.1l-12.3,6.8a8.6,8.6,0,0,1-3.8,1H94.3a8.1,8.1,0,0,0-7.4,4.9l-8.3,19.7",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }));
+});
+pathsByWeight.set("fill", function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M221.6,173.3A102.9,102.9,0,0,0,232,128,104.2,104.2,0,0,0,154.8,27.5h-.5A103.8,103.8,0,0,0,60.4,49l-1.3,1.2A103.9,103.9,0,0,0,128,232h2.4A104.3,104.3,0,0,0,221,174.6h0ZM216,128a89.3,89.3,0,0,1-5.5,30.7l-46.4-28.5a16,16,0,0,0-6.3-2.3l-22.8-3a16.1,16.1,0,0,0-15.3,6.8h-8.6l-3.8-7.9a16.2,16.2,0,0,0-11-8.7l-6.6-1.4,2.5-5.9a8.1,8.1,0,0,1,7.4-4.9h16.1a16.1,16.1,0,0,0,7.7-2l12.2-6.8a16.1,16.1,0,0,0,3-2.1l26.9-24.4A15.7,15.7,0,0,0,170,50.7,88,88,0,0,1,216,128ZM40,128a87.1,87.1,0,0,1,9.5-39.7l10.4,27.9a16.1,16.1,0,0,0,11.6,10l5.5,1.2h.1l12,2.6a7.8,7.8,0,0,1,5.5,4.3l2.1,4.4a16.1,16.1,0,0,0,14.4,9h1.2l-7.7,17.2a15.9,15.9,0,0,0,2.8,17.4l16.1,17.4a8.3,8.3,0,0,1,2,6.9l-1.8,9.3A88.1,88.1,0,0,1,40,128Z"
+  }));
+});
+pathsByWeight.set("light", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("circle", {
+    cx: "128",
+    cy: "128",
+    r: "96",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "12"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M214.2,170.4,159.9,137a7.2,7.2,0,0,0-3.1-1.1l-22.9-3.1a7.8,7.8,0,0,0-8.3,4.7l-13.7,30.7a8,8,0,0,0,1.4,8.7l18.8,20.3a8.2,8.2,0,0,1,2,7L130.2,224",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "12"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M65,55.6,56,76.8a8,8,0,0,0-.1,5.9l11.5,30.6a7.9,7.9,0,0,0,5.8,5.1L94.6,123a7.8,7.8,0,0,1,5.5,4.3l3.8,7.9a8.2,8.2,0,0,0,7.2,4.5h13.5",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "12"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M152.5,35.1l9.3,16.8a8.1,8.1,0,0,1-1.6,9.8L133.3,86a7.2,7.2,0,0,1-1.5,1.1l-12.3,6.8a8.6,8.6,0,0,1-3.8,1H94.3a8.1,8.1,0,0,0-7.4,4.9l-8.3,19.7",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "12"
+  }));
+});
+pathsByWeight.set("thin", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("circle", {
+    cx: "128",
+    cy: "128",
+    r: "96",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "8"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M214.2,170.4,159.9,137a7.2,7.2,0,0,0-3.1-1.1l-22.9-3.1a7.8,7.8,0,0,0-8.3,4.7l-13.7,30.7a8,8,0,0,0,1.4,8.7l18.8,20.3a8.2,8.2,0,0,1,2,7L130.2,224",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "8"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M65,55.6,56,76.8a8,8,0,0,0-.1,5.9l11.5,30.6a7.9,7.9,0,0,0,5.8,5.1L94.6,123a7.8,7.8,0,0,1,5.5,4.3l3.8,7.9a8.2,8.2,0,0,0,7.2,4.5h13.5",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "8"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M152.5,35.1l9.3,16.8a8.1,8.1,0,0,1-1.6,9.8L133.3,86a7.2,7.2,0,0,1-1.5,1.1l-12.3,6.8a8.6,8.6,0,0,1-3.8,1H94.3a8.1,8.1,0,0,0-7.4,4.9l-8.3,19.7",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "8"
+  }));
+});
+pathsByWeight.set("regular", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("circle", {
+    cx: "128",
+    cy: "128",
+    r: "96",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M214.2,170.4,159.9,137a7.2,7.2,0,0,0-3.1-1.1l-22.9-3.1a7.8,7.8,0,0,0-8.3,4.7l-13.7,30.7a8,8,0,0,0,1.4,8.7l18.8,20.3a8.2,8.2,0,0,1,2,7L130.2,224",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M65,55.6,56,76.8a8,8,0,0,0-.1,5.9l11.5,30.6a7.9,7.9,0,0,0,5.8,5.1L94.6,123a7.8,7.8,0,0,1,5.5,4.3l3.8,7.9a8.2,8.2,0,0,0,7.2,4.5h13.5",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M152.5,35.1l9.3,16.8a8.1,8.1,0,0,1-1.6,9.8L133.3,86a7.2,7.2,0,0,1-1.5,1.1l-12.3,6.8a8.6,8.6,0,0,1-3.8,1H94.3a8.1,8.1,0,0,0-7.4,4.9l-8.3,19.7",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }));
+});
+
+var renderPath = function renderPath(weight, color) {
+  return (0,_lib_index_esm_js__WEBPACK_IMPORTED_MODULE_1__.renderPathForWeight)(weight, color, pathsByWeight);
+};
+
+var GlobeHemisphereWest = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(function (props, ref) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_lib_IconBase_esm_js__WEBPACK_IMPORTED_MODULE_2__["default"], Object.assign({
+    ref: ref
+  }, props, {
+    renderPath: renderPath
+  }));
+});
+GlobeHemisphereWest.displayName = "GlobeHemisphereWest";
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (GlobeHemisphereWest);
+//# sourceMappingURL=GlobeHemisphereWest.esm.js.map
+
+
+/***/ }),
+
+/***/ "./node_modules/phosphor-react/dist/icons/Heart.esm.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/phosphor-react/dist/icons/Heart.esm.js ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _lib_index_esm_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../lib/index.esm.js */ "./node_modules/phosphor-react/dist/lib/index.esm.js");
+/* harmony import */ var _lib_IconBase_esm_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/IconBase.esm.js */ "./node_modules/phosphor-react/dist/lib/IconBase.esm.js");
+
+
+
+
+/* GENERATED FILE */
+var pathsByWeight = /*#__PURE__*/new Map();
+pathsByWeight.set("bold", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M128,216S28,160,28,92A52,52,0,0,1,128,72h0A52,52,0,0,1,228,92C228,160,128,216,128,216Z",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "24"
+  }));
+});
+pathsByWeight.set("duotone", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M128,216S28,160,28,92A52,52,0,0,1,128,72h0A52,52,0,0,1,228,92C228,160,128,216,128,216Z",
+    opacity: "0.2"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M128,216S28,160,28,92A52,52,0,0,1,128,72h0A52,52,0,0,1,228,92C228,160,128,216,128,216Z",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }));
+});
+pathsByWeight.set("fill", function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M176,32a60,60,0,0,0-48,24A60,60,0,0,0,20,92c0,71.9,99.9,128.6,104.1,131a7.8,7.8,0,0,0,3.9,1,7.6,7.6,0,0,0,3.9-1,314.3,314.3,0,0,0,51.5-37.6C218.3,154,236,122.6,236,92A60,60,0,0,0,176,32Z"
+  }));
+});
+pathsByWeight.set("light", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M128,216S28,160,28,92A52,52,0,0,1,128,72h0A52,52,0,0,1,228,92C228,160,128,216,128,216Z",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "12"
+  }));
+});
+pathsByWeight.set("thin", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M128,216S28,160,28,92A52,52,0,0,1,128,72h0A52,52,0,0,1,228,92C228,160,128,216,128,216Z",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "8"
+  }));
+});
+pathsByWeight.set("regular", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M128,216S28,160,28,92A52,52,0,0,1,128,72h0A52,52,0,0,1,228,92C228,160,128,216,128,216Z",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }));
+});
+
+var renderPath = function renderPath(weight, color) {
+  return (0,_lib_index_esm_js__WEBPACK_IMPORTED_MODULE_1__.renderPathForWeight)(weight, color, pathsByWeight);
+};
+
+var Heart = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(function (props, ref) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_lib_IconBase_esm_js__WEBPACK_IMPORTED_MODULE_2__["default"], Object.assign({
+    ref: ref
+  }, props, {
+    renderPath: renderPath
+  }));
+});
+Heart.displayName = "Heart";
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Heart);
+//# sourceMappingURL=Heart.esm.js.map
+
+
+/***/ }),
+
 /***/ "./node_modules/phosphor-react/dist/icons/RocketLaunch.esm.js":
 /*!********************************************************************!*\
   !*** ./node_modules/phosphor-react/dist/icons/RocketLaunch.esm.js ***!
@@ -1856,6 +2308,686 @@ RocketLaunch.displayName = "RocketLaunch";
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (RocketLaunch);
 //# sourceMappingURL=RocketLaunch.esm.js.map
+
+
+/***/ }),
+
+/***/ "./node_modules/phosphor-react/dist/icons/TrendUp.esm.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/phosphor-react/dist/icons/TrendUp.esm.js ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _lib_index_esm_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../lib/index.esm.js */ "./node_modules/phosphor-react/dist/lib/index.esm.js");
+/* harmony import */ var _lib_IconBase_esm_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/IconBase.esm.js */ "./node_modules/phosphor-react/dist/lib/IconBase.esm.js");
+
+
+
+
+/* GENERATED FILE */
+var pathsByWeight = /*#__PURE__*/new Map();
+pathsByWeight.set("bold", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("polyline", {
+    points: "232 56 136 152 96 112 24 184",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "24"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("polyline", {
+    points: "232 120 232 56 168 56",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "24"
+  }));
+});
+pathsByWeight.set("duotone", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("polyline", {
+    points: "232 56 136 152 96 112 24 184",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("polyline", {
+    points: "232 120 232 56 168 56",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }));
+});
+pathsByWeight.set("fill", function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M240,56v64a8,8,0,0,1-4.9,7.4,8.5,8.5,0,0,1-3.1.6,8.3,8.3,0,0,1-5.7-2.3L200,99.3l-58.3,58.4a8.1,8.1,0,0,1-11.4,0L96,123.3,29.7,189.7A8.3,8.3,0,0,1,24,192a8.5,8.5,0,0,1-5.7-2.3,8.1,8.1,0,0,1,0-11.4l72-72a8.1,8.1,0,0,1,11.4,0L136,140.7,188.7,88,162.3,61.7a8.4,8.4,0,0,1-1.7-8.8A8.1,8.1,0,0,1,168,48h64A8,8,0,0,1,240,56Z"
+  }));
+});
+pathsByWeight.set("light", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("polyline", {
+    points: "232 56 136 152 96 112 24 184",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "12"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("polyline", {
+    points: "232 120 232 56 168 56",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "12"
+  }));
+});
+pathsByWeight.set("thin", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("polyline", {
+    points: "232 56 136 152 96 112 24 184",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "8"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("polyline", {
+    points: "232 120 232 56 168 56",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "8"
+  }));
+});
+pathsByWeight.set("regular", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("polyline", {
+    points: "232 56 136 152 96 112 24 184",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("polyline", {
+    points: "232 120 232 56 168 56",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }));
+});
+
+var renderPath = function renderPath(weight, color) {
+  return (0,_lib_index_esm_js__WEBPACK_IMPORTED_MODULE_1__.renderPathForWeight)(weight, color, pathsByWeight);
+};
+
+var TrendUp = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(function (props, ref) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_lib_IconBase_esm_js__WEBPACK_IMPORTED_MODULE_2__["default"], Object.assign({
+    ref: ref
+  }, props, {
+    renderPath: renderPath
+  }));
+});
+TrendUp.displayName = "TrendUp";
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TrendUp);
+//# sourceMappingURL=TrendUp.esm.js.map
+
+
+/***/ }),
+
+/***/ "./node_modules/phosphor-react/dist/icons/UserSquare.esm.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/phosphor-react/dist/icons/UserSquare.esm.js ***!
+  \******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _lib_index_esm_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../lib/index.esm.js */ "./node_modules/phosphor-react/dist/lib/index.esm.js");
+/* harmony import */ var _lib_IconBase_esm_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/IconBase.esm.js */ "./node_modules/phosphor-react/dist/lib/IconBase.esm.js");
+
+
+
+
+/* GENERATED FILE */
+var pathsByWeight = /*#__PURE__*/new Map();
+pathsByWeight.set("bold", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("circle", {
+    cx: "128",
+    cy: "120",
+    r: "40",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "24"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("rect", {
+    x: "40",
+    y: "40",
+    width: "176",
+    height: "176",
+    rx: "8",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "24"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M57.8,216a72,72,0,0,1,140.4,0",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "24"
+  }));
+});
+pathsByWeight.set("duotone", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M208,40H48a8,8,0,0,0-8,8V208a8,8,0,0,0,8,8H208a8,8,0,0,0,8-8V48A8,8,0,0,0,208,40ZM57.8,216A72,72,0,0,1,128,160a40,40,0,1,1,40-40,40,40,0,0,1-40,40,72,72,0,0,1,70.2,56Z",
+    opacity: "0.2"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("circle", {
+    cx: "128",
+    cy: "120",
+    r: "40",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("rect", {
+    x: "40",
+    y: "40",
+    width: "176",
+    height: "176",
+    rx: "8",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M57.8,216a72,72,0,0,1,140.4,0",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }));
+});
+pathsByWeight.set("fill", function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("circle", {
+    cx: "128",
+    cy: "120",
+    r: "44"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm0,176h-3.7a80.7,80.7,0,0,0-26-38.2,76.8,76.8,0,0,0-9-6.3,59.9,59.9,0,0,1-82.6,0,76.8,76.8,0,0,0-9,6.3,80.7,80.7,0,0,0-26,38.2H48V48H208V208Z"
+  }));
+});
+pathsByWeight.set("light", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("circle", {
+    cx: "128",
+    cy: "120",
+    r: "40",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "12"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("rect", {
+    x: "40",
+    y: "40",
+    width: "176",
+    height: "176",
+    rx: "8",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "12"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M57.8,216a72,72,0,0,1,140.4,0",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "12"
+  }));
+});
+pathsByWeight.set("thin", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("circle", {
+    cx: "128",
+    cy: "120",
+    r: "40",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "8"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("rect", {
+    x: "40",
+    y: "40",
+    width: "176",
+    height: "176",
+    rx: "8",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "8"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M57.8,216a72,72,0,0,1,140.4,0",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "8"
+  }));
+});
+pathsByWeight.set("regular", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("circle", {
+    cx: "128",
+    cy: "120",
+    r: "40",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("rect", {
+    x: "40",
+    y: "40",
+    width: "176",
+    height: "176",
+    rx: "8",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M57.8,216a72,72,0,0,1,140.4,0",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }));
+});
+
+var renderPath = function renderPath(weight, color) {
+  return (0,_lib_index_esm_js__WEBPACK_IMPORTED_MODULE_1__.renderPathForWeight)(weight, color, pathsByWeight);
+};
+
+var UserSquare = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(function (props, ref) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_lib_IconBase_esm_js__WEBPACK_IMPORTED_MODULE_2__["default"], Object.assign({
+    ref: ref
+  }, props, {
+    renderPath: renderPath
+  }));
+});
+UserSquare.displayName = "UserSquare";
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (UserSquare);
+//# sourceMappingURL=UserSquare.esm.js.map
+
+
+/***/ }),
+
+/***/ "./node_modules/phosphor-react/dist/icons/Users.esm.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/phosphor-react/dist/icons/Users.esm.js ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _lib_index_esm_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../lib/index.esm.js */ "./node_modules/phosphor-react/dist/lib/index.esm.js");
+/* harmony import */ var _lib_IconBase_esm_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/IconBase.esm.js */ "./node_modules/phosphor-react/dist/lib/IconBase.esm.js");
+
+
+
+
+/* GENERATED FILE */
+var pathsByWeight = /*#__PURE__*/new Map();
+pathsByWeight.set("bold", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("circle", {
+    cx: "88",
+    cy: "108",
+    r: "52",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "24"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M155.4,57.9A54.5,54.5,0,0,1,169.5,56a52,52,0,0,1,0,104",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "24"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M16,197.4a88,88,0,0,1,144,0",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "24"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M169.5,160a87.9,87.9,0,0,1,72,37.4",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "24"
+  }));
+});
+pathsByWeight.set("duotone", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("circle", {
+    cx: "88",
+    cy: "108",
+    r: "52",
+    opacity: "0.2"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("circle", {
+    cx: "88",
+    cy: "108",
+    r: "52",
+    fill: "none",
+    stroke: color,
+    strokeMiterlimit: "10",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M155.4,57.9A54.5,54.5,0,0,1,169.5,56a52,52,0,0,1,0,104",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M16,197.4a88,88,0,0,1,144,0",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M169.5,160a87.9,87.9,0,0,1,72,37.4",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }));
+});
+pathsByWeight.set("fill", function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M121.2,157.9a60,60,0,1,0-66.4,0A95.5,95.5,0,0,0,9.5,192.8a7.8,7.8,0,0,0-.6,8.3,8.1,8.1,0,0,0,7.1,4.3H160a8.1,8.1,0,0,0,7.1-4.3,7.8,7.8,0,0,0-.6-8.3A95.5,95.5,0,0,0,121.2,157.9Z"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M248.1,192.8a96.3,96.3,0,0,0-45.4-34.9A59.9,59.9,0,0,0,169.5,48a64,64,0,0,0-16.3,2.2,8.2,8.2,0,0,0-5.4,5.2,8,8,0,0,0,1.2,7.3,75.8,75.8,0,0,1,3.8,84.9,8.1,8.1,0,0,0,2.1,10.6q4.5,3.5,8.7,7.2l.5.5a112.6,112.6,0,0,1,25.5,34.9,7.9,7.9,0,0,0,7.2,4.6h44.7a8.1,8.1,0,0,0,7.1-4.3A8,8,0,0,0,248.1,192.8Z"
+  }));
+});
+pathsByWeight.set("light", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("circle", {
+    cx: "88",
+    cy: "108",
+    r: "52",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "12"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M155.4,57.9A54.5,54.5,0,0,1,169.5,56a52,52,0,0,1,0,104",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "12"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M16,197.4a88,88,0,0,1,144,0",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "12"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M169.5,160a87.9,87.9,0,0,1,72,37.4",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "12"
+  }));
+});
+pathsByWeight.set("thin", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("circle", {
+    cx: "88",
+    cy: "108",
+    r: "52",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "8"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M155.4,57.9A54.5,54.5,0,0,1,169.5,56a52,52,0,0,1,0,104",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "8"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M16,197.4a88,88,0,0,1,144,0",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "8"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M169.5,160a87.9,87.9,0,0,1,72,37.4",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "8"
+  }));
+});
+pathsByWeight.set("regular", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("circle", {
+    cx: "88",
+    cy: "108",
+    r: "52",
+    fill: "none",
+    stroke: color,
+    strokeMiterlimit: "10",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M155.4,57.9A54.5,54.5,0,0,1,169.5,56a52,52,0,0,1,0,104",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M16,197.4a88,88,0,0,1,144,0",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M169.5,160a87.9,87.9,0,0,1,72,37.4",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }));
+});
+
+var renderPath = function renderPath(weight, color) {
+  return (0,_lib_index_esm_js__WEBPACK_IMPORTED_MODULE_1__.renderPathForWeight)(weight, color, pathsByWeight);
+};
+
+var Users = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(function (props, ref) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_lib_IconBase_esm_js__WEBPACK_IMPORTED_MODULE_2__["default"], Object.assign({
+    ref: ref
+  }, props, {
+    renderPath: renderPath
+  }));
+});
+Users.displayName = "Users";
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Users);
+//# sourceMappingURL=Users.esm.js.map
+
+
+/***/ }),
+
+/***/ "./node_modules/phosphor-react/dist/icons/YoutubeLogo.esm.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/phosphor-react/dist/icons/YoutubeLogo.esm.js ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _lib_index_esm_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../lib/index.esm.js */ "./node_modules/phosphor-react/dist/lib/index.esm.js");
+/* harmony import */ var _lib_IconBase_esm_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../lib/IconBase.esm.js */ "./node_modules/phosphor-react/dist/lib/IconBase.esm.js");
+
+
+
+
+/* GENERATED FILE */
+var pathsByWeight = /*#__PURE__*/new Map();
+pathsByWeight.set("bold", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("polygon", {
+    points: "164 128 108 92 108 164 164 128",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "24"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M24,128c0,29.8,3.1,47.2,5.4,56.2A16.1,16.1,0,0,0,39,195.1c33.5,12.8,89,12.5,89,12.5s55.5.3,89-12.5a16.1,16.1,0,0,0,9.6-10.9c2.3-9,5.4-26.4,5.4-56.2s-3.1-47.2-5.4-56.2A16.1,16.1,0,0,0,217,60.9c-33.5-12.8-89-12.5-89-12.5s-55.5-.3-89,12.5a16.1,16.1,0,0,0-9.6,10.9C27.1,80.8,24,98.2,24,128Z",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "24"
+  }));
+});
+pathsByWeight.set("duotone", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M226.6,71.8A16.1,16.1,0,0,0,217,60.9c-33.5-12.8-89-12.5-89-12.5s-55.5-.3-89,12.5a16.1,16.1,0,0,0-9.6,10.9C27.1,80.8,24,98.2,24,128s3.1,47.2,5.4,56.2A16.1,16.1,0,0,0,39,195.1c33.5,12.8,89,12.5,89,12.5s55.5.3,89-12.5a16.1,16.1,0,0,0,9.6-10.9c2.3-9,5.4-26.4,5.4-56.2S228.9,80.8,226.6,71.8ZM112,160V96l48,32Z",
+    opacity: "0.2"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("polygon", {
+    points: "160 128 112 96 112 160 160 128",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M24,128c0,29.8,3.1,47.2,5.4,56.2A16.1,16.1,0,0,0,39,195.1c33.5,12.8,89,12.5,89,12.5s55.5.3,89-12.5a16.1,16.1,0,0,0,9.6-10.9c2.3-9,5.4-26.4,5.4-56.2s-3.1-47.2-5.4-56.2A16.1,16.1,0,0,0,217,60.9c-33.5-12.8-89-12.5-89-12.5s-55.5-.3-89,12.5a16.1,16.1,0,0,0-9.6,10.9C27.1,80.8,24,98.2,24,128Z",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }));
+});
+pathsByWeight.set("fill", function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M234.3,69.8a23.5,23.5,0,0,0-14.5-16.3C185.6,40.3,131,40.4,128,40.4s-57.6-.1-91.8,13.1A23.5,23.5,0,0,0,21.7,69.8C19.1,79.7,16,97.9,16,128s3.1,48.3,5.7,58.2a23.5,23.5,0,0,0,14.5,16.3c32.8,12.7,84.2,13.1,91.1,13.1h1.4c6.9,0,58.3-.4,91.1-13.1a23.5,23.5,0,0,0,14.5-16.3c2.6-9.9,5.7-28.1,5.7-58.2S236.9,79.7,234.3,69.8Zm-72.1,61.5-48,32a3.6,3.6,0,0,1-2.2.7,4.5,4.5,0,0,1-1.9-.5A3.9,3.9,0,0,1,108,160V96a3.9,3.9,0,0,1,2.1-3.5,4,4,0,0,1,4.1.2l48,32a3.9,3.9,0,0,1,0,6.6Z"
+  }));
+});
+pathsByWeight.set("light", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("polygon", {
+    points: "160 128 112 96 112 160 160 128",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "12"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M24,128c0,29.8,3.1,47.2,5.4,56.2A16.1,16.1,0,0,0,39,195.1c33.5,12.8,89,12.5,89,12.5s55.5.3,89-12.5a16.1,16.1,0,0,0,9.6-10.9c2.3-9,5.4-26.4,5.4-56.2s-3.1-47.2-5.4-56.2A16.1,16.1,0,0,0,217,60.9c-33.5-12.8-89-12.5-89-12.5s-55.5-.3-89,12.5a16.1,16.1,0,0,0-9.6,10.9C27.1,80.8,24,98.2,24,128Z",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "12"
+  }));
+});
+pathsByWeight.set("thin", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("polygon", {
+    points: "160 128 112 96 112 160 160 128",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "8"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M24,128c0,29.8,3.1,47.2,5.4,56.2A16.1,16.1,0,0,0,39,195.1c33.5,12.8,89,12.5,89,12.5s55.5.3,89-12.5a16.1,16.1,0,0,0,9.6-10.9c2.3-9,5.4-26.4,5.4-56.2s-3.1-47.2-5.4-56.2A16.1,16.1,0,0,0,217,60.9c-33.5-12.8-89-12.5-89-12.5s-55.5-.3-89,12.5a16.1,16.1,0,0,0-9.6,10.9C27.1,80.8,24,98.2,24,128Z",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "8"
+  }));
+});
+pathsByWeight.set("regular", function (color) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("polygon", {
+    points: "160 128 112 96 112 160 160 128",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
+    d: "M24,128c0,29.8,3.1,47.2,5.4,56.2A16.1,16.1,0,0,0,39,195.1c33.5,12.8,89,12.5,89,12.5s55.5.3,89-12.5a16.1,16.1,0,0,0,9.6-10.9c2.3-9,5.4-26.4,5.4-56.2s-3.1-47.2-5.4-56.2A16.1,16.1,0,0,0,217,60.9c-33.5-12.8-89-12.5-89-12.5s-55.5-.3-89,12.5a16.1,16.1,0,0,0-9.6,10.9C27.1,80.8,24,98.2,24,128Z",
+    fill: "none",
+    stroke: color,
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "16"
+  }));
+});
+
+var renderPath = function renderPath(weight, color) {
+  return (0,_lib_index_esm_js__WEBPACK_IMPORTED_MODULE_1__.renderPathForWeight)(weight, color, pathsByWeight);
+};
+
+var YoutubeLogo = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(function (props, ref) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_lib_IconBase_esm_js__WEBPACK_IMPORTED_MODULE_2__["default"], Object.assign({
+    ref: ref
+  }, props, {
+    renderPath: renderPath
+  }));
+});
+YoutubeLogo.displayName = "YoutubeLogo";
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (YoutubeLogo);
+//# sourceMappingURL=YoutubeLogo.esm.js.map
 
 
 /***/ }),

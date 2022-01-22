@@ -4,10 +4,17 @@ import {
   ChalkboardTeacher,
   Code,
   GitBranch,
+  GlobeHemisphereWest,
+  Heart,
   RocketLaunch,
+  TrendUp,
+  Users,
+  UserSquare,
+  YoutubeLogo,
 } from 'phosphor-react';
 import { StaticImage } from 'gatsby-plugin-image';
 import Divider from '../components/Divider';
+import Card from '../components/Card';
 
 const IndexPage = () => {
   const features = [
@@ -31,6 +38,51 @@ const IndexPage = () => {
     },
   ];
 
+  const cards = [
+    {
+      backgroundColor: 'bg-[#E0EEEC]',
+      heading: 'Connect on every device',
+      icon: GlobeHemisphereWest,
+      subHeading: 'Mobile, TV & Web',
+      text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.',
+    },
+    {
+      backgroundColor: 'bg-[#EDECF3]',
+      heading: 'Host healthy groups',
+      icon: Users,
+      subHeading: 'Sub-head',
+      text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.',
+    },
+    {
+      backgroundColor: 'bg-[#E0EEE0]',
+      heading: 'Increase generosity',
+      icon: Heart,
+      subHeading: 'Sub-head',
+      text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.',
+    },
+    {
+      backgroundColor: 'bg-[#EEEBE0]',
+      heading: 'Disciple personally',
+      icon: UserSquare,
+      subHeading: 'Sub-head',
+      text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.',
+    },
+    {
+      backgroundColor: 'bg-[#E0ECEE]',
+      heading: 'Build daily habits',
+      icon: TrendUp,
+      subHeading: 'Sub-head',
+      text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.',
+    },
+    {
+      backgroundColor: 'bg-[#EEE3E0]',
+      heading: 'Watch & grow',
+      icon: YoutubeLogo,
+      subHeading: 'Sub-head',
+      text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.',
+    },
+  ];
+
   return (
     <>
       <Helmet>
@@ -39,12 +91,11 @@ const IndexPage = () => {
       <div className='py-8 lg:py-24 pb-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center'>
         Heading
         <div className='lg:columns-2'>
-          <div>Card 1</div>
-          <div>Card 2</div>
-          <div>Card 3</div>
-          <div>Card 4</div>
-          <div>Card 5</div>
-          <div>Card 6</div>
+          {cards.map((card) => (
+            <div className='py-4' key={card.heading}>
+              <Card data={card} />
+            </div>
+          ))}
         </div>
       </div>
       <div className='max-w-2xl mx-auto px-4'>
@@ -58,11 +109,11 @@ const IndexPage = () => {
                 <p className='max-w-3xl text-sm text-base-secondary uppercase'>
                   a Church-centric data pipeline
                 </p>
-                <h2 className='text-3xl font-extrabold text-white py-4'>
+                <h1 className='text-3xl lg:text-5xl font-extrabold text-white py-4'>
                   <span className='block'>
                     Syncs with your existing services and data.
                   </span>
-                </h2>
+                </h1>
                 <p className='mt-4 text-lg leading-6 text-dark-secondary'>
                   Apollos syncs data with the other services you already depend
                   on. Phasellus lorem quam molestie id quisque diam aenean nulla
