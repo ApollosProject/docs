@@ -854,44 +854,6 @@ J.displayName = "StaticImage", J.propTypes = $;
 
 /***/ }),
 
-/***/ "./src/components/Card.js":
-/*!********************************!*\
-  !*** ./src/components/Card.js ***!
-  \********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-
-const Card = ({
-  data
-}) => {
-  const back = `bg-[${data.backgroundColor}]`;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: back
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "flex items-center justify-center h-12 w-12 rounded-full blueprint-icon-bg text-base-secondary mb-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(data.icon, {
-    className: "h-6 w-6",
-    "aria-hidden": "true"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "text-base text-base-secondary uppercase"
-  }, data.subHeading), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "text-3xl lg:text-4xl font-extrabold pb-5 pt-2"
-  }, data.heading), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "text-gray-500"
-  }, data.text));
-};
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Card);
-
-/***/ }),
-
 /***/ "./src/components/Divider.js":
 /*!***********************************!*\
   !*** ./src/components/Divider.js ***!
@@ -949,20 +911,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-helmet */ "./node_modules/react-helmet/es/Helmet.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/GitBranch.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Code.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/ChalkboardTeacher.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/GlobeHemisphereWest.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Users.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Heart.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/UserSquare.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/TrendUp.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/YoutubeLogo.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/RocketLaunch.esm.js");
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/GitBranch.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Code.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/ChalkboardTeacher.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/GlobeHemisphereWest.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Users.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Heart.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/UserSquare.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/TrendUp.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/YoutubeLogo.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/RocketLaunch.esm.js");
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
 /* harmony import */ var _components_Divider__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Divider */ "./src/components/Divider.js");
-/* harmony import */ var _components_Card__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Card */ "./src/components/Card.js");
-
 
 
 
@@ -973,50 +933,80 @@ const IndexPage = () => {
   const features = [{
     name: 'Open source & open license',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_4__["default"]
+    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_3__["default"]
   }, {
     name: 'Developer-supported community',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_5__["default"]
+    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_4__["default"]
   }, {
     name: 'Lead with collaboration and strategy',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_6__["default"]
+    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_5__["default"]
   }];
   const cards = [{
-    backgroundColor: '#FF0000',
+    color: 'text-base-secondary',
+    backgroundColor: 'bg-light-secondary',
     heading: 'Connect on every device',
-    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_7__["default"],
+    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_6__["default"],
+    iconBackground: 'bg-icon-bluegreen',
+    imageBottom: true,
+    imageTop: false,
+    imageUrl: '../images/image-one.png',
     subHeading: 'Mobile, TV & Web',
     text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.'
   }, {
-    backgroundColor: '#EDECF3',
+    color: 'text-base-lavender',
+    backgroundColor: 'bg-light-lavender',
     heading: 'Host healthy groups',
-    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_8__["default"],
+    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_7__["default"],
+    iconBackground: 'bg-icon-lavender',
+    imageBottom: true,
+    imageTop: false,
+    imageUrl: '../images/image-two.png',
     subHeading: 'Sub-head',
     text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.'
   }, {
-    backgroundColor: '#E0EEE0',
+    color: 'text-base-mint',
+    backgroundColor: 'bg-light-mint',
     heading: 'Increase generosity',
-    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_9__["default"],
+    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_8__["default"],
+    iconBackground: 'bg-icon-mint',
+    imageBottom: true,
+    imageTop: false,
+    imageUrl: '../images/image-three.png',
     subHeading: 'Sub-head',
     text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.'
   }, {
-    backgroundColor: '#EEEBE0',
+    color: 'text-base-tan',
+    backgroundColor: 'bg-light-tan',
     heading: 'Disciple personally',
-    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_10__["default"],
+    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_9__["default"],
+    iconBackground: 'bg-icon-tan',
+    imageBottom: false,
+    imageTop: true,
+    imageUrl: '../images/image-four.png',
     subHeading: 'Sub-head',
     text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.'
   }, {
-    backgroundColor: '#E0ECEE',
+    color: 'text-base-blue',
+    backgroundColor: 'bg-light-blue',
     heading: 'Build daily habits',
-    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_11__["default"],
+    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_10__["default"],
+    iconBackground: 'bg-icon-blue',
+    imageBottom: false,
+    imageTop: true,
+    imageUrl: '../images/image-five.png',
     subHeading: 'Sub-head',
     text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.'
   }, {
-    backgroundColor: '#EEE3E0',
+    color: 'text-base-red',
+    backgroundColor: 'bg-light-red',
     heading: 'Watch & grow',
-    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_12__["default"],
+    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_11__["default"],
+    iconBackground: 'bg-icon-red',
+    imageBottom: false,
+    imageTop: true,
+    imageUrl: '../images/image-six.png',
     subHeading: 'Sub-head',
     text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.'
   }];
@@ -1027,12 +1017,33 @@ const IndexPage = () => {
     className: "py-8 lg:py-24 pb-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center"
   }, "Heading", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "lg:columns-2"
-  }, cards.map(card => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, cards.map((card, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "py-4",
     key: card.heading
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    data: card
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: `${card.backgroundColor} p-6 lg:p-8 rounded-2xl`
+  }, card.imageTop ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_12__.StaticImage, {
+    className: "transform rounded-md object-cover object-left-top",
+    src: `../images/image-${index}.png`,
+    alt: "Pipeline Screenshot",
+    __error: "No data found for image \"undefined\"\n              Could not find values for the following props at build time: src"
+  }) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: `flex items-center justify-center h-12 w-12 rounded-full ${card.iconBackground} ${card.color} mb-5`
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(card.icon, {
+    className: "h-6 w-6",
+    "aria-hidden": "true"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: `text-base ${card.color} uppercase`
+  }, card.subHeading), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "text-3xl lg:text-4xl font-extrabold pb-5 pt-2"
+  }, card.heading), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-gray-500"
+  }, card.text), card.imageBottom ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_12__.StaticImage, {
+    className: "transform rounded-md object-cover object-left-top",
+    src: card.imageUrl,
+    alt: "Pipeline Screenshot",
+    __error: "No data found for image \"undefined\"\n              Could not find values for the following props at build time: src"
+  }) : null))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "max-w-2xl mx-auto px-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Divider__WEBPACK_IMPORTED_MODULE_2__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pipeline-wrapper"
@@ -1056,7 +1067,7 @@ const IndexPage = () => {
     className: "flex flex-col items-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "mt-14 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_13__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_12__.StaticImage, {
     className: "transform rounded-md object-cover object-left-top",
     src: "../images/pipeline.png",
     alt: "Pipeline Screenshot",
@@ -1064,7 +1075,7 @@ const IndexPage = () => {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
     className: "mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex gap-2 items-center text-base font-medium text-base-secondary hover:text-base-secondary-hover"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_14__["default"], null), "Explore integrations"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_13__["default"], null), "Explore integrations"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pt-8 lg:pt-24"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "max-w-3xl text-base text-base-secondary uppercase"
@@ -1081,7 +1092,7 @@ const IndexPage = () => {
   }, features.map(feature => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     key: feature.name
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "flex items-center justify-center h-12 w-12 rounded-full blueprint-icon-bg text-base-secondary"
+    className: "flex items-center justify-center h-12 w-12 rounded-full bg-icon-bluegreen text-base-secondary"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(feature.icon, {
     className: "h-6 w-6",
     "aria-hidden": "true"

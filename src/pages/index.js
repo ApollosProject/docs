@@ -12,9 +12,8 @@ import {
   UserSquare,
   YoutubeLogo,
 } from 'phosphor-react';
-import { StaticImage } from 'gatsby-plugin-image';
+import { GatsbyImage, getImage, StaticImage } from 'gatsby-plugin-image';
 import Divider from '../components/Divider';
-import Card from '../components/Card';
 
 const IndexPage = () => {
   const features = [
@@ -38,64 +37,192 @@ const IndexPage = () => {
     },
   ];
 
-  const cards = [
-    {
-      backgroundColor: 'bg-[#E0EEEC]',
-      heading: 'Connect on every device',
-      icon: GlobeHemisphereWest,
-      subHeading: 'Mobile, TV & Web',
-      text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.',
-    },
-    {
-      backgroundColor: 'bg-[#EDECF3]',
-      heading: 'Host healthy groups',
-      icon: Users,
-      subHeading: 'Sub-head',
-      text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.',
-    },
-    {
-      backgroundColor: 'bg-[#E0EEE0]',
-      heading: 'Increase generosity',
-      icon: Heart,
-      subHeading: 'Sub-head',
-      text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.',
-    },
-    {
-      backgroundColor: 'bg-[#EEEBE0]',
-      heading: 'Disciple personally',
-      icon: UserSquare,
-      subHeading: 'Sub-head',
-      text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.',
-    },
-    {
-      backgroundColor: 'bg-[#E0ECEE]',
-      heading: 'Build daily habits',
-      icon: TrendUp,
-      subHeading: 'Sub-head',
-      text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.',
-    },
-    {
-      backgroundColor: 'bg-[#EEE3E0]',
-      heading: 'Watch & grow',
-      icon: YoutubeLogo,
-      subHeading: 'Sub-head',
-      text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.',
-    },
-  ];
-
   return (
     <>
       <Helmet>
         <link rel='stylesheet' href='https://rsms.me/inter/inter.css'></link>
       </Helmet>
       <div className='py-8 lg:py-24 pb-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center'>
-        Heading
-        <div className='lg:columns-2'>
-          {cards.map((card) => (
-            <div className='py-4' key={card.heading}>
-              <Card data={card} />
+        <div className='lg:text-center'>
+          <h2 className='text-base text-base-secondary font-semibold tracking-wide uppercase'>
+            Growth plan
+          </h2>
+          <p className='mt-2 text-3xl sm:text-6xl leading-8 font-extrabold tracking-tight text-gray-900'>
+            Everything you need to grow your digital ministry
+          </p>
+          <p className='mt-4 text-xl text-gray-500 lg:mx-auto'>
+            Phasellus lorem quam molestie id quisque diam aenean nulla in.
+            Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
+            condimentum id viverra nulla.
+          </p>
+        </div>
+        <div className='lg:columns-2 lg:gap-8'>
+          <div className='py-4 max-w-lg'>
+            <div className={'bg-light-secondary rounded-2xl'}>
+              <div className={'p-6 lg:p-8'}>
+                <div
+                  className={
+                    'flex items-center justify-center h-12 w-12 rounded-full bg-icon-bluegreen text-base-secondary mb-5'
+                  }
+                >
+                  <GlobeHemisphereWest className='h-6 w-6' aria-hidden='true' />
+                </div>
+                <p className={`text-base text-base-secondary uppercase`}>
+                  Mobile, TV & Web
+                </p>
+                <h1 className='text-3xl lg:text-4xl font-extrabold pb-5 pt-2'>
+                  Connect on every device
+                </h1>
+                <div className='text-gray-500 text-xl'>
+                  Phasellus lorem quam molestie id quisque diam aenean nulla in.
+                  Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
+                  condimentum id viverra nulla.
+                </div>
+              </div>
+              <StaticImage
+                className='transform rounded-md object-cover object-left-top'
+                src='../images/image-1.png'
+                alt='Pipeline Screenshot'
+              />
             </div>
-          ))}
+          </div>
+          <div className='py-4 max-w-lg'>
+            <div className={'bg-light-lavender rounded-2xl'}>
+              <div className={'p-6 lg:p-8'}>
+                <div
+                  className={
+                    'flex items-center justify-center h-12 w-12 rounded-full bg-icon-lavender text-base-lavender mb-5'
+                  }
+                >
+                  <Users className='h-6 w-6' aria-hidden='true' />
+                </div>
+                <p className={`text-base text-base-lavender uppercase`}>
+                  Sub-head
+                </p>
+                <h1 className='text-3xl lg:text-4xl font-extrabold pb-5 pt-2'>
+                  Host healthy groups
+                </h1>
+                <div className='text-gray-500 text-xl'>
+                  Phasellus lorem quam molestie id quisque diam aenean nulla in.
+                  Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
+                  condimentum id viverra nulla.
+                </div>
+              </div>
+              <StaticImage
+                className='transform rounded-md object-cover object-left-top'
+                src='../images/image-2.png'
+                alt='Pipeline Screenshot'
+              />
+            </div>
+          </div>
+          <div className='py-4 max-w-lg'>
+            <div className={'bg-light-mint rounded-2xl'}>
+              <div className={'p-6 lg:p-8'}>
+                <div
+                  className={
+                    'flex items-center justify-center h-12 w-12 rounded-full bg-icon-mint text-base-mint mb-5'
+                  }
+                >
+                  <Heart className='h-6 w-6' aria-hidden='true' />
+                </div>
+                <p className={`text-base text-base-mint uppercase`}>Sub-head</p>
+                <h1 className='text-3xl lg:text-4xl font-extrabold pb-5 pt-2'>
+                  Increase generosity
+                </h1>
+                <div className='text-gray-500 text-xl'>
+                  Phasellus lorem quam molestie id quisque diam aenean nulla in.
+                  Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
+                  condimentum id viverra nulla.
+                </div>
+              </div>
+              <StaticImage
+                className='transform rounded-md object-cover object-left-top'
+                src='../images/image-3.png'
+                alt='Pipeline Screenshot'
+              />
+            </div>
+          </div>
+          <div className='py-4 max-w-lg'>
+            <div className={'bg-light-tan rounded-2xl'}>
+              <StaticImage
+                className='transform rounded-md object-cover object-left-top'
+                src='../images/image-4.png'
+                alt='Pipeline Screenshot'
+              />
+              <div className={'p-6 lg:p-8'}>
+                <div
+                  className={
+                    'flex items-center justify-center h-12 w-12 rounded-full bg-icon-tan text-base-tan mb-5'
+                  }
+                >
+                  <UserSquare className='h-6 w-6' aria-hidden='true' />
+                </div>
+                <p className={`text-base text-base-tan uppercase`}>Sub-head</p>
+                <h1 className='text-3xl lg:text-4xl font-extrabold pb-5 pt-2'>
+                  Disciple personally
+                </h1>
+                <div className='text-gray-500 text-xl'>
+                  Phasellus lorem quam molestie id quisque diam aenean nulla in.
+                  Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
+                  condimentum id viverra nulla.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='py-4 max-w-lg'>
+            <div className={'bg-light-blue rounded-2xl'}>
+              <StaticImage
+                className='transform rounded-md object-cover object-left-top'
+                src='../images/image-5.png'
+                alt='Pipeline Screenshot'
+              />
+              <div className={'p-6 lg:p-8'}>
+                <div
+                  className={
+                    'flex items-center justify-center h-12 w-12 rounded-full bg-icon-blue text-base-blue mb-5'
+                  }
+                >
+                  <TrendUp className='h-6 w-6' aria-hidden='true' />
+                </div>
+                <p className={`text-base text-base-blue uppercase`}>Sub-head</p>
+                <h1 className='text-3xl lg:text-4xl font-extrabold pb-5 pt-2'>
+                  Build daily habits
+                </h1>
+                <div className='text-gray-500 text-xl'>
+                  Phasellus lorem quam molestie id quisque diam aenean nulla in.
+                  Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
+                  condimentum id viverra nulla.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='py-4 max-w-lg'>
+            <div className={'bg-light-red rounded-2xl'}>
+              <StaticImage
+                className='transform rounded-md object-cover object-left-top'
+                src='../images/image-6.png'
+                alt='Pipeline Screenshot'
+              />
+              <div className={'p-6 lg:p-8'}>
+                <div
+                  className={
+                    'flex items-center justify-center h-12 w-12 rounded-full bg-icon-red text-base-red mb-5'
+                  }
+                >
+                  <YoutubeLogo className='h-6 w-6' aria-hidden='true' />
+                </div>
+                <p className={`text-base text-base-red uppercase`}>Sub-head</p>
+                <h1 className='text-3xl lg:text-4xl font-extrabold pb-5 pt-2'>
+                  Watch & grow
+                </h1>
+                <div className='text-gray-500 text-xl'>
+                  Phasellus lorem quam molestie id quisque diam aenean nulla in.
+                  Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
+                  condimentum id viverra nulla.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className='max-w-2xl mx-auto px-4'>
@@ -155,7 +282,7 @@ const IndexPage = () => {
                 {features.map((feature) => (
                   <div key={feature.name}>
                     <dt>
-                      <div className='flex items-center justify-center h-12 w-12 rounded-full blueprint-icon-bg text-base-secondary'>
+                      <div className='flex items-center justify-center h-12 w-12 rounded-full bg-icon-bluegreen text-base-secondary'>
                         <feature.icon className='h-6 w-6' aria-hidden='true' />
                       </div>
                       <p className='mt-5 text-lg leading-6 font-medium text-gray-900'>
