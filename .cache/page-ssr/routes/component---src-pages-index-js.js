@@ -915,13 +915,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Code.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/ChalkboardTeacher.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/GlobeHemisphereWest.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Users.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Heart.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/UserSquare.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/TrendUp.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/YoutubeLogo.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Users.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Heart.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/UserSquare.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/TrendUp.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/YoutubeLogo.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/RocketLaunch.esm.js");
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
 /* harmony import */ var _components_Divider__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Divider */ "./src/components/Divider.js");
 
 
@@ -943,107 +943,154 @@ const IndexPage = () => {
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
     icon: phosphor_react__WEBPACK_IMPORTED_MODULE_5__["default"]
   }];
-  const cards = [{
-    color: 'text-base-secondary',
-    backgroundColor: 'bg-light-secondary',
-    heading: 'Connect on every device',
-    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_6__["default"],
-    iconBackground: 'bg-icon-bluegreen',
-    imageBottom: true,
-    imageTop: false,
-    imageUrl: '../images/image-one.png',
-    subHeading: 'Mobile, TV & Web',
-    text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.'
-  }, {
-    color: 'text-base-lavender',
-    backgroundColor: 'bg-light-lavender',
-    heading: 'Host healthy groups',
-    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_7__["default"],
-    iconBackground: 'bg-icon-lavender',
-    imageBottom: true,
-    imageTop: false,
-    imageUrl: '../images/image-two.png',
-    subHeading: 'Sub-head',
-    text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.'
-  }, {
-    color: 'text-base-mint',
-    backgroundColor: 'bg-light-mint',
-    heading: 'Increase generosity',
-    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_8__["default"],
-    iconBackground: 'bg-icon-mint',
-    imageBottom: true,
-    imageTop: false,
-    imageUrl: '../images/image-three.png',
-    subHeading: 'Sub-head',
-    text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.'
-  }, {
-    color: 'text-base-tan',
-    backgroundColor: 'bg-light-tan',
-    heading: 'Disciple personally',
-    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_9__["default"],
-    iconBackground: 'bg-icon-tan',
-    imageBottom: false,
-    imageTop: true,
-    imageUrl: '../images/image-four.png',
-    subHeading: 'Sub-head',
-    text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.'
-  }, {
-    color: 'text-base-blue',
-    backgroundColor: 'bg-light-blue',
-    heading: 'Build daily habits',
-    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_10__["default"],
-    iconBackground: 'bg-icon-blue',
-    imageBottom: false,
-    imageTop: true,
-    imageUrl: '../images/image-five.png',
-    subHeading: 'Sub-head',
-    text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.'
-  }, {
-    color: 'text-base-red',
-    backgroundColor: 'bg-light-red',
-    heading: 'Watch & grow',
-    icon: phosphor_react__WEBPACK_IMPORTED_MODULE_11__["default"],
-    iconBackground: 'bg-icon-red',
-    imageBottom: false,
-    imageTop: true,
-    imageUrl: '../images/image-six.png',
-    subHeading: 'Sub-head',
-    text: 'Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.'
-  }];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__.Helmet, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("link", {
     rel: "stylesheet",
     href: "https://rsms.me/inter/inter.css"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "py-8 lg:py-24 pb-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center"
-  }, "Heading", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "lg:columns-2"
-  }, cards.map((card, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "py-4",
-    key: card.heading
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: `${card.backgroundColor} p-6 lg:p-8 rounded-2xl`
-  }, card.imageTop ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_12__.StaticImage, {
-    className: "transform rounded-md object-cover object-left-top",
-    src: `../images/image-${index}.png`,
-    alt: "Pipeline Screenshot",
-    __error: "No data found for image \"undefined\"\n              Could not find values for the following props at build time: src"
-  }) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: `flex items-center justify-center h-12 w-12 rounded-full ${card.iconBackground} ${card.color} mb-5`
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(card.icon, {
+    className: "lg:text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
+    className: "text-base text-base-secondary font-semibold tracking-wide uppercase"
+  }, "Growth plan"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "mt-2 text-3xl sm:text-6xl leading-8 font-extrabold tracking-tight text-gray-900"
+  }, "Everything you need to grow your digital ministry"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "mt-4 text-xl text-gray-500 lg:mx-auto"
+  }, "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "lg:columns-2 lg:gap-8"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "py-4 max-w-lg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: 'bg-light-secondary rounded-2xl'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: 'p-6 lg:p-8'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: 'flex items-center justify-center h-12 w-12 rounded-full bg-icon-bluegreen text-base-secondary mb-5'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_6__["default"], {
     className: "h-6 w-6",
     "aria-hidden": "true"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: `text-base ${card.color} uppercase`
-  }, card.subHeading), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: `text-base text-base-secondary uppercase`
+  }, "Mobile, TV & Web"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "text-3xl lg:text-4xl font-extrabold pb-5 pt-2"
-  }, card.heading), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "text-gray-500"
-  }, card.text), card.imageBottom ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_12__.StaticImage, {
+  }, "Connect on every device"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-gray-500 text-xl"
+  }, "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
     className: "transform rounded-md object-cover object-left-top",
-    src: card.imageUrl,
+    src: "../images/image-1.png",
     alt: "Pipeline Screenshot",
-    __error: "No data found for image \"undefined\"\n              Could not find values for the following props at build time: src"
-  }) : null))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/14761392.json */ "./.cache/caches/gatsby-plugin-image/14761392.json")
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "py-4 max-w-lg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: 'bg-light-lavender rounded-2xl'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: 'p-6 lg:p-8'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: 'flex items-center justify-center h-12 w-12 rounded-full bg-icon-lavender text-base-lavender mb-5'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    className: "h-6 w-6",
+    "aria-hidden": "true"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: `text-base text-base-lavender uppercase`
+  }, "Sub-head"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "text-3xl lg:text-4xl font-extrabold pb-5 pt-2"
+  }, "Host healthy groups"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-gray-500 text-xl"
+  }, "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    className: "transform rounded-md object-cover object-left-top",
+    src: "../images/image-2.png",
+    alt: "Pipeline Screenshot",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3249639528.json */ "./.cache/caches/gatsby-plugin-image/3249639528.json")
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "py-4 max-w-lg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: 'bg-light-mint rounded-2xl'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: 'p-6 lg:p-8'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: 'flex items-center justify-center h-12 w-12 rounded-full bg-icon-mint text-base-mint mb-5'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    className: "h-6 w-6",
+    "aria-hidden": "true"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: `text-base text-base-mint uppercase`
+  }, "Sub-head"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "text-3xl lg:text-4xl font-extrabold pb-5 pt-2"
+  }, "Increase generosity"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-gray-500 text-xl"
+  }, "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    className: "transform rounded-md object-cover object-left-top",
+    src: "../images/image-3.png",
+    alt: "Pipeline Screenshot",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3543085385.json */ "./.cache/caches/gatsby-plugin-image/3543085385.json")
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "py-4 max-w-lg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: 'bg-light-tan rounded-2xl'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    className: "transform rounded-md object-cover object-left-top",
+    src: "../images/image-4.png",
+    alt: "Pipeline Screenshot",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/843406542.json */ "./.cache/caches/gatsby-plugin-image/843406542.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: 'p-6 lg:p-8'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: 'flex items-center justify-center h-12 w-12 rounded-full bg-icon-tan text-base-tan mb-5'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    className: "h-6 w-6",
+    "aria-hidden": "true"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: `text-base text-base-tan uppercase`
+  }, "Sub-head"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "text-3xl lg:text-4xl font-extrabold pb-5 pt-2"
+  }, "Disciple personally"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-gray-500 text-xl"
+  }, "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "py-4 max-w-lg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: 'bg-light-blue rounded-2xl'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    className: "transform rounded-md object-cover object-left-top",
+    src: "../images/image-5.png",
+    alt: "Pipeline Screenshot",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1965399030.json */ "./.cache/caches/gatsby-plugin-image/1965399030.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: 'p-6 lg:p-8'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: 'flex items-center justify-center h-12 w-12 rounded-full bg-icon-blue text-base-blue mb-5'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    className: "h-6 w-6",
+    "aria-hidden": "true"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: `text-base text-base-blue uppercase`
+  }, "Sub-head"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "text-3xl lg:text-4xl font-extrabold pb-5 pt-2"
+  }, "Build daily habits"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-gray-500 text-xl"
+  }, "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "py-4 max-w-lg"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: 'bg-light-red rounded-2xl'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    className: "transform rounded-md object-cover object-left-top",
+    src: "../images/image-6.png",
+    alt: "Pipeline Screenshot",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1100992269.json */ "./.cache/caches/gatsby-plugin-image/1100992269.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: 'p-6 lg:p-8'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: 'flex items-center justify-center h-12 w-12 rounded-full bg-icon-red text-base-red mb-5'
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_12__["default"], {
+    className: "h-6 w-6",
+    "aria-hidden": "true"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: `text-base text-base-red uppercase`
+  }, "Sub-head"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "text-3xl lg:text-4xl font-extrabold pb-5 pt-2"
+  }, "Watch & grow"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-gray-500 text-xl"
+  }, "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "max-w-2xl mx-auto px-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Divider__WEBPACK_IMPORTED_MODULE_2__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pipeline-wrapper"
@@ -1067,7 +1114,7 @@ const IndexPage = () => {
     className: "flex flex-col items-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "mt-14 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_12__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
     className: "transform rounded-md object-cover object-left-top",
     src: "../images/pipeline.png",
     alt: "Pipeline Screenshot",
@@ -3096,6 +3143,16 @@ var renderPathForWeight = function renderPathForWeight(weight, color, pathsByWei
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/1100992269.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1100992269.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/dcc4bc405911506a6f67ed76349e47ad/ed770/image-6.png","srcSet":"/static/dcc4bc405911506a6f67ed76349e47ad/fa195/image-6.png 118w,\\n/static/dcc4bc405911506a6f67ed76349e47ad/56a9c/image-6.png 236w,\\n/static/dcc4bc405911506a6f67ed76349e47ad/ed770/image-6.png 471w","sizes":"(min-width: 471px) 471px, 100vw"},"sources":[{"srcSet":"/static/dcc4bc405911506a6f67ed76349e47ad/a16bb/image-6.webp 118w,\\n/static/dcc4bc405911506a6f67ed76349e47ad/6a041/image-6.webp 236w,\\n/static/dcc4bc405911506a6f67ed76349e47ad/0c6fc/image-6.webp 471w","type":"image/webp","sizes":"(min-width: 471px) 471px, 100vw"}]},"width":471,"height":372}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/1114902875.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/1114902875.json ***!
@@ -3103,6 +3160,56 @@ var renderPathForWeight = function renderPathForWeight(weight, color, pathsByWei
 /***/ ((module) => {
 
 module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#180838","images":{"fallback":{"src":"/static/fe1345102f55d4965e243b9a367bde1b/2c4af/pipeline.png","srcSet":"/static/fe1345102f55d4965e243b9a367bde1b/4f91d/pipeline.png 177w,\\n/static/fe1345102f55d4965e243b9a367bde1b/c5935/pipeline.png 353w,\\n/static/fe1345102f55d4965e243b9a367bde1b/2c4af/pipeline.png 706w","sizes":"(min-width: 706px) 706px, 100vw"},"sources":[{"srcSet":"/static/fe1345102f55d4965e243b9a367bde1b/c8d2a/pipeline.webp 177w,\\n/static/fe1345102f55d4965e243b9a367bde1b/b7ca7/pipeline.webp 353w,\\n/static/fe1345102f55d4965e243b9a367bde1b/5f1f5/pipeline.webp 706w","type":"image/webp","sizes":"(min-width: 706px) 706px, 100vw"}]},"width":706,"height":230.99999999999997}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/14761392.json":
+/*!*********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/14761392.json ***!
+  \*********************************************************/
+/***/ ((module) => {
+
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/363611a25e993d7a8a2480efb9cc5549/50508/image-1.png","srcSet":"/static/363611a25e993d7a8a2480efb9cc5549/36643/image-1.png 132w,\\n/static/363611a25e993d7a8a2480efb9cc5549/4b620/image-1.png 264w,\\n/static/363611a25e993d7a8a2480efb9cc5549/50508/image-1.png 528w","sizes":"(min-width: 528px) 528px, 100vw"},"sources":[{"srcSet":"/static/363611a25e993d7a8a2480efb9cc5549/2af73/image-1.webp 132w,\\n/static/363611a25e993d7a8a2480efb9cc5549/8a823/image-1.webp 264w,\\n/static/363611a25e993d7a8a2480efb9cc5549/95935/image-1.webp 528w","type":"image/webp","sizes":"(min-width: 528px) 528px, 100vw"}]},"width":528,"height":313}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/1965399030.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1965399030.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/099873ed6eda958987613e44a45cfb45/83457/image-5.png","srcSet":"/static/099873ed6eda958987613e44a45cfb45/e42ca/image-5.png 130w,\\n/static/099873ed6eda958987613e44a45cfb45/6a05b/image-5.png 260w,\\n/static/099873ed6eda958987613e44a45cfb45/83457/image-5.png 520w","sizes":"(min-width: 520px) 520px, 100vw"},"sources":[{"srcSet":"/static/099873ed6eda958987613e44a45cfb45/a6e05/image-5.webp 130w,\\n/static/099873ed6eda958987613e44a45cfb45/9654f/image-5.webp 260w,\\n/static/099873ed6eda958987613e44a45cfb45/ba6b2/image-5.webp 520w","type":"image/webp","sizes":"(min-width: 520px) 520px, 100vw"}]},"width":520,"height":457.00000000000006}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3249639528.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3249639528.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/51b46de7808910402996e1b9634a5ace/4687b/image-2.png","srcSet":"/static/51b46de7808910402996e1b9634a5ace/dc34f/image-2.png 116w,\\n/static/51b46de7808910402996e1b9634a5ace/15a64/image-2.png 232w,\\n/static/51b46de7808910402996e1b9634a5ace/4687b/image-2.png 464w","sizes":"(min-width: 464px) 464px, 100vw"},"sources":[{"srcSet":"/static/51b46de7808910402996e1b9634a5ace/f147c/image-2.webp 116w,\\n/static/51b46de7808910402996e1b9634a5ace/d78f8/image-2.webp 232w,\\n/static/51b46de7808910402996e1b9634a5ace/e0a94/image-2.webp 464w","type":"image/webp","sizes":"(min-width: 464px) 464px, 100vw"}]},"width":464,"height":335}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3543085385.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3543085385.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/2b9b484e0885a4d0183df18de7238335/33fae/image-3.png","srcSet":"/static/2b9b484e0885a4d0183df18de7238335/87af9/image-3.png 116w,\\n/static/2b9b484e0885a4d0183df18de7238335/28909/image-3.png 232w,\\n/static/2b9b484e0885a4d0183df18de7238335/33fae/image-3.png 464w","sizes":"(min-width: 464px) 464px, 100vw"},"sources":[{"srcSet":"/static/2b9b484e0885a4d0183df18de7238335/3580d/image-3.webp 116w,\\n/static/2b9b484e0885a4d0183df18de7238335/47b3c/image-3.webp 232w,\\n/static/2b9b484e0885a4d0183df18de7238335/a576f/image-3.webp 464w","type":"image/webp","sizes":"(min-width: 464px) 464px, 100vw"}]},"width":464,"height":455.00000000000006}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/843406542.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/843406542.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/5569d7116a9ac608f3fb2a428d8059bc/63d64/image-4.png","srcSet":"/static/5569d7116a9ac608f3fb2a428d8059bc/7826d/image-4.png 116w,\\n/static/5569d7116a9ac608f3fb2a428d8059bc/a816e/image-4.png 232w,\\n/static/5569d7116a9ac608f3fb2a428d8059bc/63d64/image-4.png 464w","sizes":"(min-width: 464px) 464px, 100vw"},"sources":[{"srcSet":"/static/5569d7116a9ac608f3fb2a428d8059bc/c757d/image-4.webp 116w,\\n/static/5569d7116a9ac608f3fb2a428d8059bc/73b97/image-4.webp 232w,\\n/static/5569d7116a9ac608f3fb2a428d8059bc/a3204/image-4.webp 464w","type":"image/webp","sizes":"(min-width: 464px) 464px, 100vw"}]},"width":464,"height":413.99999999999994}');
 
 /***/ })
 

@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import {
+  Broadcast,
   ChalkboardTeacher,
   Code,
   GitBranch,
@@ -42,15 +43,56 @@ const IndexPage = () => {
       <Helmet>
         <link rel='stylesheet' href='https://rsms.me/inter/inter.css'></link>
       </Helmet>
-      <div className='py-8 lg:py-24 pb-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center'>
-        <div className='lg:text-center'>
+      <div className='max-w-7xl mx-auto flex flex-col items-center'>
+        <div className='relative bg-gray-800 rounded-lg'>
+          <div className='bg-indigo-600 md:absolute md:right-0 md:h-full md:w-1/2'>
+            <StaticImage
+              className='w-full h-full object-cover'
+              src='../images/engagement.png'
+              alt='Person on phone using the Apollos app'
+            />
+          </div>
+          <div className='relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16'>
+            <div className='md:mr-auto md:w-1/2 md:pr-10'>
+              <h2 className='text-base text-base-secondary font-semibold tracking-wide uppercase'>
+                Experience
+              </h2>
+              <p className='mt-2 max-w-3xl text-3xl sm:text-5xl leading-8 font-extrabold tracking-tight text-white'>
+                Everything you need to grow your digital ministry
+              </p>
+              <p className='mt-4 max-w-4xl text-lg text-gray-500 lg:mx-auto'>
+                When your goal is engagement it can be hard to measure how
+                people are actually changing. We focus on building technologies
+                that make growing with your faith, family and friends a daily
+                habit.
+              </p>
+              <div className='mt-8'>
+                <div className='inline-flex rounded-md shadow'>
+                  <a
+                    href='#'
+                    className='inline-flex items-center justify-center gap-4 px-4 py-3 border border-transparent text-base font-medium rounded-md text-base-secondary bg-white hover:bg-gray-50'
+                  >
+                    <Broadcast
+                      className='h-5 w-5 text-base-secondary'
+                      aria-hidden='true'
+                    />
+                    See Apollos in Action
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='pb-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center'>
+        <div className='text-center py-16 lg:py-24 flex flex-col items-center'>
           <h2 className='text-base text-base-secondary font-semibold tracking-wide uppercase'>
             Growth plan
           </h2>
-          <p className='mt-2 text-3xl sm:text-6xl leading-8 font-extrabold tracking-tight text-gray-900'>
+          <p className='mt-2 max-w-3xl text-3xl sm:text-5xl leading-8 font-extrabold tracking-tight text-gray-900'>
             Everything you need to grow your digital ministry
           </p>
-          <p className='mt-4 text-xl text-gray-500 lg:mx-auto'>
+          <p className='mt-4 max-w-4xl text-xl text-gray-500 lg:mx-auto'>
             Phasellus lorem quam molestie id quisque diam aenean nulla in.
             Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
             condimentum id viverra nulla.
@@ -59,7 +101,7 @@ const IndexPage = () => {
         <div className='lg:columns-2 lg:gap-8'>
           <div className='py-4 max-w-lg'>
             <div className={'bg-light-secondary rounded-2xl'}>
-              <div className={'p-6 lg:p-8'}>
+              <div className={'pt-6 px-6 lg:pt-8 lg:px-8'}>
                 <div
                   className={
                     'flex items-center justify-center h-12 w-12 rounded-full bg-icon-bluegreen text-base-secondary mb-5'
@@ -79,16 +121,18 @@ const IndexPage = () => {
                   condimentum id viverra nulla.
                 </div>
               </div>
-              <StaticImage
-                className='transform rounded-md object-cover object-left-top'
-                src='../images/image-1.png'
-                alt='Pipeline Screenshot'
-              />
+              <div className='flex pt-4 justify-center'>
+                <StaticImage
+                  className='w-full h-full object-cover'
+                  src='../images/image-1.png'
+                  alt='Pipeline Screenshot'
+                />
+              </div>
             </div>
           </div>
           <div className='py-4 max-w-lg'>
             <div className={'bg-light-lavender rounded-2xl'}>
-              <div className={'p-6 lg:p-8'}>
+              <div className={'pt-6 px-6 lg:pt-8 lg:px-8'}>
                 <div
                   className={
                     'flex items-center justify-center h-12 w-12 rounded-full bg-icon-lavender text-base-lavender mb-5'
@@ -108,16 +152,18 @@ const IndexPage = () => {
                   condimentum id viverra nulla.
                 </div>
               </div>
-              <StaticImage
-                className='transform rounded-md object-cover object-left-top'
-                src='../images/image-2.png'
-                alt='Pipeline Screenshot'
-              />
+              <div className='flex pt-4 justify-center'>
+                <StaticImage
+                  className='object-cover'
+                  src='../images/image-2.png'
+                  alt='Pipeline Screenshot'
+                />
+              </div>
             </div>
           </div>
-          <div className='py-4 max-w-lg'>
+          <div className='py-4 max-w-lg lg:break-after-column'>
             <div className={'bg-light-mint rounded-2xl'}>
-              <div className={'p-6 lg:p-8'}>
+              <div className={'pt-6 px-6 lg:pt-8 lg:px-8'}>
                 <div
                   className={
                     'flex items-center justify-center h-12 w-12 rounded-full bg-icon-mint text-base-mint mb-5'
@@ -135,21 +181,25 @@ const IndexPage = () => {
                   condimentum id viverra nulla.
                 </div>
               </div>
-              <StaticImage
-                className='transform rounded-md object-cover object-left-top'
-                src='../images/image-3.png'
-                alt='Pipeline Screenshot'
-              />
+              <div className='flex pt-4 justify-center'>
+                <StaticImage
+                  className='object-cover'
+                  src='../images/image-3.png'
+                  alt='Pipeline Screenshot'
+                />
+              </div>
             </div>
           </div>
           <div className='py-4 max-w-lg'>
             <div className={'bg-light-tan rounded-2xl'}>
-              <StaticImage
-                className='transform rounded-md object-cover object-left-top'
-                src='../images/image-4.png'
-                alt='Pipeline Screenshot'
-              />
-              <div className={'p-6 lg:p-8'}>
+              <div className='flex pt-4 justify-center'>
+                <StaticImage
+                  className='object-cover'
+                  src='../images/image-4.png'
+                  alt='Pipeline Screenshot'
+                />
+              </div>
+              <div className={'pb-6 px-6 lg:pb-8 lg:px-8'}>
                 <div
                   className={
                     'flex items-center justify-center h-12 w-12 rounded-full bg-icon-tan text-base-tan mb-5'
@@ -171,12 +221,14 @@ const IndexPage = () => {
           </div>
           <div className='py-4 max-w-lg'>
             <div className={'bg-light-blue rounded-2xl'}>
-              <StaticImage
-                className='transform rounded-md object-cover object-left-top'
-                src='../images/image-5.png'
-                alt='Pipeline Screenshot'
-              />
-              <div className={'p-6 lg:p-8'}>
+              <div className='flex pt-4 justify-center'>
+                <StaticImage
+                  className='object-cover'
+                  src='../images/image-5.png'
+                  alt='Pipeline Screenshot'
+                />
+              </div>
+              <div className={'pb-6 px-6 lg:pb-8 lg:px-8'}>
                 <div
                   className={
                     'flex items-center justify-center h-12 w-12 rounded-full bg-icon-blue text-base-blue mb-5'
@@ -198,12 +250,14 @@ const IndexPage = () => {
           </div>
           <div className='py-4 max-w-lg'>
             <div className={'bg-light-red rounded-2xl'}>
-              <StaticImage
-                className='transform rounded-md object-cover object-left-top'
-                src='../images/image-6.png'
-                alt='Pipeline Screenshot'
-              />
-              <div className={'p-6 lg:p-8'}>
+              <div className='flex pt-8 justify-center'>
+                <StaticImage
+                  className='object-cover'
+                  src='../images/image-6.png'
+                  alt='Pipeline Screenshot'
+                />
+              </div>
+              <div className={'pb-6 px-6 lg:pb-8 lg:px-8'}>
                 <div
                   className={
                     'flex items-center justify-center h-12 w-12 rounded-full bg-icon-red text-base-red mb-5'
