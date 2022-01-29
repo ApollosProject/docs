@@ -92,10 +92,4 @@
 
 .footer {
   background: linear-gradient(180deg, #303036 0%, #1c1c1f 100%), #1f2937;
-  color: rgba(244, 247, 248, 0.6);
-  font-size: 1.125rem;
-}
-
-.footer-button {
-  color: #17b582;
 }

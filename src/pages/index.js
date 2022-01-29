@@ -13,7 +13,7 @@ import {
   UserSquare,
   YoutubeLogo,
 } from 'phosphor-react';
-import { GatsbyImage, getImage, StaticImage } from 'gatsby-plugin-image';
+import { StaticImage } from 'gatsby-plugin-image';
 import Divider from '../components/Divider';
 
 const IndexPage = () => {
@@ -70,12 +70,9 @@ const IndexPage = () => {
                 <div className='inline-flex rounded-md shadow'>
                   <a
                     href='#'
-                    className='inline-flex items-center justify-center gap-4 px-4 py-3 border border-transparent text-base font-medium rounded-md text-base-secondary bg-white hover:bg-gray-50'
+                    className='w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow-sm rounded-md inline-flex items-center justify-center gap-3 hover:bg-base-secondary hover:text-white'
                   >
-                    <Broadcast
-                      className='h-5 w-5 text-base-secondary'
-                      aria-hidden='true'
-                    />
+                    <Broadcast aria-hidden='true' className='h-5 w-5' />
                     See Apollos in Action
                   </a>
                 </div>
@@ -283,60 +280,55 @@ const IndexPage = () => {
         <Divider />
       </div>
       <div className='pipeline-wrapper'>
-        <div className='py-8 lg:py-24 pb-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-24 space-y-8 lg:space-y-24'>
           <div className='pipeline-green-background rounded-lg shadow-xl overflow-hidden'>
-            <div className='pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20'>
-              <div className='lg:self-center'>
-                <p className='max-w-3xl text-sm text-base-secondary uppercase'>
-                  a Church-centric data pipeline
-                </p>
-                <h1 className='text-3xl lg:text-5xl font-extrabold text-white py-4'>
-                  <span className='block'>
-                    Syncs with your existing services and data.
-                  </span>
-                </h1>
-                <p className='mt-4 text-lg leading-6 text-dark-secondary'>
-                  Apollos syncs data with the other services you already depend
-                  on. Phasellus lorem quam molestie id quisque diam aenean nulla
-                  in. Accumsan in quis quis nunc, ullamcorper malesuada.
-                  Eleifend condimentum id viverra nulla.
-                </p>
-                <div className='flex flex-col items-center'>
-                  <div className='mt-14 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1'>
-                    <StaticImage
-                      className='transform rounded-md object-cover object-left-top'
-                      src='../images/pipeline.png'
-                      alt='Pipeline Screenshot'
-                    />
-                  </div>
-                  <a
-                    href='#'
-                    className='mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex gap-2 items-center text-base font-medium text-base-secondary hover:text-base-secondary-hover'
-                  >
-                    <RocketLaunch />
-                    Explore integrations
-                  </a>
+            <div className='px-6 py-10 sm:px-16 sm:py-16 xl:px-20 xl:py-20'>
+              <p className='text-sm text-base-secondary uppercase'>
+                a Church-centric data pipeline
+              </p>
+              <h1 className='py-4 text-3xl lg:text-5xl tracking-tight font-extrabold text-white'>
+                Syncs with your existing services and data.
+              </h1>
+              <p className='text-lg leading-6 text-dark-secondary/60'>
+                Apollos syncs data with the other services you already depend
+                on. Phasellus lorem quam molestie id quisque diam aenean nulla
+                in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
+                condimentum id viverra nulla.
+              </p>
+              <div className='flex flex-col items-center'>
+                <div className='mb-8 mt-14 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1'>
+                  <StaticImage
+                    className='transform rounded-md object-cover object-left-top'
+                    src='../images/pipeline.png'
+                    alt='Pipeline Screenshot'
+                  />
                 </div>
+                <a
+                  href='#'
+                  className='w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow-sm rounded-md inline-flex items-center justify-center gap-3 hover:bg-base-secondary hover:text-white'
+                >
+                  <RocketLaunch aria-hidden='true' className='h-5 w-5' />
+                  Explore integrations
+                </a>
               </div>
             </div>
           </div>
-          <div className='pt-8 lg:pt-24'>
-            <p className='max-w-3xl text-base text-base-secondary uppercase'>
-              Our Blueprint
-            </p>
-            <h1 className='text-5xl font-extrabold tracking-tight text-black'>
-              For <i>the</i>
-            </h1>
-            <h1 className='text-5xl font-extrabold tracking-tight text-black'>
-              Kingdom.
-            </h1>
-            <div className='pt-12'>
-              <h2 className='sr-only'>For the Kingdom</h2>
-              <dl className='space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8'>
+          <div className='space-y-12'>
+            <div>
+              <p className='text-base text-base-secondary uppercase'>
+                Our Blueprint
+              </p>
+              <h1 className='text-5xl font-extrabold text-black'>
+                For <span className='italic'>the</span>
+              </h1>
+              <h1 className='text-5xl font-extrabold text-black'>Kingdom.</h1>
+            </div>
+            <div>
+              <dl className='lg:grid lg:grid-cols-3 lg:gap-8'>
                 {features.map((feature) => (
                   <div key={feature.name}>
                     <dt>
-                      <div className='flex items-center justify-center h-12 w-12 rounded-full bg-icon-bluegreen text-base-secondary'>
+                      <div className='flex items-center justify-center h-12 w-12 rounded-full bg-icon-bluegreen text-base-secondary shadow-sm'>
                         <feature.icon className='h-6 w-6' aria-hidden='true' />
                       </div>
                       <p className='mt-5 text-lg leading-6 font-medium text-gray-900'>
@@ -354,22 +346,18 @@ const IndexPage = () => {
         </div>
       </div>
       <footer className='footer'>
-        <div className=''>
-          <div className='flex items-center flex-col px-4 py-16 lg:py-20 space-y-6 max-w-7xl mx-auto'>
-            <h1 className='text-4xl leading-9 font-extrabold text-white'>
-              Lorem ipsum
-            </h1>
-            <p className='text-center leading-6'>
-              Ac euismod vel sit maecenas id pellentesque eu sed consectetur.
-              Malesuada adipiscing sagittis vel nulla nec.
-            </p>
-            <button
-              type='button'
-              className='text-base-secondary inline-flex justify-center items-center px-6 py-3 border border-gray-300 shadow-sm text-base font-medium rounded-md bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 w-full sm:w-auto'
-            >
-              Get started
-            </button>
-          </div>
+        <div className='max-w-7xl mx-auto px-4 py-16 lg:py-20 flex flex-col items-center space-y-6'>
+          <h1 className='text-4xl font-extrabold text-white'>Lorem ipsum</h1>
+          <p className='text-center leading-6 text-dark-secondary/60'>
+            Ac euismod vel sit maecenas id pellentesque eu sed consectetur.
+            Malesuada adipiscing sagittis vel nulla nec.
+          </p>
+          <a
+            href='#'
+            className='w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow rounded-md inline-flex items-center justify-center hover:bg-base-secondary hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-base-secondary'
+          >
+            Get started
+          </a>
         </div>
       </footer>
     </>

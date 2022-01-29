@@ -14,7 +14,7 @@ module.exports = {
           tan: '#b59317',
         },
         dark: {
-          secondary: '#f4f7f899',
+          secondary: '#f4f7f8',
         },
         light: {
           blue: '#e0ecee',
