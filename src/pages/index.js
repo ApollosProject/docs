@@ -43,28 +43,25 @@ const IndexPage = () => {
       <Helmet>
         <link rel='stylesheet' href='https://rsms.me/inter/inter.css'></link>
       </Helmet>
-      <div className='max-w-7xl mx-auto flex flex-col items-center'>
-        <div className='relative bg-gray-800 rounded-lg'>
-          <div className='bg-indigo-600 md:absolute md:right-0 md:h-full md:w-1/2'>
-            <StaticImage
-              className='w-full h-full object-cover'
-              src='../images/engagement.png'
-              alt='Person on phone using the Apollos app'
-            />
-          </div>
-          <div className='relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16'>
+      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+        <div className='relative engagement rounded-lg overflow-hidden space-4 shadow-xl'>
+          <div className='px-4 py-12 sm:px-6 lg:px-16 lg:py-16'>
             <div className='md:mr-auto md:w-1/2 md:pr-10'>
-              <h2 className='text-base text-base-secondary font-semibold tracking-wide uppercase'>
+              <p className='text-sm text-base-secondary font-semibold uppercase'>
                 Experience
-              </h2>
-              <p className='mt-2 max-w-3xl text-3xl sm:text-5xl leading-8 font-extrabold tracking-tight text-white'>
-                Everything you need to grow your digital ministry
               </p>
-              <p className='mt-4 max-w-4xl text-lg text-gray-500 lg:mx-auto'>
+              <h1 className='pt-4 text-5xl font-extrabold leading-12 tracking-tight text-white line-through'>
+                Engagement
+              </h1>
+              <h1 className='text-5xl font-extrabold leading-12 tracking-tight text-white italic'>
+                Growth.
+              </h1>
+              <p className='mt-4 max-w-4xl text-lg text-dark-secondary/60 lg:mx-auto'>
                 When your goal is engagement it can be hard to measure how
                 people are actually changing. We focus on building technologies
-                that make growing with your faith, family and friends a daily
-                habit.
+                that make <span className='text-white'>growing</span> with your
+                faith, family and friends{' '}
+                <span className='text-white'>a daily habit</span>.
               </p>
               <div className='mt-8'>
                 <div className='inline-flex rounded-md shadow'>
@@ -79,13 +76,20 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
+          <div className='bg-indigo-600 md:absolute md:right-0 md:top-0 md:h-full md:w-1/2'>
+            <StaticImage
+              className='w-full h-full object-cover'
+              src='../images/engagement.png'
+              alt='Person on phone using the Apollos app'
+            />
+          </div>
         </div>
       </div>
       <div className='pb-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center'>
         <div className='text-center py-16 lg:py-24 flex flex-col items-center'>
-          <h2 className='text-base text-base-secondary font-semibold tracking-wide uppercase'>
-            Growth plan
-          </h2>
+          <p className='text-base text-base-secondary font-semibold uppercase'>
+            Growth Plan
+          </p>
           <p className='mt-2 max-w-3xl text-3xl sm:text-5xl leading-8 font-extrabold tracking-tight text-gray-900'>
             Everything you need to grow your digital ministry
           </p>
@@ -106,7 +110,9 @@ const IndexPage = () => {
                 >
                   <GlobeHemisphereWest className='h-6 w-6' aria-hidden='true' />
                 </div>
-                <p className={`text-base text-base-secondary uppercase`}>
+                <p
+                  className={`text-base text-base-secondary font-semibold uppercase`}
+                >
                   Mobile, TV & Web
                 </p>
                 <h1 className='text-3xl lg:text-4xl font-extrabold pb-5 pt-2'>
@@ -137,7 +143,9 @@ const IndexPage = () => {
                 >
                   <Users className='h-6 w-6' aria-hidden='true' />
                 </div>
-                <p className={`text-base text-base-lavender uppercase`}>
+                <p
+                  className={`text-base text-base-lavender font-semibold uppercase`}
+                >
                   Sub-head
                 </p>
                 <h1 className='text-3xl lg:text-4xl font-extrabold pb-5 pt-2'>
@@ -168,7 +176,11 @@ const IndexPage = () => {
                 >
                   <Heart className='h-6 w-6' aria-hidden='true' />
                 </div>
-                <p className={`text-base text-base-mint uppercase`}>Sub-head</p>
+                <p
+                  className={`text-base text-base-mint font-semibold uppercase`}
+                >
+                  Sub-head
+                </p>
                 <h1 className='text-3xl lg:text-4xl font-extrabold pb-5 pt-2'>
                   Increase generosity
                 </h1>
@@ -204,7 +216,11 @@ const IndexPage = () => {
                 >
                   <UserSquare className='h-6 w-6' aria-hidden='true' />
                 </div>
-                <p className={`text-base text-base-tan uppercase`}>Sub-head</p>
+                <p
+                  className={`text-base text-base-tan font-semibold uppercase`}
+                >
+                  Sub-head
+                </p>
                 <h1 className='text-3xl lg:text-4xl font-extrabold pb-5 pt-2'>
                   Disciple personally
                 </h1>
@@ -233,7 +249,11 @@ const IndexPage = () => {
                 >
                   <TrendUp className='h-6 w-6' aria-hidden='true' />
                 </div>
-                <p className={`text-base text-base-blue uppercase`}>Sub-head</p>
+                <p
+                  className={`text-base text-base-blue font-semibold uppercase`}
+                >
+                  Sub-head
+                </p>
                 <h1 className='text-3xl lg:text-4xl font-extrabold pb-5 pt-2'>
                   Build daily habits
                 </h1>
@@ -262,7 +282,11 @@ const IndexPage = () => {
                 >
                   <YoutubeLogo className='h-6 w-6' aria-hidden='true' />
                 </div>
-                <p className={`text-base text-base-red uppercase`}>Sub-head</p>
+                <p
+                  className={`text-base text-base-red font-semibold uppercase`}
+                >
+                  Sub-head
+                </p>
                 <h1 className='text-3xl lg:text-4xl font-extrabold pb-5 pt-2'>
                   Watch & grow
                 </h1>
@@ -283,7 +307,7 @@ const IndexPage = () => {
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-24 space-y-8 lg:space-y-24'>
           <div className='pipeline-green-background rounded-lg shadow-xl overflow-hidden'>
             <div className='px-6 py-10 sm:px-16 sm:py-16 xl:px-20 xl:py-20'>
-              <p className='text-sm text-base-secondary uppercase'>
+              <p className='text-sm text-base-secondary font-semibold uppercase'>
                 a Church-centric data pipeline
               </p>
               <h1 className='py-4 text-3xl lg:text-5xl tracking-tight font-extrabold text-white'>
@@ -315,7 +339,7 @@ const IndexPage = () => {
           </div>
           <div className='space-y-12'>
             <div>
-              <p className='text-base text-base-secondary uppercase'>
+              <p className='text-base text-base-secondary font-semibold uppercase'>
                 Our Blueprint
               </p>
               <h1 className='text-5xl font-extrabold text-black'>

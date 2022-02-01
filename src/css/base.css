@@ -68,6 +68,15 @@
   background-size: 32px;
 }
 
+.engagement {
+  background: radial-gradient(
+      85.1% 444.85% at 100% 100%,
+      rgba(0, 182, 192, 0.36) 0%,
+      rgba(0, 103, 109, 0.25) 100%
+    ),
+    linear-gradient(180deg, #303036 0%, #000000 100%);
+}
+
 .pipeline-green-background {
   background: radial-gradient(
       187.59% 91.15% at 24.88% 84.84%,

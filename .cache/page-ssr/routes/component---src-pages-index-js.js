@@ -974,10 +974,10 @@ const IndexPage = () => {
     className: "inline-flex rounded-md shadow"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
-    className: "inline-flex items-center justify-center gap-4 px-4 py-3 border border-transparent text-base font-medium rounded-md text-base-secondary bg-white hover:bg-gray-50"
+    className: "w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow-sm rounded-md inline-flex items-center justify-center gap-3 hover:bg-base-secondary hover:text-white"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    className: "h-5 w-5 text-base-secondary",
-    "aria-hidden": "true"
+    "aria-hidden": "true",
+    className: "h-5 w-5"
   }), "See Apollos in Action"))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pb-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -1139,25 +1139,21 @@ const IndexPage = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Divider__WEBPACK_IMPORTED_MODULE_2__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pipeline-wrapper"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "py-8 lg:py-24 pb-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+    className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-24 space-y-8 lg:space-y-24"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pipeline-green-background rounded-lg shadow-xl overflow-hidden"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "lg:self-center"
+    className: "px-6 py-10 sm:px-16 sm:py-16 xl:px-20 xl:py-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "max-w-3xl text-sm text-base-secondary uppercase"
+    className: "text-sm text-base-secondary uppercase"
   }, "a Church-centric data pipeline"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "text-3xl lg:text-5xl font-extrabold text-white py-4"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "block"
-  }, "Syncs with your existing services and data.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "mt-4 text-lg leading-6 text-dark-secondary"
+    className: "py-4 text-3xl lg:text-5xl tracking-tight font-extrabold text-white"
+  }, "Syncs with your existing services and data."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text-lg leading-6 text-dark-secondary/60"
   }, "Apollos syncs data with the other services you already depend on. Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex flex-col items-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "mt-14 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1"
+    className: "mb-8 mt-14 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
     className: "transform rounded-md object-cover object-left-top",
     src: "../images/pipeline.png",
@@ -1165,25 +1161,26 @@ const IndexPage = () => {
     __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1114902875.json */ "./.cache/caches/gatsby-plugin-image/1114902875.json")
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
-    className: "mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex gap-2 items-center text-base font-medium text-base-secondary hover:text-base-secondary-hover"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_14__["default"], null), "Explore integrations"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "pt-8 lg:pt-24"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "max-w-3xl text-base text-base-secondary uppercase"
+    className: "w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow-sm rounded-md inline-flex items-center justify-center gap-3 hover:bg-base-secondary hover:text-white"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_14__["default"], {
+    "aria-hidden": "true",
+    className: "h-5 w-5"
+  }), "Explore integrations")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "space-y-12"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text-base text-base-secondary uppercase"
   }, "Our Blueprint"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "text-5xl font-extrabold tracking-tight text-black"
-  }, "For ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", null, "the")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "text-5xl font-extrabold tracking-tight text-black"
-  }, "Kingdom."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "pt-12"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
-    className: "sr-only"
-  }, "For the Kingdom"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("dl", {
-    className: "space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8"
+    className: "text-5xl font-extrabold text-black"
+  }, "For ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "italic"
+  }, "the")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "text-5xl font-extrabold text-black"
+  }, "Kingdom.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("dl", {
+    className: "lg:grid lg:grid-cols-3 lg:gap-8"
   }, features.map(feature => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     key: feature.name
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("dt", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "flex items-center justify-center h-12 w-12 rounded-full bg-icon-bluegreen text-base-secondary"
+    className: "flex items-center justify-center h-12 w-12 rounded-full bg-icon-bluegreen text-base-secondary shadow-sm"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(feature.icon, {
     className: "h-6 w-6",
     "aria-hidden": "true"
@@ -1194,17 +1191,15 @@ const IndexPage = () => {
   }, feature.description)))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", {
     className: "footer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "flex items-center flex-col px-4 py-16 lg:py-20 space-y-6 max-w-7xl mx-auto"
+    className: "max-w-7xl mx-auto px-4 py-16 lg:py-20 flex flex-col items-center space-y-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "text-4xl leading-9 font-extrabold text-white"
+    className: "text-4xl font-extrabold text-white"
   }, "Lorem ipsum"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "text-center leading-6"
-  }, "Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    type: "button",
-    className: "text-base-secondary inline-flex justify-center items-center px-6 py-3 border border-gray-300 shadow-sm text-base font-medium rounded-md bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 w-full sm:w-auto"
-  }, "Get started")))));
+    className: "text-center leading-6 text-dark-secondary/60"
+  }, "Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "#",
+    className: "w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow rounded-md inline-flex items-center justify-center hover:bg-base-secondary hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-base-secondary"
+  }, "Get started"))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
