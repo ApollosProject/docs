@@ -914,7 +914,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/GitBranch.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Code.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/ChalkboardTeacher.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Broadcast.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Broadcast.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/GlobeHemisphereWest.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Users.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Heart.esm.js");
@@ -922,7 +922,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/TrendUp.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/YoutubeLogo.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/RocketLaunch.esm.js");
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
 /* harmony import */ var _components_Divider__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Divider */ "./src/components/Divider.js");
 
 
@@ -948,43 +948,49 @@ const IndexPage = () => {
     rel: "stylesheet",
     href: "https://rsms.me/inter/inter.css"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "max-w-7xl mx-auto flex flex-col items-center"
+    className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "relative bg-gray-800 rounded-lg"
+    className: "relative engagement rounded-lg overflow-hidden space-4 shadow-xl"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "bg-indigo-600 md:absolute md:right-0 md:h-full md:w-1/2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
-    className: "w-full h-full object-cover",
-    src: "../images/engagement.png",
-    alt: "Person on phone using the Apollos app",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1827082572.json */ "./.cache/caches/gatsby-plugin-image/1827082572.json")
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "relative max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16"
+    className: "px-4 py-12 sm:px-6 lg:px-16 lg:py-16"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "md:mr-auto md:w-1/2 md:pr-10"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
-    className: "text-base text-base-secondary font-semibold tracking-wide uppercase"
-  }, "Experience"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "mt-2 max-w-3xl text-3xl sm:text-5xl leading-8 font-extrabold tracking-tight text-white"
-  }, "Everything you need to grow your digital ministry"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "mt-4 max-w-4xl text-lg text-gray-500 lg:mx-auto"
-  }, "When your goal is engagement it can be hard to measure how people are actually changing. We focus on building technologies that make growing with your faith, family and friends a daily habit."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text-sm text-base-secondary font-semibold uppercase"
+  }, "Experience"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "pt-4 text-5xl font-extrabold leading-12 tracking-tight text-white line-through"
+  }, "Engagement"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "text-5xl font-extrabold leading-12 tracking-tight text-white italic"
+  }, "Growth."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "mt-4 max-w-4xl text-lg text-dark-secondary/60 lg:mx-auto"
+  }, "When your goal is engagement it can be hard to measure how people are actually changing. We focus on building technologies that make ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "text-white"
+  }, "growing"), " with your faith, family and friends", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "text-white"
+  }, "a daily habit"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "mt-8"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "inline-flex rounded-md shadow"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
     className: "w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow-sm rounded-md inline-flex items-center justify-center gap-3 hover:bg-base-secondary hover:text-white"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_6__["default"], {
     "aria-hidden": "true",
     className: "h-5 w-5"
-  }), "See Apollos in Action"))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }), "See Apollos in Action"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "bg-indigo-600 md:absolute md:right-0 md:top-0 md:h-full md:w-1/2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    className: "w-full h-full object-cover",
+    src: "../images/engagement.png",
+    alt: "Person on phone using the Apollos app",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1827082572.json */ "./.cache/caches/gatsby-plugin-image/1827082572.json")
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pb-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "text-center py-16 lg:py-24 flex flex-col items-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
-    className: "text-base text-base-secondary font-semibold tracking-wide uppercase"
-  }, "Growth plan"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text-base text-base-secondary font-semibold uppercase"
+  }, "Growth Plan"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "mt-2 max-w-3xl text-3xl sm:text-5xl leading-8 font-extrabold tracking-tight text-gray-900"
   }, "Everything you need to grow your digital ministry"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "mt-4 max-w-4xl text-xl text-gray-500 lg:mx-auto"
@@ -1002,14 +1008,14 @@ const IndexPage = () => {
     className: "h-6 w-6",
     "aria-hidden": "true"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: `text-base text-base-secondary uppercase`
+    className: `text-base text-base-secondary font-semibold uppercase`
   }, "Mobile, TV & Web"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "text-3xl lg:text-4xl font-extrabold pb-5 pt-2"
   }, "Connect on every device"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "text-gray-500 text-xl"
   }, "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex pt-4 justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
     className: "w-full h-full object-cover",
     src: "../images/image-1.png",
     alt: "Pipeline Screenshot",
@@ -1026,14 +1032,14 @@ const IndexPage = () => {
     className: "h-6 w-6",
     "aria-hidden": "true"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: `text-base text-base-lavender uppercase`
+    className: `text-base text-base-lavender font-semibold uppercase`
   }, "Sub-head"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "text-3xl lg:text-4xl font-extrabold pb-5 pt-2"
   }, "Host healthy groups"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "text-gray-500 text-xl"
   }, "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex pt-4 justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
     className: "object-cover",
     src: "../images/image-2.png",
     alt: "Pipeline Screenshot",
@@ -1050,14 +1056,14 @@ const IndexPage = () => {
     className: "h-6 w-6",
     "aria-hidden": "true"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: `text-base text-base-mint uppercase`
+    className: `text-base text-base-mint font-semibold uppercase`
   }, "Sub-head"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "text-3xl lg:text-4xl font-extrabold pb-5 pt-2"
   }, "Increase generosity"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "text-gray-500 text-xl"
   }, "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex pt-4 justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
     className: "object-cover",
     src: "../images/image-3.png",
     alt: "Pipeline Screenshot",
@@ -1068,7 +1074,7 @@ const IndexPage = () => {
     className: 'bg-light-tan rounded-2xl'
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex pt-4 justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
     className: "object-cover",
     src: "../images/image-4.png",
     alt: "Pipeline Screenshot",
@@ -1081,7 +1087,7 @@ const IndexPage = () => {
     className: "h-6 w-6",
     "aria-hidden": "true"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: `text-base text-base-tan uppercase`
+    className: `text-base text-base-tan font-semibold uppercase`
   }, "Sub-head"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "text-3xl lg:text-4xl font-extrabold pb-5 pt-2"
   }, "Disciple personally"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -1092,7 +1098,7 @@ const IndexPage = () => {
     className: 'bg-light-blue rounded-2xl'
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex pt-4 justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
     className: "object-cover",
     src: "../images/image-5.png",
     alt: "Pipeline Screenshot",
@@ -1105,7 +1111,7 @@ const IndexPage = () => {
     className: "h-6 w-6",
     "aria-hidden": "true"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: `text-base text-base-blue uppercase`
+    className: `text-base text-base-blue font-semibold uppercase`
   }, "Sub-head"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "text-3xl lg:text-4xl font-extrabold pb-5 pt-2"
   }, "Build daily habits"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -1116,7 +1122,7 @@ const IndexPage = () => {
     className: 'bg-light-red rounded-2xl'
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex pt-8 justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
     className: "object-cover",
     src: "../images/image-6.png",
     alt: "Pipeline Screenshot",
@@ -1129,7 +1135,7 @@ const IndexPage = () => {
     className: "h-6 w-6",
     "aria-hidden": "true"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: `text-base text-base-red uppercase`
+    className: `text-base text-base-red font-semibold uppercase`
   }, "Sub-head"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "text-3xl lg:text-4xl font-extrabold pb-5 pt-2"
   }, "Watch & grow"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -1145,7 +1151,7 @@ const IndexPage = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "px-6 py-10 sm:px-16 sm:py-16 xl:px-20 xl:py-20"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "text-sm text-base-secondary uppercase"
+    className: "text-sm text-base-secondary font-semibold uppercase"
   }, "a Church-centric data pipeline"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "py-4 text-3xl lg:text-5xl tracking-tight font-extrabold text-white"
   }, "Syncs with your existing services and data."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
@@ -1154,7 +1160,7 @@ const IndexPage = () => {
     className: "flex flex-col items-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "mb-8 mt-14 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
     className: "transform rounded-md object-cover object-left-top",
     src: "../images/pipeline.png",
     alt: "Pipeline Screenshot",
@@ -1168,7 +1174,7 @@ const IndexPage = () => {
   }), "Explore integrations")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "space-y-12"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-    className: "text-base text-base-secondary uppercase"
+    className: "text-base text-base-secondary font-semibold uppercase"
   }, "Our Blueprint"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "text-5xl font-extrabold text-black"
   }, "For ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {

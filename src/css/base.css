@@ -1,3 +1,12 @@
+.page-background {
+  background: linear-gradient(
+      0deg,
+      rgba(242, 242, 247, 0.5),
+      rgba(242, 242, 247, 0.5)
+    ),
+    #ffffff;
+}
+
 .bg-icon-bluegreen {
   background: linear-gradient(
       0deg,

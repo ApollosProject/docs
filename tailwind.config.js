@@ -9,6 +9,7 @@ module.exports = {
           blue: '#1798B5',
           lavender: '#4117B5',
           mint: '#1AB517',
+          primary: '#00676D',
           red: '#B53417',
           secondary: '#17b582',
           tan: '#b59317',
