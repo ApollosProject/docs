@@ -7,7 +7,7 @@ const Divider = () => {
         <div className='w-full border-t border-gray-300' />
       </div>
       <div className='relative flex justify-center'>
-        <span className='bg-white px-2 text-gray-500'>
+        <span className='bg-[#f8f8fb] px-2 text-gray-500'>
           <svg
             width='24'
             height='24'

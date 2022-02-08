@@ -879,7 +879,7 @@ const Divider = () => {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "relative flex justify-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "bg-white px-2 text-gray-500"
+    className: "bg-[#f8f8fb] px-2 text-gray-500"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
     width: "24",
     height: "24",
@@ -914,7 +914,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/GitBranch.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Code.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/ChalkboardTeacher.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Broadcast.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Broadcast.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/GlobeHemisphereWest.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Users.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Heart.esm.js");
@@ -922,7 +922,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/TrendUp.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/YoutubeLogo.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/RocketLaunch.esm.js");
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
 /* harmony import */ var _components_Divider__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Divider */ "./src/components/Divider.js");
 
 
@@ -948,6 +948,107 @@ const IndexPage = () => {
     rel: "stylesheet",
     href: "https://rsms.me/inter/inter.css"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "page-background"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "lg:columns-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+    className: "w-full h-full object-cover",
+    src: "../images/kaleb.png",
+    alt: "Kaleb",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/298942644.json */ "./.cache/caches/gatsby-plugin-image/298942644.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+    className: "w-full h-full object-cover",
+    src: "../images/jeff.png",
+    alt: "Kaleb",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3812372848.json */ "./.cache/caches/gatsby-plugin-image/3812372848.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+    className: "w-full h-full object-cover",
+    src: "../images/brad.png",
+    alt: "Kaleb",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3080137945.json */ "./.cache/caches/gatsby-plugin-image/3080137945.json")
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+    className: "w-full h-full object-cover",
+    src: "../images/lisa.png",
+    alt: "Kaleb",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2860970509.json */ "./.cache/caches/gatsby-plugin-image/2860970509.json")
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+    className: "w-full h-full object-cover",
+    src: "../images/monsters.png",
+    alt: "Kaleb",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/347760113.json */ "./.cache/caches/gatsby-plugin-image/347760113.json")
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+    className: "w-full h-full object-cover",
+    src: "../images/paul.png",
+    alt: "Kaleb",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2165102174.json */ "./.cache/caches/gatsby-plugin-image/2165102174.json")
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "py-12"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "relative max-w-7xl mx-auto px-12"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    className: "absolute top-full right-full transform translate-x-1/2 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/4",
+    width: 404,
+    height: 404,
+    fill: "none",
+    viewBox: "0 0 404 404",
+    role: "img",
+    "aria-labelledby": "svg-workcation"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", {
+    id: "svg-workcation"
+  }, "Workcation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("defs", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("pattern", {
+    id: "ad119f34-7694-4c31-947f-5c9d249b21f3",
+    x: 0,
+    y: 0,
+    width: 20,
+    height: 20,
+    patternUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("rect", {
+    x: 0,
+    y: 0,
+    width: 4,
+    height: 4,
+    className: "text-gray-200",
+    fill: "currentColor"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("rect", {
+    width: 404,
+    height: 404,
+    fill: "url(#ad119f34-7694-4c31-947f-5c9d249b21f3)"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "relative"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    className: "mx-auto h-8 text-base-primary",
+    fill: "currentColor",
+    src: "https://tailwindui.com/img/logos/workcation-logo-indigo-600-mark-gray-800-and-indigo-600-text.svg",
+    alt: "Workcation"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("blockquote", {
+    className: "mt-10"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "max-w-3xl mx-auto text-center text-lg lg:text-2xl lg:leading-9 font-medium text-gray-900"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "\u201CLorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.\u201D")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", {
+    className: "mt-8"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "md:flex md:items-center md:justify-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "md:flex-shrink-0"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    className: "mx-auto h-10 w-10 rounded-full",
+    src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-base font-medium text-gray-900"
+  }, "Judith Black"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
+    className: "hidden md:block mx-1 h-5 w-5 text-base-primary",
+    fill: "currentColor",
+    viewBox: "0 0 20 20"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "M11 0h3L9 20H6l5-20z"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-base font-medium text-gray-500"
+  }, "CEO, Workcation")))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "relative engagement rounded-lg overflow-hidden space-4 shadow-xl"
@@ -963,7 +1064,7 @@ const IndexPage = () => {
     className: "text-5xl font-extrabold leading-12 tracking-tight text-white italic"
   }, "Growth."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
     className: "mt-4 max-w-4xl text-lg text-dark-secondary/60 lg:mx-auto"
-  }, "When your goal is engagement it can be hard to measure how people are actually changing. We focus on building technologies that make ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+  }, "When your goal is engagement it can be hard to measure how people are actually changing. We focus on building technologies that make", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "text-white"
   }, "growing"), " with your faith, family and friends", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "text-white"
@@ -974,12 +1075,12 @@ const IndexPage = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
     className: "w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow-sm rounded-md inline-flex items-center justify-center gap-3 hover:bg-base-secondary hover:text-white"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_7__["default"], {
     "aria-hidden": "true",
     className: "h-5 w-5"
   }), "See Apollos in Action"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "bg-indigo-600 md:absolute md:right-0 md:top-0 md:h-full md:w-1/2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
     className: "w-full h-full object-cover",
     src: "../images/engagement.png",
     alt: "Person on phone using the Apollos app",
@@ -1015,7 +1116,7 @@ const IndexPage = () => {
     className: "text-gray-500 text-xl"
   }, "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex pt-4 justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
     className: "w-full h-full object-cover",
     src: "../images/image-1.png",
     alt: "Pipeline Screenshot",
@@ -1039,7 +1140,7 @@ const IndexPage = () => {
     className: "text-gray-500 text-xl"
   }, "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex pt-4 justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
     className: "object-cover",
     src: "../images/image-2.png",
     alt: "Pipeline Screenshot",
@@ -1063,7 +1164,7 @@ const IndexPage = () => {
     className: "text-gray-500 text-xl"
   }, "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex pt-4 justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
     className: "object-cover",
     src: "../images/image-3.png",
     alt: "Pipeline Screenshot",
@@ -1074,7 +1175,7 @@ const IndexPage = () => {
     className: 'bg-light-tan rounded-2xl'
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex pt-4 justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
     className: "object-cover",
     src: "../images/image-4.png",
     alt: "Pipeline Screenshot",
@@ -1098,7 +1199,7 @@ const IndexPage = () => {
     className: 'bg-light-blue rounded-2xl'
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex pt-4 justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
     className: "object-cover",
     src: "../images/image-5.png",
     alt: "Pipeline Screenshot",
@@ -1122,7 +1223,7 @@ const IndexPage = () => {
     className: 'bg-light-red rounded-2xl'
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex pt-8 justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
     className: "object-cover",
     src: "../images/image-6.png",
     alt: "Pipeline Screenshot",
@@ -1143,6 +1244,8 @@ const IndexPage = () => {
   }, "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "max-w-2xl mx-auto px-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Divider__WEBPACK_IMPORTED_MODULE_2__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "h-32 w-32 testing"
+  }, "Hi"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pipeline-wrapper"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-24 space-y-8 lg:space-y-24"
@@ -1160,7 +1263,7 @@ const IndexPage = () => {
     className: "flex flex-col items-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "mb-8 mt-14 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
     className: "transform rounded-md object-cover object-left-top",
     src: "../images/pipeline.png",
     alt: "Pipeline Screenshot",
@@ -1205,7 +1308,7 @@ const IndexPage = () => {
   }, "Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
     className: "w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow rounded-md inline-flex items-center justify-center hover:bg-base-secondary hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-base-secondary"
-  }, "Get started"))));
+  }, "Get started")))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
@@ -3498,6 +3601,46 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8"
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/2165102174.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/2165102174.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#787878","images":{"fallback":{"src":"/static/109c4552d71bcb14745e16b67e41dab0/bbaec/paul.png","srcSet":"/static/109c4552d71bcb14745e16b67e41dab0/8b6e5/paul.png 98w,\\n/static/109c4552d71bcb14745e16b67e41dab0/0e1b1/paul.png 196w,\\n/static/109c4552d71bcb14745e16b67e41dab0/bbaec/paul.png 392w","sizes":"(min-width: 392px) 392px, 100vw"},"sources":[{"srcSet":"/static/109c4552d71bcb14745e16b67e41dab0/b1234/paul.webp 98w,\\n/static/109c4552d71bcb14745e16b67e41dab0/2a77d/paul.webp 196w,\\n/static/109c4552d71bcb14745e16b67e41dab0/72606/paul.webp 392w","type":"image/webp","sizes":"(min-width: 392px) 392px, 100vw"}]},"width":392,"height":292}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/2860970509.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/2860970509.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/44e2339b97136f5d5d733e68648868df/1cf25/lisa.png","srcSet":"/static/44e2339b97136f5d5d733e68648868df/b467b/lisa.png 110w,\\n/static/44e2339b97136f5d5d733e68648868df/499a9/lisa.png 220w,\\n/static/44e2339b97136f5d5d733e68648868df/1cf25/lisa.png 440w","sizes":"(min-width: 440px) 440px, 100vw"},"sources":[{"srcSet":"/static/44e2339b97136f5d5d733e68648868df/b3688/lisa.webp 110w,\\n/static/44e2339b97136f5d5d733e68648868df/4690d/lisa.webp 220w,\\n/static/44e2339b97136f5d5d733e68648868df/91ca8/lisa.webp 440w","type":"image/webp","sizes":"(min-width: 440px) 440px, 100vw"}]},"width":440,"height":419}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/298942644.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/298942644.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/224f29842d3f5cb1bb8fadc27e946939/61ecb/kaleb.png","srcSet":"/static/224f29842d3f5cb1bb8fadc27e946939/5380b/kaleb.png 110w,\\n/static/224f29842d3f5cb1bb8fadc27e946939/eea53/kaleb.png 220w,\\n/static/224f29842d3f5cb1bb8fadc27e946939/61ecb/kaleb.png 440w","sizes":"(min-width: 440px) 440px, 100vw"},"sources":[{"srcSet":"/static/224f29842d3f5cb1bb8fadc27e946939/766c4/kaleb.webp 110w,\\n/static/224f29842d3f5cb1bb8fadc27e946939/43479/kaleb.webp 220w,\\n/static/224f29842d3f5cb1bb8fadc27e946939/3b125/kaleb.webp 440w","type":"image/webp","sizes":"(min-width: 440px) 440px, 100vw"}]},"width":440,"height":455}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3080137945.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3080137945.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/df92a3dd9954f3e5708d09f7c108577d/1cf25/brad.png","srcSet":"/static/df92a3dd9954f3e5708d09f7c108577d/b467b/brad.png 110w,\\n/static/df92a3dd9954f3e5708d09f7c108577d/499a9/brad.png 220w,\\n/static/df92a3dd9954f3e5708d09f7c108577d/1cf25/brad.png 440w","sizes":"(min-width: 440px) 440px, 100vw"},"sources":[{"srcSet":"/static/df92a3dd9954f3e5708d09f7c108577d/b3688/brad.webp 110w,\\n/static/df92a3dd9954f3e5708d09f7c108577d/4690d/brad.webp 220w,\\n/static/df92a3dd9954f3e5708d09f7c108577d/91ca8/brad.webp 440w","type":"image/webp","sizes":"(min-width: 440px) 440px, 100vw"}]},"width":440,"height":419}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/3249639528.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/3249639528.json ***!
@@ -3508,6 +3651,16 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808"
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/347760113.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/347760113.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/69c704eff42d9d6fe331bf3481ac6410/61ecb/monsters.png","srcSet":"/static/69c704eff42d9d6fe331bf3481ac6410/5380b/monsters.png 110w,\\n/static/69c704eff42d9d6fe331bf3481ac6410/eea53/monsters.png 220w,\\n/static/69c704eff42d9d6fe331bf3481ac6410/61ecb/monsters.png 440w","sizes":"(min-width: 440px) 440px, 100vw"},"sources":[{"srcSet":"/static/69c704eff42d9d6fe331bf3481ac6410/766c4/monsters.webp 110w,\\n/static/69c704eff42d9d6fe331bf3481ac6410/43479/monsters.webp 220w,\\n/static/69c704eff42d9d6fe331bf3481ac6410/3b125/monsters.webp 440w","type":"image/webp","sizes":"(min-width: 440px) 440px, 100vw"}]},"width":440,"height":455}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/3543085385.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/3543085385.json ***!
@@ -3515,6 +3668,16 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808"
 /***/ ((module) => {
 
 module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/2b9b484e0885a4d0183df18de7238335/33fae/image-3.png","srcSet":"/static/2b9b484e0885a4d0183df18de7238335/87af9/image-3.png 116w,\\n/static/2b9b484e0885a4d0183df18de7238335/28909/image-3.png 232w,\\n/static/2b9b484e0885a4d0183df18de7238335/33fae/image-3.png 464w","sizes":"(min-width: 464px) 464px, 100vw"},"sources":[{"srcSet":"/static/2b9b484e0885a4d0183df18de7238335/3580d/image-3.webp 116w,\\n/static/2b9b484e0885a4d0183df18de7238335/47b3c/image-3.webp 232w,\\n/static/2b9b484e0885a4d0183df18de7238335/a576f/image-3.webp 464w","type":"image/webp","sizes":"(min-width: 464px) 464px, 100vw"}]},"width":464,"height":455.00000000000006}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/3812372848.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3812372848.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/0de42fb0cef1a45d41b2c54b0caa78d4/9ab50/jeff.png","srcSet":"/static/0de42fb0cef1a45d41b2c54b0caa78d4/3f5e1/jeff.png 110w,\\n/static/0de42fb0cef1a45d41b2c54b0caa78d4/7a11c/jeff.png 220w,\\n/static/0de42fb0cef1a45d41b2c54b0caa78d4/9ab50/jeff.png 440w","sizes":"(min-width: 440px) 440px, 100vw"},"sources":[{"srcSet":"/static/0de42fb0cef1a45d41b2c54b0caa78d4/955c5/jeff.webp 110w,\\n/static/0de42fb0cef1a45d41b2c54b0caa78d4/1fa51/jeff.webp 220w,\\n/static/0de42fb0cef1a45d41b2c54b0caa78d4/fcdf1/jeff.webp 440w","type":"image/webp","sizes":"(min-width: 440px) 440px, 100vw"}]},"width":440,"height":341}');
 
 /***/ }),
 
