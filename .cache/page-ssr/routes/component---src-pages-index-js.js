@@ -914,7 +914,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/GitBranch.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Code.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/ChalkboardTeacher.esm.js");
-/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Broadcast.esm.js");
+/* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Broadcast.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/GlobeHemisphereWest.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Users.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/Heart.esm.js");
@@ -922,7 +922,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/TrendUp.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/YoutubeLogo.esm.js");
 /* harmony import */ var phosphor_react__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! phosphor-react */ "./node_modules/phosphor-react/dist/icons/RocketLaunch.esm.js");
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
 /* harmony import */ var _components_Divider__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Divider */ "./src/components/Divider.js");
 
 
@@ -947,44 +947,68 @@ const IndexPage = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__.Helmet, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("link", {
     rel: "stylesheet",
     href: "https://rsms.me/inter/inter.css"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "page-background"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "text-sm text-base-secondary font-semibold uppercase"
+  }, "Digital Growth Platform"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "pt-4 text-5xl font-extrabold leading-12 tracking-tight text-primary"
+  }, "Shepherd your community", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "italic"
+  }, "all week long"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
+    className: "mt-4 max-w-4xl text-lg text-dark-secondary/60 lg:mx-auto"
+  }, "When your goal is engagement it can be hard to measure how people are actually changing. We focus on building technologies that make", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "text-white"
+  }, "growing"), " with your faith, family and friends", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "text-white"
+  }, "a daily habit"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "mt-8"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "inline-flex rounded-md shadow"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "#",
+    className: "w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow-sm rounded-md inline-flex items-center justify-center gap-3 hover:bg-base-secondary hover:text-white"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    "aria-hidden": "true",
+    className: "h-5 w-5"
+  }), "See Apollos in Action")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "lg:columns-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
-    className: "w-full h-full object-cover",
-    src: "../images/kaleb.png",
+    className: "columns-2 lg:columns-3 gap-2 md:gap-8"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    className: "w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl",
+    src: "../images/kaleb2.png",
     alt: "Kaleb",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/298942644.json */ "./.cache/caches/gatsby-plugin-image/298942644.json")
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
-    className: "w-full h-full object-cover",
-    src: "../images/jeff.png",
-    alt: "Kaleb",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3812372848.json */ "./.cache/caches/gatsby-plugin-image/3812372848.json")
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
-    className: "w-full h-full object-cover",
-    src: "../images/brad.png",
-    alt: "Kaleb",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3080137945.json */ "./.cache/caches/gatsby-plugin-image/3080137945.json")
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
-    className: "w-full h-full object-cover",
-    src: "../images/lisa.png",
-    alt: "Kaleb",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2860970509.json */ "./.cache/caches/gatsby-plugin-image/2860970509.json")
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
-    className: "w-full h-full object-cover",
-    src: "../images/monsters.png",
-    alt: "Kaleb",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/347760113.json */ "./.cache/caches/gatsby-plugin-image/347760113.json")
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
-    className: "w-full h-full object-cover",
-    src: "../images/paul.png",
-    alt: "Kaleb",
-    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2165102174.json */ "./.cache/caches/gatsby-plugin-image/2165102174.json")
-  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
-    className: "py-12"
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/2063405123.json */ "./.cache/caches/gatsby-plugin-image/2063405123.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    className: "w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl",
+    src: "../images/jeff2.png",
+    alt: "Jeff",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3529687573.json */ "./.cache/caches/gatsby-plugin-image/3529687573.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    className: "w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl",
+    src: "../images/brad2.png",
+    alt: "Brad",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/393334298.json */ "./.cache/caches/gatsby-plugin-image/393334298.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    className: "w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl",
+    src: "../images/lisa2.png",
+    alt: "Lisa",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1852100681.json */ "./.cache/caches/gatsby-plugin-image/1852100681.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    className: "w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl",
+    src: "../images/monsters2.png",
+    alt: "Monsters",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/1097591919.json */ "./.cache/caches/gatsby-plugin-image/1097591919.json")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
+    className: "w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl",
+    src: "../images/paul2.png",
+    alt: "Paul",
+    __imageData: __webpack_require__(/*! ./.cache/caches/gatsby-plugin-image/3593808559.json */ "./.cache/caches/gatsby-plugin-image/3593808559.json")
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("section", {
+    className: "pb-24 pt-16"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "relative max-w-7xl mx-auto px-12"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", {
@@ -1075,12 +1099,12 @@ const IndexPage = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "#",
     className: "w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow-sm rounded-md inline-flex items-center justify-center gap-3 hover:bg-base-secondary hover:text-white"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(phosphor_react__WEBPACK_IMPORTED_MODULE_6__["default"], {
     "aria-hidden": "true",
     className: "h-5 w-5"
   }), "See Apollos in Action"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "bg-indigo-600 md:absolute md:right-0 md:top-0 md:h-full md:w-1/2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
     className: "w-full h-full object-cover",
     src: "../images/engagement.png",
     alt: "Person on phone using the Apollos app",
@@ -1116,7 +1140,7 @@ const IndexPage = () => {
     className: "text-gray-500 text-xl"
   }, "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex pt-4 justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
     className: "w-full h-full object-cover",
     src: "../images/image-1.png",
     alt: "Pipeline Screenshot",
@@ -1140,7 +1164,7 @@ const IndexPage = () => {
     className: "text-gray-500 text-xl"
   }, "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex pt-4 justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
     className: "object-cover",
     src: "../images/image-2.png",
     alt: "Pipeline Screenshot",
@@ -1164,7 +1188,7 @@ const IndexPage = () => {
     className: "text-gray-500 text-xl"
   }, "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex pt-4 justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
     className: "object-cover",
     src: "../images/image-3.png",
     alt: "Pipeline Screenshot",
@@ -1175,7 +1199,7 @@ const IndexPage = () => {
     className: 'bg-light-tan rounded-2xl'
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex pt-4 justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
     className: "object-cover",
     src: "../images/image-4.png",
     alt: "Pipeline Screenshot",
@@ -1199,7 +1223,7 @@ const IndexPage = () => {
     className: 'bg-light-blue rounded-2xl'
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex pt-4 justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
     className: "object-cover",
     src: "../images/image-5.png",
     alt: "Pipeline Screenshot",
@@ -1223,7 +1247,7 @@ const IndexPage = () => {
     className: 'bg-light-red rounded-2xl'
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "flex pt-8 justify-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
     className: "object-cover",
     src: "../images/image-6.png",
     alt: "Pipeline Screenshot",
@@ -1244,10 +1268,6 @@ const IndexPage = () => {
   }, "Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "max-w-2xl mx-auto px-4"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Divider__WEBPACK_IMPORTED_MODULE_2__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "h-32 w-32 testing"
-  }, "Hi"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "pipeline-wrapper"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-24 space-y-8 lg:space-y-24"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "pipeline-green-background rounded-lg shadow-xl overflow-hidden"
@@ -1263,7 +1283,7 @@ const IndexPage = () => {
     className: "flex flex-col items-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "mb-8 mt-14 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.StaticImage, {
     className: "transform rounded-md object-cover object-left-top",
     src: "../images/pipeline.png",
     alt: "Pipeline Screenshot",
@@ -3551,6 +3571,16 @@ var renderPathForWeight = function renderPathForWeight(weight, color, pathsByWei
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/1097591919.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1097591919.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#d8d8d8","images":{"fallback":{"src":"/static/b03e0c721c994ff9418d7c7783d9a8d8/fe1ba/monsters2.png","srcSet":"/static/b03e0c721c994ff9418d7c7783d9a8d8/3b016/monsters2.png 86w,\\n/static/b03e0c721c994ff9418d7c7783d9a8d8/bd864/monsters2.png 172w,\\n/static/b03e0c721c994ff9418d7c7783d9a8d8/fe1ba/monsters2.png 344w","sizes":"(min-width: 344px) 344px, 100vw"},"sources":[{"srcSet":"/static/b03e0c721c994ff9418d7c7783d9a8d8/bfb51/monsters2.webp 86w,\\n/static/b03e0c721c994ff9418d7c7783d9a8d8/37dbb/monsters2.webp 172w,\\n/static/b03e0c721c994ff9418d7c7783d9a8d8/72e9b/monsters2.webp 344w","type":"image/webp","sizes":"(min-width: 344px) 344px, 100vw"}]},"width":344,"height":359}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/1100992269.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/1100992269.json ***!
@@ -3591,6 +3621,16 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808"
 
 /***/ }),
 
+/***/ "./.cache/caches/gatsby-plugin-image/1852100681.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/1852100681.json ***!
+  \***********************************************************/
+/***/ ((module) => {
+
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/cb5138213ca06c740e7288ee47779575/97a26/lisa2.png","srcSet":"/static/cb5138213ca06c740e7288ee47779575/c6bfb/lisa2.png 86w,\\n/static/cb5138213ca06c740e7288ee47779575/33ce4/lisa2.png 172w,\\n/static/cb5138213ca06c740e7288ee47779575/97a26/lisa2.png 344w","sizes":"(min-width: 344px) 344px, 100vw"},"sources":[{"srcSet":"/static/cb5138213ca06c740e7288ee47779575/67954/lisa2.webp 86w,\\n/static/cb5138213ca06c740e7288ee47779575/4ae8f/lisa2.webp 172w,\\n/static/cb5138213ca06c740e7288ee47779575/3ef66/lisa2.webp 344w","type":"image/webp","sizes":"(min-width: 344px) 344px, 100vw"}]},"width":344,"height":323}');
+
+/***/ }),
+
 /***/ "./.cache/caches/gatsby-plugin-image/1965399030.json":
 /*!***********************************************************!*\
   !*** ./.cache/caches/gatsby-plugin-image/1965399030.json ***!
@@ -3601,43 +3641,13 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8"
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/2165102174.json":
+/***/ "./.cache/caches/gatsby-plugin-image/2063405123.json":
 /*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/2165102174.json ***!
+  !*** ./.cache/caches/gatsby-plugin-image/2063405123.json ***!
   \***********************************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#787878","images":{"fallback":{"src":"/static/109c4552d71bcb14745e16b67e41dab0/bbaec/paul.png","srcSet":"/static/109c4552d71bcb14745e16b67e41dab0/8b6e5/paul.png 98w,\\n/static/109c4552d71bcb14745e16b67e41dab0/0e1b1/paul.png 196w,\\n/static/109c4552d71bcb14745e16b67e41dab0/bbaec/paul.png 392w","sizes":"(min-width: 392px) 392px, 100vw"},"sources":[{"srcSet":"/static/109c4552d71bcb14745e16b67e41dab0/b1234/paul.webp 98w,\\n/static/109c4552d71bcb14745e16b67e41dab0/2a77d/paul.webp 196w,\\n/static/109c4552d71bcb14745e16b67e41dab0/72606/paul.webp 392w","type":"image/webp","sizes":"(min-width: 392px) 392px, 100vw"}]},"width":392,"height":292}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/2860970509.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/2860970509.json ***!
-  \***********************************************************/
-/***/ ((module) => {
-
-module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/44e2339b97136f5d5d733e68648868df/1cf25/lisa.png","srcSet":"/static/44e2339b97136f5d5d733e68648868df/b467b/lisa.png 110w,\\n/static/44e2339b97136f5d5d733e68648868df/499a9/lisa.png 220w,\\n/static/44e2339b97136f5d5d733e68648868df/1cf25/lisa.png 440w","sizes":"(min-width: 440px) 440px, 100vw"},"sources":[{"srcSet":"/static/44e2339b97136f5d5d733e68648868df/b3688/lisa.webp 110w,\\n/static/44e2339b97136f5d5d733e68648868df/4690d/lisa.webp 220w,\\n/static/44e2339b97136f5d5d733e68648868df/91ca8/lisa.webp 440w","type":"image/webp","sizes":"(min-width: 440px) 440px, 100vw"}]},"width":440,"height":419}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/298942644.json":
-/*!**********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/298942644.json ***!
-  \**********************************************************/
-/***/ ((module) => {
-
-module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/224f29842d3f5cb1bb8fadc27e946939/61ecb/kaleb.png","srcSet":"/static/224f29842d3f5cb1bb8fadc27e946939/5380b/kaleb.png 110w,\\n/static/224f29842d3f5cb1bb8fadc27e946939/eea53/kaleb.png 220w,\\n/static/224f29842d3f5cb1bb8fadc27e946939/61ecb/kaleb.png 440w","sizes":"(min-width: 440px) 440px, 100vw"},"sources":[{"srcSet":"/static/224f29842d3f5cb1bb8fadc27e946939/766c4/kaleb.webp 110w,\\n/static/224f29842d3f5cb1bb8fadc27e946939/43479/kaleb.webp 220w,\\n/static/224f29842d3f5cb1bb8fadc27e946939/3b125/kaleb.webp 440w","type":"image/webp","sizes":"(min-width: 440px) 440px, 100vw"}]},"width":440,"height":455}');
-
-/***/ }),
-
-/***/ "./.cache/caches/gatsby-plugin-image/3080137945.json":
-/*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/3080137945.json ***!
-  \***********************************************************/
-/***/ ((module) => {
-
-module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/df92a3dd9954f3e5708d09f7c108577d/1cf25/brad.png","srcSet":"/static/df92a3dd9954f3e5708d09f7c108577d/b467b/brad.png 110w,\\n/static/df92a3dd9954f3e5708d09f7c108577d/499a9/brad.png 220w,\\n/static/df92a3dd9954f3e5708d09f7c108577d/1cf25/brad.png 440w","sizes":"(min-width: 440px) 440px, 100vw"},"sources":[{"srcSet":"/static/df92a3dd9954f3e5708d09f7c108577d/b3688/brad.webp 110w,\\n/static/df92a3dd9954f3e5708d09f7c108577d/4690d/brad.webp 220w,\\n/static/df92a3dd9954f3e5708d09f7c108577d/91ca8/brad.webp 440w","type":"image/webp","sizes":"(min-width: 440px) 440px, 100vw"}]},"width":440,"height":419}');
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#d8d8d8","images":{"fallback":{"src":"/static/700e978ac4a29c37e077734a6f101f6e/fe1ba/kaleb2.png","srcSet":"/static/700e978ac4a29c37e077734a6f101f6e/3b016/kaleb2.png 86w,\\n/static/700e978ac4a29c37e077734a6f101f6e/bd864/kaleb2.png 172w,\\n/static/700e978ac4a29c37e077734a6f101f6e/fe1ba/kaleb2.png 344w","sizes":"(min-width: 344px) 344px, 100vw"},"sources":[{"srcSet":"/static/700e978ac4a29c37e077734a6f101f6e/bfb51/kaleb2.webp 86w,\\n/static/700e978ac4a29c37e077734a6f101f6e/37dbb/kaleb2.webp 172w,\\n/static/700e978ac4a29c37e077734a6f101f6e/72e9b/kaleb2.webp 344w","type":"image/webp","sizes":"(min-width: 344px) 344px, 100vw"}]},"width":344,"height":359}');
 
 /***/ }),
 
@@ -3651,13 +3661,13 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808"
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/347760113.json":
-/*!**********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/347760113.json ***!
-  \**********************************************************/
+/***/ "./.cache/caches/gatsby-plugin-image/3529687573.json":
+/*!***********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/3529687573.json ***!
+  \***********************************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/69c704eff42d9d6fe331bf3481ac6410/61ecb/monsters.png","srcSet":"/static/69c704eff42d9d6fe331bf3481ac6410/5380b/monsters.png 110w,\\n/static/69c704eff42d9d6fe331bf3481ac6410/eea53/monsters.png 220w,\\n/static/69c704eff42d9d6fe331bf3481ac6410/61ecb/monsters.png 440w","sizes":"(min-width: 440px) 440px, 100vw"},"sources":[{"srcSet":"/static/69c704eff42d9d6fe331bf3481ac6410/766c4/monsters.webp 110w,\\n/static/69c704eff42d9d6fe331bf3481ac6410/43479/monsters.webp 220w,\\n/static/69c704eff42d9d6fe331bf3481ac6410/3b125/monsters.webp 440w","type":"image/webp","sizes":"(min-width: 440px) 440px, 100vw"}]},"width":440,"height":455}');
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/8ff89a7ce85d9eb5afe35cbc8e0a4c1a/0333b/jeff2.png","srcSet":"/static/8ff89a7ce85d9eb5afe35cbc8e0a4c1a/a12d3/jeff2.png 86w,\\n/static/8ff89a7ce85d9eb5afe35cbc8e0a4c1a/03966/jeff2.png 172w,\\n/static/8ff89a7ce85d9eb5afe35cbc8e0a4c1a/0333b/jeff2.png 344w","sizes":"(min-width: 344px) 344px, 100vw"},"sources":[{"srcSet":"/static/8ff89a7ce85d9eb5afe35cbc8e0a4c1a/0bc28/jeff2.webp 86w,\\n/static/8ff89a7ce85d9eb5afe35cbc8e0a4c1a/8e333/jeff2.webp 172w,\\n/static/8ff89a7ce85d9eb5afe35cbc8e0a4c1a/80744/jeff2.webp 344w","type":"image/webp","sizes":"(min-width: 344px) 344px, 100vw"}]},"width":344,"height":245}');
 
 /***/ }),
 
@@ -3671,13 +3681,23 @@ module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8"
 
 /***/ }),
 
-/***/ "./.cache/caches/gatsby-plugin-image/3812372848.json":
+/***/ "./.cache/caches/gatsby-plugin-image/3593808559.json":
 /*!***********************************************************!*\
-  !*** ./.cache/caches/gatsby-plugin-image/3812372848.json ***!
+  !*** ./.cache/caches/gatsby-plugin-image/3593808559.json ***!
   \***********************************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#080808","images":{"fallback":{"src":"/static/0de42fb0cef1a45d41b2c54b0caa78d4/9ab50/jeff.png","srcSet":"/static/0de42fb0cef1a45d41b2c54b0caa78d4/3f5e1/jeff.png 110w,\\n/static/0de42fb0cef1a45d41b2c54b0caa78d4/7a11c/jeff.png 220w,\\n/static/0de42fb0cef1a45d41b2c54b0caa78d4/9ab50/jeff.png 440w","sizes":"(min-width: 440px) 440px, 100vw"},"sources":[{"srcSet":"/static/0de42fb0cef1a45d41b2c54b0caa78d4/955c5/jeff.webp 110w,\\n/static/0de42fb0cef1a45d41b2c54b0caa78d4/1fa51/jeff.webp 220w,\\n/static/0de42fb0cef1a45d41b2c54b0caa78d4/fcdf1/jeff.webp 440w","type":"image/webp","sizes":"(min-width: 440px) 440px, 100vw"}]},"width":440,"height":341}');
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#787878","images":{"fallback":{"src":"/static/5c98163020058490001237fdc75da060/43949/paul2.png","srcSet":"/static/5c98163020058490001237fdc75da060/a12d3/paul2.png 86w,\\n/static/5c98163020058490001237fdc75da060/e3178/paul2.png 172w,\\n/static/5c98163020058490001237fdc75da060/43949/paul2.png 344w","sizes":"(min-width: 344px) 344px, 100vw"},"sources":[{"srcSet":"/static/5c98163020058490001237fdc75da060/0bc28/paul2.webp 86w,\\n/static/5c98163020058490001237fdc75da060/1937b/paul2.webp 172w,\\n/static/5c98163020058490001237fdc75da060/08334/paul2.webp 344w","type":"image/webp","sizes":"(min-width: 344px) 344px, 100vw"}]},"width":344,"height":244}');
+
+/***/ }),
+
+/***/ "./.cache/caches/gatsby-plugin-image/393334298.json":
+/*!**********************************************************!*\
+  !*** ./.cache/caches/gatsby-plugin-image/393334298.json ***!
+  \**********************************************************/
+/***/ ((module) => {
+
+module.exports = JSON.parse('{"layout":"constrained","backgroundColor":"#f8f8f8","images":{"fallback":{"src":"/static/3fb46c967d189fc22aa340203f66275a/97a26/brad2.png","srcSet":"/static/3fb46c967d189fc22aa340203f66275a/c6bfb/brad2.png 86w,\\n/static/3fb46c967d189fc22aa340203f66275a/33ce4/brad2.png 172w,\\n/static/3fb46c967d189fc22aa340203f66275a/97a26/brad2.png 344w","sizes":"(min-width: 344px) 344px, 100vw"},"sources":[{"srcSet":"/static/3fb46c967d189fc22aa340203f66275a/67954/brad2.webp 86w,\\n/static/3fb46c967d189fc22aa340203f66275a/4ae8f/brad2.webp 172w,\\n/static/3fb46c967d189fc22aa340203f66275a/3ef66/brad2.webp 344w","type":"image/webp","sizes":"(min-width: 344px) 344px, 100vw"}]},"width":344,"height":323}');
 
 /***/ }),
 

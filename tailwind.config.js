@@ -25,6 +25,7 @@ module.exports = {
           secondary: '#e0eeec',
           tan: '#eeebe0',
         },
+        primary: '#27272E',
       },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],

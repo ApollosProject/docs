@@ -7,6 +7,7 @@ import {
   GitBranch,
   GlobeHemisphereWest,
   Heart,
+  Lightning,
   RocketLaunch,
   TrendUp,
   Users,
@@ -45,41 +46,83 @@ const IndexPage = () => {
       </Helmet>
       <div>
         <div className='page-background'>
+          <div className='max-w-6xl mx-auto px-9 py-16'>
+            <StaticImage
+              className='h-full w-full lg:h-3/4 lg:w-3/4'
+              src='../images/phone.png'
+              alt='phone'
+            />
+            <p className='text-sm text-base-secondary font-semibold uppercase'>
+              Digital Growth Platform
+            </p>
+            <h1 className='max-w-xl pt-4 text-4xl md:text-5xl font-extrabold md:leading-[3.75rem] tracking-tight text-primary'>
+              Shepherd your community{' '}
+              <span className='italic'>all week long</span>.
+            </h1>
+            <div className='lg:grid lg:grid-cols-2 lg:gap-8'>
+              <p className='mt-4 text-lg text-gray-700/60 lg:mx-auto leading-6'>
+                <span className='font-medium text-gray-700'>
+                  Disciple making is tough when
+                </span>{' '}
+                people are isolated and not genuinely connecting. Online
+                communities are disconnected, your followers lack clear steps,
+                and you don’t have the data to make confident strategic
+                decisions.
+              </p>
+              <p className='mt-4 text-lg text-gray-700/60 lg:mx-auto leading-6'>
+                <span className='font-medium text-gray-700'>
+                  But when you partner with Apollos,
+                </span>{' '}
+                everyone in your following will have clear next steps, they’ll
+                experience easy ways to connect with others, and they’ll finally
+                make it a habit to engage in scripture and prayer daily.
+              </p>
+            </div>
+            <div className='mt-8 flex justify-center'>
+              <a
+                href='#'
+                className='w-full sm:w-auto px-6 py-3 text-base font-medium text-white green-button shadow-lg rounded-md inline-flex items-center justify-center gap-2 hover:bg-white hover:text-base-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-base-secondary'
+              >
+                <Lightning aria-hidden='true' className='h-5 w-5' />
+                Book a Demo
+              </a>
+            </div>
+          </div>
           <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
-            <div className='columns-2 lg:columns-3 gap-8'>
+            <div className='columns-2 lg:columns-3 gap-2 md:gap-8'>
               <StaticImage
-                className='w-full h-full object-cover m-4 shadow-xl'
+                className='w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl'
                 src='../images/kaleb2.png'
                 alt='Kaleb'
               />
               <StaticImage
-                className='w-full h-full object-cover m-4 shadow-xl'
+                className='w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl'
                 src='../images/jeff2.png'
-                alt='Kaleb'
+                alt='Jeff'
               />
               <StaticImage
-                className='w-full h-full object-cover m-4 shadow-xl'
+                className='w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl'
                 src='../images/brad2.png'
-                alt='Kaleb'
+                alt='Brad'
               />
               <StaticImage
-                className='w-full h-full object-cover m-4 shadow-xl'
+                className='w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl'
                 src='../images/lisa2.png'
-                alt='Kaleb'
+                alt='Lisa'
               />
               <StaticImage
-                className='w-full h-full object-cover m-4 shadow-xl'
+                className='w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl'
                 src='../images/monsters2.png'
-                alt='Kaleb'
+                alt='Monsters'
               />
               <StaticImage
-                className='w-full h-full object-cover m-4 shadow-xl'
+                className='w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl'
                 src='../images/paul2.png'
-                alt='Kaleb'
+                alt='Paul'
               />
             </div>
           </div>
-          <section className='py-12'>
+          <section className='pb-24 pt-16'>
             <div className='relative max-w-7xl mx-auto px-12'>
               <svg
                 className='absolute top-full right-full transform translate-x-1/2 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/4'
@@ -187,7 +230,7 @@ const IndexPage = () => {
                     <span className='text-white'>a daily habit</span>.
                   </p>
                   <div className='mt-8'>
-                    <div className='inline-flex rounded-md shadow'>
+                    <div className='rounded-md shadow'>
                       <a
                         href='#'
                         className='w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow-sm rounded-md inline-flex items-center justify-center gap-3 hover:bg-base-secondary hover:text-white'

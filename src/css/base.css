@@ -8,6 +8,14 @@
   background-size: 32px;
 }
 
+.green-button {
+  background: linear-gradient(135deg, #6ec5b8 0%, #17b582 100%);
+}
+
+.phone {
+  background: url('../images/phone.png') no-repeat;
+}
+
 .bg-icon-bluegreen {
   background: linear-gradient(
       0deg,
