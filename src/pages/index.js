@@ -46,12 +46,60 @@ const IndexPage = () => {
       </Helmet>
       <div>
         <div className='page-background'>
-          <div className='max-w-6xl mx-auto px-9 py-16'>
+          <div className='max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 green-background text-white'>
+            <div className='grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5'>
+              <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1'>
+                <img
+                  className='h-12'
+                  src='https://tailwindui.com/img/logos/tuple-logo-gray-400.svg'
+                  alt='Tuple'
+                />
+              </div>
+              <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1'>
+                <img
+                  className='h-12'
+                  src='https://tailwindui.com/img/logos/mirage-logo-gray-400.svg'
+                  alt='Mirage'
+                />
+              </div>
+              <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1'>
+                <img
+                  className='h-12'
+                  src='https://tailwindui.com/img/logos/statickit-logo-gray-400.svg'
+                  alt='StaticKit'
+                />
+              </div>
+              <div className='col-span-1 flex justify-center md:col-span-3 lg:col-span-1'>
+                <img
+                  className='h-12'
+                  src='https://tailwindui.com/img/logos/transistor-logo-gray-400.svg'
+                  alt='Transistor'
+                />
+              </div>
+              <div className='col-span-1 flex justify-center md:col-span-3 lg:col-span-1'>
+                <img
+                  className='h-12'
+                  src='https://tailwindui.com/img/logos/workcation-logo-gray-400.svg'
+                  alt='Workcation'
+                />
+              </div>
+              <div className='col-span-1 flex justify-center md:col-span-3 lg:col-span-1'>
+                <img
+                  className='max-h-12'
+                  src='https://tailwindui.com/img/logos/laravel-logo-gray-400.svg'
+                  alt='Laravel'
+                />
+              </div>
+            </div>
+          </div>
+          <div className='max-w-6xl mx-auto'>
             <StaticImage
-              className='h-full w-full lg:h-3/4 lg:w-3/4'
+              className='h-full w-full lg:h-3/4 lg:w-3/4 transform translate-y-1/4 lg:translate-y-1/4 lg:translate-x-1/3'
               src='../images/phone.png'
               alt='phone'
             />
+          </div>
+          <div className='max-w-6xl mx-auto px-9 py-16 hand-background-mobile lg:hand-background relative'>
             <p className='text-sm text-base-secondary font-semibold uppercase'>
               Digital Growth Platform
             </p>
