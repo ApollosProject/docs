@@ -13,6 +13,7 @@ module.exports = {
           red: '#B53417',
           secondary: '#17b582',
           tan: '#b59317',
+          tertiary: '#6EC5B8',
         },
         dark: {
           secondary: '#f4f7f8',

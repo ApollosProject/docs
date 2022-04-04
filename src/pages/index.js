@@ -16,6 +16,10 @@ import {
 } from 'phosphor-react';
 import { StaticImage } from 'gatsby-plugin-image';
 import Divider from '../components/Divider';
+import Logo from '../images/svgs/logo.svg';
+import Apollos from '../images/svgs/apollos.svg';
+import Orbs from '../images/svgs/orbs.svg';
+import Header from '../images/svgs/header.svg';
 
 const IndexPage = () => {
   const features = [
@@ -46,49 +50,87 @@ const IndexPage = () => {
       </Helmet>
       <div>
         <div className='page-background'>
-          <div className='max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 green-background text-white'>
-            <div className='grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5'>
-              <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1'>
-                <img
-                  className='h-12'
-                  src='https://tailwindui.com/img/logos/tuple-logo-gray-400.svg'
-                  alt='Tuple'
-                />
+          <div className='pt-6 pb-80 px-6 lg:px-16 green-background text-white'>
+            {/* <Orbs /> */}
+            {/* <Header /> */}
+            <div className='flex flex-row justify-between items-center'>
+              <Apollos />
+              <a
+                href='#'
+                className='hidden md:flex w-full sm:w-auto px-6 py-3 text-base font-medium text-white get-started-button shadow-lg rounded-md inline-flex items-center justify-center gap-2 hover:bg-white hover:text-base-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-base-secondary hover:bg-base-secondary hover:text-white'
+              >
+                Get Started
+              </a>
+            </div>
+            <div className='max-w-xl mx-auto my-12 lg:my-16'>
+              <div className='text-center flex flex-col items-center'>
+                <Logo />
+                <div className='pb-14 pt-8'>
+                  <p className='text-white font-semibold uppercase text-sm'>
+                    We’ll help your community
+                  </p>
+                  <p className='pb-8 pt-4 font-extrabold text-6xl'>
+                    Be the Church,{' '}
+                    <span className='text-base-tertiary'>everyday</span>.
+                  </p>
+                  <p className='max-w-sm mx-auto text-xl text-dark-secondary'>
+                    <span className='opacity-60'>
+                      With <span className='italic'>daily</span>
+                    </span>{' '}
+                    Personalized Discipleship
+                    <span className='opacity-60'> and</span> Spiritual Fitness,{' '}
+                    <span className='opacity-60'>
+                      the Apollos Platform helps your church thrive.
+                    </span>
+                  </p>
+                </div>
+                <p className='text-white font-semibold uppercase text-sm pb-2'>
+                  Used By
+                </p>
               </div>
-              <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1'>
-                <img
-                  className='h-12'
-                  src='https://tailwindui.com/img/logos/mirage-logo-gray-400.svg'
-                  alt='Mirage'
-                />
-              </div>
-              <div className='col-span-1 flex justify-center md:col-span-2 lg:col-span-1'>
-                <img
-                  className='h-12'
-                  src='https://tailwindui.com/img/logos/statickit-logo-gray-400.svg'
-                  alt='StaticKit'
-                />
-              </div>
-              <div className='col-span-1 flex justify-center md:col-span-3 lg:col-span-1'>
-                <img
-                  className='h-12'
-                  src='https://tailwindui.com/img/logos/transistor-logo-gray-400.svg'
-                  alt='Transistor'
-                />
-              </div>
-              <div className='col-span-1 flex justify-center md:col-span-3 lg:col-span-1'>
-                <img
-                  className='h-12'
-                  src='https://tailwindui.com/img/logos/workcation-logo-gray-400.svg'
-                  alt='Workcation'
-                />
-              </div>
-              <div className='col-span-1 flex justify-center md:col-span-3 lg:col-span-1'>
-                <img
-                  className='max-h-12'
-                  src='https://tailwindui.com/img/logos/laravel-logo-gray-400.svg'
-                  alt='Laravel'
-                />
+              <div className='flex gap-x-8 gap-y-4 flex-wrap justify-center'>
+                <div>
+                  <img
+                    className='h-8'
+                    src='https://tailwindui.com/img/logos/laravel-logo-gray-400.svg'
+                    alt='Laravel'
+                  />
+                </div>
+                <div>
+                  <img
+                    className='h-8'
+                    src='https://tailwindui.com/img/logos/mirage-logo-gray-400.svg'
+                    alt='Mirage'
+                  />
+                </div>
+                <div>
+                  <img
+                    className='h-8'
+                    src='https://tailwindui.com/img/logos/transistor-logo-gray-400.svg'
+                    alt='Transistor'
+                  />
+                </div>
+                <div>
+                  <img
+                    className='h-8'
+                    src='https://tailwindui.com/img/logos/tuple-logo-gray-400.svg'
+                    alt='Tuple'
+                  />
+                </div>
+                <div>
+                  <img
+                    className='h-8'
+                    src='https://tailwindui.com/img/logos/workcation-logo-gray-400.svg'
+                    alt='Workcation'
+                  />
+                </div>
+                <div>
+                  <img
+                    className='h-8'
+                    src='https://tailwindui.com/img/logos/statickit-logo-gray-400.svg'
+                    alt='StaticKit'
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -129,7 +171,7 @@ const IndexPage = () => {
             <div className='mt-8 flex justify-center'>
               <a
                 href='#'
-                className='w-full sm:w-auto px-6 py-3 text-base font-medium text-white green-button shadow-lg rounded-md inline-flex items-center justify-center gap-2 hover:bg-white hover:text-base-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-base-secondary'
+                className='w-full sm:w-auto px-6 py-3 text-base font-medium text-white green-button shadow-lg rounded-md inline-flex items-center justify-center gap-2 hover:bg-white hover:text-base-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-base-secondary hover:bg-base-secondary hover:text-white'
               >
                 <Lightning aria-hidden='true' className='h-5 w-5' />
                 Book a Demo

@@ -15,6 +15,7 @@
       rgba(0, 103, 109, 0) 77.11%
     ),
     linear-gradient(180deg, #303036 0%, #000000 100%);
+  background-image: url('../images/svgs/orbs.svg');
 }
 
 .hand-background {
@@ -35,6 +36,10 @@
 
 .green-button {
   background: linear-gradient(135deg, #6ec5b8 0%, #17b582 100%);
+}
+
+.get-started-button {
+  background: linear-gradient(135deg, #17b582 0%, #00676d 100%);
 }
 
 .phone {
