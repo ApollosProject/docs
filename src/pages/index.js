@@ -18,8 +18,6 @@ import { StaticImage } from 'gatsby-plugin-image';
 import Divider from '../components/Divider';
 import Logo from '../images/svgs/logo.svg';
 import Apollos from '../images/svgs/apollos.svg';
-import Orbs from '../images/svgs/orbs.svg';
-import Header from '../images/svgs/header.svg';
 
 const IndexPage = () => {
   const features = [
@@ -132,13 +130,13 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-          {/* <div className='max-w-6xl mx-auto'>
+          <div className='max-w-6xl mx-auto'>
             <StaticImage
               className='h-full w-full lg:h-3/4 lg:w-3/4 transform translate-y-1/4 lg:translate-y-1/4 lg:translate-x-1/3'
               src='../images/phone.png'
               alt='phone'
             />
-          </div> */}
+          </div>
           <div className='max-w-6xl mx-auto px-9 py-16 hand-background-mobile lg:hand-background relative'>
             <p className='text-sm text-base-secondary font-semibold uppercase'>
               Digital Growth Platform
