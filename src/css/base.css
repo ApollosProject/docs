@@ -17,22 +17,6 @@
     linear-gradient(180deg, #303036 0%, #000000 100%);
 }
 
-.hand-background {
-  background: linear-gradient(
-    180deg,
-    rgba(242, 242, 247, 0) 0%,
-    rgba(242, 242, 247, 1) 45%
-  );
-}
-
-.hand-background-mobile {
-  background: linear-gradient(
-    180deg,
-    rgba(242, 242, 247, 0) 0%,
-    rgba(242, 242, 247, 1) 10%
-  );
-}
-
 .green-button {
   background: linear-gradient(135deg, #6ec5b8 0%, #17b582 100%);
 }

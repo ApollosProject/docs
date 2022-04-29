@@ -130,14 +130,16 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-          <div className='max-w-6xl mx-auto'>
+          <div className='max-h-screen mx-auto'>
             <StaticImage
-              className='h-full w-full lg:h-3/4 lg:w-3/4 transform translate-y-1/4 lg:translate-y-1/4 lg:translate-x-1/3'
               src='../images/phone.png'
               alt='phone'
+              placeholder='blurred'
+              objectFit='contain'
+              className='mx-auto max-h-screen max-w-screen min-h-[800px] -mt-80'
             />
           </div>
-          <div className='max-w-6xl mx-auto px-9 py-16 hand-background-mobile lg:hand-background relative'>
+          <div className='max-w-6xl mx-auto px-9 py-16 relative -mt-[25vh]'>
             <p className='text-sm text-base-secondary font-semibold uppercase'>
               Digital Growth Platform
             </p>
