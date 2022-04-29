@@ -30,6 +30,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        serif: ['Vesterbro', ...defaultTheme.fontFamily.serif],
       },
     },
   },

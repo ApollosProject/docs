@@ -65,10 +65,10 @@ const IndexPage = () => {
                   <p className='text-white font-semibold uppercase text-sm'>
                     We’ll help your community
                   </p>
-                  <p className='pb-8 pt-4 font-extrabold text-6xl'>
+                  <h1 className='font-serif pb-8 pt-4 font-extrabold text-6xl'>
                     Be the Church,{' '}
                     <span className='text-base-tertiary'>everyday</span>.
-                  </p>
+                  </h1>
                   <p className='max-w-sm mx-auto text-xl text-dark-secondary'>
                     <span className='opacity-60'>
                       With <span className='italic'>daily</span>
@@ -141,10 +141,10 @@ const IndexPage = () => {
             <p className='text-sm text-base-secondary font-semibold uppercase'>
               Digital Growth Platform
             </p>
-            <h1 className='max-w-xl pt-4 text-4xl md:text-5xl font-extrabold md:leading-[3.75rem] tracking-tight text-primary'>
+            <h3 className='font-serif max-w-xl pt-4 text-4xl md:text-5xl font-bold md:leading-[3.75rem] tracking-tight text-primary'>
               Shepherd your community{' '}
               <span className='italic'>all week long</span>.
-            </h1>
+            </h3>
             <div className='lg:grid lg:grid-cols-2 lg:gap-8'>
               <p className='mt-4 text-lg text-gray-700/60 lg:mx-auto leading-6'>
                 <span className='font-medium text-gray-700'>
@@ -301,12 +301,12 @@ const IndexPage = () => {
                   <p className='text-sm text-base-secondary font-semibold uppercase'>
                     Experience
                   </p>
-                  <h1 className='pt-4 text-5xl font-extrabold leading-12 tracking-tight text-white line-through'>
+                  <h2 className='font-serif pt-4 text-5xl font-bold leading-12 tracking-tight text-white line-through'>
                     Engagement
-                  </h1>
-                  <h1 className='text-5xl font-extrabold leading-12 tracking-tight text-white italic'>
+                  </h2>
+                  <h2 className='font-serif text-5xl font-bold leading-12 tracking-tight text-white italic'>
                     Growth.
-                  </h1>
+                  </h2>
                   <p className='mt-4 max-w-4xl text-lg text-dark-secondary/60 lg:mx-auto'>
                     When your goal is engagement it can be hard to measure how
                     people are actually changing. We focus on building
@@ -342,7 +342,7 @@ const IndexPage = () => {
               <p className='text-base text-base-secondary font-semibold uppercase'>
                 Growth Plan
               </p>
-              <p className='mt-2 max-w-3xl text-3xl sm:text-5xl leading-8 font-extrabold tracking-tight text-gray-900'>
+              <p className='mt-2 max-w-3xl text-3xl sm:text-5xl leading-8 font-bold font-serif tracking-tight text-gray-900'>
                 Everything you need to grow your digital ministry
               </p>
               <p className='mt-4 max-w-4xl text-xl text-gray-500 lg:mx-auto'>
@@ -370,9 +370,9 @@ const IndexPage = () => {
                     >
                       Mobile, TV & Web
                     </p>
-                    <h1 className='text-3xl lg:text-4xl font-extrabold pb-5 pt-2'>
+                    <h3 className='text-3xl lg:text-4xl font-bold font-serif pb-5 pt-2'>
                       Connect on every device
-                    </h1>
+                    </h3>
                     <div className='text-gray-500 text-xl'>
                       Phasellus lorem quam molestie id quisque diam aenean nulla
                       in. Accumsan in quis quis nunc, ullamcorper malesuada.
@@ -403,9 +403,9 @@ const IndexPage = () => {
                     >
                       Sub-head
                     </p>
-                    <h1 className='text-3xl lg:text-4xl font-extrabold pb-5 pt-2'>
+                    <h3 className='text-3xl lg:text-4xl font-bold font-serif pb-5 pt-2'>
                       Host healthy groups
-                    </h1>
+                    </h3>
                     <div className='text-gray-500 text-xl'>
                       Phasellus lorem quam molestie id quisque diam aenean nulla
                       in. Accumsan in quis quis nunc, ullamcorper malesuada.
@@ -436,9 +436,9 @@ const IndexPage = () => {
                     >
                       Sub-head
                     </p>
-                    <h1 className='text-3xl lg:text-4xl font-extrabold pb-5 pt-2'>
+                    <h3 className='text-3xl lg:text-4xl font-font font-serif pb-5 pt-2'>
                       Increase generosity
-                    </h1>
+                    </h3>
                     <div className='text-gray-500 text-xl'>
                       Phasellus lorem quam molestie id quisque diam aenean nulla
                       in. Accumsan in quis quis nunc, ullamcorper malesuada.
@@ -476,9 +476,9 @@ const IndexPage = () => {
                     >
                       Sub-head
                     </p>
-                    <h1 className='text-3xl lg:text-4xl font-extrabold pb-5 pt-2'>
+                    <h3 className='text-3xl lg:text-4xl font-bold font-serif pb-5 pt-2'>
                       Disciple personally
-                    </h1>
+                    </h3>
                     <div className='text-gray-500 text-xl'>
                       Phasellus lorem quam molestie id quisque diam aenean nulla
                       in. Accumsan in quis quis nunc, ullamcorper malesuada.
@@ -509,9 +509,9 @@ const IndexPage = () => {
                     >
                       Sub-head
                     </p>
-                    <h1 className='text-3xl lg:text-4xl font-extrabold pb-5 pt-2'>
+                    <h3 className='text-3xl lg:text-4xl font-bold font-serif pb-5 pt-2'>
                       Build daily habits
-                    </h1>
+                    </h3>
                     <div className='text-gray-500 text-xl'>
                       Phasellus lorem quam molestie id quisque diam aenean nulla
                       in. Accumsan in quis quis nunc, ullamcorper malesuada.
@@ -542,9 +542,9 @@ const IndexPage = () => {
                     >
                       Sub-head
                     </p>
-                    <h1 className='text-3xl lg:text-4xl font-extrabold pb-5 pt-2'>
-                      Watch & grow
-                    </h1>
+                    <h3 className='text-3xl lg:text-4xl font-bold font-serif pb-5 pt-2'>
+                      Watch &amp; grow
+                    </h3>
                     <div className='text-gray-500 text-xl'>
                       Phasellus lorem quam molestie id quisque diam aenean nulla
                       in. Accumsan in quis quis nunc, ullamcorper malesuada.
@@ -564,9 +564,9 @@ const IndexPage = () => {
                 <p className='text-sm text-base-secondary font-semibold uppercase'>
                   a Church-centric data pipeline
                 </p>
-                <h1 className='py-4 text-3xl lg:text-5xl tracking-tight font-extrabold text-white'>
+                <h2 className='py-4 text-3xl lg:text-5xl tracking-tight font-bold font-serif text-white'>
                   Syncs with your existing services and data.
-                </h1>
+                </h2>
                 <p className='text-lg leading-6 text-dark-secondary/60'>
                   Apollos syncs data with the other services you already depend
                   on. Phasellus lorem quam molestie id quisque diam aenean nulla
@@ -594,12 +594,10 @@ const IndexPage = () => {
             <div className='space-y-12'>
               <div>
                 <p className='text-base text-base-secondary font-semibold uppercase'>
-                  Our Blueprint
                 </p>
-                <h1 className='text-5xl font-extrabold text-black'>
-                  For <span className='italic'>the</span>
-                </h1>
-                <h1 className='text-5xl font-extrabold text-black'>Kingdom.</h1>
+                <h3 className='text-5xl font-bold font-serif text-black'>
+                  For <span className='italic'>the</span><br />Kingdom.
+                </h3>
               </div>
               <div>
                 <dl className='lg:grid lg:grid-cols-3 lg:gap-8'>
@@ -628,7 +626,7 @@ const IndexPage = () => {
         </div>
         <footer className='footer'>
           <div className='max-w-7xl mx-auto px-4 py-16 lg:py-20 flex flex-col items-center space-y-6'>
-            <h1 className='text-4xl font-extrabold text-white'>Lorem ipsum</h1>
+            <h2 className='text-4xl font-extrabold font-serif text-white'>Lorem ipsum</h2>
             <p className='text-center leading-6 text-dark-secondary/60'>
               Ac euismod vel sit maecenas id pellentesque eu sed consectetur.
               Malesuada adipiscing sagittis vel nulla nec.
