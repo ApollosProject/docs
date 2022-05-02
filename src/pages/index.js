@@ -86,45 +86,88 @@ const IndexPage = () => {
               </div>
               <div className='flex gap-x-8 gap-y-4 flex-wrap justify-center'>
                 <div>
-                  <img
-                    className='h-8'
-                    src='https://tailwindui.com/img/logos/laravel-logo-gray-400.svg'
-                    alt='Laravel'
+                  <StaticImage
+                    layout="constrained"
+                    height={24}
+                    placeholder={false}
+                    loading="eager"
+                    transformOptions={{ fit: 'contain' }}
+                    backgroundColor={'transparent'}
+                    src='../images/logos/ns.png'
+                    alt='NewSpring'
                   />
                 </div>
                 <div>
-                  <img
-                    className='h-8'
-                    src='https://tailwindui.com/img/logos/mirage-logo-gray-400.svg'
-                    alt='Mirage'
+                  <StaticImage
+                    layout="constrained"
+                    height={24}
+                    placeholder={false}
+                    loading="eager"
+                    transformOptions={{ fit: 'contain' }}
+                    backgroundColor={'transparent'}
+                    src='../images/logos/willow.png'
+                    alt='Willow Creek'
                   />
                 </div>
                 <div>
-                  <img
-                    className='h-8'
-                    src='https://tailwindui.com/img/logos/transistor-logo-gray-400.svg'
-                    alt='Transistor'
+                  <StaticImage
+                    layout="constrained"
+                    height={24}
+                    placeholder={false}
+                    loading="eager"
+                    transformOptions={{ fit: 'contain' }}
+                    backgroundColor={'transparent'}
+                    src='../images/logos/cf.png'
+                    alt='Christ Fellowship'
                   />
                 </div>
                 <div>
-                  <img
-                    className='h-8'
-                    src='https://tailwindui.com/img/logos/tuple-logo-gray-400.svg'
-                    alt='Tuple'
+                  <StaticImage
+                    layout="constrained"
+                    height={24}
+                    placeholder={false}
+                    loading="eager"
+                    transformOptions={{ fit: 'contain' }}
+                    backgroundColor={'transparent'}
+                    src='../images/logos/lcbc.png'
+                    alt='LCBC'
                   />
                 </div>
                 <div>
-                  <img
-                    className='h-8'
-                    src='https://tailwindui.com/img/logos/workcation-logo-gray-400.svg'
-                    alt='Workcation'
+                  <StaticImage
+                    layout="constrained"
+                    height={24}
+                    placeholder={false}
+                    loading="eager"
+                    transformOptions={{ fit: 'contain' }}
+                    backgroundColor={'transparent'}
+                    src='../images/logos/bayside.png'
+                    alt='Bayside'
                   />
                 </div>
                 <div>
-                  <img
-                    className='h-8'
-                    src='https://tailwindui.com/img/logos/statickit-logo-gray-400.svg'
-                    alt='StaticKit'
+                  <StaticImage
+                   layout="constrained"
+                   height={24}
+                   width={120}
+                   placeholder={false}
+                   loading="eager"
+                   transformOptions={{ fit: 'contain' }}
+                   backgroundColor={'transparent'}
+                    src='../images/logos/chase-oaks.png'
+                    alt='Chase Oaks'
+                  />
+                </div>
+                <div>
+                  <StaticImage
+                   layout="constrained"
+                   height={24}
+                   placeholder={false}
+                   loading="eager"
+                   transformOptions={{ fit: 'contain' }}
+                   backgroundColor={'transparent'}
+                    src='../images/logos/rv.png'
+                    alt='River Valley'
                   />
                 </div>
               </div>
