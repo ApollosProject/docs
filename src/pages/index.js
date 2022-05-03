@@ -361,15 +361,13 @@ const IndexPage = () => {
                     Engagement
                   </h2>
                   <h2 className="font-serif text-5xl font-bold leading-12 tracking-tight text-white italic">
-                    Growth.
+                    Connection.
                   </h2>
                   <p className="mt-4 max-w-4xl text-lg text-dark-secondary/60 lg:mx-auto">
-                    When your goal is engagement it can be hard to measure how
-                    people are actually changing. We focus on building
-                    technologies that make{" "}
-                    <span className="text-white">growing</span> with your faith,
-                    family and friends{" "}
-                    <span className="text-white">a daily habit</span>.
+                    We create better engagement by creating technology-driven
+                    experiences that make{" "}
+                    <span class="text-white">connecting</span> with God and
+                    community <span class="text-white">a daily habit.</span>
                   </p>
                   <div className="mt-8">
                     <a
