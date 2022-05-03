@@ -65,7 +65,7 @@ const IndexPage = () => {
           </div>
         </div>
         <div className="page-background">
-          <div className="pt-20 pb-80 px-6 lg:px-16 green-background text-white">
+          <div className="pt-10 pb-80 px-6 lg:px-16 green-background text-white">
             <div className="max-w-xl mx-auto my-12 lg:my-16">
               <div className="text-center flex flex-col items-center">
                 <Logo />
@@ -233,32 +233,32 @@ const IndexPage = () => {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="columns-2 lg:columns-3 gap-2 md:gap-8">
               <StaticImage
-                className="w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl"
+                className="rounded-2xl w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl"
                 src="../images/kaleb2.png"
                 alt="Kaleb"
               />
               <StaticImage
-                className="w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl"
+                className="rounded-2xl w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl"
                 src="../images/jeff2.png"
                 alt="Jeff"
               />
               <StaticImage
-                className="w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl"
+                className="rounded-2xl w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl"
                 src="../images/brad2.png"
                 alt="Brad"
               />
               <StaticImage
-                className="w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl"
+                className="rounded-2xl w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl"
                 src="../images/lisa2.png"
                 alt="Lisa"
               />
               <StaticImage
-                className="w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl"
+                className="rounded-2xl w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl"
                 src="../images/monsters2.png"
                 alt="Monsters"
               />
               <StaticImage
-                className="w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl"
+                className="rounded-2xl w-full h-full object-cover md:m-4 mb-2 shadow-lg md:shadow-xl"
                 src="../images/paul2.png"
                 alt="Paul"
               />
@@ -372,21 +372,20 @@ const IndexPage = () => {
                     <span className="text-white">a daily habit</span>.
                   </p>
                   <div className="mt-8">
-                    <div className="rounded-md shadow">
-                      <a
-                        href="#"
-                        className="w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow-sm rounded-md inline-flex items-center justify-center gap-3 hover:bg-base-secondary hover:text-white"
-                      >
-                        <Broadcast aria-hidden="true" className="h-5 w-5" />
-                        See Apollos in Action
-                      </a>
-                    </div>
+                    <a
+                      href="#"
+                      className="rounded-md shadow w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow-sm rounded-md inline-flex items-center justify-center gap-3 hover:bg-base-secondary hover:text-white"
+                    >
+                      <Broadcast aria-hidden="true" className="h-5 w-5" />
+                      See Apollos in Action
+                    </a>
                   </div>
                 </div>
               </div>
-              <div className="bg-indigo-600 md:absolute md:right-0 md:top-0 md:h-full md:w-1/2">
+              <div className="opacity-90 md:absolute md:right-0 md:top-0 md:h-full md:w-1/2 rounded-b-lg md:rounded-r-lg overflow-hidden">
                 <StaticImage
                   className="w-full h-full object-cover"
+                  objectFit="cover"
                   src="../images/engagement.png"
                   alt="Person on phone using the Apollos app"
                 />
@@ -492,7 +491,7 @@ const IndexPage = () => {
                     >
                       Sub-head
                     </p>
-                    <h3 className="text-3xl lg:text-4xl font-font font-serif pb-5 pt-2">
+                    <h3 className="text-3xl lg:text-4xl font-bold font-serif pb-5 pt-2">
                       Increase generosity
                     </h3>
                     <div className="text-gray-500 text-xl">
