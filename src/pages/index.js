@@ -70,7 +70,7 @@ const IndexPage = () => {
               <div className="max-w-xl mx-auto my-12 lg:mt-16">
                 <div className="text-center flex flex-col items-center">
                   <Logo />
-                  <div className="pb-14 pt-8">
+                  <div className="pb-10 pt-8">
                     <p className="text-white font-semibold uppercase text-sm">
                       We’ll help your community
                     </p>
