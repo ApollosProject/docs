@@ -17,7 +17,8 @@ import {
 import { StaticImage } from "gatsby-plugin-image";
 import Divider from "../components/Divider";
 import Logo from "../images/svgs/logo.svg";
-import Apollos from "../images/svgs/apollos.svg";
+import ApollosLight from "../images/svgs/logos/apollos-light.svg";
+import ApollosDark from "../images/svgs/logos/apollos-dark.svg";
 
 const IndexPage = () => {
   const features = [
@@ -41,42 +42,17 @@ const IndexPage = () => {
     },
   ];
 
-  const [isScrolled, setIsScrolled] = React.useState(false);
-
-  const handleNavigation = React.useCallback(
-    (e) => {
-      const window = e.currentTarget;
-      const nowScrolled = !!(window.scrollY > 0);
-      if (nowScrolled !== isScrolled) setIsScrolled(!!nowScrolled);
-    },
-    [isScrolled]
-  );
-
-  React.useEffect(() => {
-    setIsScrolled(window.scrollY);
-
-    window.addEventListener("scroll", handleNavigation);
-
-    return () => {
-      window.removeEventListener("scroll", handleNavigation);
-    };
-  }, [setIsScrolled, handleNavigation]);
-
   return (
     <>
       <Helmet>
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
       </Helmet>
       <div className="relative">
-        <div
-          className={`fixed top-0 left-0 right-0 transition-all duration-200 z-50 backdrop-blur-lg ${
-            isScrolled ? "bg-gray-900/90" : "bg-transparent"
-          }`}
-        >
+        <div className="absolute inset-0">
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
               <div className="flex justify-start lg:w-0 lg:flex-1">
-                <Apollos />
+                <ApollosDark />
               </div>
 
               <a
@@ -88,9 +64,8 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
-
         <div className="page-background">
-          <div className="pt-6 pb-80 px-6 lg:px-16 green-background text-white">
+          <div className="pt-20 pb-80 px-6 lg:px-16 green-background text-white">
             <div className="max-w-xl mx-auto my-12 lg:my-16">
               <div className="text-center flex flex-col items-center">
                 <Logo />
