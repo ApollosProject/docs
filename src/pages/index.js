@@ -65,132 +65,135 @@ const IndexPage = () => {
           </div>
         </div>
         <div className="page-background">
-          <div className="pt-10 pb-80 px-6 lg:px-16 green-background text-white">
-            <div className="max-w-xl mx-auto my-12 lg:my-16">
-              <div className="text-center flex flex-col items-center">
-                <Logo />
-                <div className="pb-14 pt-8">
-                  <p className="text-white font-semibold uppercase text-sm">
-                    We’ll help your community
+          <div className="pt-10 px-6 lg:px-16 green-background text-white">
+            <div className="pb-64 orb-bottom container mx-auto">
+              <div className="max-w-xl mx-auto my-12 lg:mt-16">
+                <div className="text-center flex flex-col items-center">
+                  <Logo />
+                  <div className="pb-14 pt-8">
+                    <p className="text-white font-semibold uppercase text-sm">
+                      We’ll help your community
+                    </p>
+                    <h1 className="font-serif pb-8 pt-4 font-extrabold text-6xl">
+                      Be the Church,{" "}
+                      <span className="text-base-tertiary">everyday</span>.
+                    </h1>
+                    <p className="max-w-sm mx-auto text-xl text-dark-secondary">
+                      <span className="opacity-60">
+                        With <span className="italic">daily</span>
+                      </span>{" "}
+                      Personalized Discipleship
+                      <span className="opacity-60"> and</span> Spiritual
+                      Fitness,{" "}
+                      <span className="opacity-60">
+                        the Apollos Platform helps your church thrive.
+                      </span>
+                    </p>
+                  </div>
+                  <p className="text-white font-semibold uppercase text-sm pb-2">
+                    Used By
                   </p>
-                  <h1 className="font-serif pb-8 pt-4 font-extrabold text-6xl">
-                    Be the Church,{" "}
-                    <span className="text-base-tertiary">everyday</span>.
-                  </h1>
-                  <p className="max-w-sm mx-auto text-xl text-dark-secondary">
-                    <span className="opacity-60">
-                      With <span className="italic">daily</span>
-                    </span>{" "}
-                    Personalized Discipleship
-                    <span className="opacity-60"> and</span> Spiritual Fitness,{" "}
-                    <span className="opacity-60">
-                      the Apollos Platform helps your church thrive.
-                    </span>
-                  </p>
                 </div>
-                <p className="text-white font-semibold uppercase text-sm pb-2">
-                  Used By
-                </p>
-              </div>
-              <div className="flex gap-x-8 gap-y-4 flex-wrap justify-center">
-                <div>
-                  <StaticImage
-                    layout="constrained"
-                    height={24}
-                    width={100}
-                    placeholder={false}
-                    loading="eager"
-                    transformOptions={{ fit: "contain" }}
-                    backgroundColor={"transparent"}
-                    src="../images/logos/ns.png"
-                    alt="NewSpring"
-                  />
-                </div>
-                <div>
-                  <StaticImage
-                    layout="constrained"
-                    height={24}
-                    width={100}
-                    placeholder={false}
-                    loading="eager"
-                    transformOptions={{ fit: "contain" }}
-                    backgroundColor={"transparent"}
-                    src="../images/logos/willow.png"
-                    alt="Willow Creek"
-                  />
-                </div>
-                <div>
-                  <StaticImage
-                    layout="constrained"
-                    height={24}
-                    placeholder={false}
-                    loading="eager"
-                    transformOptions={{ fit: "contain" }}
-                    backgroundColor={"transparent"}
-                    src="../images/logos/cf.png"
-                    alt="Christ Fellowship"
-                  />
-                </div>
-                <div>
-                  <StaticImage
-                    layout="constrained"
-                    height={24}
-                    placeholder={false}
-                    loading="eager"
-                    transformOptions={{ fit: "contain" }}
-                    backgroundColor={"transparent"}
-                    src="../images/logos/lcbc.png"
-                    alt="LCBC"
-                  />
-                </div>
-                <div>
-                  <StaticImage
-                    layout="constrained"
-                    height={24}
-                    placeholder={false}
-                    loading="eager"
-                    transformOptions={{ fit: "contain" }}
-                    backgroundColor={"transparent"}
-                    src="../images/logos/bayside.png"
-                    alt="Bayside"
-                  />
-                </div>
-                <div>
-                  <StaticImage
-                    layout="constrained"
-                    height={24}
-                    width={120}
-                    placeholder={false}
-                    loading="eager"
-                    transformOptions={{ fit: "contain" }}
-                    backgroundColor={"transparent"}
-                    src="../images/logos/chase-oaks.png"
-                    alt="Chase Oaks"
-                  />
-                </div>
-                <div>
-                  <StaticImage
-                    layout="constrained"
-                    height={24}
-                    width={120}
-                    placeholder={false}
-                    loading="eager"
-                    transformOptions={{ fit: "contain" }}
-                    backgroundColor={"transparent"}
-                    src="../images/logos/rv.png"
-                    alt="River Valley"
-                  />
+                <div className="flex gap-x-8 gap-y-4 px-12 flex-wrap justify-center">
+                  <div>
+                    <StaticImage
+                      layout="constrained"
+                      height={24}
+                      width={100}
+                      placeholder={false}
+                      loading="eager"
+                      transformOptions={{ fit: "contain" }}
+                      backgroundColor={"transparent"}
+                      src="../images/logos/ns.png"
+                      alt="NewSpring"
+                    />
+                  </div>
+                  <div>
+                    <StaticImage
+                      layout="constrained"
+                      height={24}
+                      width={100}
+                      placeholder={false}
+                      loading="eager"
+                      transformOptions={{ fit: "contain" }}
+                      backgroundColor={"transparent"}
+                      src="../images/logos/willow.png"
+                      alt="Willow Creek"
+                    />
+                  </div>
+                  <div>
+                    <StaticImage
+                      layout="constrained"
+                      height={24}
+                      placeholder={false}
+                      loading="eager"
+                      transformOptions={{ fit: "contain" }}
+                      backgroundColor={"transparent"}
+                      src="../images/logos/cf.png"
+                      alt="Christ Fellowship"
+                    />
+                  </div>
+                  <div>
+                    <StaticImage
+                      layout="constrained"
+                      height={24}
+                      placeholder={false}
+                      loading="eager"
+                      transformOptions={{ fit: "contain" }}
+                      backgroundColor={"transparent"}
+                      src="../images/logos/lcbc.png"
+                      alt="LCBC"
+                    />
+                  </div>
+                  <div>
+                    <StaticImage
+                      layout="constrained"
+                      height={24}
+                      placeholder={false}
+                      loading="eager"
+                      transformOptions={{ fit: "contain" }}
+                      backgroundColor={"transparent"}
+                      src="../images/logos/bayside.png"
+                      alt="Bayside"
+                    />
+                  </div>
+                  <div>
+                    <StaticImage
+                      layout="constrained"
+                      height={24}
+                      width={120}
+                      placeholder={false}
+                      loading="eager"
+                      transformOptions={{ fit: "contain" }}
+                      backgroundColor={"transparent"}
+                      src="../images/logos/chase-oaks.png"
+                      alt="Chase Oaks"
+                    />
+                  </div>
+                  <div>
+                    <StaticImage
+                      layout="constrained"
+                      height={24}
+                      width={120}
+                      placeholder={false}
+                      loading="eager"
+                      transformOptions={{ fit: "contain" }}
+                      backgroundColor={"transparent"}
+                      src="../images/logos/rv.png"
+                      alt="River Valley"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="max-h-screen mx-auto">
+          <div className="max-h-screen mx-auto container">
             <StaticImage
               src="../images/phone.png"
               alt="phone"
               placeholder="blurred"
-              objectFit="contain"
-              className="mx-auto max-h-screen max-w-screen min-h-[800px] -mt-80"
+              // objectFit="contain"
+              className="mx-auto max-w-full min-h-[800px] aspect-[1225/1351] -mt-60"
             />
           </div>
           <div className="max-w-6xl mx-auto px-9 py-16 relative -mt-[25vh]">

@@ -4,7 +4,7 @@
       rgba(242, 242, 247, 0.97) 0%,
       rgba(242, 242, 247, 1) 20%
     ),
-    url('../images/Frame.png'), #ffffff;
+    url("../images/Frame.png"), #ffffff;
   background-size: 32px;
 }
 
@@ -17,6 +17,10 @@
     linear-gradient(180deg, #303036 0%, #000000 100%);
 }
 
+.orb-bottom {
+  background: url("../images/orbs-bottom.png") no-repeat bottom center/100%;
+}
+
 .green-button {
   background: linear-gradient(135deg, #6ec5b8 0%, #17b582 100%);
 }
@@ -26,7 +30,7 @@
 }
 
 .phone {
-  background: url('../images/phone.png') no-repeat;
+  background: url("../images/phone.png") no-repeat;
 }
 
 .bg-icon-bluegreen {
