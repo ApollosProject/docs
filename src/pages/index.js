@@ -41,16 +41,44 @@ const IndexPage = () => {
     },
   ];
 
+  const [isScrolled, setIsScrolled] = React.useState(false);
+
+  const handleNavigation = React.useCallback(
+    (e) => {
+      const window = e.currentTarget;
+      const nowScrolled = !!(window.scrollY > 0);
+      if (nowScrolled !== isScrolled) setIsScrolled(!!nowScrolled);
+    },
+    [isScrolled]
+  );
+
+  React.useEffect(() => {
+    setIsScrolled(window.scrollY);
+
+    window.addEventListener("scroll", handleNavigation);
+
+    return () => {
+      window.removeEventListener("scroll", handleNavigation);
+    };
+  }, [setIsScrolled, handleNavigation]);
+
   return (
     <>
       <Helmet>
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
       </Helmet>
-      <div>
-        <div className="page-background">
-          <div className="pt-6 pb-80 px-6 lg:px-16 green-background text-white">
-            <div className="flex flex-row justify-between items-center">
-              <Apollos />
+      <div className="relative">
+        <div
+          className={`fixed top-0 left-0 right-0 transition-all duration-200 z-50 backdrop-blur-lg ${
+            isScrolled ? "bg-gray-900/90" : "bg-transparent"
+          }`}
+        >
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
+            <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
+              <div className="flex justify-start lg:w-0 lg:flex-1">
+                <Apollos />
+              </div>
+
               <a
                 href="#"
                 className="hidden md:flex w-full sm:w-auto px-6 py-3 text-base font-medium text-white get-started-button shadow-lg rounded-md inline-flex items-center justify-center gap-2 hover:bg-white hover:text-base-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-base-secondary hover:bg-base-secondary hover:text-white"
@@ -58,6 +86,11 @@ const IndexPage = () => {
                 Get Started
               </a>
             </div>
+          </div>
+        </div>
+
+        <div className="page-background">
+          <div className="pt-6 pb-80 px-6 lg:px-16 green-background text-white">
             <div className="max-w-xl mx-auto my-12 lg:my-16">
               <div className="text-center flex flex-col items-center">
                 <Logo />
