@@ -89,6 +89,7 @@ const IndexPage = () => {
                   <StaticImage
                     layout="constrained"
                     height={24}
+                    width={100}
                     placeholder={false}
                     loading="eager"
                     transformOptions={{ fit: 'contain' }}
@@ -101,6 +102,7 @@ const IndexPage = () => {
                   <StaticImage
                     layout="constrained"
                     height={24}
+                    width={100}
                     placeholder={false}
                     loading="eager"
                     transformOptions={{ fit: 'contain' }}
@@ -162,6 +164,7 @@ const IndexPage = () => {
                   <StaticImage
                    layout="constrained"
                    height={24}
+                   width={120}
                    placeholder={false}
                    loading="eager"
                    transformOptions={{ fit: 'contain' }}
