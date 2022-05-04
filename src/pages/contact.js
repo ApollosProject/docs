@@ -15,7 +15,7 @@ const ContactPage = ({ data }) => {
       <Header />
       <div className="page-background">
         <div className="pt-60 pb-40 left-anchored-gradient text-white">
-          <div className="container mx-auto">
+          <div className="container px-4 mx-auto">
             <div className="lg:grid lg:grid-cols-2 lg:gap-x-16">
               <div>
                 <h1 className="font-serif pb-8 pt-4 font-extrabold text-6xl">

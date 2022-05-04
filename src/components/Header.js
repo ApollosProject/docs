@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 
 const Header = () => (
   <div className="absolute top-0 left-0 right-0">
-    <div className="container mx-auto">
+    <div className="container px-4 mx-auto">
       <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
         <div className="flex justify-start lg:w-0 lg:flex-1">
           <Link to="/">
