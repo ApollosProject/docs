@@ -30,10 +30,14 @@ const ContactPage = ({ data }) => {
               </div>
 
               <form
-                action="https://getform.io/f/30ac5c56-a575-4ef8-bd0b-3d07bc0b1656"
-                method="POST"
+                netlify
+                netlify-honeypot="bot-field"
+                data-netlify="true"
+                name="contact"
                 className="lg:grid-cols-1 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
               >
+                <input type="hidden" name="bot-field" />
+                <input type="hidden" name="form-name" value="contact" />
                 <div>
                   <label
                     htmlFor="first-name"
