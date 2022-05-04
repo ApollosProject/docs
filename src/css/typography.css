@@ -22,9 +22,9 @@
 
 @font-face {
   font-family: "Vesterbro";
-  src: url("../fonts/Vesterbro-ExtraBold-Latin-conrad_vanlandingham.woff2")
+  src: url("../fonts/Vesterbro-Extrabold-Latin-conrad_vanlandingham.woff2")
       format("woff2"),
-    url("../fonts/Vesterbro-ExtraBold-Latin-conrad_vanlandingham.woff")
+    url("../fonts/Vesterbro-Extrabold-Latin-conrad_vanlandingham.woff")
       format("woff");
   font-weight: 800;
   font-style: normal;
