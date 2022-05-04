@@ -14,6 +14,7 @@ import {
   YoutubeLogo,
 } from "phosphor-react";
 import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 import Divider from "../components/Divider";
 import Logo from "../images/svgs/logo.svg";
 
@@ -24,19 +25,19 @@ const IndexPage = () => {
     {
       name: "Open source & open license",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+        "Apollos is commited to buildling open-source tools for the Kingdom. The original Apollos Mobile App is open source and free for any church to utilize, and we are commited to releasing more of our packages to the community.",
       icon: GitBranch,
     },
     {
       name: "Developer-supported community",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+        "Apollos is a community of developers who are passionate about building tools for the Kingdom. We are always looking for new contributors to our open-source projects, and we are happy to have you join us!",
       icon: Code,
     },
     {
       name: "Lead with collaboration and strategy",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+        "Apollos started as a joint-effort between a few influential churches to further digital strategy for The Church. We continue to focus our efforts on understanding the best strategies to help churches grow.",
       icon: ChalkboardTeacher,
     },
   ];
@@ -205,13 +206,13 @@ const IndexPage = () => {
               </p>
             </div>
             <div className="mt-8 flex justify-center">
-              <a
-                href="#"
+              <Link
+                to="/contact"
                 className="w-full sm:w-auto px-6 py-3 text-base font-medium text-white green-button shadow-lg rounded-md inline-flex items-center justify-center gap-2 hover:bg-white hover:text-base-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-base-secondary hover:bg-base-secondary hover:text-white"
               >
                 <Lightning aria-hidden="true" className="h-5 w-5" />
                 Book a Demo
-              </a>
+              </Link>
             </div>
           </div>
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -354,13 +355,13 @@ const IndexPage = () => {
                     community <span class="text-white">a daily habit.</span>
                   </p>
                   <div className="mt-8">
-                    <a
-                      href="#"
+                    <Link
+                      to="/contact"
                       className="rounded-md shadow w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow-sm rounded-md inline-flex items-center justify-center gap-3 hover:bg-base-secondary hover:text-white"
                     >
                       <Broadcast aria-hidden="true" className="h-5 w-5" />
                       See Apollos in Action
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -380,12 +381,11 @@ const IndexPage = () => {
                 Growth Plan
               </p>
               <p className="mt-2 max-w-3xl text-3xl sm:text-5xl leading-8 font-bold font-serif tracking-tight text-gray-900">
-                Everything you need to grow your digital ministry
+                Everything you need to grow your digital ministry.
               </p>
               <p className="mt-4 max-w-4xl text-xl text-gray-500 lg:mx-auto">
-                Phasellus lorem quam molestie id quisque diam aenean nulla in.
-                Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
-                condimentum id viverra nulla.
+                Apollos focuses on the most important experiences to help you
+                guide people through their discipleship journey.
               </p>
             </div>
             <div className="lg:columns-2 lg:gap-8">
@@ -405,15 +405,15 @@ const IndexPage = () => {
                     <p
                       className={`text-base text-base-secondary font-semibold uppercase`}
                     >
-                      Mobile, TV & Web
+                      Mobile, TV &amp; Web
                     </p>
                     <h3 className="text-3xl lg:text-4xl font-bold font-serif pb-5 pt-2">
                       Connect on every device
                     </h3>
                     <div className="text-gray-500 text-xl">
-                      Phasellus lorem quam molestie id quisque diam aenean nulla
-                      in. Accumsan in quis quis nunc, ullamcorper malesuada.
-                      Eleifend condimentum id viverra nulla.
+                      Help your community grow and stay engaged with a
+                      cross-platform strategy and customized apps across
+                      devices.
                     </div>
                   </div>
                   <div className="flex pt-4 justify-center">
@@ -438,15 +438,15 @@ const IndexPage = () => {
                     <p
                       className={`text-base text-base-lavender font-semibold uppercase`}
                     >
-                      Sub-head
+                      Community
                     </p>
                     <h3 className="text-3xl lg:text-4xl font-bold font-serif pb-5 pt-2">
                       Host healthy groups
                     </h3>
                     <div className="text-gray-500 text-xl">
-                      Phasellus lorem quam molestie id quisque diam aenean nulla
-                      in. Accumsan in quis quis nunc, ullamcorper malesuada.
-                      Eleifend condimentum id viverra nulla.
+                      Focus on growing leaders and creating more connection in
+                      groups. We’ll help you create and host healthier
+                      community.
                     </div>
                   </div>
                   <div className="flex pt-4 justify-center">
@@ -471,15 +471,15 @@ const IndexPage = () => {
                     <p
                       className={`text-base text-base-mint font-semibold uppercase`}
                     >
-                      Sub-head
+                      Giving
                     </p>
                     <h3 className="text-3xl lg:text-4xl font-bold font-serif pb-5 pt-2">
                       Increase generosity
                     </h3>
                     <div className="text-gray-500 text-xl">
-                      Phasellus lorem quam molestie id quisque diam aenean nulla
-                      in. Accumsan in quis quis nunc, ullamcorper malesuada.
-                      Eleifend condimentum id viverra nulla.
+                      Apollos integrates with most major giving providers to
+                      allow for the best experience regardless of which giving
+                      provider your orgnaization relies on.
                     </div>
                   </div>
                   <div className="flex pt-4 justify-center">
@@ -511,15 +511,16 @@ const IndexPage = () => {
                     <p
                       className={`text-base text-base-tan font-semibold uppercase`}
                     >
-                      Sub-head
+                      Digital Discipleship
                     </p>
                     <h3 className="text-3xl lg:text-4xl font-bold font-serif pb-5 pt-2">
                       Disciple personally
                     </h3>
                     <div className="text-gray-500 text-xl">
-                      Phasellus lorem quam molestie id quisque diam aenean nulla
-                      in. Accumsan in quis quis nunc, ullamcorper malesuada.
-                      Eleifend condimentum id viverra nulla.
+                      Offer the right next step, for the right person, at the
+                      right time with personalized digital discipleship. Act on
+                      the actions of your community regardless if they're taking
+                      steps in person or digitally.
                     </div>
                   </div>
                 </div>
@@ -544,15 +545,15 @@ const IndexPage = () => {
                     <p
                       className={`text-base text-base-blue font-semibold uppercase`}
                     >
-                      Sub-head
+                      Spiritual Fitness
                     </p>
                     <h3 className="text-3xl lg:text-4xl font-bold font-serif pb-5 pt-2">
                       Build daily habits
                     </h3>
                     <div className="text-gray-500 text-xl">
-                      Phasellus lorem quam molestie id quisque diam aenean nulla
-                      in. Accumsan in quis quis nunc, ullamcorper malesuada.
-                      Eleifend condimentum id viverra nulla.
+                      Practice daily habits in a way that builds connections
+                      with others: Pray for others, journal with your small
+                      group, and read scripture with the community.
                     </div>
                   </div>
                 </div>
@@ -577,15 +578,15 @@ const IndexPage = () => {
                     <p
                       className={`text-base text-base-red font-semibold uppercase`}
                     >
-                      Sub-head
+                      All your content
                     </p>
                     <h3 className="text-3xl lg:text-4xl font-bold font-serif pb-5 pt-2">
                       Watch &amp; grow
                     </h3>
                     <div className="text-gray-500 text-xl">
-                      Phasellus lorem quam molestie id quisque diam aenean nulla
-                      in. Accumsan in quis quis nunc, ullamcorper malesuada.
-                      Eleifend condimentum id viverra nulla.
+                      With over a dozen integrations to top video and content
+                      services, make it easy (even automatic!) to distribute
+                      your content to your community.
                     </div>
                   </div>
                 </div>
@@ -606,25 +607,24 @@ const IndexPage = () => {
                 </h2>
                 <p className="text-lg leading-6 text-dark-secondary/60">
                   Apollos syncs data with the other services you already depend
-                  on. Phasellus lorem quam molestie id quisque diam aenean nulla
-                  in. Accumsan in quis quis nunc, ullamcorper malesuada.
-                  Eleifend condimentum id viverra nulla.
+                  on. With over a dozen integrations with the top technology
+                  providers for doing Church, your team won't need to learn new
+                  tools to launch Apollos experiences.
                 </p>
                 <div className="flex flex-col items-center">
                   <div className="mb-8 mt-14 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
                     <StaticImage
-                      className="transform rounded-md object-cover object-left-top"
-                      src="../images/pipeline.png"
+                      src="../images/integrations.png"
                       alt="Pipeline Screenshot"
                     />
                   </div>
-                  <a
-                    href="#"
+                  <Link
+                    to="/contact"
                     className="w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow-sm rounded-md inline-flex items-center justify-center gap-3 hover:bg-base-secondary hover:text-white"
                   >
                     <RocketLaunch aria-hidden="true" className="h-5 w-5" />
                     Explore integrations
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -665,18 +665,17 @@ const IndexPage = () => {
         <footer className="footer">
           <div className="max-w-7xl mx-auto px-4 py-16 lg:py-20 flex flex-col items-center space-y-6">
             <h2 className="text-4xl font-extrabold font-serif text-white">
-              Lorem ipsum
+              See how Apollos can grow your ministry.
             </h2>
             <p className="text-center leading-6 text-dark-secondary/60">
-              Ac euismod vel sit maecenas id pellentesque eu sed consectetur.
-              Malesuada adipiscing sagittis vel nulla nec.
+              Connect with our team for a demo of the Apollos Platform.
             </p>
-            <a
-              href="#"
+            <Link
+              to="/contact"
               className="w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow rounded-md inline-flex items-center justify-center hover:bg-base-secondary hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-base-secondary"
             >
               Get started
-            </a>
+            </Link>
           </div>
         </footer>
       </div>

@@ -23,9 +23,9 @@ const ContactPage = ({ data }) => {
                   can do for you
                 </h1>
                 <p className="opacity-60 lg:pr-32">
-                  Phasellus lorem quam molestie id quisque diam aenean nulla in.
-                  Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend
-                  condimentum id viverra nulla.
+                  Tell us a little about yourself and we'll connect you with an
+                  Apollos expert who can share more about the platform and
+                  answer any questions you have.
                 </p>
               </div>
 
