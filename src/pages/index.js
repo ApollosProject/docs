@@ -46,7 +46,7 @@ const IndexPage = () => {
       <div className="relative">
         <Header />
         <div className="page-background">
-          <div className="pt-10 px-6 lg:px-16 left-anchored-gradient text-white">
+          <div className="pt-10 px-6 lg:px-16 centered-gradient text-white">
             <div className="pb-64 orb-bottom container mx-auto">
               <div className="max-w-xl mx-auto my-12 lg:mt-16">
                 <div className="text-center flex flex-col items-center">

@@ -8,7 +8,7 @@
   background-size: 32px;
 }
 
-.green-background {
+.centered-gradient {
   background: radial-gradient(
       82.68% 82.68% at 50% 17.32%,
       rgba(0, 182, 192, 0.3) 0%,
