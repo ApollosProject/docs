@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Helmet } from "react-helmet";
 import {
   Broadcast,
   ChalkboardTeacher,
@@ -17,8 +16,8 @@ import {
 import { StaticImage } from "gatsby-plugin-image";
 import Divider from "../components/Divider";
 import Logo from "../images/svgs/logo.svg";
-import ApollosLight from "../images/svgs/logos/apollos-light.svg";
-import ApollosDark from "../images/svgs/logos/apollos-dark.svg";
+
+import Header from "../components/Header";
 
 const IndexPage = () => {
   const features = [
@@ -44,28 +43,10 @@ const IndexPage = () => {
 
   return (
     <>
-      <Helmet>
-        <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
-      </Helmet>
       <div className="relative">
-        <div className="absolute inset-0">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6">
-            <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
-              <div className="flex justify-start lg:w-0 lg:flex-1">
-                <ApollosDark />
-              </div>
-
-              <a
-                href="#"
-                className="hidden md:flex w-full sm:w-auto px-6 py-3 text-base font-medium text-white get-started-button shadow-lg rounded-md inline-flex items-center justify-center gap-2 hover:bg-white hover:text-base-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-base-secondary hover:bg-base-secondary hover:text-white"
-              >
-                Get Started
-              </a>
-            </div>
-          </div>
-        </div>
+        <Header />
         <div className="page-background">
-          <div className="pt-10 px-6 lg:px-16 green-background text-white">
+          <div className="pt-10 px-6 lg:px-16 left-anchored-gradient text-white">
             <div className="pb-64 orb-bottom container mx-auto">
               <div className="max-w-xl mx-auto my-12 lg:mt-16">
                 <div className="text-center flex flex-col items-center">

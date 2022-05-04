@@ -17,6 +17,17 @@
     linear-gradient(180deg, #303036 0%, #000000 100%);
 }
 
+.left-anchored-gradient {
+  background: radial-gradient(
+        51.22% 100% at 19.94% 0%,
+        rgba(0, 182, 192, 0.225) 0%,
+        rgba(0, 103, 109, 0) 66.83%,
+        rgba(0, 103, 109, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(117.94deg, #2a3637 6.78%, #000000 79.22%);
+}
+
 .orb-bottom {
   background: url("../images/orbs-bottom.png") no-repeat bottom center/100%;
 }
