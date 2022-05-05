@@ -169,7 +169,7 @@ const IndexPage = () => {
               </div>
             </div>
           </div>
-          <div className="max-h-screen mx-auto container">
+          <div className="max-h-screen mx-auto container max-w-7xl">
             <StaticImage
               src="../images/phone.png"
               alt="phone"
@@ -288,33 +288,37 @@ const IndexPage = () => {
               </svg>
 
               <div className="relative">
-                <img
-                  className="mx-auto h-8 text-base-primary"
-                  fill="currentColor"
-                  src="https://tailwindui.com/img/logos/workcation-logo-indigo-600-mark-gray-800-and-indigo-600-text.svg"
-                  alt="Workcation"
-                />
+                <div className="mx-auto text-center">
+                  <StaticImage
+                    className="mx-auto h-8"
+                    objectFit="contain"
+                    src="../images/ns-fullcolor.svg"
+                    alt="NewSpring"
+                  />
+                </div>
                 <blockquote className="mt-10">
                   <div className="max-w-3xl mx-auto text-center text-lg lg:text-2xl lg:leading-9 font-medium text-gray-900">
                     <p>
-                      &ldquo;Lorem ipsum dolor sit amet consectetur adipisicing
-                      elit. Nemo expedita voluptas culpa sapiente alias
-                      molestiae. Numquam corrupti in laborum sed rerum et
-                      corporis.&rdquo;
+                      &ldquo;Almost 10k people a month use the NewSpring App for
+                      their daily spiritual disciplines. The app would not be as
+                      successful as it is without the Apollos team. I'm always
+                      looking for new ways to take advantage of our
+                      partnership!&rdquo;
                     </p>
                   </div>
                   <footer className="mt-8">
                     <div className="md:flex md:items-center md:justify-center">
-                      <div className="md:flex-shrink-0">
-                        <img
-                          className="mx-auto h-10 w-10 rounded-full"
-                          src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                          alt=""
+                      <div className="md:flex-shrink-0 text-center">
+                        <StaticImage
+                          className="h-10 w-10"
+                          imgClassName="mx-auto rounded-full"
+                          src="../images/frank.jpg"
+                          alt="Frank Grand"
                         />
                       </div>
                       <div className="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
                         <div className="text-base font-medium text-gray-900">
-                          Judith Black
+                          Frank Grand
                         </div>
 
                         <svg
@@ -326,7 +330,7 @@ const IndexPage = () => {
                         </svg>
 
                         <div className="text-base font-medium text-gray-500">
-                          CEO, Workcation
+                          Technology Product Owner
                         </div>
                       </div>
                     </div>
