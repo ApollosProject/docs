@@ -25,7 +25,7 @@ const IndexPage = () => {
     {
       name: "Open source & open license",
       description:
-        "Apollos is commited to buildling open-source tools for the Kingdom. The original Apollos Mobile App is open source and free for any church to utilize, and we are commited to releasing more of our packages to the community.",
+        "Apollos is commited to building open-source tools for the Kingdom. The original Apollos Mobile App is open source and free for any church to utilize, and we are commited to releasing more of our packages to the community.",
       icon: GitBranch,
     },
     {
@@ -479,7 +479,7 @@ const IndexPage = () => {
                     <div className="text-gray-500 text-xl">
                       Apollos integrates with most major giving providers to
                       allow for the best experience regardless of which giving
-                      provider your orgnaization relies on.
+                      provider your organization relies on.
                     </div>
                   </div>
                   <div className="flex pt-4 justify-center">
