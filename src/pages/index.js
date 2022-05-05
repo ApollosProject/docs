@@ -51,6 +51,7 @@ const IndexPage = () => {
           name="description"
           content="The Apollos Platform helps your church thrive."
         />
+        <link rel="canonical" href="https://apollos.app/" />
       </Helmet>
       <div className="relative">
         <Header />
@@ -73,8 +74,7 @@ const IndexPage = () => {
                         With <span className="italic">daily</span>
                       </span>{" "}
                       Personalized Discipleship
-                      <span className="opacity-60"> and</span> Spiritual
-                      Fitness,{" "}
+                      <span className="opacity-60"> and</span> Daily Habits,{" "}
                       <span className="opacity-60">
                         the Apollos Platform helps your church thrive.
                       </span>
