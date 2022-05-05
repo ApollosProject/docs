@@ -2,16 +2,16 @@ import * as React from "react";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 
-import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
-import Divider from "../components/Divider";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import Header from "../components/Header";
-import Logo from "../images/svgs/logo.svg";
-import ApollosLight from "../images/svgs/logos/apollos-light.svg";
-import ApollosDark from "../images/svgs/logos/apollos-dark.svg";
 
 const ContactPage = ({ data }) => {
   return (
     <div className="relative">
+      <Helmet>
+        <title>See what Apollos can do for you</title>
+      </Helmet>
+
       <Header />
       <div className="page-background">
         <div className="pt-60 pb-40 left-anchored-gradient text-white">

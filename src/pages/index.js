@@ -13,6 +13,7 @@ import {
   UserSquare,
   YoutubeLogo,
 } from "phosphor-react";
+import { Helmet } from "react-helmet";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 import Divider from "../components/Divider";
@@ -44,6 +45,13 @@ const IndexPage = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Apollos | Help your community Be The Church, everyday.</title>
+        <meta
+          name="description"
+          content="The Apollos Platform helps your church thrive."
+        />
+      </Helmet>
       <div className="relative">
         <Header />
         <div className="page-background">
