@@ -35,6 +35,7 @@ const ContactPage = ({ data }) => {
                 data-netlify="true"
                 name="contact"
                 className="lg:grid-cols-1 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+                method="post"
               >
                 <input type="hidden" name="bot-field" />
                 <input type="hidden" name="form-name" value="contact" />
