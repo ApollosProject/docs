@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "Apollos Marketing Site",
+    siteUrl: "https://www.apollos.app",
+    title: "Apollos Apps",
   },
   plugins: [
     "gatsby-plugin-image",
