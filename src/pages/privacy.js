@@ -11,7 +11,7 @@ const Privacy = () => (
       />
     </Helmet>
     <div className="page-background">
-      <div className="pt-40 pb-40 left-anchored-gradient text-white">
+      <div className="pt-40 pb-40">
         <div className="container px-4 mx-auto">
           <h4 className="text-center">Apollos Project Terms of Use</h4>
           <h3 className="text-center">Differential Dev Shop, LLC</h3>
