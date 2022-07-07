@@ -10,7 +10,7 @@ const Privacy = () => (
         href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
       />
     </Helmet>
-    <div className="page-background">
+    <div>
       <div className="pt-40 pb-40">
         <div className="container px-4 mx-auto">
           <h4 className="text-center">Apollos Project Terms of Use</h4>
