@@ -1,3 +1,4 @@
+// THIS WAS PASTED FROM GOOGLE DOCS HTML, IGNORE CLASSES
 import * as React from "react";
 import { Helmet } from "react-helmet";
 
@@ -13,831 +14,656 @@ const Privacy = () => (
     <div>
       <div className="pt-40 pb-40">
         <div className="container px-4 mx-auto">
-          <h4 className="text-center">Apollos Project Terms of Use</h4>
+          <h4 className="text-center">Apollos Project Privacy Policy</h4>
           <h3 className="text-center">Differential Dev Shop, LLC</h3>
-          <p className="text-center"> Last Modified: Jul 7, 2022 </p>
-
-          <p>Acceptance of the Terms of Use</p>
-
+          <p className="text-center"> Last Modified: Jul 8, 2022 </p>
+          <p>Introduction</p>
           <p>
-            These terms of use are entered into by and between You and
-            Differential Dev Shop, LLC (&ldquo; Company ,&rdquo; &ldquo; we
-            ,&rdquo; or &ldquo; us &rdquo;). The following terms and conditions,
-            together with any documents they incorporate by reference
-            (collectively, &ldquo; Terms of Use &rdquo;), govern your access to
-            and use of the Apollos digital community management and interaction
-            platform, including any related software applications, mobile
-            applications, or websites, and including any content, functionality,
-            and services offered on or through any of the preceding
-            (collectively, the &ldquo; Platform &rdquo;), whether as a guest or
-            a registered user.
-          </p>
-
-          <p>
-            Please read the Terms of Use carefully before you start to use the
-            Platform. By using the Platform or by clicking to accept or agree to
-            the Terms of Use when this option is made available to you, you
-            accept and agree to be bound and abide by these Terms of Use and our
-            Privacy Policy, found at{" "}
-            <a href="https://www.google.com/url?q=http://apollos.app/privacy&amp;sa=D&amp;source=editors&amp;ust=1657206659163609&amp;usg=AOvVaw2GdME3dMHiApf4MCxQAxUt">
-              apollos.app/privacy
-            </a>
-            , incorporated herein by reference. &nbsp;If you do not want to
-            agree to these Terms of Use or the Privacy Policy, you must not
-            access or use the Platform.
+            Differential Dev Shop, LLC ( &ldquo;Company&rdquo; &nbsp;or
+            &nbsp;&ldquo;We&rdquo; ) respects your privacy and is committed to
+            protecting it through our compliance with this policy.
           </p>
           <p>
-            Your access to and use of the Platform may be the result of an
-            enterprise subscription agreement between Company and a business,
-            church, club, group, network, or other community or organization
-            (&ldquo; Customer &rdquo;), under which such Customer has requested
-            that Company provide you the access and use of the Platform.
-            &nbsp;Your access to and use of the Platform may be subject to
-            additional terms, conditions, and expectations of the Customer in
-            additional to these Terms of Use.
+            This policy describes the types of information we may collect from
+            you or that you may provide when you use our Platform, as defined in
+            our terms of use located at{" "}
+            <a href="https://apollos.app/terms">apollos.app/terms</a>
+            &nbsp;(the &ldquo; Terms of Use &rdquo;), which are incorporated by
+            reference herein, including when you use any software application or
+            visit any website that &nbsp;we provide, and our practices for
+            collecting, using, maintaining, protecting, and disclosing that
+            information. &nbsp;Any capitalized term used herein and not defined
+            will have the meaning given to it by the Terms of Use.
           </p>
-
           <p>
-            This Platform is offered and available to Customer&rsquo;s
-            authorized users who are 18 years of age or older, and reside in the
-            United States or any of its territories or possessions. By using
-            this Platform, you represent and warrant that you are of legal age
-            to form a binding contract with Company and meet all of the
-            foregoing eligibility requirements. If you do not meet all of these
-            requirements, you must not access or use the Platform.
+            This policy is not applicable to, and Company makes no
+            representation or warranty with respect to, Customer&rsquo;s
+            collection and use of information that you provide to Customer on or
+            through the Platform, including for example information provided
+            through your User Contributions, or your use and interactions with
+            Customer content, Customer links, third party links, Customer
+            features, or other interactions with Customer on or through the
+            Platform.
           </p>
-
-          <p>Changes to the Terms of Use</p>
-
-          <p>
-            We may revise and update these Terms of Use from time to time in our
-            sole discretion. All changes are effective immediately when we post
-            them, and apply to all access to and use of the Platform thereafter.{" "}
-            Your continued use of the Platform following the posting of revised
-            Terms of Use means that you accept and agree to the changes. You are
-            expected to check this page from time to time so you are aware of
-            any changes, as they are binding on you.
-          </p>
-
-          <p>Accessing the Platform and Account Security</p>
-
-          <p>
-            We reserve the right to withdraw or amend this Platform, and any
-            service or material we provide on the Platform, in our sole
-            discretion without notice. We will not be liable if for any reason
-            all or any part of the Platform is unavailable at any time or for
-            any period. From time to time, we may restrict access to some parts
-            of the Platform, or the entire Platform, to users, including
-            registered users.
-          </p>
-
-          <p>You are responsible for both:</p>
+          <p>This policy applies to information we collect:</p>
           <ul>
             <li>
-              Making all arrangements necessary for you to have access to the
+              On this Platform, including on or through any website or software
+              application related to this Platform.
+            </li>
+            <li>
+              In email, text, and other electronic messages between you and this
               Platform.
             </li>
             <li>
-              Ensuring that all persons who access the Platform through your
-              internet connection are aware of these Terms of Use and comply
-              with them.
+              Through mobile and desktop applications you download to access
+              this Platform.
+            </li>
+            <li>
+              When you interact with our advertising and applications on
+              third-party websites and services, if those applications or
+              advertising include links to this policy.
             </li>
           </ul>
-
-          <p>
-            To access the Platform or some of the resources it offers, you may
-            be asked to provide certain registration details or other
-            information. It is a condition of your use of the Platform that all
-            the information you provide on the Platform is correct, current, and
-            complete. You agree that all information you provide to register
-            with this Platform or otherwise, including, but not limited to,
-            through the use of any interactive features on the Platform, is
-            governed by our Privacy Policy, and you consent to all actions we
-            take with respect to your information consistent with our Privacy
-            Policy.
-          </p>
-
-          <p>
-            If you choose, or are provided with, a user name, password, or any
-            other piece of information as part of our security procedures, you
-            must treat such information as confidential, and you must not
-            disclose it to any other person or entity. You also acknowledge that
-            your account is personal to you and agree not to provide any other
-            person with access to this Platform or portions of it using your
-            user name, password, or other security information. You agree to
-            notify us immediately of any unauthorized access to or use of your
-            user name or password or any other breach of security. You also
-            agree to ensure that you exit from your account at the end of each
-            session. You should use particular caution when accessing your
-            account from a public or shared computer so that others are not able
-            to view or record your password or other personal information.
-          </p>
-
-          <p>
-            We have the right to disable any user name, password, or other
-            identifier, whether chosen by you or provided by us, at any time in
-            our sole discretion for any or no reason, including upon
-            Customer&rsquo;s request, and including if, in our opinion, you have
-            violated any provision of these Terms of Use.
-          </p>
-
-          <p>Intellectual Property Rights</p>
-
-          <p>
-            The Platform and its entire contents, features, and functionality
-            (including but not limited to all information, software, text,
-            displays, images, video, and audio, and the design, selection, and
-            arrangement thereof) are owned by Company, its licensors, its
-            licensees, including Customer, or other providers of such material
-            and are protected by United States and international copyright,
-            trademark, patent, trade secret, and other intellectual property or
-            proprietary rights laws.
-          </p>
-
-          <p>
-            These Terms of Use permit you to use the Platform for your personal,
-            non-commercial use only. You must not reproduce, distribute, modify,
-            create derivative works of, publicly display, publicly perform,
-            republish, download, store, or transmit any of the material on our
-            Platform, except as follows:
-          </p>
+          <p>It does not apply to information collected by:</p>
           <ul>
             <li>
-              Your computer may temporarily store copies of such materials in
-              RAM incidental to your accessing and viewing those materials.
+              Us offline or through any other means, including on any other
+              website operated by Company or any third party; or
             </li>
             <li>
-              You may store files that are automatically cached by your Web
-              browser for display enhancement purposes.
-            </li>
-            <li>
-              You may print or download one copy of a reasonable number of pages
-              of the Platform for your own personal, non-commercial use and not
-              for further reproduction, publication, or distribution.
-            </li>
-            <li>
-              If we provide desktop, mobile, or other applications for download,
-              you may download a single copy to your computer or mobile device
-              solely for your own personal, non-commercial use, provided you
-              agree to be bound by our end user license agreement for such
-              applications.
-            </li>
-            <li>
-              If we provide social media features with certain content, you may
-              take such actions as are enabled by such features.
-            </li>
-          </ul>
-
-          <p>You must not:</p>
-          <ul>
-            <li>Modify copies of any materials from this site.</li>
-            <li>
-              Use any illustrations, photographs, video or audio sequences, or
-              any graphics separately from the accompanying text.
-            </li>
-            <li>
-              Delete or alter any copyright, trademark, or other proprietary
-              rights notices from copies of materials from this site.
-            </li>
-          </ul>
-
-          <p>
-            You must not access or use for any commercial purposes any part of
-            the Platform or any services or materials available through the
-            Platform.
-          </p>
-
-          <p>
-            If you print, copy, modify, download, or otherwise use or provide
-            any other person with access to any part of the Platform in breach
-            of the Terms of Use, your right to use the Platform will stop
-            immediately and you must, at our option, return or destroy any
-            copies of the materials you have made. No right, title, or interest
-            in or to the Platform or any content on the Platform is transferred
-            to you, and all rights not expressly granted are reserved by
-            Company. Any use of the Platform not expressly permitted by these
-            Terms of Use is a breach of these Terms of Use and may violate
-            copyright, trademark, and other laws.
-          </p>
-
-          <p>Trademarks</p>
-
-          <p>
-            The name, logo, related terms, product and service names, designs,
-            and slogans are trademarks of Company, Customer, or any of Company
-            or Customer&rsquo;s affiliates, licensors, or licensees. You must
-            not use such marks without the prior written permission of Company,
-            Customer, or other applicable third party. All other names, logos,
-            product and service names, designs, and slogans on this Platform are
-            the trademarks of their respective owners.
-          </p>
-
-          <p>Prohibited Uses</p>
-
-          <p>
-            You may use the Platform only for lawful purposes and in accordance
-            with these Terms of Use. You agree not to use the Platform:
-          </p>
-          <ul>
-            <li>
-              In any way that violates any applicable federal, state, local, or
-              international law or regulation (including, without limitation,
-              any laws regarding the export of data or software to and from the
-              US or other countries).
-            </li>
-            <li>
-              For the purpose of exploiting, harming, or attempting to exploit
-              or harm minors in any way by exposing them to inappropriate
-              content, asking for personally identifiable information, or
-              otherwise.
-            </li>
-            <li>
-              To send, knowingly receive, upload, download, use, or re-use any
-              material that does not comply with the Content Standards set out
-              in these Terms of Use.
-            </li>
-            <li>
-              To transmit, or procure the sending of, any advertising or
-              promotional material, including any &ldquo;junk mail,&rdquo;
-              &ldquo;chain letter,&rdquo; &ldquo;spam,&rdquo; or any other
-              similar solicitation.
-            </li>
-            <li>
-              To impersonate or attempt to impersonate Company or Customer, a
-              Company or Customer employee, another user, or any other person or
-              entity (including, without limitation, by using email addresses or
-              screen names associated with any of the foregoing).
-            </li>
-            <li>
-              To engage in any other conduct that restricts or inhibits
-              anyone&rsquo;s use or enjoyment of the Platform, or which, as
-              determined by us, may harm Company, Customer, or users of the
-              Platform, or expose them to liability.
-            </li>
-          </ul>
-
-          <p>Additionally, you agree not to:</p>
-          <ul>
-            <li>
-              Use the Platform in any manner that could disable, overburden,
-              damage, or impair the site or interfere with any other
-              party&rsquo;s use of the Platform, including their ability to
-              engage in real time activities through the Platform.
-            </li>
-            <li>
-              Use any robot, spider, or other automatic device, process, or
-              means to access the Platform for any purpose, including monitoring
-              or copying any of the material on the Platform.
-            </li>
-            <li>
-              Use any manual process to monitor or copy any of the material on
-              the Platform, or for any other purpose not expressly authorized in
-              these Terms of Use, without our prior written consent.
-            </li>
-            <li>
-              Use any device, software, or routine that interferes with the
-              proper working of the Platform.
-            </li>
-            <li>
-              Introduce any viruses, Trojan horses, worms, logic bombs, or other
-              material that is malicious or technologically harmful.
-            </li>
-            <li>
-              Attempt to gain unauthorized access to, interfere with, damage, or
-              disrupt any parts of the Platform, the server on which the
-              Platform is stored, or any server, computer, or database connected
-              to the Platform.
-            </li>
-            <li>
-              Attack the Platform via a denial-of-service attack or a
-              distributed denial-of-service attack.
-            </li>
-            <li>
-              Otherwise attempt to interfere with the proper working of the
+              Any third party, including through any application or content
+              (including advertising) that may link to or be accessible from the
               Platform.
             </li>
           </ul>
-
-          <p>User Contributions</p>
-
           <p>
-            The Platform may contain, from time to time, message boards, chat
-            rooms, personal web pages or profiles, forums, bulletin boards,
-            tools, and other interactive features (collectively, &ldquo;
-            Interactive Services &rdquo;) that allow users create, post, submit,
-            publish, display, store, transmit, or otherwise create content or
-            materials that are intended to be shared with other users, or are
-            otherwise of a non-confidential nature (collectively, &ldquo; User
-            Contributions &rdquo;) on or through the Platform.
+            Please read this policy carefully to understand our policies and
+            practices regarding your information and how we will treat it. If
+            you do not agree with our policies and practices, your choice is not
+            to use our Platform. If you are concerned with Customer&rsquo;s
+            obligations with respect to collection and use of your information,
+            you should cease using the Platform and contact Customer to
+            determine the privacy policy, agreement, or other terms that apply
+            to Customer&rsquo;s collection and use of your information. &nbsp;By
+            accessing or using this Platform, you agree to this privacy policy.
+            This policy may change from time to time. Your continued use of this
+            Platform after we make changes is deemed to be acceptance of those
+            changes, so please check the policy periodically for updates.
           </p>
 
+          <p>Children Under the Age of 18</p>
           <p>
-            All User Contributions must comply with the Content Standards set
-            out in these Terms of Use, as well as any additional content
-            standards, rules, or expectations provided to you by Customer.
+            Our Platform is not intended for children under 18 years of age. No
+            one under age 18 may provide any information to the Platform. We do
+            not knowingly collect personal information from children under 18.
+            If you are under 18, do not use or provide any information on this
+            Platform, register on the Platform, make any purchases through the
+            Platform, use any of the interactive or public comment features of
+            this Platform, or provide any information about yourself to us,
+            including your name, address, telephone number, email address, or
+            any screen name or user name you may use. If we learn we have
+            collected or received personal information from a child under 18
+            without verification of parental consent, we will delete that
+            information. If you believe we might have any information from or
+            about a child under 18, please contact us at{" "}
+            <a href="mailto:support@apollos.app">support@apollos.app</a>.
           </p>
 
+          <p>Information We Collect About You and How We Collect It</p>
           <p>
-            Any User Contribution you create through the Platform will be
-            considered non-confidential and non-proprietary. By creating any
-            User Contribution on the Platform, you grant us and our affiliates
-            and service providers, and each of their and our respective
-            licensees, successors, and assigns the right to use, reproduce,
-            modify, perform, display, distribute, and otherwise disclose to
-            third parties any such material for any purpose/according to your
-            account settings.{" "}
-          </p>
-          <p>You represent and warrant that:</p>
-          <ul>
-            <li>
-              You own or control all rights in and to the User Contributions and
-              have the right to grant the license granted above to us and our
-              affiliates and service providers, and each of their and our
-              respective licensees, successors, and assigns.
-            </li>
-            <li>
-              All of your User Contributions do and will comply with these Terms
-              of Use.
-            </li>
-          </ul>
-
-          <p>
-            You understand and acknowledge that you are responsible for any User
-            Contributions you create, and you, not Company, have full
-            responsibility for such content, including its legality,
-            reliability, accuracy, and appropriateness.
-          </p>
-
-          <p>
-            We are not responsible or liable to any third party for the content
-            or accuracy of any User Contributions created by you or any other
-            user of the Platform.
-          </p>
-
-          <p>Monitoring and Enforcement; Termination</p>
-
-          <p>We have the right to:</p>
-          <ul>
-            <li>
-              Remove or refuse to post any User Contributions for any or no
-              reason in our sole discretion.
-            </li>
-            <li>
-              Take any action with respect to any User Contribution that we deem
-              necessary or appropriate in our sole discretion, including if we
-              believe that such User Contribution violates the Terms of Use,
-              including the Content Standards or any Customer content standards,
-              infringes any intellectual property right or other right of any
-              person or entity, threatens the personal safety of users of the
-              Platform or the public, or could create liability for Company or
-              Customer.
-            </li>
-            <li>
-              Disclose your identity or other information about you to any third
-              party who claims that material posted by you violates their
-              rights, including their intellectual property rights or their
-              right to privacy.
-            </li>
-            <li>
-              Take appropriate legal action, including without limitation,
-              referral to law enforcement, for any illegal or unauthorized use
-              of the Platform.
-            </li>
-            <li>
-              Terminate or suspend your access to all or part of the Platform
-              for any or no reason, including without limitation, any violation
-              of these Terms of Use, or upon Customer&rsquo;s request.
-            </li>
-          </ul>
-
-          <p>
-            Without limiting the foregoing, we have the right to cooperate fully
-            with any law enforcement authorities or court order requesting or
-            directing us to disclose the identity or other information of anyone
-            posting any materials on or through the Platform. YOU WAIVE AND HOLD
-            HARMLESS COMPANY AND ITS AFFILIATES, LICENSEES, AND SERVICE
-            PROVIDERS FROM ANY CLAIMS RESULTING FROM ANY ACTION TAKEN BY ANY OF
-            THE FOREGOING PARTIES DURING, OR TAKEN AS A CONSEQUENCE OF,
-            INVESTIGATIONS BY EITHER SUCH PARTIES OR LAW ENFORCEMENT
-            AUTHORITIES.
-          </p>
-
-          <p>
-            However, we cannot review material before it is posted on the
-            Platform, and cannot ensure prompt removal of objectionable material
-            after it has been posted. Accordingly, we assume no liability for
-            any action or inaction regarding transmissions, communications, or
-            content provided by any user or third party. We have no liability or
-            responsibility to anyone for performance or nonperformance of the
-            activities described in this section.
-          </p>
-
-          <p>Content Standards</p>
-
-          <p>
-            These below content standards (&ldquo; Content Standards &rdquo;)
-            apply to any and all User Contributions and use of Interactive
-            Services. User Contributions must in their entirety comply with all
-            applicable federal, state, local, and international laws and
-            regulations. Without limiting the foregoing, User Contributions must
-            not:
+            We collect several types of information from and about users of our
+            Platform, including information:
           </p>
           <ul>
             <li>
-              Contain any material that is defamatory, obscene, indecent,
-              abusive, offensive, harassing, violent, hateful, inflammatory, or
-              otherwise objectionable.
+              By which you may be personally identified, such as name, postal
+              address, e-mail address, telephone number, or any other identifier
+              by which you may be contacted online or offline (&ldquo; personal
+              information &rdquo;);
             </li>
             <li>
-              Promote sexually explicit or pornographic material, violence, or
-              discrimination.
+              That is about you but individually does not identify you; and/or
             </li>
             <li>
-              Infringe any patent, trademark, trade secret, copyright, or other
-              intellectual property or other rights of any other person.
-            </li>
-            <li>
-              Violate the legal rights (including the rights of publicity and
-              privacy) of others or contain any material that could give rise to
-              any civil or criminal liability under applicable laws or
-              regulations or that otherwise may be in conflict with these Terms
-              of Use and our Privacy Policy.
-            </li>
-            <li>Be likely to deceive any person.</li>
-            <li>
-              Promote any illegal activity, or advocate, promote, or assist any
-              unlawful act.
-            </li>
-            <li>
-              Cause annoyance, inconvenience, or needless anxiety or be likely
-              to upset, embarrass, alarm, or annoy any other person.
-            </li>
-            <li>
-              Impersonate any person, or misrepresent your identity or
-              affiliation with any person or organization.
-            </li>
-            <li>
-              Involve commercial activities or sales, such as contests,
-              sweepstakes, and other sales promotions, barter, or advertising.
-            </li>
-            <li>
-              Give the impression that they emanate from or are endorsed by us
-              or any other person or entity, if this is not the case.
+              About your internet connection, the equipment you use to access
+              our Platform, and usage details.
             </li>
           </ul>
+          <p>We collect this information:</p>
+          <ul>
+            <li>Directly from you when you provide it to us.</li>
+            <li>
+              Automatically as you navigate through the site. Information
+              collected automatically may include usage details, IP addresses,
+              and information collected through cookies, web beacons, and other
+              tracking technologies.
+            </li>
+            <li>From third parties, for example, our business partners.</li>
+          </ul>
 
-          <p>Reliance on Information Posted</p>
-
+          <p>Information You Provide to Us &nbsp;</p>
           <p>
-            The information presented on or through the Platform is made
-            available solely for general information purposes. We do not warrant
-            the accuracy, completeness, or usefulness of this information. Any
-            reliance you place on such information is strictly at your own risk.
-            We disclaim all liability and responsibility arising from any
-            reliance placed on such materials by you or any other visitor to the
-            Platform, or by anyone who may be informed of any of its contents.
-          </p>
-
-          <p>
-            This Platform may include content provided by third parties,
-            including materials provided by Customer, other users, bloggers, and
-            third-party licensors, syndicators, aggregators, and/or reporting
-            services. All statements and/or opinions expressed in these
-            materials, and all articles and responses to questions and other
-            content, other than the content provided by Company, are solely the
-            opinions and the responsibility of the person or entity providing
-            those materials. These materials do not necessarily reflect the
-            opinion of Company. We are not responsible, or liable to you or any
-            third party, for the content or accuracy of any materials provided
-            by any third parties.
-          </p>
-
-          <p>Changes to the Platform</p>
-
-          <p>
-            We may update the content on this Platform from time to time, but
-            its content is not necessarily complete or up-to-date. Any of the
-            material on the Platform may be out of date at any given time, and
-            we are under no obligation to update such material.
-          </p>
-
-          <p>Information About You and Your Visits to the Platform</p>
-
-          <p>
-            All information we collect on this Platform is subject to our
-            Privacy Policy. Any information that you provide to Customer through
-            the Platform is subject to Customer&rsquo;s privacy policy or
-            practices. &nbsp;By using the Platform, you consent to all actions
-            taken by us with respect to your information in compliance with the
-            Privacy Policy.
-          </p>
-
-          <p>Additional Terms and Conditions</p>
-
-          <p>
-            Additional terms and conditions may also apply to specific portions,
-            services, or features of the Platform, including additional terms
-            provided by Customer, and your acceptance of any such applicable
-            terms and conditions is a prerequisite for use of those portions,
-            services, or features of the Platform.
-          </p>
-
-          <p>Linking to the Platform and Social Media Features</p>
-
-          <p>
-            You may link to portions of the Platform where such functionality is
-            provided, provided you do so in a way that is fair and legal and
-            does not damage our reputation or take advantage of it, but you must
-            not establish a link in such a way as to suggest any form of
-            association, approval, or endorsement on our part.
-          </p>
-
-          <p>
-            This Platform may provide certain social media features that enable
-            you to:
+            The information we collect on or through our Platform may include:
           </p>
           <ul>
             <li>
-              Link from your own or certain third-party websites to certain
-              content on this Platform.
+              Information that you provide by filling in forms on our Platform.
+              This includes information provided at the time of registering to
+              use our Platform, subscribing to our service, posting material, or
+              requesting further services. We may also ask you for information
+              when you report a problem with our Platform.
             </li>
             <li>
-              Send emails or other communications with certain content, or links
-              to certain content, on this Platform.
+              Records and copies of your correspondence (including email
+              addresses), if you contact us.
             </li>
             <li>
-              Cause limited portions of content on this Platform to be displayed
-              or appear to be displayed on your own or certain third-party
-              websites.
+              Your responses to surveys that we might ask you to complete for
+              research purposes.
+            </li>
+            <li>
+              Details of transactions you carry out through our Platform and of
+              the fulfillment of your orders. You may be required to provide
+              financial information before placing an order through our
+              Platform.
+            </li>
+            <li>
+              Your use and interaction with various features of the Platform.
             </li>
           </ul>
+          <p>
+            You also may provide information to be published or displayed
+            (hereinafter, &ldquo; posted &rdquo;) on public areas of the
+            Platform, or transmitted to other users of the Platform or third
+            parties, including User Contributions, as defined in the Terms of
+            Use. Such material is created or posted at your own risk. Although
+            we limit access to certain pages, please be aware that no security
+            measures are perfect or impenetrable. Additionally, we cannot
+            control the actions of other users of the Platform with whom you may
+            choose to share your User Contributions. Therefore, we cannot and do
+            not guarantee that your User Contributions will not be viewed by
+            unauthorized persons.
+          </p>
 
           <p>
-            You may use these features solely as they are provided by us, and
-            solely with respect to the content they are displayed with. Subject
-            to the foregoing, you must not:
+            Information We Collect Through Automatic Data Collection
+            Technologies &nbsp;
+          </p>
+          <p>
+            As you navigate through and interact with our Platform, we may use
+            automatic data collection technologies to collect certain
+            information about your equipment, browsing actions, and patterns,
+            including:
           </p>
           <ul>
-            <li>Establish a link from any website that is not owned by you.</li>
             <li>
-              Cause the Platform or portions of it to be displayed on, or appear
-              to be displayed by, any other site, for example, framing, deep
-              linking, or in-line linking.
+              &nbsp;Details of your visits to our Platform, including traffic
+              data, location data, logs, and other communication data and the
+              resources that you access and use on the Platform.
             </li>
-            <li>Link to any part of the Platform other than the homepage.</li>
             <li>
-              Otherwise take any action with respect to the materials on this
-              Platform that is inconsistent with any other provision of these
-              Terms of Use.
+              Information about your computer and internet connection, including
+              your IP address, operating system, and browser type.
+            </li>
+          </ul>
+          <p>
+            The information we collect automatically is only statistical data
+            and does not include personal information, but we may maintain it or
+            associate it with personal information we collect in other ways or
+            receive from third parties. It helps us to improve our Platform and
+            to deliver a better and more personalized service, including by
+            enabling us to:
+          </p>
+          <ul>
+            <li>Estimate our audience size and usage patterns.</li>
+            <li>
+              Store information about your preferences, allowing us to customize
+              our Platform according to your individual interests.
+            </li>
+            <li>Speed up your searches.</li>
+            <li>Recognize you when you return to our Platform.</li>
+          </ul>
+          <p>
+            As an example, the technologies we may use for this automatic data
+            collection may include or be similar to:
+          </p>
+          <ul>
+            <li>
+              Cookies (or browser cookies). &nbsp;A cookie is a small file
+              placed on the hard drive of your computer. You may refuse to
+              accept browser cookies by activating the appropriate setting on
+              your browser. However, if you select this setting you may be
+              unable to access certain parts of our Platform. Unless you have
+              adjusted your browser setting so that it will refuse cookies, our
+              system will issue cookies when you direct your browser to our
+              Platform.
+            </li>
+            <li>
+              Flash Cookies. &nbsp;Certain features of our Platform may use
+              local stored objects (or Flash cookies) to collect and store
+              information about your preferences and navigation to, from, and on
+              our Platform. Flash cookies are not managed by the same browser
+              settings as are used for browser cookies.
+            </li>
+            <li>
+              Web Beacons. &nbsp;Pages of our the Platform and our e-mails may
+              contain small electronic files known as web beacons (also referred
+              to as clear gifs, pixel tags, and single-pixel gifs) that permit
+              Company, for example, to count users who have visited those pages
+              or opened an email and for other related website statistics (for
+              example, recording the popularity of certain website content and
+              verifying system and server integrity).
+            </li>
+          </ul>
+          <p>
+            We do not collect personal information automatically, but we may tie
+            this information to personal information about you that we collect
+            from other sources or you provide to us.
+          </p>
+
+          <p>Third-Party Use of Cookies and Other Tracking Technologies</p>
+          <p>
+            Some content or applications, including advertisements, on the
+            Platform are served by third-parties, including advertisers, ad
+            networks and servers, content providers, and application providers.
+            These third parties may use cookies alone or in conjunction with web
+            beacons or other tracking technologies to collect information about
+            you when you use our website. The information they collect may be
+            associated with your personal information or they may collect
+            information, including personal information, about your online
+            activities over time and across different websites and other online
+            services. They may use this information to provide you with
+            interest-based (behavioral) advertising or other targeted content.
+          </p>
+          <p>
+            We do not control these third parties&rsquo; tracking technologies
+            or how they may be used. If you have any questions about an
+            advertisement or other targeted content, you should contact the
+            responsible provider directly.
+          </p>
+
+          <p>How We Use Your Information</p>
+          <p>
+            We use information that we collect about you or that you provide to
+            us, including any personal information:
+          </p>
+          <ul>
+            <li>To present our Platform and its contents to you.</li>
+            <li>
+              To provide you with information, products, or services that you
+              request from us.
+            </li>
+            <li>To fulfill any other purpose for which you provide it.</li>
+            <li>
+              To provide you with notices about your account or subscription,
+              including expiration and renewal notices.
+            </li>
+            <li>
+              To carry out our obligations and enforce our rights arising from
+              any contracts entered into between you and us, including for
+              billing and collection.
+            </li>
+            <li>
+              To notify you about changes to our Platform or any products or
+              services we offer or provide through it.
+            </li>
+            <li>
+              To allow you to participate in interactive features on our
+              Platform.
+            </li>
+            <li>
+              In any other way we may describe when you provide the information.
+            </li>
+            <li>For any other purpose with your consent.</li>
+          </ul>
+          <p>
+            We may also use your information to contact you about our own and
+            third-parties&rsquo; goods and services that may be of interest to
+            you. If you do not want us to use your information in this way,
+            please adjust your user preferences in your account profile or
+            contact us.
+          </p>
+          <p>
+            We may use the information we have collected from you to enable us
+            to display advertisements to our advertisers&rsquo; target
+            audiences. Even though we do not disclose your personal information
+            for these purposes without your consent, if you click on or
+            otherwise interact with an advertisement, the advertiser may assume
+            that you meet its target criteria.
+          </p>
+
+          <p>Disclosure of Your Information</p>
+          <p>
+            We may disclose aggregated information about our users, and
+            information that does not identify any individual, without
+            restriction.
+          </p>
+          <p>
+            We may disclose personal information that we collect or you provide
+            as described in this privacy policy:
+          </p>
+          <ul>
+            <li>To our subsidiaries and affiliates.</li>
+            <li>
+              To contractors, service providers, and other third parties we use
+              to support our business.
+            </li>
+            <li>
+              To a buyer or other successor in the event of a merger,
+              divestiture, restructuring, reorganization, dissolution, or other
+              sale or transfer of some or all of Company&rsquo;s assets, whether
+              as a going concern or as part of bankruptcy, liquidation, or
+              similar proceeding, in which personal information held by Company
+              about our Platform users is among the assets transferred.
+            </li>
+            <li>
+              To third parties to market their products or services to you if
+              you have not opted out of these disclosures.
+            </li>
+            <li>To fulfill the purpose for which you provide it.</li>
+            <li>
+              For any other purpose disclosed by us when you provide the
+              information.
+            </li>
+            <li>With your consent.</li>
+          </ul>
+          <p>We may also disclose your personal information:</p>
+          <ul>
+            <li>
+              To comply with any court order, law, or legal process, including
+              to respond to any government or regulatory request.
+            </li>
+            <li>
+              To enforce or apply our Terms of Use, Subscription Agreement, and
+              other agreements, including for billing and collection purposes.
+            </li>
+            <li>
+              If we believe disclosure is necessary or appropriate to protect
+              the rights, property, or safety of Differential Dev Shop, LLC, our
+              customers, or others. This includes exchanging information with
+              other companies and organizations for the purposes of fraud
+              protection and credit risk reduction.
             </li>
           </ul>
 
+          <p>Choices About How We Use and Disclose Your Information</p>
           <p>
-            The website from which you are linking, or on which you make certain
-            content accessible, must comply in all respects with the Content
-            Standards set out in these Terms of Use.
+            We strive to provide you with choices regarding the personal
+            information you provide to us. Where applicable, we may provide you
+            with the following control over your information:
+          </p>
+          <ul>
+            <li>
+              Tracking Technologies and Advertising. &nbsp;You can set your
+              browser to refuse all or some browser cookies, or to alert you
+              when cookies are being sent. To learn how you can manage your
+              Flash cookie settings, visit the Flash player settings page on
+              Adobe&rsquo;s website. If you disable or refuse cookies, please
+              note that some parts of this site may then be inaccessible or not
+              function properly.
+            </li>
+            <li>
+              Disclosure of Your Information for Third-Party Advertising.
+              &nbsp;If we plan to share your personal information with
+              unaffiliated or non-agent third parties for promotional purposes,
+              we will provide you the option to opt-out by logging into the
+              Platform and adjusting your user preferences in your account
+              profile or by sending us an email with your request to{" "}
+              <a href="mailto:support@apollos.app">support@apollos.app</a>.
+            </li>
+            <li>
+              Promotional Offers from Company. &nbsp;If we plan to use your
+              contact information to promote our own or third parties&rsquo;
+              products or services, we will provide you the option to opt-out by
+              logging into the Platform and adjusting your user preferences in
+              your account profile or by sending us an email stating your
+              request to{" "}
+              <a href="mailto:support@apollos.app">support@apollos.app</a>. This
+              opt out does not apply to information provided to Company as a
+              result of a product purchase, warranty registration, product
+              service experience or other transactions.
+            </li>
+            <li>
+              Targeted Advertising. &nbsp;If we plan to use information that we
+              collect or that you provide to us to deliver advertisements
+              according to our advertisers&rsquo; target-audience preferences,
+              we will provide you the option to opt-out by adjusting your user
+              preferences in your account profile or by sending us an email
+              stating your request to{" "}
+              <a href="mailto:support@apollos.app">support@apollos.app</a>.
+            </li>
+          </ul>
+          <p>
+            We do not control third parties&rsquo; collection or use of your
+            information to serve interest-based advertising. However these third
+            parties may provide you with ways to choose not to have your
+            information collected or used in this way.
           </p>
 
+          <p>Accessing and Correcting Your Information</p>
           <p>
-            You agree to cooperate with us in causing any unauthorized framing
-            or linking immediately to stop. We reserve the right to withdraw
-            linking permission without notice.
-          </p>
-
-          <p>
-            We may disable all or any social media features and any links at any
-            time without notice in our discretion.
-          </p>
-          <p>Third Party Links</p>
-
-          <p>
-            If the Platform contains links to other sites and resources provided
-            by Customer or other third parties, these links are provided for
-            your convenience only. This includes links contained in
-            advertisements, including banner advertisements and sponsored links.
-            We have no control over the contents of those sites or resources,
-            and accept no responsibility for them or for any loss or damage that
-            may arise from your use of them. If you decide to access any of the
-            third-party websites linked to this Platform, you do so entirely at
-            your own risk and subject to the terms and conditions of use for
-            such websites.
-          </p>
-          <p>Customer Features</p>
-          <p>
-            Customer may provide you access to Customer&rsquo;s or other third
-            party&rsquo;s features and services through the Platform, which may
-            include third party links and other links to locations external to
-            the Platform, and may also include plugins, integrations, or other
-            software or content that enables or otherwise makes available
-            features and services that are not offered by Company (collectively
-            with any content provided by Customer and not Company, &ldquo;
-            Customer Features &rdquo;), which may include, for example, links or
-            integrations with Customer&rsquo;s other software and websites,
-            payment systems allowing you to purchase products or services, or to
-            make donation, and other functionality not provided directly by
-            Company. &nbsp;You acknowledge and agree that: (A) your use of any
-            Customer Features may be subject to certain restrictions of these
-            Terms of Use, and may be subject to additional terms and conditions
-            provided by Customer or another third party; (B) Customer Features
-            are solely subject to the license, warranty, indemnity, support, and
-            other terms provided by Customer or another third party, if any; (C)
-            any claims against Company in relation to any Customer Features are
-            expressly excluded, and in no event will Company be liable to you
-            for any damages to the extent resulting from any Customer Features;
-            and (D) with respect to Company, Customer Features are provided
-            &ldquo;AS IS&rdquo; without representation or warranty of any type.
+            You can review and change your personal information by logging into
+            the Platform and visiting your account profile page.
           </p>
           <p>
-            With respect to your data or information that you provide to
-            Customer through the Platform, Company&rsquo;s collection and use of
-            such information will be based upon Company&rsquo;s Privacy Policy,
-            however, Company makes no warranty or representation that
-            Customer&rsquo;s collection and use of such information will comply
-            with Company&rsquo;s Privacy Policy, Customer&rsquo;s own privacy
-            policy, or any other requirement, and you acknowledge and agree that
-            Customer is solely responsible and liable for Customer&rsquo;s
-            collection and use of such information. &nbsp;
+            You may also send us an email at
+            <a href="mailto:support@apollos.app">support@apollos.app</a>
+            &nbsp;to request access to, correct or delete any personal
+            information that you have provided to us. We cannot delete your
+            personal information except by also deleting your user account. We
+            may not accommodate a request to change information if we believe
+            the change would violate any law or legal requirement or cause the
+            information to be incorrect.
+          </p>
+          <p>
+            If you delete your User Contributions from the Platform, copies of
+            your User Contributions may remain viewable in cached and archived
+            pages, or might have been copied or stored by other Platform users.
+            &nbsp;Proper access and use of information provided on the Platform,
+            including User Contributions, is governed by our Terms of Use.
           </p>
 
-          <p>Geographic Restrictions</p>
-
+          <p>Data Security</p>
           <p>
-            We provide this Platform for use only by persons located in the
-            United States. We make no claims that the Platform or any of its
-            content is accessible or appropriate outside of the United States.
-            Access to the Platform may not be legal by certain persons or in
-            certain countries. If you access the Platform from outside the
-            United States, you do so on your own initiative and are responsible
-            for compliance with local laws.
+            We have implemented industry standard measures intended to secure
+            your personal information from accidental loss and from unauthorized
+            access, use, alteration, and disclosure.
           </p>
-
-          <p>Disclaimer of Warranties</p>
-
           <p>
-            You understand that we cannot and do not guarantee or warrant that
-            files available for downloading from the internet or the Platform
-            will be free of viruses or other destructive code. You are
-            responsible for implementing sufficient procedures and checkpoints
-            to satisfy your particular requirements for anti-virus protection
-            and accuracy of data input and output, and for maintaining a means
-            external to our site for any reconstruction of any lost data. TO THE
-            FULLEST EXTENT PROVIDED BY LAW, WE WILL NOT BE LIABLE FOR ANY LOSS
-            OR DAMAGE CAUSED BY A DISTRIBUTED DENIAL-OF-SERVICE ATTACK, VIRUSES,
-            OR OTHER TECHNOLOGICALLY HARMFUL MATERIAL THAT MAY INFECT YOUR
-            COMPUTER EQUIPMENT, COMPUTER PROGRAMS, DATA, OR OTHER PROPRIETARY
-            MATERIAL DUE TO YOUR USE OF THE PLATFORM OR ANY SERVICES OR ITEMS
-            OBTAINED THROUGH THE PLATFORM OR TO YOUR DOWNLOADING OF ANY MATERIAL
-            POSTED ON IT, OR ON ANY WEBSITE LINKED TO IT.
-          </p>
-
-          <p>
-            YOUR USE OF THE PLATFORM, ITS CONTENT, AND ANY SERVICES OR ITEMS
-            OBTAINED THROUGH THE PLATFORM IS AT YOUR OWN RISK. THE PLATFORM, ITS
-            CONTENT, AND ANY SERVICES OR ITEMS OBTAINED THROUGH THE PLATFORM ARE
-            PROVIDED ON AN &ldquo;AS IS&rdquo; AND &ldquo;AS AVAILABLE&rdquo;
-            BASIS, WITHOUT ANY WARRANTIES OF ANY KIND, EITHER EXPRESS OR
-            IMPLIED. NEITHER COMPANY NOR ANY PERSON ASSOCIATED WITH COMPANY
-            MAKES ANY WARRANTY OR REPRESENTATION WITH RESPECT TO THE
-            COMPLETENESS, SECURITY, RELIABILITY, QUALITY, ACCURACY, OR
-            AVAILABILITY OF THE PLATFORM. WITHOUT LIMITING THE FOREGOING,
-            NEITHER COMPANY NOR ANYONE ASSOCIATED WITH COMPANY REPRESENTS OR
-            WARRANTS THAT THE PLATFORM, ITS CONTENT, OR ANY SERVICES OR ITEMS
-            OBTAINED THROUGH THE PLATFORM WILL BE ACCURATE, RELIABLE,
-            ERROR-FREE, OR UNINTERRUPTED, THAT DEFECTS WILL BE CORRECTED, THAT
-            OUR SITE OR THE SERVER THAT MAKES IT AVAILABLE ARE FREE OF VIRUSES
-            OR OTHER HARMFUL COMPONENTS, OR THAT THE PLATFORM OR ANY SERVICES OR
-            ITEMS OBTAINED THROUGH THE PLATFORM WILL OTHERWISE MEET YOUR NEEDS
-            OR EXPECTATIONS.
-          </p>
-
-          <p>
-            TO THE FULLEST EXTENT PROVIDED BY LAW, COMPANY HEREBY DISCLAIMS ALL
-            WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, STATUTORY, OR
-            OTHERWISE, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
-            MERCHANTABILITY, NON-INFRINGEMENT, AND FITNESS FOR PARTICULAR
-            PURPOSE.
-          </p>
-
-          <p>
-            THE FOREGOING DOES NOT AFFECT ANY WARRANTIES THAT CANNOT BE EXCLUDED
-            OR LIMITED UNDER APPLICABLE LAW.
-          </p>
-
-          <p>Limitation on Liability</p>
-
-          <p>
-            TO THE FULLEST EXTENT PROVIDED BY LAW, IN NO EVENT WILL COMPANY, ITS
-            AFFILIATES, OR THEIR LICENSORS, SERVICE PROVIDERS, EMPLOYEES,
-            AGENTS, OFFICERS, OR DIRECTORS BE LIABLE FOR DAMAGES OF ANY KIND,
-            UNDER ANY LEGAL THEORY, ARISING OUT OF OR IN CONNECTION WITH YOUR
-            USE, OR INABILITY TO USE, THE PLATFORM, ANY WEBSITES LINKED TO IT,
-            ANY CONTENT ON THE PLATFORM OR SUCH OTHER WEBSITES, INCLUDING ANY
-            DIRECT, INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE
-            DAMAGES, INCLUDING BUT NOT LIMITED TO, PERSONAL INJURY, PAIN AND
-            SUFFERING, EMOTIONAL DISTRESS, LOSS OF REVENUE, LOSS OF PROFITS,
-            LOSS OF BUSINESS OR ANTICIPATED SAVINGS, LOSS OF USE, LOSS OF
-            GOODWILL, LOSS OF DATA, AND WHETHER CAUSED BY TORT (INCLUDING
-            NEGLIGENCE), BREACH OF CONTRACT, OR OTHERWISE, EVEN IF FORESEEABLE.
-            &nbsp;IN NO EVENT WILL THE COLLECTIVE LIABILITY OF COMPANY AND ITS
-            SUBSIDIARIES AND AFFILIATES, AND THEIR LICENSORS, SERVICE PROVIDERS,
-            EMPLOYEES, AGENTS, OFFICERS, AND DIRECTORS, TO ANY PARTY (REGARDLESS
-            OF THE FORM OF ACTION, WHETHER IN CONTRACT, TORT, OR OTHERWISE)
-            EXCEED THE AMOUNT YOU HAVE PAID TO COMPANY, FOR THE APPLICABLE
-            PRODUCT OR SERVICE OUT OF WHICH LIABILITY AROSE, IN THE LAST 12
-            MONTHS.
-          </p>
-
-          <p>
-            THE FOREGOING DOES NOT AFFECT ANY LIABILITY THAT CANNOT BE EXCLUDED
-            OR LIMITED UNDER APPLICABLE LAW.
-          </p>
-
-          <p>Indemnification</p>
-
-          <p>
-            You agree to defend, indemnify, and hold harmless Company, its
-            affiliates, licensors, and service providers, and its and their
-            respective officers, directors, employees, contractors, agents,
-            licensors, suppliers, successors, and assigns from and against any
-            claims, liabilities, damages, judgments, awards, losses, costs,
-            expenses, or fees (including reasonable attorneys&rsquo; fees)
-            arising out of or relating to your violation of these Terms of Use
-            or your use of the Platform, including, but not limited to, your
-            User Contributions, any use of the Platform&rsquo;s content,
-            services, and products other than as expressly authorized in these
-            Terms of Use, or your use of any information obtained from the
-            Platform.
-          </p>
-
-          <p>Governing Law and Jurisdiction</p>
-
-          <p>
-            All matters relating to the Platform and these Terms of Use, and any
-            dispute or claim arising therefrom or related thereto (in each case,
-            including non-contractual disputes or claims), shall be governed by
-            and construed in accordance with the internal laws of the state of
-            Ohio without giving effect to any choice or conflict of law
-            provision or rule (whether of the state of Ohio or any other
-            jurisdiction).
-          </p>
-
-          <p>
-            Any legal suit, action, or proceeding arising out of, or related to,
-            these Terms of Use or the Platform shall be instituted exclusively
-            in the federal courts of the United States or the courts of the
-            state of Ohio, although we retain the right to bring any suit,
-            action, or proceeding against you for breach of these Terms of Use
-            in your country of residence or any other relevant country. You
-            waive any and all objections to the exercise of jurisdiction over
-            you by such courts and to venue in such courts.
-          </p>
-
-          <p>&nbsp;Limitation on Time to File Claims</p>
-
-          <p>
-            ANY CAUSE OF ACTION OR CLAIM YOU MAY HAVE ARISING OUT OF OR RELATING
-            TO THESE TERMS OF USE OR THE PLATFORM MUST BE COMMENCED WITHIN ONE
-            (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES; OTHERWISE, SUCH CAUSE OF
-            ACTION OR CLAIM IS PERMANENTLY BARRED.
-          </p>
-
-          <p>Waiver and Severability</p>
-
-          <p>
-            No waiver by Company of any term or condition set out in these Terms
-            of Use shall be deemed a further or continuing waiver of such term
-            or condition or a waiver of any other term or condition, and any
-            failure of Company to assert a right or provision under these Terms
-            of Use shall not constitute a waiver of such right or provision.
-          </p>
-
-          <p>
-            If any provision of these Terms of Use is held by a court or other
-            tribunal of competent jurisdiction to be invalid, illegal, or
-            unenforceable for any reason, such provision shall be eliminated or
-            limited to the minimum extent such that the remaining provisions of
-            the Terms of Use will continue in full force and effect.
-          </p>
-
-          <p>Entire Agreement</p>
-
-          <p>
-            The Terms of Use and our Privacy Policy constitute the sole and
-            entire agreement between you and Company regarding the Platform and
-            supersede all prior and contemporaneous understandings, agreements,
-            representations, and warranties, both written and oral, regarding
+            The safety and security of your information also depends on you.
+            Where we have given you (or where you have chosen) a password for
+            access to certain parts of our Platform, you are responsible for
+            keeping this password confidential. We ask you not to share your
+            password with anyone. We urge you to be careful about giving out
+            information in public areas of the Platform like message boards. The
+            information you share in public areas may be viewed by any user of
             the Platform.
           </p>
-
-          <p>Your Comments and Concerns</p>
+          <p>
+            Unfortunately, the transmission of information via the internet is
+            not completely secure. Although we do our best to protect your
+            personal information, we cannot guarantee the security of your
+            personal information transmitted to our Platform. Any transmission
+            of personal information is at your own risk. We are not responsible
+            for circumvention of any privacy settings or security measures
+            contained on the Platform.
+          </p>
+          <p>Additional Rights</p>
+          <p>
+            While we have provided you various account settings and controls for
+            managing your information, you may have additional or complementary
+            rights under one or more state or local laws, some of which are
+            noted below.
+          </p>
+          <p>
+            Residents of California, thanks to section 1798.83 of the California
+            Civil Code, may request, once per calendar year, from companies
+            conducting business in California a list of all third parties to
+            whom the company has disclosed certain personally identifiable
+            information as defined under California law during the preceding
+            year for third-party direct-marketing purposes. &nbsp;In your
+            request, please attest to your being a California resident and
+            provide a current California address for our response. &nbsp;
+          </p>
+          <p>
+            If you are a California resident and under the age of 18, and a
+            registered user of this Platform, section 22581 of the California
+            Business and Professions Code permits you to request and obtain the
+            removal of content that you have publicly posted. &nbsp;Please note
+            that your request will not ensure a complete removal of the content
+            and that in some cases the statute may not require or allow removal
+            even if requested.
+          </p>
+          <p>
+            Nevada residents who wish to exercise their sale opt-out rights
+            under Nevada Revised Statutes Chapter 603A may submit a request to
+            this designated address:{" "}
+            <a href="mailto:support@apollos.app">support@apollos.app</a>.
+          </p>
 
           <p>
-            The Platform, including any software applications, websites, or
-            other services, is provided by Differential Dev Shop, LLC, and all{" "}
-            feedback, comments, requests for technical support, and other
-            communications relating to the Platform should be directed to:{" "}
+            European Union&rsquo;s General Data Protection Regulations
+            (&ldquo;GDPR&rdquo;)
+          </p>
+          <p>
+            You may have certain rights under the European Union&rsquo;s GDPR
+            2016/679. &nbsp;The GDPR is a complex regulatory scheme and we do
+            not intend to provide every detail here. &nbsp;If interested you
+            should read the GDPR and the relevant guidance provided by the
+            applicable authorities for a fuller explanation.
+          </p>
+          <p>
+            The GDPR provides the right, where applicable, to (a) access, (b)
+            publication, (c) erasure, (d) restrict processing, (e) object to
+            processing, (f) data portability, (g) complain to a supervisory
+            authority, and (h) withdraw consent.
+          </p>
+          <p>
+            Where applicable, the GDPR provides the right to confirm whether
+            Company has processed your Personal Data (as defined in the GDPR)
+            and, when the Company does, the right to access that data, together
+            with certain other information including the purposes of the
+            processing, the categories of Personal Data concerned, and the
+            recipients of the Personal Data. &nbsp;Where applicable, and
+            providing that we do not affect the rights and freedoms of anyone
+            else, we will supply you with one copy of your Personal Data.
+            &nbsp;The first copy is free. &nbsp;We may charge a reasonable fee
+            for additional copies.
+          </p>
+          <p>
+            Where applicable, the GDPR provides the rights to rectify any
+            inaccurate Personal Data about you and, taking into account the
+            purposes of the processing, to complete any incomplete data about
+            you.
+          </p>
+          <p>
+            In some circumstances the GDPR provides you the right to erase your
+            Personal Data without undue delay, including when we no longer need
+            the Personal Data for the purposes for which we collected or
+            processed the Personal Data, if you withdraw your consent to
+            consent-based processing, if you object to the processing of the
+            Personal Data under certain rules of the GDPR, if the processing is
+            for the purpose of direct marketing, and if the Personal Data have
+            been unlawfully processed. &nbsp;However, the GDPR provides
+            exceptions or exclusions to the right to erase, including where the
+            processing is necessary for the exercise of free expression and
+            information, to comply with a legal obligation, or to establish,
+            exercise, or defend a legal claim.
+          </p>
+          <p>
+            In some circumstances the GDPR provides the right to restrict the
+            processing of your Personal Data, such as to contest the accuracy of
+            the Personal Data, where the processing is unlawful but you oppose
+            erasure, when we no longer need the Personal Data for the purpose of
+            our processing but you require Personal Data to establish, exercise
+            or defend a legal claim, and you have objected to the processing
+            pending the verification of that objection. &nbsp;When processing
+            has been restricted on this basis, we may continue to store your
+            Personal Data. &nbsp;But we will process your data otherwise only
+            with your consent, to establish, exercise or defend a legal claim,
+            or to protect another natural or legal person&rsquo;s rights, or for
+            reasons of important public interest.
+          </p>
+          <p>
+            If applicable, the GDPR provides the right to object to our
+            processing of your Personal Data on grounds relating to your
+            situation, but only to the extent that the processing is necessary
+            for a task carried out in the public interest or to exercise any
+            official authority vested in Company, or for a legitimate interest
+            pursued by Company or someone else. &nbsp;If you object, we shall
+            stop processing the Personal Data unless we can demonstrate
+            compelling legitimate grounds to process the information that
+            override your interests, rights and freedoms, or the purpose of the
+            processing is to establish, exercise or defend a legal claim.
+          </p>
+          <p>
+            You may object to our processing of your Personal Data for direct
+            marketing purposes including profiling for direct marketing
+            purposes. &nbsp;If you notify us of such an objection, we shall stop
+            processing your Personal Data for that purpose.
+          </p>
+          <p>
+            You may object to our processing of your Personal Data for
+            scientific or historical research or statistical purposes on grounds
+            relating to your particular situation, unless the processing is
+            necessary for a task carried out in the public interest.
+          </p>
+          <p>
+            If the legal basis for our processing your Personal Data is consent
+            or that the processing is necessary to perform a contract to which
+            you are a party, or in order to take steps at your request before
+            entering into a contract, and such processing is carried out by
+            automatic means, you have the right to receive your Personal Data
+            from us in a structured, commonly used, and machine-readable format.
+            &nbsp;But this right does not apply when its application will
+            adversely affect the rights and freedoms of others.
+          </p>
+          <p>
+            If you believe that our processing of your Personal Data infringes
+            any data-protection statute, rule or regulation, you may lodge a
+            complaint with the appropriate authorities responsible for data
+            protection. &nbsp;If applicable, you may lodge that complaint in the
+            European Union member state of your habitual residence, your
+            workplace, or the place of the alleged infringement.
+          </p>
+          <p>
+            To the extent that we base our processing of your Personal Data on
+            your consent, you may withdraw that consent at any time. &nbsp;But
+            your withdrawal of that consent will not affect the lawfulness of
+            any processing we do before your withdrawal.
+          </p>
+          <p>
+            If applicable, you may exercise any of your rights in relation to
+            your Personal Data by emailing Company at{" "}
+            <a href="mailto:support@apollos.app">support@apollos.app</a>. &nbsp;
+            &nbsp; &nbsp;
+          </p>
+
+          <p>Changes to Our Privacy Policy</p>
+          <p>
+            It is our policy to post any changes we make to our privacy policy
+            on this page with a notice that the privacy policy has been updated
+            on the Platform home page. If we make material changes to how we
+            treat our users&rsquo; personal information, we will notify you by
+            email to the email address specified in your account or through a
+            notice on the Platform home page. The date the privacy policy was
+            last revised is identified at the top of the page. You are
+            responsible for ensuring we have an up-to-date active and
+            deliverable email address for you, and for periodically visiting our
+            Platform and this privacy policy to check for any changes.
+          </p>
+
+          <p>Contact Information</p>
+          <p>
+            To ask questions or comment about this privacy policy and our
+            privacy practices, contact us at:
+          </p>
+          <p>
             <a href="mailto:support@apollos.app">support@apollos.app</a>
           </p>
+          <p>&nbsp;</p>
+
           <div>
             <p>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
