@@ -5,3 +5,7 @@
 tasks:
   - init: yarn install
     command: yarn run start
+
+ports:
+  - port: 8000
+    onOpen: open-preview
