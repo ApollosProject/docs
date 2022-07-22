@@ -162,10 +162,7 @@ const ContactPage = ({ data }) => {
             </p>
           </div>
 
-          <ul
-            role="list"
-            className="py-16 grid grid-cols-2 gap-x-16 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4"
-          >
+          <ul className="py-16 grid grid-cols-2 gap-x-16 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4">
             {data?.logos?.edges.map(({ node }) => (
               <li key={node.title} className="relative">
                 <div className="group block w-full aspect-w-10 aspect-h-7 p-12 overflow-hidden">

@@ -1,5 +1,4 @@
 import React from "react";
-import ApollosLight from "../images/svgs/logos/apollos-light.svg";
 import ApollosDark from "../images/svgs/logos/apollos-dark.svg";
 import { Link } from "gatsby";
 
