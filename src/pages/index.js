@@ -43,6 +43,47 @@ const IndexPage = () => {
     },
   ];
 
+  const navigation = {
+    social: [
+      {
+        name: "Facebook",
+        href: "https://www.facebook.com/apollosapp",
+        icon: (props) => (
+          <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
+            <path
+              fillRule="evenodd"
+              d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+              clipRule="evenodd"
+            />
+          </svg>
+        ),
+      },
+      {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/company/the-apollos-project",
+        icon: (props) => (
+          <svg fill="currentColor" viewBox="0 0 448 512" {...props}>
+            <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+          </svg>
+        ),
+      },
+      {
+        name: "Email",
+        href: "mailto:hello@apollos.app",
+        icon: (props) => (
+          <svg fill="none" stroke="currentColor" viewBox="0 0 22 22" {...props}>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+            ></path>
+          </svg>
+        ),
+      },
+    ],
+  };
+
   return (
     <>
       <Helmet>
@@ -675,19 +716,45 @@ const IndexPage = () => {
           </div>
         </div>
         <footer className="footer">
-          <div className="max-w-7xl mx-auto px-4 py-16 lg:py-20 flex flex-col items-center space-y-6">
-            <h2 className="text-4xl font-extrabold font-serif text-white">
-              See how Apollos can grow your ministry.
-            </h2>
-            <p className="text-center leading-6 text-dark-secondary/60">
-              Connect with our team for a demo of the Apollos Platform.
-            </p>
-            <Link
-              to="/contact"
-              className="w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow rounded-md inline-flex items-center justify-center hover:bg-base-secondary hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-base-secondary"
-            >
-              Get started
-            </Link>
+          <div className="max-w-7xl mx-auto pb-8 pt-16 lg:pt-20 px-4">
+            <div className="flex flex-col items-center space-y-6">
+              <h2 className="text-4xl font-extrabold font-serif text-white text-center">
+                See how Apollos can grow your ministry.
+              </h2>
+              <p className="text-center leading-6 text-dark-secondary/60">
+                Connect with our team for a demo of the Apollos Platform.
+              </p>
+              <Link
+                to="/contact"
+                className="w-full sm:w-auto px-6 py-3 text-base font-medium text-base-secondary bg-white shadow rounded-md inline-flex items-center justify-center hover:bg-base-secondary hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-base-secondary"
+              >
+                Get started
+              </Link>
+            </div>
+            <div className="mt-16 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between w-full">
+              <div className="flex space-x-6 md:order-2">
+                {navigation.social.map((item) => (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className="text-gray-400 hover:text-gray-300"
+                  >
+                    <span className="sr-only">{item.name}</span>
+                    <item.icon className="h-6 w-6" aria-hidden="true" />
+                  </a>
+                ))}
+              </div>
+              <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
+                &copy; 2022 The Apollos Project, a digital product of{" "}
+                <a
+                  className="underline text-gray-400 hover:text-gray-300"
+                  href="https://www.differential.com/"
+                >
+                  Differential
+                </a>
+                . All rights reserved.
+              </p>
+            </div>{" "}
           </div>
         </footer>
       </div>
